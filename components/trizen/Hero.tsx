@@ -52,11 +52,6 @@ export default function Hero({
               src={imageSrc}
               alt={imageLabel}
             />
-            <div className="showcase-badge">
-              <span className="material-symbols-outlined">image</span>
-              <strong>Product Photo</strong>
-              <small>{imageLabel}</small>
-            </div>
           </div>
         </div>
       </div>

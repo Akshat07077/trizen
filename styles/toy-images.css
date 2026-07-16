@@ -18,8 +18,9 @@
   inset: 0;
   min-height: 100%;
 }
-.showcase-frame.has-photo .showcase-badge {
-  z-index: 4;
+.showcase-frame.has-photo .showcase-badge,
+.visual-photo-caption {
+  display: none !important;
 }
 .visual-placeholder.has-photo {
   padding: 0;
