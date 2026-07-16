@@ -6,7 +6,6 @@ export type LegacyPageData = {
   title: string;
   description: string;
   styles: string[];
-  scripts: { id: string; content: string }[];
   bodyHtml: string;
 };
 
@@ -17,6 +16,7 @@ const TOY_ROUTE_MAP: Record<string, string> = {
   "Trizen_Toy_CustomMolded_Clean_Sidebar.html": "/toy/custom-molded",
   "Trizen_Toy_PackagingTrays_Clean_Sidebar.html": "/toy/packaging-trays",
   "Trizen_Toy_Protective_Clean_Sidebar.html": "/toy/protective",
+  "Trizen_Toy_RetailDisplay_Clean_Sidebar.html": "/toy/retail-display",
 };
 
 function rewriteLegacyLinks(html: string): string {
@@ -54,29 +54,28 @@ export const getLegacyPageData = cache(
     );
 
     const styles = [...head.matchAll(/<style[^>]*>([\s\S]*?)<\/style>/gi)].map(
-      (match) => match[1].trim(),
+      (match) =>
+        match[1]
+          .trim()
+          // overflow-x:hidden on body/html breaks position:sticky in browsers
+          .replace(/body\{([^}]*)overflow-x:\s*hidden;?/g, "body{$1overflow-x:clip;")
+          .replace(/html\{([^}]*)overflow-x:\s*hidden;?/g, "html{$1overflow-x:clip;"),
     );
 
-    const scripts = [...body.matchAll(/<script([^>]*)>([\s\S]*?)<\/script>/gi)]
-      .map((match, index) => {
-        const scriptIdMatch = match[1].match(/\sid="([^"]+)"/i);
-        return {
-          id: scriptIdMatch?.[1] ?? `legacy-script-${index + 1}`,
-          content: match[2].trim(),
-        };
-      })
-      .filter((script) => script.content.length > 0);
-
-    const bodyWithoutScripts = body.replace(
-      /<script[^>]*>[\s\S]*?<\/script>/gi,
-      "",
-    );
+    // Strip scripts — interactions run via LegacyEffects (React) instead
+    const bodyWithoutScripts = body
+      .replace(/<script[^>]*>[\s\S]*?<\/script>/gi, "")
+      .replace(
+        /<div class="page-loader"><div><div class="loader-mark"><\/div><div class="loader-copy">[\s\S]*?<\/div><\/div><\/div>/i,
+        "",
+      )
+      // Remove inline onclick handlers (handled by event delegation)
+      .replace(/\s+onclick="fq\(this\)"/gi, "");
 
     return {
       title,
       description,
       styles,
-      scripts,
       bodyHtml: rewriteLegacyLinks(bodyWithoutScripts),
     };
   },
