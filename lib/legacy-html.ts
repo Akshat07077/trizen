@@ -6,7 +6,14 @@ export type LegacyPageData = {
   title: string;
   description: string;
   styles: string[];
-  bodyHtml: string;
+  /** Markup before .layout (hero, visual band, effects chrome) */
+  beforeHtml: string;
+  /** Inner HTML of main.content */
+  contentHtml: string;
+  /** Inner HTML of aside.sidebar */
+  sidebarHtml: string;
+  /** Markup after .layout */
+  afterHtml: string;
 };
 
 const TOY_ROUTE_MAP: Record<string, string> = {
@@ -22,14 +29,8 @@ const TOY_ROUTE_MAP: Record<string, string> = {
 function rewriteLegacyLinks(html: string): string {
   return html.replace(/href="([^"]+)"/g, (fullMatch, hrefValue: string) => {
     const mappedRoute = TOY_ROUTE_MAP[hrefValue];
-    if (mappedRoute) {
-      return `href="${mappedRoute}"`;
-    }
-
-    if (hrefValue.endsWith(".html")) {
-      return 'href="#"';
-    }
-
+    if (mappedRoute) return `href="${mappedRoute}"`;
+    if (hrefValue.endsWith(".html")) return 'href="#"';
     return fullMatch;
   });
 }
@@ -39,11 +40,78 @@ function extractMetaValue(head: string, pattern: RegExp): string {
   return match?.[1]?.trim() ?? "";
 }
 
+function normalizeHtml(input: string): string {
+  return input.replace(/\r\n/g, "\n").replace(/\r/g, "\n");
+}
+
+/** Strip legacy layout/sidebar positioning so our CSS fully owns placement. */
+function sanitizeLegacyCss(css: string): string {
+  return css
+    .replace(/body\{([^}]*)overflow-x:\s*hidden;?/g, "body{$1overflow-x:clip;")
+    .replace(/html\{([^}]*)overflow-x:\s*hidden;?/g, "html{$1overflow-x:clip;")
+    // Neutralize layout grid/flex rules that fight the right sidebar
+    .replace(/\.layout\s*\{[^}]*\}/gi, ".layout{/* neutralized */}")
+    .replace(/\.layout>\.content\s*\{[^}]*\}/gi, ".layout>.content{/* neutralized */}")
+    .replace(/\.layout>\.sidebar\s*\{[^}]*\}/gi, ".layout>.sidebar{/* neutralized */}")
+    .replace(
+      /\.sidebar\{[^}]*position:\s*sticky[^}]*\}/gi,
+      ".sidebar{/* sticky neutralized */}",
+    )
+    .replace(/@media\(max-width:1100px\)/g, "@media(max-width:760px)")
+    .replace(/@media\(max-width:980px\)/g, "@media(max-width:760px)");
+}
+
+/**
+ * Split body into React-safe parts so <aside> cannot be ejected from .layout
+ * by the browser's HTML repair during hydration.
+ */
+export function splitLegacyBody(bodyHtml: string): {
+  beforeHtml: string;
+  contentHtml: string;
+  sidebarHtml: string;
+  afterHtml: string;
+} {
+  const layoutOpen = bodyHtml.indexOf('<div class="layout">');
+  const mainOpen = bodyHtml.indexOf('<main class="content">');
+  const mainClose = bodyHtml.lastIndexOf("</main>");
+  const asideOpen = bodyHtml.indexOf('<aside class="sidebar"');
+  const asideClose = bodyHtml.indexOf("</aside>");
+
+  if (
+    layoutOpen < 0 ||
+    mainOpen < 0 ||
+    mainClose < 0 ||
+    asideOpen < 0 ||
+    asideClose < 0
+  ) {
+    return {
+      beforeHtml: bodyHtml,
+      contentHtml: "",
+      sidebarHtml: "",
+      afterHtml: "",
+    };
+  }
+
+  const mainOpenEnd = bodyHtml.indexOf(">", mainOpen) + 1;
+  const asideOpenEnd = bodyHtml.indexOf(">", asideOpen) + 1;
+  const afterAside = asideClose + "</aside>".length;
+
+  // Skip the closing </div> of .layout if present
+  let afterHtml = bodyHtml.slice(afterAside);
+  afterHtml = afterHtml.replace(/^\s*<\/div>/, "");
+
+  return {
+    beforeHtml: bodyHtml.slice(0, layoutOpen),
+    contentHtml: bodyHtml.slice(mainOpenEnd, mainClose),
+    sidebarHtml: bodyHtml.slice(asideOpenEnd, asideClose),
+    afterHtml,
+  };
+}
+
 export const getLegacyPageData = cache(
   async (filename: string): Promise<LegacyPageData> => {
-    // HTML sources ship with the Next app (next-migration/trizen 2) for Vercel deploys
     const htmlPath = path.join(process.cwd(), "trizen 2", filename);
-    const html = await fs.readFile(htmlPath, "utf8");
+    const html = normalizeHtml(await fs.readFile(htmlPath, "utf8"));
 
     const head = html.match(/<head[^>]*>([\s\S]*?)<\/head>/i)?.[1] ?? "";
     const body = html.match(/<body[^>]*>([\s\S]*?)<\/body>/i)?.[1] ?? "";
@@ -55,29 +123,26 @@ export const getLegacyPageData = cache(
     );
 
     const styles = [...head.matchAll(/<style[^>]*>([\s\S]*?)<\/style>/gi)].map(
-      (match) =>
-        match[1]
-          .trim()
-          // overflow-x:hidden on body/html breaks position:sticky in browsers
-          .replace(/body\{([^}]*)overflow-x:\s*hidden;?/g, "body{$1overflow-x:clip;")
-          .replace(/html\{([^}]*)overflow-x:\s*hidden;?/g, "html{$1overflow-x:clip;"),
+      (match) => sanitizeLegacyCss(normalizeHtml(match[1]).trim()),
     );
 
-    // Strip scripts — interactions run via LegacyEffects (React) instead
-    const bodyWithoutScripts = body
+    const bodyClean = body
       .replace(/<script[^>]*>[\s\S]*?<\/script>/gi, "")
       .replace(
         /<div class="page-loader"><div><div class="loader-mark"><\/div><div class="loader-copy">[\s\S]*?<\/div><\/div><\/div>/i,
         "",
       )
-      // Remove inline onclick handlers (handled by event delegation)
-      .replace(/\s+onclick="fq\(this\)"/gi, "");
+      .replace(/\s+onclick="fq\(this\)"/gi, "")
+      .trim();
+
+    const rewritten = rewriteLegacyLinks(bodyClean);
+    const parts = splitLegacyBody(rewritten);
 
     return {
       title,
       description,
       styles,
-      bodyHtml: rewriteLegacyLinks(bodyWithoutScripts),
+      ...parts,
     };
   },
 );

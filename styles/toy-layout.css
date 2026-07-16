@@ -1,0 +1,69 @@
+/* React-owned layout: content LEFT | sidebar RIGHT — matches original HTML */
+
+.toy-page .layout {
+  display: flex !important;
+  flex-direction: row !important;
+  flex-wrap: nowrap !important;
+  align-items: flex-start !important;
+  gap: 44px !important;
+  max-width: 1500px !important;
+  margin: 0 auto !important;
+  padding: 0 64px 100px !important;
+  box-sizing: border-box !important;
+}
+
+.toy-page .layout > .content {
+  flex: 1 1 0% !important;
+  min-width: 0 !important;
+  order: 1 !important;
+  display: block !important;
+}
+
+.toy-page .layout > .sidebar {
+  flex: 0 0 330px !important;
+  width: 330px !important;
+  min-width: 330px !important;
+  max-width: 330px !important;
+  order: 2 !important;
+  display: block !important;
+  position: sticky !important;
+  top: 24px !important;
+  align-self: flex-start !important;
+  z-index: 30 !important;
+  max-height: calc(100vh - 32px) !important;
+  overflow-x: hidden !important;
+  overflow-y: auto !important;
+  transform: none !important;
+  float: none !important;
+}
+
+.toy-page .sidebar .side-card,
+.toy-page .sidebar .side-cta {
+  display: block !important;
+  transform: none !important;
+  animation: none !important;
+}
+
+@media (max-width: 760px) {
+  .toy-page .layout {
+    flex-direction: column !important;
+    padding: 0 20px 60px !important;
+  }
+
+  .toy-page .layout > .content {
+    order: 1 !important;
+    width: 100% !important;
+  }
+
+  .toy-page .layout > .sidebar {
+    order: 2 !important;
+    flex: 0 0 auto !important;
+    width: 100% !important;
+    min-width: 0 !important;
+    max-width: none !important;
+    position: relative !important;
+    top: auto !important;
+    max-height: none !important;
+    overflow: visible !important;
+  }
+}
