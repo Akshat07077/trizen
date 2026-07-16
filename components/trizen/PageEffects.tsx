@@ -61,7 +61,7 @@ export default function PageEffects() {
     );
     document
       .querySelectorAll(
-        ".hero,.visual-band,.sec,.mid-cta,.bottom-cta,.side-card,.side-cta,.img-ph,.strip,.fq,.pc,.gtbl",
+        ".sec,.mid-cta,.bottom-cta,.side-card,.side-cta,.img-ph,.strip,.fq,.pc,.gtbl",
       )
       .forEach((el) => {
         el.classList.add("reveal-on-scroll");

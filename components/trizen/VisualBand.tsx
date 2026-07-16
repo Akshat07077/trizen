@@ -19,7 +19,7 @@ export default function VisualBand({
   processTitle,
 }: VisualBandProps) {
   return (
-    <section className="visual-band fmcg-image-band reveal-on-scroll">
+    <section className="visual-band fmcg-image-band">
       <div className="visual-placeholder tall has-photo">
         {/* eslint-disable-next-line @next/next/no-img-element */}
         <img className="toy-photo" src={mainSrc} alt={mainTitle} />
