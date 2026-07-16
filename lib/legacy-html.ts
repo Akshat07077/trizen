@@ -41,7 +41,8 @@ function extractMetaValue(head: string, pattern: RegExp): string {
 
 export const getLegacyPageData = cache(
   async (filename: string): Promise<LegacyPageData> => {
-    const htmlPath = path.resolve(process.cwd(), "..", "trizen 2", filename);
+    // HTML sources ship with the Next app (next-migration/trizen 2) for Vercel deploys
+    const htmlPath = path.join(process.cwd(), "trizen 2", filename);
     const html = await fs.readFile(htmlPath, "utf8");
 
     const head = html.match(/<head[^>]*>([\s\S]*?)<\/head>/i)?.[1] ?? "";
