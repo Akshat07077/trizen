@@ -1,14 +1,14 @@
 import type { Metadata } from "next";
-import LegacyPageRenderer from "@/components/legacy/LegacyPageRenderer";
+import ToyPage from "@/components/trizen/ToyPage";
+import { getToyPage } from "@/lib/toy/get-page";
+
+const content = getToyPage("set-inserts");
 
 export const metadata: Metadata = {
-  title: "Toy Set Inserts Manufacturer India",
-  description: "Toy sub-category page migrated to Next.js.",
+  title: "Toy Set Insert Trays Manufacturer India",
+  description: content.hero.desc,
 };
 
-export default function ToySetInsertsPage() {
-  return (
-    <LegacyPageRenderer filename="Trizen_Toy_SetInserts_Clean_Sidebar.html" />
-  );
+export default function SetInsertsPage() {
+  return <ToyPage content={content} />;
 }
-

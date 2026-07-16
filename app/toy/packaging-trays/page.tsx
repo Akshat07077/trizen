@@ -1,14 +1,14 @@
 import type { Metadata } from "next";
-import LegacyPageRenderer from "@/components/legacy/LegacyPageRenderer";
+import ToyPage from "@/components/trizen/ToyPage";
+import { getToyPage } from "@/lib/toy/get-page";
+
+const content = getToyPage("packaging-trays");
 
 export const metadata: Metadata = {
   title: "Toy Packaging Trays Manufacturer India",
-  description: "Toy sub-category page migrated to Next.js.",
+  description: content.hero.desc,
 };
 
 export default function PackagingTraysPage() {
-  return (
-    <LegacyPageRenderer filename="Trizen_Toy_PackagingTrays_Clean_Sidebar.html" />
-  );
+  return <ToyPage content={content} />;
 }
-

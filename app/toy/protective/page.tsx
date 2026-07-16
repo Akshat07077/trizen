@@ -1,14 +1,14 @@
 import type { Metadata } from "next";
-import LegacyPageRenderer from "@/components/legacy/LegacyPageRenderer";
+import ToyPage from "@/components/trizen/ToyPage";
+import { getToyPage } from "@/lib/toy/get-page";
+
+const content = getToyPage("protective");
 
 export const metadata: Metadata = {
-  title: "Protective Toy Packaging Manufacturer India",
-  description: "Toy sub-category page migrated to Next.js.",
+  title: "Protective Toy Packaging Boxes Manufacturer India",
+  description: content.hero.desc,
 };
 
-export default function ProtectiveToyPage() {
-  return (
-    <LegacyPageRenderer filename="Trizen_Toy_Protective_Clean_Sidebar.html" />
-  );
+export default function ProtectivePage() {
+  return <ToyPage content={content} />;
 }
-

@@ -1,14 +1,14 @@
 import type { Metadata } from "next";
-import LegacyPageRenderer from "@/components/legacy/LegacyPageRenderer";
+import ToyPage from "@/components/trizen/ToyPage";
+import { getToyPage } from "@/lib/toy/get-page";
+
+const content = getToyPage("custom-molded");
 
 export const metadata: Metadata = {
   title: "Custom Molded Toy Packs Manufacturer India",
-  description: "Toy sub-category page migrated to Next.js.",
+  description: content.hero.desc,
 };
 
 export default function CustomMoldedPage() {
-  return (
-    <LegacyPageRenderer filename="Trizen_Toy_CustomMolded_Clean_Sidebar.html" />
-  );
+  return <ToyPage content={content} />;
 }
-

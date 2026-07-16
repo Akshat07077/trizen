@@ -1,7 +1,3 @@
-"use client";
-
-import { useEffect, useRef } from "react";
-
 type LegacyShellProps = {
   beforeHtml: string;
   contentHtml: string;
@@ -10,8 +6,8 @@ type LegacyShellProps = {
 };
 
 /**
- * Client-only mount of legacy markup with React-owned layout shell.
- * This prevents hydration/HTML-repair from moving the sidebar out of place.
+ * React owns .layout > main + aside so the sidebar stays on the RIGHT.
+ * Legacy HTML is injected into those slots only (cannot eject <aside>).
  */
 export default function LegacyShell({
   beforeHtml,
@@ -19,30 +15,33 @@ export default function LegacyShell({
   sidebarHtml,
   afterHtml,
 }: LegacyShellProps) {
-  const beforeRef = useRef<HTMLDivElement>(null);
-  const contentRef = useRef<HTMLElement>(null);
-  const sidebarRef = useRef<HTMLElement>(null);
-  const afterRef = useRef<HTMLDivElement>(null);
-
-  useEffect(() => {
-    if (beforeRef.current) beforeRef.current.innerHTML = beforeHtml;
-    if (contentRef.current) contentRef.current.innerHTML = contentHtml;
-    if (sidebarRef.current) sidebarRef.current.innerHTML = sidebarHtml;
-    if (afterRef.current) afterRef.current.innerHTML = afterHtml;
-  }, [beforeHtml, contentHtml, sidebarHtml, afterHtml]);
-
   return (
     <>
-      <div ref={beforeRef} className="legacy-before" />
+      <div
+        className="legacy-before"
+        suppressHydrationWarning
+        dangerouslySetInnerHTML={{ __html: beforeHtml }}
+      />
+
       <div className="layout">
-        <main ref={contentRef} className="content" />
+        <main
+          className="content"
+          suppressHydrationWarning
+          dangerouslySetInnerHTML={{ __html: contentHtml }}
+        />
         <aside
-          ref={sidebarRef}
           className="sidebar"
           aria-label="Toy navigation"
+          suppressHydrationWarning
+          dangerouslySetInnerHTML={{ __html: sidebarHtml }}
         />
       </div>
-      <div ref={afterRef} className="legacy-after" />
+
+      <div
+        className="legacy-after"
+        suppressHydrationWarning
+        dangerouslySetInnerHTML={{ __html: afterHtml }}
+      />
     </>
   );
 }

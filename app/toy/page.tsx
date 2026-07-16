@@ -1,12 +1,14 @@
 import type { Metadata } from "next";
-import LegacyPageRenderer from "@/components/legacy/LegacyPageRenderer";
+import ToyPage from "@/components/trizen/ToyPage";
+import { getToyPage } from "@/lib/toy/get-page";
+
+const content = getToyPage("category");
 
 export const metadata: Metadata = {
   title: "Toy Thermoforming Packaging Manufacturer India",
-  description:
-    "Toy thermoforming packaging category page from Trizen Packaging.",
+  description: content.hero.desc,
 };
 
 export default function ToyCategoryPage() {
-  return <LegacyPageRenderer filename="Trizen_Toy_Category_Clean_Sidebar.html" />;
+  return <ToyPage content={content} />;
 }

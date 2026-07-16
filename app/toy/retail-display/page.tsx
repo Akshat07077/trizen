@@ -1,13 +1,14 @@
 import type { Metadata } from "next";
-import LegacyPageRenderer from "@/components/legacy/LegacyPageRenderer";
+import ToyPage from "@/components/trizen/ToyPage";
+import { getToyPage } from "@/lib/toy/get-page";
+
+const content = getToyPage("retail-display");
 
 export const metadata: Metadata = {
   title: "Retail Display Packaging for Toys Manufacturer India",
-  description: "Toy retail display packaging page migrated to Next.js.",
+  description: content.hero.desc,
 };
 
 export default function RetailDisplayPage() {
-  return (
-    <LegacyPageRenderer filename="Trizen_Toy_RetailDisplay_Clean_Sidebar.html" />
-  );
+  return <ToyPage content={content} />;
 }

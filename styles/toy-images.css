@@ -1,0 +1,99 @@
+/* Image presentation for TSX Toy pages */
+.showcase-frame.has-photo {
+  padding: 0;
+  background: #0f1630;
+}
+.showcase-frame.has-photo:before {
+  display: none;
+}
+.toy-photo {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+.toy-photo-hero {
+  position: absolute;
+  inset: 0;
+  min-height: 100%;
+}
+.showcase-frame.has-photo .showcase-badge {
+  z-index: 4;
+}
+.visual-placeholder.has-photo {
+  padding: 0;
+  display: block;
+  background: #0f1630;
+  position: relative;
+  overflow: hidden;
+}
+.visual-placeholder.has-photo:before,
+.visual-placeholder.has-photo:after {
+  display: none;
+}
+.visual-placeholder.has-photo > .toy-photo {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+}
+.visual-photo-caption {
+  position: absolute;
+  left: 18px;
+  right: 18px;
+  bottom: 18px;
+  z-index: 2;
+  padding: 14px 16px;
+  background: rgba(255, 255, 255, 0.86);
+  border: 1px solid rgba(27, 31, 115, 0.14);
+  backdrop-filter: blur(12px);
+  clip-path: polygon(
+    0 0,
+    100% 0,
+    100% calc(100% - 10px),
+    calc(100% - 10px) 100%,
+    0 100%
+  );
+}
+.visual-photo-caption span {
+  font-family: "JetBrains Mono", monospace;
+  font-size: 10px;
+  letter-spacing: 0.2em;
+  color: var(--secondary);
+  font-weight: 700;
+}
+.visual-photo-caption strong {
+  display: block;
+  margin-top: 4px;
+  font-family: "Hanken Grotesk", sans-serif;
+  color: var(--primary);
+  font-size: 18px;
+}
+.img-ph.has-photo {
+  padding: 0;
+  min-height: 280px;
+  position: relative;
+  overflow: hidden;
+  background: #0f1630;
+}
+.toy-photo-content {
+  width: 100%;
+  height: 100%;
+  min-height: 280px;
+  object-fit: cover;
+}
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
+}
+.page-loader.hidden {
+  display: none !important;
+}
