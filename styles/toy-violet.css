@@ -24,6 +24,21 @@
   }
 }
 
+/* Sticky sidebar only — no parallel/synced scroll with the main column */
+@media (min-width: 701px) {
+  .toy-page .aside,
+  .toy-page .aside.sidebar-fixed {
+    position: sticky !important;
+    top: 100px !important;
+    right: auto !important;
+    bottom: auto !important;
+    max-height: calc(100vh - 120px) !important;
+    overflow-x: hidden !important;
+    overflow-y: auto !important;
+    transform: none !important;
+  }
+}
+
 /* Eyebrow label from data-label instead of automobile copy */
 .toy-page .hey {
   font-size: 0;
