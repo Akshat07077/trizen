@@ -24,18 +24,94 @@
   }
 }
 
-/* Sticky sidebar only — no parallel/synced scroll with the main column */
-@media (min-width: 701px) {
-  .toy-page .aside,
-  .toy-page .aside.sidebar-fixed {
-    position: sticky !important;
-    top: 100px !important;
-    right: auto !important;
-    bottom: auto !important;
-    max-height: calc(100vh - 120px) !important;
-    overflow-x: hidden !important;
-    overflow-y: auto !important;
-    transform: none !important;
+/*
+  Hard layout lock: main LEFT | sidebar RIGHT.
+  Overrides conflicting layers from the extracted violet HTML CSS.
+*/
+.toy-page .page-wrap {
+  display: grid !important;
+  grid-template-columns: minmax(0, 1fr) 300px !important;
+  gap: clamp(24px, 3vw, 48px) !important;
+  width: 100% !important;
+  max-width: none !important;
+  margin: 0 !important;
+  padding: 0 3vw 85px !important;
+  align-items: start !important;
+}
+
+.toy-page .page-wrap > main {
+  display: block !important;
+  visibility: visible !important;
+  opacity: 1 !important;
+  grid-column: 1 !important;
+  grid-row: 1 !important;
+  width: 100% !important;
+  min-width: 0 !important;
+  max-width: none !important;
+  order: 1 !important;
+  position: relative !important;
+  z-index: 1 !important;
+}
+
+.toy-page .page-wrap > .aside {
+  display: block !important;
+  visibility: visible !important;
+  opacity: 1 !important;
+  grid-column: 2 !important;
+  grid-row: 1 !important;
+  width: 100% !important;
+  max-width: 300px !important;
+  min-width: 0 !important;
+  order: 2 !important;
+  position: sticky !important;
+  top: 100px !important;
+  right: auto !important;
+  left: auto !important;
+  bottom: auto !important;
+  inset: auto !important;
+  height: auto !important;
+  max-height: calc(100vh - 120px) !important;
+  overflow-x: hidden !important;
+  overflow-y: auto !important;
+  transform: none !important;
+  z-index: 2 !important;
+  align-self: start !important;
+}
+
+.toy-page .page-wrap > .aside.sidebar-fixed {
+  position: sticky !important;
+  right: auto !important;
+  transform: none !important;
+}
+
+@media (max-width: 1050px) and (min-width: 701px) {
+  .toy-page .page-wrap {
+    grid-template-columns: minmax(0, 1fr) 255px !important;
+  }
+  .toy-page .page-wrap > .aside {
+    max-width: 255px !important;
+  }
+}
+
+@media (max-width: 700px) {
+  .toy-page .page-wrap {
+    display: flex !important;
+    flex-direction: column !important;
+    grid-template-columns: none !important;
+    padding: 0 4vw 65px !important;
+  }
+  .toy-page .page-wrap > main {
+    order: 1 !important;
+    width: 100% !important;
+  }
+  .toy-page .page-wrap > .aside {
+    order: 2 !important;
+    position: relative !important;
+    top: auto !important;
+    max-width: none !important;
+    max-height: none !important;
+    width: 100% !important;
+    overflow: visible !important;
   }
 }
 
@@ -139,11 +215,22 @@
   display: none !important;
 }
 
-@media (max-width: 900px) {
-  .toy-page .pgrid {
-    grid-template-columns: 1fr;
+/* Also kill leftover fixed-sidebar docking rules */
+@media(min-width:701px){
+  .toy-page .aside.sidebar-fixed{
+    position:sticky!important;
+    top:100px!important;
+    right:auto!important;
+    width:100%!important;
+    max-width:300px!important;
+    margin:0!important;
   }
-  .toy-page .hero:before {
-    background-position: center !important;
-  }
+}
+
+/* Hero copy always visible */
+.toy-page .hero .hi > div:first-child{
+  opacity:1!important;
+  visibility:visible!important;
+  position:relative;
+  z-index:2;
 }
