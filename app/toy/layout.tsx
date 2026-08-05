@@ -1,8 +1,7 @@
 import type { Metadata } from "next";
 import PageEffects from "@/components/trizen/PageEffects";
-import "@/styles/trizen-legacy.css";
-import "@/styles/toy-layout.css";
-import "@/styles/toy-images.css";
+import "@/styles/trizen-violet.css";
+import "@/styles/toy-violet.css";
 
 export const metadata: Metadata = {
   title: {

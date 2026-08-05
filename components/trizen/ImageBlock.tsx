@@ -5,9 +5,9 @@ type ImageBlockProps = {
 
 export default function ImageBlock({ src, label }: ImageBlockProps) {
   return (
-    <div className="img-ph has-photo">
+    <figure className="source-image">
       {/* eslint-disable-next-line @next/next/no-img-element */}
-      <img className="toy-photo toy-photo-content" src={src} alt={label} />
-    </div>
+      <img src={src} alt={label} />
+    </figure>
   );
 }

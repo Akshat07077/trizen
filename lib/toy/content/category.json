@@ -26,32 +26,38 @@
         {
           "name": "Toy Packaging Trays",
           "desc": "Custom APET thermoformed trays for toy retail packaging — general toy packaging, bulk toy OEM supply trays, toy brand retail programme packaging. KD 7 · Vol 30.",
-          "link": "View sub-page →"
+          "link": "View sub-page →",
+          "href": "/toy/packaging-trays"
         },
         {
           "name": "Action Figure Packs",
           "desc": "APET crystal-clear blister packs for action figures — hero pose display, accessory organization, character identity visible through the pack. KD 7 · Vol 30.",
-          "link": "View sub-page →"
+          "link": "View sub-page →",
+          "href": "/toy/action-figure"
         },
         {
           "name": "Toy Set Insert Trays",
           "desc": "Multi-component APET thermoformed trays for toy sets — all components in defined positions, set organisation for the unboxing experience. KD 7 · Vol 30.",
-          "link": "View sub-page →"
+          "link": "View sub-page →",
+          "href": "/toy/set-inserts"
         },
         {
           "name": "Retail Display Packaging for Toys",
           "desc": "APET crystal-clear retail display packaging for toy retail — hanging blister packs, counter display trays, shelf display inserts for toy brands.",
-          "link": "View sub-page →"
+          "link": "View sub-page →",
+          "href": "/toy/retail-display"
         },
         {
           "name": "Protective Toy Packaging Boxes",
           "desc": "Custom thermoformed protective inserts for toy box packaging — all toy components protected from transit damage, box-ready organisation.",
-          "link": "View sub-page →"
+          "link": "View sub-page →",
+          "href": "/toy/protective"
         },
         {
           "name": "Custom Molded Toy Packs",
           "desc": "Bespoke thermoformed inserts for unique toy profiles — custom cavity from toy sample, hero pose thermoforming, toy brand exclusive packaging formats.",
-          "link": "View sub-page →"
+          "link": "View sub-page →",
+          "href": "/toy/custom-molded"
         }
       ]
     },

@@ -1,5 +1,5 @@
+import SiteNav from "@/components/trizen/SiteNav";
 import Hero from "@/components/trizen/Hero";
-import VisualBand from "@/components/trizen/VisualBand";
 import ToySidebar from "@/components/trizen/ToySidebar";
 import FAQ from "@/components/trizen/FAQ";
 import { MidCTA, BottomCTA } from "@/components/trizen/CTA";
@@ -11,11 +11,42 @@ type ToyPageProps = {
   content: ToyPageContent;
 };
 
+function SectionTitle({ ey, st }: { ey: string; st: string }) {
+  const parts = st.split(/\s+[—–-]\s+/);
+  const main = parts[0] ?? st;
+  const sub = parts.slice(1).join(" — ");
+
+  return (
+    <>
+      {ey ? <div className="ey">{ey}</div> : null}
+      {st ? (
+        <h2 className="st">
+          <span className="section-title-main">{main}</span>
+          {sub ? <span className="section-title-sub">{sub}</span> : null}
+        </h2>
+      ) : null}
+    </>
+  );
+}
+
 export default function ToyPage({ content }: ToyPageProps) {
   const images = TOY_IMAGES[content.slug] ?? TOY_IMAGES.category;
+  const trailLabel =
+    content.slug === "category" ? "Toys" : content.hero.titleMain;
 
   return (
     <div className="toy-page">
+      <SiteNav
+        trail={[
+          { href: "/", label: "Home" },
+          { href: "#", label: "Industries" },
+          { href: "/toy", label: "Toys" },
+          ...(content.slug !== "category"
+            ? [{ label: trailLabel }]
+            : []),
+        ]}
+      />
+
       <Hero
         ey={content.hero.ey}
         titleMain={content.hero.titleMain}
@@ -26,25 +57,12 @@ export default function ToyPage({ content }: ToyPageProps) {
         imageLabel={content.hero.titleMain}
       />
 
-      <VisualBand
-        mainSrc={images.bandMain}
-        mainTitle={content.band.mainTitle}
-        mainText={content.band.mainText}
-        detailSrc={images.bandDetail}
-        detailTitle={content.band.detailTitle}
-        detailText={content.band.detailText}
-        processSrc={images.bandProcess}
-        processTitle={content.band.processTitle}
-        processText={content.band.processText}
-      />
-
-      <div className="layout">
-        <main className="content">
+      <div className="page-wrap">
+        <main>
           {content.sections.map((section, sIdx) => (
             <div key={`${section.ey}-${sIdx}`}>
               <div className="sec">
-                {section.ey ? <div className="ey">{section.ey}</div> : null}
-                {section.st ? <h2 className="st">{section.st}</h2> : null}
+                <SectionTitle ey={section.ey} st={section.st} />
 
                 {section.leads?.map((lead) => (
                   <p key={lead.slice(0, 48)} className="lead">
@@ -55,13 +73,17 @@ export default function ToyPage({ content }: ToyPageProps) {
                 {section.products && section.products.length > 0 ? (
                   <div className="pgrid">
                     {section.products.map((product) => (
-                      <div key={product.name} className="pc">
+                      <a
+                        key={product.name}
+                        href={product.href ?? "#"}
+                        className="pc"
+                      >
                         <div className="pc-name">{product.name}</div>
                         <div className="pc-desc">{product.desc}</div>
                         {product.link ? (
                           <div className="pc-link">{product.link}</div>
                         ) : null}
-                      </div>
+                      </a>
                     ))}
                   </div>
                 ) : null}
@@ -116,7 +138,14 @@ export default function ToyPage({ content }: ToyPageProps) {
           {content.faqs.length > 0 ? (
             <div className="sec">
               <div className="ey">Frequently Asked Questions</div>
-              <h2 className="st">Frequently Asked Questions</h2>
+              <h2 className="st">
+                <span className="section-title-main">
+                  Frequently Asked Questions
+                </span>
+                <span className="section-title-sub">
+                  Toy thermoforming packaging
+                </span>
+              </h2>
               <FAQ items={content.faqs} />
             </div>
           ) : null}
@@ -126,6 +155,20 @@ export default function ToyPage({ content }: ToyPageProps) {
 
         <ToySidebar />
       </div>
+
+      <footer>
+        <div className="fi">
+          <p>
+            © 2025 Trizen Packaging · Toy Packaging · Vapi, Gujarat, India ·
+            ISO 9001:2015
+          </p>
+          <div className="fl">
+            <a href="/toy">Toys</a>
+            <a href="#">Capabilities</a>
+            <a href="mailto:contact@trizenpackaging.com">Contact</a>
+          </div>
+        </div>
+      </footer>
     </div>
   );
 }
