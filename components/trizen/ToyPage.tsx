@@ -11,14 +11,24 @@ type ToyPageProps = {
   content: ToyPageContent;
 };
 
-function SectionTitle({ ey, st }: { ey: string; st: string }) {
+function SectionTitle({
+  ey,
+  st,
+  eyClass,
+}: {
+  ey: string;
+  st: string;
+  eyClass?: "gold" | "green";
+}) {
   const parts = st.split(/\s+[—–-]\s+/);
   const main = parts[0] ?? st;
   const sub = parts.slice(1).join(" — ");
 
   return (
     <>
-      {ey ? <div className="ey">{ey}</div> : null}
+      {ey ? (
+        <div className={`ey${eyClass ? ` ${eyClass}` : ""}`}>{ey}</div>
+      ) : null}
       {st ? (
         <h2 className="st">
           <span className="section-title-main">{main}</span>
@@ -62,7 +72,11 @@ export default function ToyPage({ content }: ToyPageProps) {
           {content.sections.map((section, sIdx) => (
             <div key={`${section.ey}-${sIdx}`}>
               <div className="sec">
-                <SectionTitle ey={section.ey} st={section.st} />
+                <SectionTitle
+                  ey={section.ey}
+                  st={section.st}
+                  eyClass={section.eyClass}
+                />
 
                 {section.leads?.map((lead) => (
                   <p key={lead.slice(0, 48)} className="lead">
@@ -85,6 +99,35 @@ export default function ToyPage({ content }: ToyPageProps) {
                         ) : null}
                       </a>
                     ))}
+                  </div>
+                ) : null}
+
+                {section.table && section.table.rows.length > 0 ? (
+                  <table className="gtbl">
+                    <thead>
+                      <tr>
+                        {section.table.headers.map((header) => (
+                          <th key={header}>{header}</th>
+                        ))}
+                      </tr>
+                    </thead>
+                    <tbody>
+                      {section.table.rows.map((row) => (
+                        <tr key={row.join("|").slice(0, 64)}>
+                          {row.map((cell, cellIdx) => (
+                            <td key={`${cellIdx}-${cell.slice(0, 24)}`}>
+                              {cell}
+                            </td>
+                          ))}
+                        </tr>
+                      ))}
+                    </tbody>
+                  </table>
+                ) : null}
+
+                {section.callout ? (
+                  <div className="callout">
+                    <strong>{section.callout}</strong>
                   </div>
                 ) : null}
 

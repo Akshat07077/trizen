@@ -1,13 +1,17 @@
 export type ToyFaq = { q: string; a: string };
 export type ToyStrip = { title: string; desc: string };
 export type ToyProduct = { name: string; desc: string; link?: string; href?: string };
+export type ToyTable = { headers: string[]; rows: string[][] };
 
 export type ToySection = {
   ey: string;
   st: string;
+  eyClass?: "gold" | "green";
   leads?: string[];
   strips?: ToyStrip[];
   products?: ToyProduct[];
+  table?: ToyTable;
+  callout?: string;
 };
 
 export type ToyPageContent = {

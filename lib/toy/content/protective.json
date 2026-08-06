@@ -22,7 +22,53 @@
         "Protective toy packaging boxes have a different primary function from retail display packaging — the toy must survive the supply chain from manufacturing to retail shelf without any damage. Action figure articulated joints must not be pre-stressed by incorrect cavity geometry. Vehicle bodywork must not sustain pressure marks from cavity wall contact. Delicate toy accessories must be individually protected from contact with larger, heavier toy components during transit."
       ],
       "strips": [],
-      "products": []
+      "products": [],
+      "table": {
+        "headers": [
+          "Product / Format",
+          "Packaging",
+          "Material",
+          "Key Requirement"
+        ],
+        "rows": [
+          [
+            "Premium Toy Box Protective Insert",
+            "Multi-component APET or PP insert — all toys and accessories protected",
+            "APET or PP",
+            "All components in individual protective cavities, transit-rated"
+          ],
+          [
+            "Action Figure Transit Tray (OEM)",
+            "PP thermoformed transit tray — figures in neutral (non-hero) protective position",
+            "PP",
+            "Figure joints at neutral, no joint stress, maximum figure count per tray"
+          ],
+          [
+            "Vehicle Transit Protective Insert",
+            "PP or APET insert — vehicle body protected from pressure marks",
+            "APET or PP",
+            "Vehicle body surface no-contact at decorated areas, body geometry support"
+          ],
+          [
+            "Multi-Toy Transit Tray",
+            "PP multi-toy transit tray — maximum toy count, all protected",
+            "PP",
+            "Maximum toy count, individual toy isolation, component-to-component no-contact"
+          ],
+          [
+            "Toy Accessory Protective Packs",
+            "APET or PP tray for small toy accessories",
+            "APET or PP",
+            "Individual accessory cavities, sharp-point protection, small part isolation"
+          ],
+          [
+            "Premium Toy Gift Box Insert",
+            "APET crystal-clear protective insert for premium toy gift boxes",
+            "APET crystal-clear",
+            "Box window visibility maintained, all toys protected, premium gift presentation"
+          ]
+        ]
+      }
     },
     {
       "ey": "Pain Points We Solve",
@@ -73,7 +119,33 @@
       "st": "Materials for Protective Toy Packaging Boxes",
       "leads": [],
       "strips": [],
-      "products": []
+      "products": [],
+      "table": {
+        "headers": [
+          "Material",
+          "Application",
+          "Key Property"
+        ],
+        "rows": [
+          [
+            "APET Crystal-Clear",
+            "Premium toy gift box protective inserts — where box window visibility is maintained",
+            "Crystal clarity, box window compatible, individual protective cavities"
+          ],
+          [
+            "PP Standard",
+            "Primary transit protection — action figure transit trays, vehicle transit inserts, multi-toy transit trays",
+            "Cost-efficient, transit load rated, dimensional stability throughout supply chain"
+          ],
+          [
+            "PETG Premium Clarity",
+            "Premium toy brand gift box protective inserts requiring superior clarity",
+            "Superior optical clarity, protective cavity geometry for premium toy gift boxes"
+          ]
+        ]
+      },
+      "callout": "Bulk toy packaging trays Vapi — APET and PP thermoformed protective toy packaging boxes from our Vapi, Gujarat facility. Toy packaging Gujarat for toy brands. ISO 9001:2015 per production run.",
+      "eyClass": "gold"
     },
     {
       "ey": "Why Choose Trizen",
@@ -93,7 +165,8 @@
           "desc": "Protective toy packaging manufacturer from India for domestic toy brands and export toy supply chain programmes."
         }
       ],
-      "products": []
+      "products": [],
+      "eyClass": "green"
     }
   ],
   "midCtas": [

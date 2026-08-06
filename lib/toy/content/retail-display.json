@@ -22,7 +22,53 @@
         "Toy retail display packaging is the toy at the retail shelf — the packaging format that presents the toy to the child and parent at the point of purchase. Hanging blister packs, counter display trays, and shelf display inserts must all achieve the same objective: maximum toy visibility in the correct display orientation with the toy's hero features prominently visible. APET crystal-clear thermoforming is the standard — the toy is the retail communication, not the packaging."
       ],
       "strips": [],
-      "products": []
+      "products": [],
+      "table": {
+        "headers": [
+          "Product / Format",
+          "Packaging",
+          "Material",
+          "Key Requirement"
+        ],
+        "rows": [
+          [
+            "Hanging Blister Pack for Toy Retail",
+            "APET blister with hanging hole — toy in display orientation",
+            "APET crystal-clear",
+            "Toy visible from both faces, hanging hole geometry, peg display compatible"
+          ],
+          [
+            "Counter Display Toy Tray",
+            "Multi-toy APET counter display tray",
+            "APET crystal-clear",
+            "Multiple toys accessible, all toys visible simultaneously, counter display stability"
+          ],
+          [
+            "Shelf Display Insert for Toy Brand",
+            "APET shelf display insert for toy brand shelf section",
+            "APET crystal-clear",
+            "Shelf insert format, toys in facing positions, brand presence on shelf"
+          ],
+          [
+            "Toy Retail Clamshell Pack",
+            "APET clamshell — toy displayed through front face",
+            "APET crystal-clear",
+            "Full toy visibility through front face, tamper-evident seal, retail format"
+          ],
+          [
+            "Floor Display Toy Tray",
+            "Large-format APET floor display unit insert",
+            "APET crystal-clear",
+            "Large-format stability, multiple toys accessible, full toy range visible"
+          ],
+          [
+            "Multi-Unit Toy Display Pack",
+            "Multi-unit APET display pack — 2-pack, 3-pack, 5-pack",
+            "APET crystal-clear",
+            "All units visible, multi-pack retail format, value display communication"
+          ]
+        ]
+      }
     },
     {
       "ey": "Pain Points We Solve",
@@ -73,7 +119,33 @@
       "st": "Materials for Retail Display Packaging for Toys",
       "leads": [],
       "strips": [],
-      "products": []
+      "products": [],
+      "table": {
+        "headers": [
+          "Material",
+          "Application",
+          "Key Property"
+        ],
+        "rows": [
+          [
+            "APET Crystal-Clear",
+            "Primary — all retail display toy packaging, hanging blister packs, counter display trays, shelf inserts, clamshell packs",
+            "Crystal clarity for maximum toy visibility at retail shelf, tamper-evident heat seal compatible"
+          ],
+          [
+            "PETG Premium Clarity",
+            "Premium toy brand retail display packaging requiring superior optical clarity",
+            "Superior clarity for luxury toy brand retail shelf communication"
+          ],
+          [
+            "PP Standard",
+            "Non-retail toy display supply only — not for crystal-clear retail display applications",
+            "Not suitable for crystal-clear retail toy display requirements"
+          ]
+        ]
+      },
+      "callout": "Bulk toy retail packaging Vapi — APET crystal-clear retail display toy packaging from our Vapi, Gujarat facility. Toy display packaging Gujarat for toy brands and toy retail companies. ISO 9001:2015 per production run.",
+      "eyClass": "gold"
     },
     {
       "ey": "Why Choose Trizen",
@@ -93,7 +165,8 @@
           "desc": "Retail display packaging toys manufacturer from India for domestic toy brands and export toy retail programmes."
         }
       ],
-      "products": []
+      "products": [],
+      "eyClass": "green"
     }
   ],
   "midCtas": [

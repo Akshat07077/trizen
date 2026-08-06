@@ -1,31 +1,36 @@
 "use client";
 
 import { useEffect } from "react";
+import { usePathname } from "next/navigation";
 
 /**
- * Violet UI chrome: read progress, back-to-top,
- * and a reliable pinned sidebar (CSS sticky can fail with overflow ancestors).
+ * Violet UI chrome for every Toy route:
+ * read progress, back-to-top, and pinned sidebar.
+ * Re-binds on pathname so sticky works after client navigations.
  */
 export default function PageEffects() {
+  const pathname = usePathname();
+
   useEffect(() => {
     const cleanups: Array<() => void> = [];
-
-    const progress = document.querySelector(
-      ".read-progress span",
-    ) as HTMLElement | null;
-    const backTop = document.querySelector(".back-top");
-    const pageWrap = document.querySelector(".page-wrap") as HTMLElement | null;
-    const sidebar = document.querySelector(".aside") as HTMLElement | null;
-
     let spacer: HTMLElement | null = null;
+    let cancelled = false;
+
+    const getProgress = () =>
+      document.querySelector(".read-progress span") as HTMLElement | null;
+    const getBackTop = () => document.querySelector(".back-top");
+    const getPageWrap = () =>
+      document.querySelector(".toy-page .page-wrap") as HTMLElement | null;
+    const getSidebar = () =>
+      document.querySelector(".toy-page .aside") as HTMLElement | null;
 
     const clearPin = () => {
-      if (!sidebar) return;
-      sidebar.classList.remove("is-pinned");
-      sidebar.style.removeProperty("top");
-      sidebar.style.removeProperty("left");
-      sidebar.style.removeProperty("width");
-      sidebar.style.removeProperty("max-height");
+      const sidebar = getSidebar();
+      sidebar?.classList.remove("is-pinned");
+      sidebar?.style.removeProperty("top");
+      sidebar?.style.removeProperty("left");
+      sidebar?.style.removeProperty("width");
+      sidebar?.style.removeProperty("max-height");
       if (spacer) {
         spacer.remove();
         spacer = null;
@@ -33,7 +38,10 @@ export default function PageEffects() {
     };
 
     const updateSidebarPin = () => {
+      const pageWrap = getPageWrap();
+      const sidebar = getSidebar();
       if (!pageWrap || !sidebar) return;
+
       const desktop = window.matchMedia("(min-width:701px)").matches;
       if (!desktop) {
         clearPin();
@@ -44,7 +52,6 @@ export default function PageEffects() {
       const navOffset = 100;
       const sideWidth = sidebar.offsetWidth || 300;
 
-      // Pin while the article block is on screen
       const shouldPin =
         wrapRect.top <= navOffset && wrapRect.bottom > navOffset + 120;
 
@@ -53,7 +60,7 @@ export default function PageEffects() {
         return;
       }
 
-      if (!spacer) {
+      if (!spacer || !spacer.isConnected) {
         spacer = document.createElement("div");
         spacer.className = "aside-spacer";
         spacer.style.width = `${sideWidth}px`;
@@ -73,10 +80,11 @@ export default function PageEffects() {
         `calc(100vh - ${navOffset + 20}px)`,
         "important",
       );
-      // Do NOT sync sidebar.scrollTop with page scroll
     };
 
     const updatePageUi = () => {
+      const progress = getProgress();
+      const backTop = getBackTop();
       const total = document.documentElement.scrollHeight - window.innerHeight;
       const ratio = total > 0 ? window.scrollY / total : 0;
       if (progress) {
@@ -86,14 +94,20 @@ export default function PageEffects() {
       updateSidebarPin();
     };
 
-    updatePageUi();
-    window.addEventListener("scroll", updatePageUi, { passive: true });
-    window.addEventListener("resize", updatePageUi, { passive: true });
-    cleanups.push(() => {
-      window.removeEventListener("scroll", updatePageUi);
-      window.removeEventListener("resize", updatePageUi);
-      clearPin();
-    });
+    const decorateSections = () => {
+      document
+        .querySelectorAll(".toy-page .page-wrap main .sec")
+        .forEach((section, index) => {
+          if (index % 2 === 1) section.classList.add("tone-ice");
+          const label = section.querySelector(".ey");
+          if (label && !label.querySelector(".section-index")) {
+            const number = document.createElement("span");
+            number.className = "section-index";
+            number.textContent = String(index + 1).padStart(2, "0");
+            label.prepend(number);
+          }
+        });
+    };
 
     const onBackTop = () =>
       window.scrollTo({
@@ -102,22 +116,33 @@ export default function PageEffects() {
           ? "auto"
           : "smooth",
       });
+
+    const backTop = getBackTop();
     backTop?.addEventListener("click", onBackTop);
     cleanups.push(() => backTop?.removeEventListener("click", onBackTop));
 
-    document.querySelectorAll(".page-wrap main .sec").forEach((section, index) => {
-      if (index % 2 === 1) section.classList.add("tone-ice");
-      const label = section.querySelector(".ey");
-      if (label && !label.querySelector(".section-index")) {
-        const number = document.createElement("span");
-        number.className = "section-index";
-        number.textContent = String(index + 1).padStart(2, "0");
-        label.prepend(number);
-      }
+    window.addEventListener("scroll", updatePageUi, { passive: true });
+    window.addEventListener("resize", updatePageUi, { passive: true });
+    cleanups.push(() => {
+      window.removeEventListener("scroll", updatePageUi);
+      window.removeEventListener("resize", updatePageUi);
+      clearPin();
     });
 
-    return () => cleanups.forEach((fn) => fn());
-  }, []);
+    // Wait a frame so the new page DOM is mounted after navigation
+    const boot = () => {
+      if (cancelled) return;
+      decorateSections();
+      updatePageUi();
+    };
+    const raf = requestAnimationFrame(() => requestAnimationFrame(boot));
+    cleanups.push(() => cancelAnimationFrame(raf));
+
+    return () => {
+      cancelled = true;
+      cleanups.forEach((fn) => fn());
+    };
+  }, [pathname]);
 
   return (
     <>

@@ -1,0 +1,517 @@
+﻿{
+  "file": "Trizen_Toy_ActionFigure_Clean_Sidebar.html",
+  "materials": {
+    "headers": [
+      "Material",
+      "Application",
+      "Key Property"
+    ],
+    "rows": [
+      [
+        "APET Crystal-Clear",
+        "Primary ΓÇö all standard action figure blister packs, vehicle and figure combo packs, multi-figure battle packs, mini figure multipacks",
+        "Crystal clarity for character identity and paint detail visible, hero pose support cavity"
+      ],
+      [
+        "PETG Premium Clarity",
+        "Highly articulated collector figures and premium action figure lines requiring superior optical clarity",
+        "Superior optical clarity for collector toy brand communication, premium figure paint detail presentation"
+      ],
+      [
+        "PP Standard",
+        "Bulk action figure OEM supply trays ΓÇö not for retail hero pose blister display",
+        "Cost-efficient transit packaging for action figure OEM supply"
+      ]
+    ]
+  },
+  "callout": "Bulk action figure packs Vapi ΓÇö APET crystal-clear action figure blister packs from our Vapi, Gujarat facility. Action figure packaging Gujarat for toy brands and action figure companies. ISO 9001:2015 per production run.",
+  "manufactureTable": {
+    "headers": [
+      "Product / Format",
+      "Packaging",
+      "Material",
+      "Key Requirement"
+    ],
+    "rows": [
+      [
+        "5-inch Action Figures (Standard)",
+        "APET crystal-clear blister ΓÇö figure in hero pose, accessories in cavities",
+        "APET crystal-clear",
+        "Hero pose locked, all accessories visible and organised, card-compatible"
+      ],
+      [
+        "12-inch Premium Action Figures",
+        "Large-format APET blister ΓÇö figure in signature pose",
+        "APET crystal-clear",
+        "Large format hero pose, premium figure surface protection, accessories"
+      ],
+      [
+        "Vehicle & Figure Combo Packs",
+        "Multi-element APET blister ΓÇö figure + vehicle + accessories",
+        "APET crystal-clear",
+        "Vehicle display orientation, figure in seat or hero position, accessories"
+      ],
+      [
+        "Multi-Figure Battle Packs",
+        "Multi-figure APET blister ΓÇö hero vs villain or team pack",
+        "APET crystal-clear",
+        "Multiple figures in battle dynamic, each character identity visible"
+      ],
+      [
+        "Articulated Collector Figure Packs",
+        "Premium APET or PETG blister for highly articulated figures",
+        "APET or PETG",
+        "Maximum articulation displayed, paint detail protection, collector presentation"
+      ],
+      [
+        "Mini Figure Multipacks (3, 5, 10 figures)",
+        "Multi-cavity APET blister ΓÇö each mini figure in individual cavity",
+        "APET crystal-clear",
+        "Each figure identity visible, individual cavities, character roster display"
+      ]
+    ]
+  }
+}
+
+----
+
+{
+  "file": "Trizen_Toy_Category_Clean_Sidebar.html",
+  "materials": {
+    "headers": [
+      "Material",
+      "Toy Packaging Application",
+      "Key Property"
+    ],
+    "rows": [
+      [
+        "APET (Crystal-Clear)",
+        "Primary toy packaging material ΓÇö action figure blister packs, toy set insert trays, retail display packaging, toy retail blister packs",
+        "Crystal clarity for toy display, hero pose support, tamper-evident heat seal compatible, excellent thermoformability"
+      ],
+      [
+        "PETG (Premium Clarity)",
+        "Premium toy brand packaging and collector toy packaging requiring superior optical clarity",
+        "Superior optical clarity over APET, premium surface finish for luxury toy brand or collector item presentation"
+      ],
+      [
+        "PP",
+        "Bulk toy OEM supply trays, toy transit packaging, non-retail toy supply",
+        "Cost-efficient, dimensional stability, not for crystal-clear retail toy display applications"
+      ]
+    ]
+  },
+  "callout": "Toy packaging Gujarat ΓÇö all toy thermoforming packaging tooling manufactured and held in-house at our Vapi, Gujarat facility. Bulk toy packaging from Vapi for toy brands and toy retail companies. ISO 9001:2015 batch documentation per production run. Toy thermoforming packaging manufacturer from India for domestic retail and export toy programmes.",
+  "manufactureTable": {
+    "headers": [
+      "Material",
+      "Toy Packaging Application",
+      "Key Property"
+    ],
+    "rows": [
+      [
+        "APET (Crystal-Clear)",
+        "Primary toy packaging material ΓÇö action figure blister packs, toy set insert trays, retail display packaging, toy retail blister packs",
+        "Crystal clarity for toy display, hero pose support, tamper-evident heat seal compatible, excellent thermoformability"
+      ],
+      [
+        "PETG (Premium Clarity)",
+        "Premium toy brand packaging and collector toy packaging requiring superior optical clarity",
+        "Superior optical clarity over APET, premium surface finish for luxury toy brand or collector item presentation"
+      ],
+      [
+        "PP",
+        "Bulk toy OEM supply trays, toy transit packaging, non-retail toy supply",
+        "Cost-efficient, dimensional stability, not for crystal-clear retail toy display applications"
+      ]
+    ]
+  }
+}
+
+----
+
+{
+  "file": "Trizen_Toy_CustomMolded_Clean_Sidebar.html",
+  "materials": {
+    "headers": [
+      "Material",
+      "Application",
+      "Key Property"
+    ],
+    "rows": [
+      [
+        "APET Crystal-Clear",
+        "Primary ΓÇö transformer and conversion toys, creature toys, robot mech packs, brand exclusive formats",
+        "Crystal clarity for unique toy design display, custom cavity from physical toy"
+      ],
+      [
+        "PETG Premium Clarity",
+        "Limited edition collectibles and premium toy brand exclusive packs",
+        "Superior optical clarity communicates LE and collector tier positioning"
+      ],
+      [
+        "PP Standard",
+        "Custom OEM toy supply trays for unique toy profiles",
+        "Cost-efficient bulk transit for unique toy profiles"
+      ]
+    ]
+  },
+  "callout": "Custom molded toy packs Vapi ΓÇö bespoke thermoformed APET and PETG custom toy packs from our Vapi, Gujarat facility. Toy packaging Gujarat for toy brands with unique toy geometry requirements. ISO 9001:2015 per production run.",
+  "manufactureTable": {
+    "headers": [
+      "Product / Format",
+      "Packaging",
+      "Material",
+      "Key Requirement"
+    ],
+    "rows": [
+      [
+        "Transformer & Conversion Toy Packs",
+        "Custom APET blister ΓÇö toy at display transformation state",
+        "APET crystal-clear",
+        "Transformation state geometry, all protrusions supported, no surface contact on painted areas"
+      ],
+      [
+        "Creature & Organic Form Toy Packs",
+        "Custom contour APET blister ΓÇö organic toy profile",
+        "APET crystal-clear",
+        "Organic geometry cavity, no sharp protrusion stress, creature character visible"
+      ],
+      [
+        "Robot & Mech Toy Extended Packs",
+        "Custom APET blister ΓÇö robot at maximum arm extension",
+        "APET crystal-clear",
+        "Extended arm cavity, weapon attachment supported, robot pose locked"
+      ],
+      [
+        "Limited Edition Collectible Toy Packs",
+        "Premium PETG custom blister for LE collectibles",
+        "PETG premium clarity",
+        "Collector presentation, superior clarity, unique edition format"
+      ],
+      [
+        "Toy Brand Exclusive Format Packs",
+        "Brand-exclusive APET format for toy brand packaging programme",
+        "APET crystal-clear",
+        "Brand-exclusive format, toy hero pose, brand packaging programme"
+      ],
+      [
+        "Custom Accessory & Upgrade Packs",
+        "Custom APET blister for toy upgrade and accessory packs",
+        "APET crystal-clear",
+        "Accessory display orientation, brand-consistent format, hero accessory visible"
+      ]
+    ]
+  }
+}
+
+----
+
+{
+  "file": "Trizen_Toy_PackagingTrays_Clean_Sidebar.html",
+  "materials": {
+    "headers": [
+      "Material",
+      "Application",
+      "Key Property"
+    ],
+    "rows": [
+      [
+        "APET Crystal-Clear",
+        "Primary ΓÇö retail toy blister packs, toy box insert trays, multi-toy retail packs, vehicle display trays",
+        "Crystal clarity for toy visibility at retail shelf, tamper-evident heat seal compatible"
+      ],
+      [
+        "PP Standard",
+        "Bulk toy OEM supply trays, toy transit packaging",
+        "Cost-efficient, dimensional stability for OEM supply, not for crystal-clear retail display"
+      ],
+      [
+        "PETG Premium Clarity",
+        "Premium toy brand or collector toy retail packaging requiring superior optical clarity",
+        "Superior clarity for luxury toy brand or collector toy retail communication"
+      ]
+    ]
+  },
+  "callout": "Bulk toy packaging manufacturer Vapi ΓÇö APET and PP thermoformed toy packaging trays from our Vapi, Gujarat facility. Toy packaging Gujarat for toy brands and toy retail companies. ISO 9001:2015 per production run.",
+  "manufactureTable": {
+    "headers": [
+      "Product / Format",
+      "Packaging",
+      "Material",
+      "Key Requirement"
+    ],
+    "rows": [
+      [
+        "Retail Toy Blister Packs (small toys)",
+        "APET crystal-clear blister ΓÇö toy in display orientation",
+        "APET crystal-clear",
+        "Toy design visible, toy geometry support, tamper-evident seal"
+      ],
+      [
+        "Toy Box Insert Trays",
+        "APET or PP tray ΓÇö toy in box-ready position",
+        "APET or PP",
+        "Toy geometry support, accessories organised, box-ready presentation"
+      ],
+      [
+        "Multi-Toy Retail Packs",
+        "Multi-cavity APET tray ΓÇö multiple toys in pack",
+        "APET crystal-clear",
+        "All toys visible, individual toy cavities, retail multi-pack format"
+      ],
+      [
+        "Bulk Toy OEM Supply Trays",
+        "High-density PP tray ΓÇö maximum toy count per tray",
+        "PP",
+        "Maximum toy count, transit protection, OEM supply efficiency"
+      ],
+      [
+        "Toy Brand Retail Programme Trays",
+        "Custom APET trays for toy brand retail programmes",
+        "APET crystal-clear",
+        "Brand-specific cavity geometry, toy display format, bulk OEM"
+      ],
+      [
+        "Vehicle & Die-Cast Toy Trays",
+        "APET display tray ΓÇö vehicle in display orientation",
+        "APET crystal-clear",
+        "Vehicle surface no-contact (decorated surfaces), display angle"
+      ]
+    ]
+  }
+}
+
+----
+
+{
+  "file": "Trizen_Toy_Protective_Clean_Sidebar.html",
+  "materials": {
+    "headers": [
+      "Material",
+      "Application",
+      "Key Property"
+    ],
+    "rows": [
+      [
+        "APET Crystal-Clear",
+        "Premium toy gift box protective inserts ΓÇö where box window visibility is maintained",
+        "Crystal clarity, box window compatible, individual protective cavities"
+      ],
+      [
+        "PP Standard",
+        "Primary transit protection ΓÇö action figure transit trays, vehicle transit inserts, multi-toy transit trays",
+        "Cost-efficient, transit load rated, dimensional stability throughout supply chain"
+      ],
+      [
+        "PETG Premium Clarity",
+        "Premium toy brand gift box protective inserts requiring superior clarity",
+        "Superior optical clarity, protective cavity geometry for premium toy gift boxes"
+      ]
+    ]
+  },
+  "callout": "Bulk toy packaging trays Vapi ΓÇö APET and PP thermoformed protective toy packaging boxes from our Vapi, Gujarat facility. Toy packaging Gujarat for toy brands. ISO 9001:2015 per production run.",
+  "manufactureTable": {
+    "headers": [
+      "Product / Format",
+      "Packaging",
+      "Material",
+      "Key Requirement"
+    ],
+    "rows": [
+      [
+        "Premium Toy Box Protective Insert",
+        "Multi-component APET or PP insert ΓÇö all toys and accessories protected",
+        "APET or PP",
+        "All components in individual protective cavities, transit-rated"
+      ],
+      [
+        "Action Figure Transit Tray (OEM)",
+        "PP thermoformed transit tray ΓÇö figures in neutral (non-hero) protective position",
+        "PP",
+        "Figure joints at neutral, no joint stress, maximum figure count per tray"
+      ],
+      [
+        "Vehicle Transit Protective Insert",
+        "PP or APET insert ΓÇö vehicle body protected from pressure marks",
+        "APET or PP",
+        "Vehicle body surface no-contact at decorated areas, body geometry support"
+      ],
+      [
+        "Multi-Toy Transit Tray",
+        "PP multi-toy transit tray ΓÇö maximum toy count, all protected",
+        "PP",
+        "Maximum toy count, individual toy isolation, component-to-component no-contact"
+      ],
+      [
+        "Toy Accessory Protective Packs",
+        "APET or PP tray for small toy accessories",
+        "APET or PP",
+        "Individual accessory cavities, sharp-point protection, small part isolation"
+      ],
+      [
+        "Premium Toy Gift Box Insert",
+        "APET crystal-clear protective insert for premium toy gift boxes",
+        "APET crystal-clear",
+        "Box window visibility maintained, all toys protected, premium gift presentation"
+      ]
+    ]
+  }
+}
+
+----
+
+{
+  "file": "Trizen_Toy_RetailDisplay_Clean_Sidebar.html",
+  "materials": {
+    "headers": [
+      "Material",
+      "Application",
+      "Key Property"
+    ],
+    "rows": [
+      [
+        "APET Crystal-Clear",
+        "Primary ΓÇö all retail display toy packaging, hanging blister packs, counter display trays, shelf inserts, clamshell packs",
+        "Crystal clarity for maximum toy visibility at retail shelf, tamper-evident heat seal compatible"
+      ],
+      [
+        "PETG Premium Clarity",
+        "Premium toy brand retail display packaging requiring superior optical clarity",
+        "Superior clarity for luxury toy brand retail shelf communication"
+      ],
+      [
+        "PP Standard",
+        "Non-retail toy display supply only ΓÇö not for crystal-clear retail display applications",
+        "Not suitable for crystal-clear retail toy display requirements"
+      ]
+    ]
+  },
+  "callout": "Bulk toy retail packaging Vapi ΓÇö APET crystal-clear retail display toy packaging from our Vapi, Gujarat facility. Toy display packaging Gujarat for toy brands and toy retail companies. ISO 9001:2015 per production run.",
+  "manufactureTable": {
+    "headers": [
+      "Product / Format",
+      "Packaging",
+      "Material",
+      "Key Requirement"
+    ],
+    "rows": [
+      [
+        "Hanging Blister Pack for Toy Retail",
+        "APET blister with hanging hole ΓÇö toy in display orientation",
+        "APET crystal-clear",
+        "Toy visible from both faces, hanging hole geometry, peg display compatible"
+      ],
+      [
+        "Counter Display Toy Tray",
+        "Multi-toy APET counter display tray",
+        "APET crystal-clear",
+        "Multiple toys accessible, all toys visible simultaneously, counter display stability"
+      ],
+      [
+        "Shelf Display Insert for Toy Brand",
+        "APET shelf display insert for toy brand shelf section",
+        "APET crystal-clear",
+        "Shelf insert format, toys in facing positions, brand presence on shelf"
+      ],
+      [
+        "Toy Retail Clamshell Pack",
+        "APET clamshell ΓÇö toy displayed through front face",
+        "APET crystal-clear",
+        "Full toy visibility through front face, tamper-evident seal, retail format"
+      ],
+      [
+        "Floor Display Toy Tray",
+        "Large-format APET floor display unit insert",
+        "APET crystal-clear",
+        "Large-format stability, multiple toys accessible, full toy range visible"
+      ],
+      [
+        "Multi-Unit Toy Display Pack",
+        "Multi-unit APET display pack ΓÇö 2-pack, 3-pack, 5-pack",
+        "APET crystal-clear",
+        "All units visible, multi-pack retail format, value display communication"
+      ]
+    ]
+  }
+}
+
+----
+
+{
+  "file": "Trizen_Toy_SetInserts_Clean_Sidebar.html",
+  "materials": {
+    "headers": [
+      "Material",
+      "Application",
+      "Key Property"
+    ],
+    "rows": [
+      [
+        "APET Crystal-Clear",
+        "Primary ΓÇö all toy set insert trays, building set component trays, vehicle playset trays, board game component trays",
+        "Crystal clarity for component visibility through box window and box lid, tamper-evident seal compatible"
+      ],
+      [
+        "PETG Premium Clarity",
+        "Premium collector toy set trays and luxury toy brand set packaging",
+        "Superior optical clarity for premium toy brand set presentation"
+      ],
+      [
+        "PP Standard",
+        "Bulk toy set OEM supply trays ΓÇö not for retail display clarity applications",
+        "Cost-efficient, dimensional stability for toy set OEM supply"
+      ]
+    ]
+  },
+  "callout": "Toy set insert trays manufacturer Vapi ΓÇö APET thermoformed toy set insert trays from our Vapi, Gujarat facility. Toy retail packaging Gujarat for toy brands and toy set companies. ISO 9001:2015 per production run.",
+  "manufactureTable": {
+    "headers": [
+      "Product / Format",
+      "Packaging",
+      "Material",
+      "Key Requirement"
+    ],
+    "rows": [
+      [
+        "Building Blocks & Construction Sets",
+        "Multi-cavity APET tray ΓÇö component groups organised",
+        "APET crystal-clear",
+        "Block groups organised, size-sorted cavities, complete component inventory visible"
+      ],
+      [
+        "Vehicle Playset Trays",
+        "Multi-element APET tray ΓÇö vehicles, track, accessories",
+        "APET crystal-clear",
+        "Vehicle display orientation, track section organisation, accessories"
+      ],
+      [
+        "Figure Playset Insert Trays",
+        "Multi-character APET tray ΓÇö characters + accessories + playset items",
+        "APET crystal-clear",
+        "Each character in defined position, playset accessories organised"
+      ],
+      [
+        "Board Game Component Trays",
+        "Multi-cavity APET tray ΓÇö pieces, cards, tokens, dice organised",
+        "APET crystal-clear",
+        "All game components in defined positions, component categories separated"
+      ],
+      [
+        "Educational Toy Set Inserts",
+        "Multi-component APET tray for educational toy sets",
+        "APET crystal-clear",
+        "Educational components organised in learning sequence, all visible"
+      ],
+      [
+        "Collector Toy Set Trays",
+        "Premium APET or PETG tray for collector figure sets",
+        "APET or PETG",
+        "All figures in defined display positions, collector presentation"
+      ]
+    ]
+  }
+}
+
+----
+

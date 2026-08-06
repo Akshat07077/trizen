@@ -22,7 +22,53 @@
         "Toy packaging trays serve two distinct market applications with different material requirements. Retail toy packaging trays use APET crystal-clear — the toy must be visible through the tray for the child's purchase decision at the retail shelf. Bulk OEM toy supply trays use PP — maximum toy count per pallet with transit protection for the toy manufacturer's supply chain. Both applications are available from our Vapi facility."
       ],
       "strips": [],
-      "products": []
+      "products": [],
+      "table": {
+        "headers": [
+          "Product / Format",
+          "Packaging",
+          "Material",
+          "Key Requirement"
+        ],
+        "rows": [
+          [
+            "Retail Toy Blister Packs (small toys)",
+            "APET crystal-clear blister — toy in display orientation",
+            "APET crystal-clear",
+            "Toy design visible, toy geometry support, tamper-evident seal"
+          ],
+          [
+            "Toy Box Insert Trays",
+            "APET or PP tray — toy in box-ready position",
+            "APET or PP",
+            "Toy geometry support, accessories organised, box-ready presentation"
+          ],
+          [
+            "Multi-Toy Retail Packs",
+            "Multi-cavity APET tray — multiple toys in pack",
+            "APET crystal-clear",
+            "All toys visible, individual toy cavities, retail multi-pack format"
+          ],
+          [
+            "Bulk Toy OEM Supply Trays",
+            "High-density PP tray — maximum toy count per tray",
+            "PP",
+            "Maximum toy count, transit protection, OEM supply efficiency"
+          ],
+          [
+            "Toy Brand Retail Programme Trays",
+            "Custom APET trays for toy brand retail programmes",
+            "APET crystal-clear",
+            "Brand-specific cavity geometry, toy display format, bulk OEM"
+          ],
+          [
+            "Vehicle & Die-Cast Toy Trays",
+            "APET display tray — vehicle in display orientation",
+            "APET crystal-clear",
+            "Vehicle surface no-contact (decorated surfaces), display angle"
+          ]
+        ]
+      }
     },
     {
       "ey": "Pain Points We Solve",
@@ -69,7 +115,33 @@
       "st": "Materials for Toy Packaging Trays",
       "leads": [],
       "strips": [],
-      "products": []
+      "products": [],
+      "table": {
+        "headers": [
+          "Material",
+          "Application",
+          "Key Property"
+        ],
+        "rows": [
+          [
+            "APET Crystal-Clear",
+            "Primary — retail toy blister packs, toy box insert trays, multi-toy retail packs, vehicle display trays",
+            "Crystal clarity for toy visibility at retail shelf, tamper-evident heat seal compatible"
+          ],
+          [
+            "PP Standard",
+            "Bulk toy OEM supply trays, toy transit packaging",
+            "Cost-efficient, dimensional stability for OEM supply, not for crystal-clear retail display"
+          ],
+          [
+            "PETG Premium Clarity",
+            "Premium toy brand or collector toy retail packaging requiring superior optical clarity",
+            "Superior clarity for luxury toy brand or collector toy retail communication"
+          ]
+        ]
+      },
+      "callout": "Bulk toy packaging manufacturer Vapi — APET and PP thermoformed toy packaging trays from our Vapi, Gujarat facility. Toy packaging Gujarat for toy brands and toy retail companies. ISO 9001:2015 per production run.",
+      "eyClass": "gold"
     },
     {
       "ey": "Why Choose Trizen",
@@ -89,7 +161,8 @@
           "desc": "Toy packaging trays manufacturer from India for domestic toy retail brands and export toy programmes."
         }
       ],
-      "products": []
+      "products": [],
+      "eyClass": "green"
     }
   ],
   "midCtas": [

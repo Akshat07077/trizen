@@ -22,7 +22,53 @@
         "Toy set insert trays manage 20 to 50 individual components in a single thermoformed tray — the challenge is not protecting one toy item but organising every component of a complex toy set for both transit safety and the unboxing experience. Every building set piece, every vehicle accessory, every playset character has its defined position in the tray. The unboxing moment — when the box lid is lifted revealing all components organised — is the child's first interaction with the toy brand."
       ],
       "strips": [],
-      "products": []
+      "products": [],
+      "table": {
+        "headers": [
+          "Product / Format",
+          "Packaging",
+          "Material",
+          "Key Requirement"
+        ],
+        "rows": [
+          [
+            "Building Blocks & Construction Sets",
+            "Multi-cavity APET tray — component groups organised",
+            "APET crystal-clear",
+            "Block groups organised, size-sorted cavities, complete component inventory visible"
+          ],
+          [
+            "Vehicle Playset Trays",
+            "Multi-element APET tray — vehicles, track, accessories",
+            "APET crystal-clear",
+            "Vehicle display orientation, track section organisation, accessories"
+          ],
+          [
+            "Figure Playset Insert Trays",
+            "Multi-character APET tray — characters + accessories + playset items",
+            "APET crystal-clear",
+            "Each character in defined position, playset accessories organised"
+          ],
+          [
+            "Board Game Component Trays",
+            "Multi-cavity APET tray — pieces, cards, tokens, dice organised",
+            "APET crystal-clear",
+            "All game components in defined positions, component categories separated"
+          ],
+          [
+            "Educational Toy Set Inserts",
+            "Multi-component APET tray for educational toy sets",
+            "APET crystal-clear",
+            "Educational components organised in learning sequence, all visible"
+          ],
+          [
+            "Collector Toy Set Trays",
+            "Premium APET or PETG tray for collector figure sets",
+            "APET or PETG",
+            "All figures in defined display positions, collector presentation"
+          ]
+        ]
+      }
     },
     {
       "ey": "Pain Points We Solve",
@@ -73,7 +119,33 @@
       "st": "Materials for Toy Set Insert Trays",
       "leads": [],
       "strips": [],
-      "products": []
+      "products": [],
+      "table": {
+        "headers": [
+          "Material",
+          "Application",
+          "Key Property"
+        ],
+        "rows": [
+          [
+            "APET Crystal-Clear",
+            "Primary — all toy set insert trays, building set component trays, vehicle playset trays, board game component trays",
+            "Crystal clarity for component visibility through box window and box lid, tamper-evident seal compatible"
+          ],
+          [
+            "PETG Premium Clarity",
+            "Premium collector toy set trays and luxury toy brand set packaging",
+            "Superior optical clarity for premium toy brand set presentation"
+          ],
+          [
+            "PP Standard",
+            "Bulk toy set OEM supply trays — not for retail display clarity applications",
+            "Cost-efficient, dimensional stability for toy set OEM supply"
+          ]
+        ]
+      },
+      "callout": "Toy set insert trays manufacturer Vapi — APET thermoformed toy set insert trays from our Vapi, Gujarat facility. Toy retail packaging Gujarat for toy brands and toy set companies. ISO 9001:2015 per production run.",
+      "eyClass": "gold"
     },
     {
       "ey": "Why Choose Trizen",
@@ -93,7 +165,8 @@
           "desc": "Toy set insert trays manufacturer from India for domestic toy brands and export toy programmes."
         }
       ],
-      "products": []
+      "products": [],
+      "eyClass": "green"
     }
   ],
   "midCtas": [

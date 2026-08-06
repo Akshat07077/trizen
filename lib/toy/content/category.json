@@ -110,7 +110,33 @@
       "st": "Materials for Toy Thermoforming Packaging",
       "leads": [],
       "strips": [],
-      "products": []
+      "products": [],
+      "table": {
+        "headers": [
+          "Material",
+          "Toy Packaging Application",
+          "Key Property"
+        ],
+        "rows": [
+          [
+            "APET (Crystal-Clear)",
+            "Primary toy packaging material — action figure blister packs, toy set insert trays, retail display packaging, toy retail blister packs",
+            "Crystal clarity for toy display, hero pose support, tamper-evident heat seal compatible, excellent thermoformability"
+          ],
+          [
+            "PETG (Premium Clarity)",
+            "Premium toy brand packaging and collector toy packaging requiring superior optical clarity",
+            "Superior optical clarity over APET, premium surface finish for luxury toy brand or collector item presentation"
+          ],
+          [
+            "PP",
+            "Bulk toy OEM supply trays, toy transit packaging, non-retail toy supply",
+            "Cost-efficient, dimensional stability, not for crystal-clear retail toy display applications"
+          ]
+        ]
+      },
+      "callout": "Toy packaging Gujarat — all toy thermoforming packaging tooling manufactured and held in-house at our Vapi, Gujarat facility. Bulk toy packaging from Vapi for toy brands and toy retail companies. ISO 9001:2015 batch documentation per production run. Toy thermoforming packaging manufacturer from India for domestic retail and export toy programmes.",
+      "eyClass": "gold"
     },
     {
       "ey": "Compliance & Certifications",
@@ -141,7 +167,8 @@
           "desc": "As a toy thermoforming packaging manufacturer from India, Trizen Packaging supplies toy packaging for domestic retail brands and export toy programmes."
         }
       ],
-      "products": []
+      "products": [],
+      "eyClass": "green"
     }
   ],
   "midCtas": [

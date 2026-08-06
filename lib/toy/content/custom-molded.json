@@ -22,7 +22,53 @@
         "Custom molded toy packs are required when the toy's unique three-dimensional profile, articulation, or accessory configuration cannot be accommodated by any standard thermoforming format. A transformer toy at mid-transformation, a creature toy with irregular organic geometry, a robot toy with extended sensor arms — each has a profile that requires custom thermoforming tooling from the physical toy in its exact display pose. The custom thermoforming process begins from the physical toy sample, not from standard formats."
       ],
       "strips": [],
-      "products": []
+      "products": [],
+      "table": {
+        "headers": [
+          "Product / Format",
+          "Packaging",
+          "Material",
+          "Key Requirement"
+        ],
+        "rows": [
+          [
+            "Transformer & Conversion Toy Packs",
+            "Custom APET blister — toy at display transformation state",
+            "APET crystal-clear",
+            "Transformation state geometry, all protrusions supported, no surface contact on painted areas"
+          ],
+          [
+            "Creature & Organic Form Toy Packs",
+            "Custom contour APET blister — organic toy profile",
+            "APET crystal-clear",
+            "Organic geometry cavity, no sharp protrusion stress, creature character visible"
+          ],
+          [
+            "Robot & Mech Toy Extended Packs",
+            "Custom APET blister — robot at maximum arm extension",
+            "APET crystal-clear",
+            "Extended arm cavity, weapon attachment supported, robot pose locked"
+          ],
+          [
+            "Limited Edition Collectible Toy Packs",
+            "Premium PETG custom blister for LE collectibles",
+            "PETG premium clarity",
+            "Collector presentation, superior clarity, unique edition format"
+          ],
+          [
+            "Toy Brand Exclusive Format Packs",
+            "Brand-exclusive APET format for toy brand packaging programme",
+            "APET crystal-clear",
+            "Brand-exclusive format, toy hero pose, brand packaging programme"
+          ],
+          [
+            "Custom Accessory & Upgrade Packs",
+            "Custom APET blister for toy upgrade and accessory packs",
+            "APET crystal-clear",
+            "Accessory display orientation, brand-consistent format, hero accessory visible"
+          ]
+        ]
+      }
     },
     {
       "ey": "Pain Points We Solve",
@@ -73,7 +119,33 @@
       "st": "Materials for Custom Molded Toy Packs",
       "leads": [],
       "strips": [],
-      "products": []
+      "products": [],
+      "table": {
+        "headers": [
+          "Material",
+          "Application",
+          "Key Property"
+        ],
+        "rows": [
+          [
+            "APET Crystal-Clear",
+            "Primary — transformer and conversion toys, creature toys, robot mech packs, brand exclusive formats",
+            "Crystal clarity for unique toy design display, custom cavity from physical toy"
+          ],
+          [
+            "PETG Premium Clarity",
+            "Limited edition collectibles and premium toy brand exclusive packs",
+            "Superior optical clarity communicates LE and collector tier positioning"
+          ],
+          [
+            "PP Standard",
+            "Custom OEM toy supply trays for unique toy profiles",
+            "Cost-efficient bulk transit for unique toy profiles"
+          ]
+        ]
+      },
+      "callout": "Custom molded toy packs Vapi — bespoke thermoformed APET and PETG custom toy packs from our Vapi, Gujarat facility. Toy packaging Gujarat for toy brands with unique toy geometry requirements. ISO 9001:2015 per production run.",
+      "eyClass": "gold"
     },
     {
       "ey": "Why Choose Trizen",
@@ -93,7 +165,8 @@
           "desc": "Custom molded toy packs manufacturer from India for domestic toy brands and export toy programmes."
         }
       ],
-      "products": []
+      "products": [],
+      "eyClass": "green"
     }
   ],
   "midCtas": [
