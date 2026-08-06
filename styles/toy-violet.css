@@ -26,7 +26,7 @@
 
 /*
   Hard layout lock: main LEFT | sidebar RIGHT.
-  Overrides conflicting layers from the extracted violet HTML CSS.
+  Sidebar stays sticky (does not scroll away with content).
 */
 .toy-page .page-wrap {
   display: grid !important;
@@ -37,6 +37,10 @@
   margin: 0 !important;
   padding: 0 3vw 85px !important;
   align-items: start !important;
+  overflow: visible !important;
+  transform: none !important;
+  filter: none !important;
+  contain: none !important;
 }
 
 .toy-page .page-wrap > main {
@@ -53,6 +57,7 @@
   z-index: 1 !important;
 }
 
+/* Outer sticky shell — no clip-path (clip-path breaks sticky in browsers) */
 .toy-page .page-wrap > .aside {
   display: block !important;
   visibility: visible !important;
@@ -63,25 +68,44 @@
   max-width: 300px !important;
   min-width: 0 !important;
   order: 2 !important;
+  position: -webkit-sticky !important;
   position: sticky !important;
   top: 100px !important;
   right: auto !important;
   left: auto !important;
   bottom: auto !important;
   inset: auto !important;
-  height: auto !important;
+  height: fit-content !important;
   max-height: calc(100vh - 120px) !important;
   overflow-x: hidden !important;
   overflow-y: auto !important;
   transform: none !important;
-  z-index: 2 !important;
+  filter: none !important;
+  clip-path: none !important;
+  z-index: 20 !important;
   align-self: start !important;
+  -webkit-align-self: start !important;
 }
 
-.toy-page .page-wrap > .aside.sidebar-fixed {
-  position: sticky !important;
+.toy-page .page-wrap > .aside.is-pinned {
+  position: fixed !important;
+  z-index: 30 !important;
+  margin: 0 !important;
   right: auto !important;
+  bottom: auto !important;
   transform: none !important;
+}
+
+.toy-page .aside-spacer {
+  grid-column: 2 !important;
+  grid-row: 1 !important;
+  width: 300px;
+  max-width: 300px;
+}
+
+/* Keep card visuals; shell stays unclipped for sticky */
+.toy-page .aside:before {
+  display: none !important;
 }
 
 @media (max-width: 1050px) and (min-width: 701px) {
@@ -113,6 +137,12 @@
     width: 100% !important;
     overflow: visible !important;
   }
+}
+
+/* overflow-x:hidden on html/body breaks sticky — neutralize on toy pages */
+html:has(.toy-page),
+body:has(.toy-page) {
+  overflow-x: visible !important;
 }
 
 /* Eyebrow label from data-label instead of automobile copy */
