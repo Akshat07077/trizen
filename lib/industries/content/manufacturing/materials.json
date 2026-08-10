@@ -3,16 +3,326 @@
   "industryId": "manufacturing",
   "title": "Thermoforming Packaging Materials | PP PETG PVC PVDC ABS ESD rPET | Trizen, Vapi India",
   "hero": {
-    "ey": "",
+    "ey": "Manufacturing Capabilities · Page 6 of 7 · Material Reference · Vapi",
     "titleMain": "Thermoforming Packaging Materials Supplier India",
     "titleTail": "PP, PETG, PVC, PVDC, ABS and ESD-Modified Grades Used at Vapi",
-    "desc": "The materials Trizen Packaging uses",
-    "chips": []
+    "desc": "The materials Trizen Packaging uses to manufacture custom thermoforming packaging for pharmaceutical, medical, automotive, FMCG, cosmetics, and industrial applications from our Vapi facility.",
+    "chips": [
+      "PP",
+      "PETG",
+      "APET",
+      "PVC / PVDC",
+      "HIPS / ABS",
+      "ESD PP/PETG",
+      "rPET"
+    ]
   },
-  "sections": [],
+  "sections": [
+    {
+      "ey": "What This Page Is",
+      "st": "Materials We Use to Manufacture Your Packaging",
+      "leads": [
+        "Trizen Packaging is a thermoforming packaging manufacturer in Vapi, India. We use PP, PETG, APET, PVC, PVDC, HIPS, ABS, ESD-modified PP and PETG, and recycled rPET to thermoform custom packaging for pharmaceutical, medical device, automotive, FMCG, cosmetics, electronics, and industrial applications.",
+        "We are not a plastic material manufacturer or distributor. The materials on this page are the thermoforming-grade plastics we process at our Vapi facility to make your packaging. Understanding which material we use — and why — helps you brief your requirement correctly and ensures the finished packaging meets your product, regulatory, and commercial requirements."
+      ],
+      "products": [],
+      "strips": []
+    },
+    {
+      "ey": "Materials We Work With",
+      "st": "8 Thermoforming Materials — What We Work With at Vapi",
+      "leads": [
+        "Each material has specific properties that make it the right choice for certain packaging applications. Here's what we use and why:"
+      ],
+      "products": [],
+      "strips": [
+        {
+          "title": "PP — Polypropylene",
+          "desc": "0.20–8.00mm · Translucent — Our most versatile material. High heat resistance (130°C), living hinge capability, available in medical and food-contact grades. Heavy gauge up to 8mm for industrial enclosures."
+        },
+        {
+          "title": "PETG — PET Glycol",
+          "desc": "0.20–4.00mm · High clarity — Preferred for medical device blister components and pharmaceutical trays. Outstanding thermoformability, no stress whitening, ETO and Gamma compatible. Density: 1.27 g/cm³."
+        },
+        {
+          "title": "APET — Amorphous PET",
+          "desc": "0.20–3.00mm · Max clarity — Used when maximum optical clarity is the priority. Lowest haze of any thermoforming material we use. BPA-free and Gamma stable. Food-contact grade available."
+        },
+        {
+          "title": "PVC",
+          "desc": "0.15–1.00mm · High clarity — Global standard for pharmaceutical blister packaging. We use PVC for oral solid dose pharma blister. WVTR: 3.0–5.0 g/m²/day. Heat-sealable with pharma foil."
+        },
+        {
+          "title": "PVDC",
+          "desc": "0.20–0.60mm · High clarity — Used when the drug product requires higher moisture barrier than PVC. WVTR: 0.5–2.0 g/m²/day. For moisture-sensitive and hygroscopic pharmaceutical products."
+        },
+        {
+          "title": "HIPS — High Impact PS",
+          "desc": "0.50–5.00mm · Opaque/Matte — Cost-efficient structural material we use for industrial trays and enclosures where clarity is not required. Max use temperature 70–80°C. Density: 1.04 g/cm³."
+        },
+        {
+          "title": "ABS",
+          "desc": "1.00–6.00mm · Premium finish — Used for premium industrial enclosures and structural panels. Surface finish comparable to injection moulding at thermoforming tooling cost. Max use temp 80–100°C."
+        },
+        {
+          "title": "ESD PP / PETG",
+          "desc": "0.30–3.00mm · ESD controlled — Used for electronics and automotive sensor packaging where static discharge would damage the product. Antistatic (10⁸–10¹² Ω/sq) or conductive (10⁴–10⁶ Ω/sq) grade."
+        }
+      ]
+    },
+    {
+      "ey": "Material Selection",
+      "st": "How to Choose the Right Material for Your Packaging",
+      "eyClass": "gold",
+      "leads": [
+        "When you brief a packaging requirement to Trizen Packaging, material selection is part of our design process. These five criteria determine which thermoforming material we use to manufacture your packaging:"
+      ],
+      "products": [],
+      "strips": [],
+      "table": {
+        "headers": [
+          "Selection Step",
+          "The Question We Answer",
+          "Material We Use"
+        ],
+        "rows": [
+          [
+            "Step 1 — RegulatoryApplied first — rules out incompatible materials",
+            "Pharmaceutical primary packaging? → We use pharma-grade PVC or PVDCSterile medical device packaging? → We use ETO/Gamma compatible PETG or PPFood-contact packaging? → We use food-grade PP or APETESD-sensitive components? → We use ESD-modified PP or PETGStandard commercial packaging? → We select the best-fit grade",
+            "Pharma: PVC or PVDCMedical: PETG or PPFood: PP or APET food gradeESD: ESD PP or PETGCommercial: best-fit grade"
+          ],
+          [
+            "Step 2 — Moisture BarrierPharmaceutical only",
+            "Low drug moisture sensitivity → PVC (WVTR 3.0–5.0 g/m²/day)Moderate sensitivity → PVDC (WVTR 0.5–2.0 g/m²/day)High / hygroscopic → Alu-Alu cold form (&lt;0.1 g/m²/day)",
+            "Low: PVCModerate: PVDCHigh: Alu-Alu"
+          ],
+          [
+            "Step 3 — Clarity",
+            "Maximum clarity → APET  |  High clarity → PETG or PVCTranslucent acceptable → PP  |  Opaque acceptable → HIPS or ABS",
+            "Max: APET · High: PETG/PVCTranslucent: PP · Opaque: HIPS/ABS"
+          ],
+          [
+            "Step 4 — Gauge",
+            "Thin blister 0.15–0.40mm → PVC, PETG, or APETStandard tray 0.40–2.00mm → PP, PETG, or HIPSHeavy structural 2.00–8.00mm → PP, HIPS, or ABS",
+            "Thin: PVC/PETG/APETStandard: PP/PETG/HIPSHeavy: PP/HIPS/ABS"
+          ],
+          [
+            "Step 5 — Sustainability",
+            "EPR obligation or recycled content requirement → We use rPET (30–100% PCR)Food-contact rPET needed → Confirm at brief stage",
+            "Recycled: rPET 30–100% PCR"
+          ]
+        ]
+      }
+    },
+    {
+      "ey": "Technical Reference",
+      "st": "Technical Properties Reference — All 8 Materials",
+      "eyClass": "gold",
+      "leads": [
+        "Reference data for all 8 thermoforming materials we process at Vapi. Confirm exact values against the material batch COA for each production run:"
+      ],
+      "products": [],
+      "strips": [],
+      "table": {
+        "headers": [
+          "Material",
+          "Forming Temp (°C)",
+          "Heat Resist (°C)",
+          "Density (g/cm³)",
+          "Tensile (MPa)",
+          "ETO",
+          "Gamma"
+        ],
+        "rows": [
+          [
+            "PP Std / Medical",
+            "150–175",
+            "115–130",
+            "0.90–0.91",
+            "25–40",
+            "✓",
+            "✓"
+          ],
+          [
+            "PETG Std / Medical",
+            "130–165",
+            "65–75",
+            "1.27",
+            "50–55",
+            "✓",
+            "✓"
+          ],
+          [
+            "APET Std / Food",
+            "130–165",
+            "70–80",
+            "1.33–1.35",
+            "55–65",
+            "Limited",
+            "✓"
+          ],
+          [
+            "PVC Std / Pharma",
+            "150–175",
+            "60–70",
+            "1.35–1.40",
+            "40–55",
+            "✓",
+            "Limited"
+          ],
+          [
+            "PVDC Pharma",
+            "155–180",
+            "60–65",
+            "1.65–1.75",
+            "35–50",
+            "✓",
+            "Limited"
+          ],
+          [
+            "HIPS Standard",
+            "155–185",
+            "70–80",
+            "1.03–1.06",
+            "20–35",
+            "✗",
+            "✗"
+          ],
+          [
+            "ABS Standard",
+            "175–210",
+            "80–100",
+            "1.03–1.06",
+            "35–50",
+            "✗",
+            "✗"
+          ],
+          [
+            "ESD PP / PETG",
+            "As base resin",
+            "As base resin",
+            "Base ± 5%",
+            "Similar",
+            "✓",
+            "✓"
+          ]
+        ]
+      }
+    },
+    {
+      "ey": "Regulatory Grades",
+      "st": "Sterilization Compatibility and Regulatory Material Grades",
+      "leads": [
+        "For regulated applications, we select the correct material grade and process it under the appropriate production standard. The grade is a specification of the material itself — confirmed on the material manufacturer's COA, which we obtain and pass to you:"
+      ],
+      "products": [],
+      "strips": [],
+      "table": {
+        "headers": [
+          "Application",
+          "Grade of Material We Use",
+          "Why This Grade",
+          "Documentation We Provide"
+        ],
+        "rows": [
+          [
+            "Medical device packaging",
+            "Medical-grade PETG or PP",
+            "Medical-grade material has been biocompatibility-evaluated by the material manufacturer — required for direct medical device contact applications.",
+            "Material COA (from material manufacturer) + GMP batch records + Cleanroom Class 8 production records"
+          ],
+          [
+            "Pharmaceutical blister (OSD)",
+            "Pharmaceutical-grade PVC or PVDC",
+            "Pharma-grade material is manufactured to pharmacopoeia specification — required for pharmaceutical primary packaging in direct drug contact.",
+            "Material COA (from material manufacturer, confirming pharma grade) + GMP batch records + seal integrity records"
+          ],
+          [
+            "Food-contact packaging",
+            "Food-grade PP or APET",
+            "Food-grade material manufactured to food-contact compliance standards by the material manufacturer — required for packaging in direct food contact.",
+            "Material COA (food-contact grade) + ISO 9001:2015 batch records"
+          ],
+          [
+            "ESD-sensitive components",
+            "ESD-modified PP or PETG (antistatic or conductive)",
+            "Protects components from electrostatic discharge during packaging and transit. Grade selected based on application surface resistivity requirement.",
+            "ESD material measurement data per batch + ISO 9001:2015 records"
+          ],
+          [
+            "ETO-compatible packaging",
+            "PP, PETG, APET, PVC, PVDC, ESD grades",
+            "These materials allow ETO gas penetration — the filled pack can be ETO-sterilized by the device manufacturer after product loading at their facility.",
+            "Material COA confirming ETO compatibility"
+          ],
+          [
+            "Gamma-stable packaging",
+            "PP, PETG, APET, ESD grades",
+            "Stable at 25–50 kGy gamma dose. We do not use PVC or PVDC for gamma-sterilized medical device packaging — these degrade at higher gamma doses.",
+            "Material COA confirming gamma stability"
+          ],
+          [
+            "Recycled content packaging",
+            "rPET 30%, 50%, 75%, or 100% PCR",
+            "Required when EPR obligation or brand sustainability commitment mandates documented recycled content in packaging.",
+            "PCR chain-of-custody from rPET material manufacturer + production batch records"
+          ]
+        ]
+      }
+    },
+    {
+      "ey": "Why It Matters",
+      "st": "Why the Right Material Choice Matters for Your Packaging",
+      "eyClass": "gold",
+      "leads": [],
+      "products": [],
+      "strips": [
+        {
+          "title": "01. Wrong Material = Product Failure",
+          "desc": "Using standard PVC for a hygroscopic drug product that needs PVDC or Alu-Alu will result in product degradation before shelf-life expires. Using HIPS for a medical device tray fails regulatory review. We identify and recommend the correct material grade as part of the packaging brief — included in our standard service, no extra cost."
+        },
+        {
+          "title": "02. Material Drives Compliance Documentation",
+          "desc": "For pharmaceutical and medical device applications, the material grade on the COA is a required document in your regulatory submission or supplier audit package. Our three certifications — ISO 9001:2015, GMP, Cleanroom Class 8 — combined with the material manufacturer's COA form the complete documentation set for your supplier qualification."
+        },
+        {
+          "title": "03. One Brief — Material Confirmed Before Tooling Begins",
+          "desc": "Submit your product sample, application, and regulatory requirements. We identify the correct thermoforming material, confirm grade availability, and include material confirmation in the design specification before tooling begins. No guesswork at your end."
+        },
+        {
+          "title": "04. ETO and Gamma Compatibility Is Determined by Material",
+          "desc": "If your device manufacturer will ETO or Gamma sterilize the packed product, the packaging material must be compatible. We select ETO and Gamma compatible materials (PETG, APET, PP) for medical device blister and tray applications automatically — it is part of our standard design process."
+        },
+        {
+          "title": "05. rPET for EPR and Sustainability Compliance",
+          "desc": "If your EPR obligation or brand packaging sustainability commitment requires recycled content, we manufacture your thermoformed packaging using rPET in 30% to 100% PCR content — with PCR chain-of-custody documentation from the material manufacturer included in production batch records."
+        }
+      ]
+    }
+  ],
   "midCtas": [],
-  "bottomCta": null,
-  "faqs": [],
+  "bottomCta": {
+    "title": "Tell Us Your Application — We Select the Right Material",
+    "text": "Submit your product sample and application requirement. We confirm the right thermoforming material, production standard, and documentation package — within 24 business hours."
+  },
+  "faqs": [
+    {
+      "q": "What thermoforming packaging materials does Trizen Packaging use?",
+      "a": "Trizen Packaging is a thermoforming packaging manufacturer — not a material supplier or distributor. We use the following thermoforming-grade materials at our Vapi facility to manufacture custom packaging: PP (standard, medical grade, food grade), PETG (standard and medical grade), APET (standard and food grade), PVC (standard and pharma grade), PVDC (pharma grade for high-barrier pharma blister), HIPS (industrial grade), ABS (standard), ESD-modified PP and PETG (antistatic and conductive grades), and rPET (30–100% PCR). The right material for your application is confirmed as part of the packaging design brief."
+    },
+    {
+      "q": "How does Trizen decide which material to use for my packaging?",
+      "a": "Material selection is part of our packaging design brief. Based on your product sample and application requirements, we select material using five criteria: regulatory requirement (pharmaceutical GMP, medical device, food contact, ESD), required moisture barrier (for pharmaceutical blister), clarity requirement, gauge and structural requirement, and any sustainability/recycled content obligation. Material selection is confirmed in writing before tooling begins."
+    },
+    {
+      "q": "What is a material COA and who issues it?",
+      "a": "A Certificate of Analysis (COA) is issued by the plastic material manufacturer confirming material identity, grade specification, and batch test results. For regulated pharmaceutical GMP and medical device production batches, we obtain the COA from the material manufacturer for every production run and include it in the documentation package we provide to you. We obtain and pass the COA — the COA is issued by the plastic material manufacturer, not by Trizen Packaging."
+    },
+    {
+      "q": "Which materials are ETO and Gamma sterilization compatible?",
+      "a": "ETO compatible materials we use: PP, PETG, APET, PVC, PVDC, ESD-modified PP and PETG. Gamma stable materials we use: PP, PETG, APET, ESD-modified PP and PETG. For medical device packaging requiring both ETO and Gamma compatibility, we use PETG or PP. PVC and PVDC are not used for gamma-sterilized medical device packaging."
+    }
+  ],
   "imageLabels": [
     "Product packaging",
     "Production facility Vapi"

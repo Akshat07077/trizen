@@ -22,7 +22,56 @@
         "Trizen Packaging manufactures pharmaceutical thermoforming packaging from our Cleanroom Class 8, GMP-compliant, ISO 9001:2015 certified facility in Vapi, Gujarat — custom thermoformed packaging components for the complete pharmaceutical product range. Pharmaceutical packaging manufacturer from Vapi for ampoule and vial trays, syringe trays and holders, sample kit packaging, strip and sachet packaging, diagnostic kit packaging, sterile packaging solutions, child-resistant packaging, and tamper-proof packaging. As a pharmaceutical thermoforming packaging manufacturer from India, we serve pharmaceutical companies, pharma exporters, and diagnostic kit manufacturers across India and for export.",
         "Pharmaceutical packaging requires GMP-documented manufacturing, cleanroom production for sterile packaging components, and material compatibility with pharmaceutical sterilization methods. Trizen manufactures the thermoformed packaging component — the blister base tray, vial tray, syringe tray, or diagnostic kit tray. Drug filling, foil sealing, batch printing, and serialisation are performed by the pharmaceutical manufacturer at their GMP-validated facility."
       ],
-      "products": [],
+      "products": [
+        {
+          "name": "Ampoule & Vial Trays",
+          "desc": "PETG thermoformed trays for ampoule and vial secondary packaging — glass ampoule protection, vial cap geometry, bulk OEM from Vapi. KD 7 · Vol 28.",
+          "link": "View sub-page →",
+          "href": "/pharmaceutical/ampoule"
+        },
+        {
+          "name": "Syringe Trays & Holders",
+          "desc": "Thermoformed syringe trays for prefilled and empty syringes — plunger protection, needle geometry, flange support. KD 7 · Vol 27.",
+          "link": "View sub-page →",
+          "href": "/pharmaceutical/syringe"
+        },
+        {
+          "name": "Sample Kit Packaging",
+          "desc": "Multi-component thermoformed trays for pharmaceutical sample kits and clinical sample packaging — all sample kit components organised.",
+          "link": "View sub-page →",
+          "href": "/pharmaceutical/sample-kit"
+        },
+        {
+          "name": "Strip & Sachet Packaging",
+          "desc": "Thermoformed strip and sachet packaging components for pharmaceutical dose packaging — APET and medical-grade PP formats.",
+          "link": "View sub-page →",
+          "href": "/pharmaceutical/strip"
+        },
+        {
+          "name": "Diagnostic Kit Packaging",
+          "desc": "Multi-component thermoformed trays for IVD diagnostic kits — all diagnostic kit components in defined positions. KD 7 · Vol 30.",
+          "link": "View sub-page →",
+          "href": "/pharmaceutical/diagnostic"
+        },
+        {
+          "name": "Sterile Packaging Solutions",
+          "desc": "Cleanroom Class 8 sterile thermoformed packaging components for pharmaceutical applications — tamper-evident, GMP-documented.",
+          "link": "View sub-page →",
+          "href": "/pharmaceutical/sterile"
+        },
+        {
+          "name": "Child-Resistant Packaging",
+          "desc": "Child-resistant thermoformed packaging for pharmaceutical products — compliant with international child-resistant packaging standards.",
+          "link": "View sub-page →",
+          "href": "/pharmaceutical/tamper-proof"
+        },
+        {
+          "name": "Tamper-Proof Packaging",
+          "desc": "Tamper-evident thermoformed pharmaceutical packaging — tamper proof container formats, tamper-evident blister components. KD 4 · Vol 32.",
+          "link": "View sub-page →",
+          "href": "/pharmaceutical/tamper-proof"
+        }
+      ],
       "strips": []
     },
     {
@@ -91,13 +140,6 @@
         ]
       },
       "callout": "Pharma packaging manufacturer Vapi Daman — pharmaceutical thermoforming packaging from our Cleanroom Class 8, GMP-compliant, ISO 9001:2015 certified facility in Vapi, Gujarat. Pharmaceutical packaging Gujarat for pharmaceutical companies and pharma exporters. Material CoA, GMP batch records, and ISO 9001:2015 documentation per production run. Pharmaceutical thermoforming packaging manufacturer from India."
-    },
-    {
-      "ey": "Compliance & Certifications",
-      "st": "Quality Certifications and Documentation",
-      "leads": [],
-      "products": [],
-      "strips": []
     },
     {
       "ey": "Why Choose Trizen",
@@ -169,14 +211,9 @@
     {
       "q": "Does Trizen manufacture tamper-proof and child-resistant pharmaceutical packaging?",
       "a": "Yes — thermoformed pharmaceutical packaging components designed for tamper-evidence compatibility (Schedule M, FDA) and child-resistance system compatibility (CPSC 16 CFR 1700, Schedule G). Packaging component designs confirmed from the pharmaceutical manufacturer's tamper-evidence and child-resistance validation specification."
-    },
-    {
-      "q": "What is the timeline for pharmaceutical packaging development?",
-      "a": "First article / prototype: 14 to 21 business days from technical drawing or product sample — cleanroom CNC tooling at Vapi. Production batch timeline confirmed at brief stage. GMP, Cleanroom Class 8, and ISO 9001:2015 documentation per production batch."
     }
   ],
   "imageLabels": [
-    "Product packaging",
-    "Production facility Vapi"
+    "Pharmaceutical Thermoforming Packaging Range"
   ]
 }

@@ -149,13 +149,6 @@
       "callout": "Tamper-proof packaging manufacturer Vapi — pharma-grade thermoformed tamper-proof and tamper-evident packaging from our Vapi, Gujarat facility. Tamper-proof packaging Gujarat for pharmaceutical companies. GMP, ISO 9001:2015 per production run."
     },
     {
-      "ey": "Compliance & Certifications",
-      "st": "Quality Certifications and Documentation",
-      "leads": [],
-      "products": [],
-      "strips": []
-    },
-    {
       "ey": "Why Choose Trizen",
       "st": "Why Pharmaceutical Companies Choose Trizen for Tamper-Proof Packaging",
       "eyClass": "green",
@@ -221,14 +214,10 @@
     {
       "q": "Prototype timeline?",
       "a": "First article: 14 to 21 business days from tamper-evidence specification and pharmaceutical product sample."
-    },
-    {
-      "q": "Export pharmaceutical tamper-proof programmes?",
-      "a": "GMP documentation and pharma-grade material CoA per batch for export pharmaceutical market tamper-evidence compliance."
     }
   ],
   "imageLabels": [
-    "Product packaging",
-    "Production facility Vapi"
+    "Tamper-Proof Packaging Hero",
+    "Tamper-Proof Packaging Detail"
   ]
 }

@@ -1,6 +1,5 @@
 {
   "slug": "set-inserts",
-  "industryId": "toy",
   "title": "Toy Set Insert Trays Manufacturer India | Toy Packaging Vapi | Trizen",
   "hero": {
     "ey": "Toy Set Insert Trays · Multi-Component · Vapi",
@@ -22,8 +21,8 @@
         "Trizen Packaging manufactures toy set insert trays from our ISO 9001:2015 certified facility in Vapi, Gujarat — custom APET thermoformed insert trays for the complete toy set range. Bulk toy retail packaging from Vapi for building sets, vehicle sets, figure playsets, game sets, and educational toy sets. As a toy set insert trays manufacturer from India, we supply multi-component APET trays for domestic toy retail and export toy programmes.",
         "Toy set insert trays manage 20 to 50 individual components in a single thermoformed tray — the challenge is not protecting one toy item but organising every component of a complex toy set for both transit safety and the unboxing experience. Every building set piece, every vehicle accessory, every playset character has its defined position in the tray. The unboxing moment — when the box lid is lifted revealing all components organised — is the child's first interaction with the toy brand."
       ],
-      "products": [],
       "strips": [],
+      "products": [],
       "table": {
         "headers": [
           "Product / Format",
@@ -75,7 +74,6 @@
       "ey": "Pain Points We Solve",
       "st": "Three Problems Toy Set Insert Trays Buyers Face",
       "leads": [],
-      "products": [],
       "strips": [
         {
           "title": "Missing Components — Loose Small Parts in Toy Set Packaging",
@@ -89,13 +87,13 @@
           "title": "Box Window Visibility — All Key Components Visible Through Box Window",
           "desc": "Problem: Toy set packaging where the box window shows secondary or filler components rather than the hero items (main vehicle, primary figure, key accessory) creates a weak retail shelf presentation. Solution: Component layout designed with hero items at the box window position — key components at maximum visibility through the box window."
         }
-      ]
+      ],
+      "products": []
     },
     {
       "ey": "Design Requirements",
       "st": "Toy Set Insert Trays — Key Design Requirements",
       "leads": [],
-      "products": [],
       "strips": [
         {
           "title": "Complete Component Inventory — Individual Cavity for Every Part",
@@ -113,15 +111,15 @@
           "title": "Size Variation Management — Large and Small Components in One Tray",
           "desc": "Toy sets containing large components (30cm vehicles) alongside small components (2cm connectors) require height variation management. Height grouping and fill platforms for short components. Confirmed from complete component inventory before design."
         }
-      ]
+      ],
+      "products": []
     },
     {
       "ey": "Materials",
       "st": "Materials for Toy Set Insert Trays",
-      "eyClass": "gold",
       "leads": [],
-      "products": [],
       "strips": [],
+      "products": [],
       "table": {
         "headers": [
           "Material",
@@ -146,14 +144,13 @@
           ]
         ]
       },
-      "callout": "Toy set insert trays manufacturer Vapi — APET thermoformed toy set insert trays from our Vapi, Gujarat facility. Toy retail packaging Gujarat for toy brands and toy set companies. ISO 9001:2015 per production run."
+      "callout": "Toy set insert trays manufacturer Vapi — APET thermoformed toy set insert trays from our Vapi, Gujarat facility. Toy retail packaging Gujarat for toy brands and toy set companies. ISO 9001:2015 per production run.",
+      "eyClass": "gold"
     },
     {
       "ey": "Why Choose Trizen",
       "st": "Why Brands Choose Trizen for Toy Set Insert Trays",
-      "eyClass": "green",
       "leads": [],
-      "products": [],
       "strips": [
         {
           "title": "Complete Component Inventory Confirmed Before Every Tray Design",
@@ -167,7 +164,9 @@
           "title": "Toy Set Insert Trays from India — Domestic and Export",
           "desc": "Toy set insert trays manufacturer from India for domestic toy brands and export toy programmes."
         }
-      ]
+      ],
+      "products": [],
+      "eyClass": "green"
     }
   ],
   "midCtas": [
@@ -220,8 +219,16 @@
       "a": "ISO 9001:2015 per batch for export toy market compliance."
     }
   ],
+  "band": {
+    "mainTitle": "Toy Set Insert Trays",
+    "mainText": "Custom APET thermoformed insert trays for toy sets — all toy set components in defined positions, set organisation for the unboxing experience. Bulk toy retail packaging from Vapi — ISO 9001:2015.",
+    "detailTitle": "Toy insert detail",
+    "detailText": "Close-up of cavity fit, display angle, retail tray detail, or molded insert geometry.",
+    "processTitle": "Bulk production",
+    "processText": "Forming, trimming, inspection, stacked trays, or dispatch-ready toy packaging."
+  },
   "imageLabels": [
-    "Product packaging",
-    "Production facility Vapi"
+    "Toy Packaging Range",
+    "Toy Packaging Production Vapi"
   ]
 }

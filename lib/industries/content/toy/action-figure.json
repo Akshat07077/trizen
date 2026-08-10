@@ -1,6 +1,5 @@
 {
   "slug": "action-figure",
-  "industryId": "toy",
   "title": "Action Figure Packs Manufacturer India | Toy Packaging Vapi | Trizen",
   "hero": {
     "ey": "Action Figure Packs · Hero Pose Display · Vapi",
@@ -22,8 +21,8 @@
         "Trizen Packaging manufactures action figure packs from our ISO 9001:2015 certified facility in Vapi, Gujarat — custom APET crystal-clear blister packs for action figures of all sizes and articulation levels. Bulk action figure packs from Vapi for toy brands, action figure companies, and toy retail distributors. As an OEM action figure packaging manufacturer from India, we supply APET blister packs for superhero figures, villain figures, vehicle packs, and multi-figure sets.",
         "Action figure blister packs are a specialised toy thermoforming application — the cavity must display the figure in its exact hero pose while simultaneously organising all accessories in clearly visible individual cavities. The child at the retail shelf sees the figure in its power pose with all its weapons and accessories. The APET crystal-clear cavity presents the figure with no visual obstruction — the toy's design, colour, and articulation are fully visible through the transparent packaging."
       ],
-      "products": [],
       "strips": [],
+      "products": [],
       "table": {
         "headers": [
           "Product / Format",
@@ -75,7 +74,6 @@
       "ey": "Pain Points We Solve",
       "st": "Three Problems Action Figure Packs Buyers Face",
       "leads": [],
-      "products": [],
       "strips": [
         {
           "title": "Hero Pose Collapse — Action Figure Falls from Display Position",
@@ -89,13 +87,13 @@
           "title": "Accessory Disorganisation — Weapons and Accessories Loose in Pack",
           "desc": "Problem: Action figure packs where accessories (weapons, shields, backpacks, effect pieces) are loose in the blister create a disordered pack appearance and risk of accessory loss at retail. Solution: Individual accessory cavity for every weapon and accessory in the figure's accessory roster. Accessory layout confirmed from complete accessory list before tooling."
         }
-      ]
+      ],
+      "products": []
     },
     {
       "ey": "Design Requirements",
       "st": "Action Figure Packs — Key Design Requirements",
       "leads": [],
-      "products": [],
       "strips": [
         {
           "title": "Hero Pose Cavity — Designed from Figure in Display Position",
@@ -113,15 +111,15 @@
           "title": "Paperboard Card Compatibility — Blister Flange Matched to Card",
           "desc": "APET blister heat-seal flange matched to the toy brand's standard paperboard card sealing specification. Card compatibility confirmed before tooling to ensure blister fits the card at the brand's existing sealing equipment."
         }
-      ]
+      ],
+      "products": []
     },
     {
       "ey": "Materials",
       "st": "Materials for Action Figure Packs",
-      "eyClass": "gold",
       "leads": [],
-      "products": [],
       "strips": [],
+      "products": [],
       "table": {
         "headers": [
           "Material",
@@ -146,14 +144,13 @@
           ]
         ]
       },
-      "callout": "Bulk action figure packs Vapi — APET crystal-clear action figure blister packs from our Vapi, Gujarat facility. Action figure packaging Gujarat for toy brands and action figure companies. ISO 9001:2015 per production run."
+      "callout": "Bulk action figure packs Vapi — APET crystal-clear action figure blister packs from our Vapi, Gujarat facility. Action figure packaging Gujarat for toy brands and action figure companies. ISO 9001:2015 per production run.",
+      "eyClass": "gold"
     },
     {
       "ey": "Why Choose Trizen",
       "st": "Why Brands Choose Trizen for Action Figure Packs",
-      "eyClass": "green",
       "leads": [],
-      "products": [],
       "strips": [
         {
           "title": "Hero Pose Cavity — Character Identity Confirmed on Prototype",
@@ -167,7 +164,9 @@
           "title": "Bulk Action Figure Packs from India — Domestic and Export",
           "desc": "OEM action figure packaging manufacturer from India for domestic toy brands and export toy programmes."
         }
-      ]
+      ],
+      "products": [],
+      "eyClass": "green"
     }
   ],
   "midCtas": [
@@ -220,8 +219,16 @@
       "a": "ISO 9001:2015 batch records per batch for export toy market compliance."
     }
   ],
+  "band": {
+    "mainTitle": "Action Figure Packs",
+    "mainText": "Custom APET crystal-clear blister packs for action figures — hero pose display, accessory organisation, character identity visible. Bulk action figure packs from Vapi — ISO 9001:2015 certified.",
+    "detailTitle": "Toy insert detail",
+    "detailText": "Close-up of cavity fit, display angle, retail tray detail, or molded insert geometry.",
+    "processTitle": "Bulk production",
+    "processText": "Forming, trimming, inspection, stacked trays, or dispatch-ready toy packaging."
+  },
   "imageLabels": [
-    "Product packaging",
-    "Production facility Vapi"
+    "Toy Packaging Range",
+    "Toy Packaging Production Vapi"
   ]
 }

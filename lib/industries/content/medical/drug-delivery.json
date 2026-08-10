@@ -16,6 +16,68 @@
   },
   "sections": [
     {
+      "ey": "PRIORITY: Medical Industry",
+      "st": "Drug Delivery Packaging Manufacturer India — Auto-Injector & Prefilled Syringe Packaging, Cleanroom Class 8",
+      "leads": [
+        "Trizen Packaging manufactures drug delivery packaging from our Cleanroom Class 8, GMP-compliant, ISO 9001:2015 certified facility in Vapi, Gujarat — custom PETG thermoformed packaging for auto-injectors, prefilled syringes, insulin pens, infusion pump components, inhalers, and drug delivery device packaging. Drug delivery packaging manufacturer from Vapi for pharmaceutical device companies and combination product manufacturers across India and for export.",
+        "Drug delivery packaging covers combination products — devices that contain or administer drugs — where the packaging must protect both the device mechanism and the drug product simultaneously. Auto-injector packaging must protect the needle safety mechanism from unintended actuation. Prefilled syringe trays must protect the plunger from movement, the needle from damage, and the syringe barrel from breakage. Insulin pen packaging must protect the dose mechanism from impact that could change the dose setting."
+      ],
+      "products": [],
+      "strips": [],
+      "table": {
+        "headers": [
+          "Medical Device / Application",
+          "Packaging Format",
+          "Material",
+          "Key Requirement"
+        ],
+        "rows": [
+          [
+            "Auto-Injector Packaging",
+            "PETG face seal blister tray — auto-injector in safety-locked orientation",
+            "Medical-grade PETG",
+            "Safety mechanism clearance — no actuation in packaging, device orientation locked"
+          ],
+          [
+            "Prefilled Syringe Trays",
+            "PETG thermoformed tray — syringe in plunger-protected orientation",
+            "Medical-grade PETG",
+            "Plunger back-clearance, needle tip protection, barrel support, label-visible"
+          ],
+          [
+            "Insulin Pen Packaging",
+            "PETG face seal blister — insulin pen in dose-mechanism-protected orientation",
+            "Medical-grade PETG",
+            "Dose mechanism no-contact, cap protection, pen body support"
+          ],
+          [
+            "Infusion Pump Component Packaging",
+            "Multi-component PETG tray — pump body and accessories",
+            "Medical-grade PETG",
+            "Pump mechanism protection, tubing geometry, sterile component presentation"
+          ],
+          [
+            "Inhaler Component Packaging",
+            "PETG tray — inhaler in mouthpiece-protected orientation",
+            "Medical-grade PETG",
+            "Mouthpiece protection, actuation mechanism clearance, sterile presentation"
+          ],
+          [
+            "Needle-Free Injector Packaging",
+            "PETG face seal blister — needle-free device protected",
+            "Medical-grade PETG",
+            "Actuation interface protection, drug contact surface clearance, sterile presentation"
+          ],
+          [
+            "Drug Delivery Combi Pack Trays",
+            "Multi-component PETG tray — device + ancillaries in kit format",
+            "Medical-grade PETG",
+            "Device and ancillary organisation, kit sterile presentation, face seal flange"
+          ]
+        ]
+      }
+    },
+    {
       "ey": "Device-Specific Packaging Challenges",
       "st": "Drug Delivery Packaging — Specific Technical Requirements",
       "leads": [],
@@ -93,13 +155,6 @@
       "callout": "Drug delivery packaging manufacturer Vapi — medical packaging manufacturer Gujarat for medical device companies. ISO 9001:2015 · GMP · Cleanroom Class 8 production at Vapi, Gujarat. Medical-grade PETG CoA, GMP batch records, and ISO 11607 compatible dimensional documentation per production run."
     },
     {
-      "ey": "Compliance & Certifications",
-      "st": "Quality Certifications and Regulatory Documentation",
-      "leads": [],
-      "products": [],
-      "strips": []
-    },
-    {
       "ey": "Why Choose Trizen",
       "st": "Why Medical Device Companies Choose Trizen for Drug Delivery Packaging",
       "eyClass": "green",
@@ -169,14 +224,10 @@
     {
       "q": "Prototype and production timeline?",
       "a": "First article: 14 to 21 business days from device technical drawing or sample — cleanroom CNC tooling at Vapi. ISO 9001:2015, GMP, and Cleanroom Class 8 documentation per production batch."
-    },
-    {
-      "q": "Does Trizen supply medical packaging for export markets?",
-      "a": "Yes — ISO 9001:2015, GMP, and medical-grade PETG CoA per batch for export medical device market compliance. Medical thermoforming packaging manufacturer from India for international medical device markets."
     }
   ],
   "imageLabels": [
-    "Product packaging",
-    "Production facility Vapi"
+    "Drug Delivery Packaging Hero",
+    "Drug Delivery Packaging Detail"
   ]
 }

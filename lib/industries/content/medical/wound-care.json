@@ -16,6 +16,68 @@
   },
   "sections": [
     {
+      "ey": "PRIORITY: Medical Industry",
+      "st": "Wound Care Packaging Manufacturer India — Dressing & Closure Device Packaging, Cleanroom Class 8 · Vapi",
+      "leads": [
+        "Trizen Packaging manufactures wound care packaging from our Cleanroom Class 8, GMP-compliant, ISO 9001:2015 certified facility in Vapi, Gujarat — custom PETG thermoformed packaging for the complete wound care device range. Wound care packaging manufacturer from Vapi for wound care device companies, surgical closure manufacturers, and negative pressure wound therapy device companies across India and for export.",
+        "Wound care medical device packaging covers devices applied directly to open wounds — the packaging sterile barrier integrity is directly patient-safety critical. Wound dressing packaging, skin stapler packaging, wound closure strip packaging, and negative pressure wound therapy (NPWT) device packaging all require cleanroom-manufactured, GMP-documented thermoformed components that maintain sterile barrier integrity through the distribution chain from manufacturing to the clinical point of use."
+      ],
+      "products": [],
+      "strips": [],
+      "table": {
+        "headers": [
+          "Medical Device / Application",
+          "Packaging Format",
+          "Material",
+          "Key Requirement"
+        ],
+        "rows": [
+          [
+            "Wound Dressing Component Packaging",
+            "PETG face seal blister — wound dressing in sterile presentation position",
+            "Medical-grade PETG",
+            "Wound contact surface clearance, face seal flange, sterile presentation"
+          ],
+          [
+            "Skin Stapler Packaging",
+            "PETG face seal blister tray — skin stapler in protective cavity",
+            "Medical-grade PETG",
+            "Stapler mechanism protection, jaw clearance, sterile presentation, face seal"
+          ],
+          [
+            "Wound Closure Strip Packaging",
+            "PETG face seal blister — closure strips in linear display position",
+            "Medical-grade PETG",
+            "Strip adhesive surface no-contact, face seal flange"
+          ],
+          [
+            "Negative Pressure Wound Therapy (NPWT) Device Packaging",
+            "PETG tray — NPWT device and canister in defined positions",
+            "Medical-grade PETG",
+            "Device geometry support, tubing organisation, sterile kit presentation"
+          ],
+          [
+            "Surgical Wound Drain Packaging",
+            "PETG face seal blister — drain tube in coiled format",
+            "Medical-grade PETG",
+            "Drain coil geometry, minimum bend radius, port protection, face seal"
+          ],
+          [
+            "Skin Closure Staple Remover Packaging",
+            "PETG blister tray — staple remover in handle-clearance cavity",
+            "Medical-grade PETG",
+            "Jaw mechanism clearance, patient-contact surface protection, sterile presentation"
+          ],
+          [
+            "Wound Care Kit Packaging",
+            "Multi-component PETG tray — complete wound care kit in clinical sequence",
+            "Medical-grade PETG",
+            "All kit components in clinical use sequence, sterile kit presentation"
+          ]
+        ]
+      }
+    },
+    {
       "ey": "Device-Specific Packaging Challenges",
       "st": "Wound Care Packaging — Specific Technical Requirements",
       "leads": [],
@@ -93,13 +155,6 @@
       "callout": "Wound care packaging manufacturer Vapi — medical packaging manufacturer Gujarat for medical device companies. ISO 9001:2015 · GMP · Cleanroom Class 8 production at Vapi, Gujarat. Medical-grade PETG CoA, GMP batch records, and ISO 11607 compatible dimensional documentation per production run."
     },
     {
-      "ey": "Compliance & Certifications",
-      "st": "Quality Certifications and Regulatory Documentation",
-      "leads": [],
-      "products": [],
-      "strips": []
-    },
-    {
       "ey": "Why Choose Trizen",
       "st": "Why Medical Device Companies Choose Trizen for Wound Care Packaging",
       "eyClass": "green",
@@ -169,14 +224,10 @@
     {
       "q": "Prototype and production timeline?",
       "a": "First article: 14 to 21 business days from device technical drawing or sample — cleanroom CNC tooling at Vapi. ISO 9001:2015, GMP, and Cleanroom Class 8 documentation per production batch."
-    },
-    {
-      "q": "Does Trizen supply medical packaging for export markets?",
-      "a": "Yes — ISO 9001:2015, GMP, and medical-grade PETG CoA per batch for export medical device market compliance. Medical thermoforming packaging manufacturer from India for international medical device markets."
     }
   ],
   "imageLabels": [
-    "Product packaging",
-    "Production facility Vapi"
+    "Wound Care Packaging Hero",
+    "Wound Care Packaging Detail"
   ]
 }

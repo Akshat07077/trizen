@@ -6,13 +6,351 @@
     "ey": "Manufacturing Capabilities · Page 1 of 7 · Est. 2005 · Vapi, Gujarat",
     "titleMain": "Thermoforming Packaging Manufacturer Vapi Gujarat",
     "titleTail": "Custom Sterile Trays, Blisters and Industrial Packaging",
-    "desc": "Custom thermoforming packaging for medical, pharmaceutical, automotive",
-    "chips": []
+    "desc": "Custom thermoforming packaging for medical, pharmaceutical, automotive and commercial industries since 2005. In-house CNC tooling at Vapi — prototype in 7 to 14 business days.",
+    "chips": [
+      "Vacuum Forming",
+      "Pressure Forming",
+      "Blister Packaging",
+      "Clamshell Packaging",
+      "Heavy-Gauge Enclosures",
+      "ISO 9001:2015"
+    ]
   },
-  "sections": [],
+  "sections": [
+    {
+      "ey": "Industry Challenges",
+      "st": "The Sourcing Challenge Every Packaging Buyer Faces in India",
+      "leads": [
+        "Procurement managers and quality engineers sourcing thermoforming packaging in India encounter the same three problems — and each adds weeks, cost, or compliance risk to the programme:",
+        "Trizen Packaging is a thermoforming packaging manufacturer in Vapi, Gujarat built specifically to solve all three problems from a single facility. In-house CNC tooling eliminates the outsourced delay — prototypes in 7 to 14 business days. Validated Cleanroom Class 1,00,000 (Class 8), GMP, and ISO 9001:2015 certificates cover regulated and commercial packaging from the same production floor.",
+        "As a thermoforming packaging manufacturer in Vapi, we eliminate the three most common sourcing failures in a single relationship. One supplier qualification, one documentation package, one team — for everything from sterile medical device trays to FMCG retail display packaging."
+      ],
+      "products": [],
+      "strips": [
+        {
+          "title": "Outsourced Tooling Delays",
+          "desc": "The manufacturer quotes 2 weeks. The tooling is outsourced to a third-party mould maker. The actual prototype arrives in 6 to 8 weeks. Product launch timelines slip. Regulatory submission windows are missed. Real cost: 4–8 weeks of unplanned delay per tooling iteration. Multiple iterations compound the damage."
+        },
+        {
+          "title": "No Regulated Industry Infrastructure",
+          "desc": "A supplier has capacity and price — but no GMP certificate, no Cleanroom classification, no documented batch records. Fine for commercial packaging. Completely disqualified for pharmaceutical or medical device supply. Real cost: Disqualified at supplier audit. Programme restart. 3–6 months lost and significant cost sunk."
+        },
+        {
+          "title": "Split-Supplier Complexity",
+          "desc": "Regulated packaging from one supplier. Commercial packaging from another. Two qualification processes, two quality audits, two sets of documentation, two lead times to manage. No single accountability. Real cost: Double supplier management overhead. Inconsistent quality standards across programmes."
+        }
+      ]
+    },
+    {
+      "ey": "Our Solutions",
+      "st": "Our Thermoforming Packaging Solutions — Process and Formats",
+      "eyClass": "gold",
+      "leads": [
+        "Custom thermoforming packaging converts thermoplastic sheet into precision rigid and semi-rigid packaging by heating it to forming temperature and drawing it against a CNC mould. The output is packaging engineered to the exact geometry of the product it protects — not a standard size, not a repurposed mould. Every mould at Trizen Packaging is designed and fabricated in-house at Vapi."
+      ],
+      "products": [
+        {
+          "name": "Thermoformed Trays",
+          "desc": "6mm IOL tray to 500mm automotive gearbox tray — one solution for every product shape.",
+          "link": "This page"
+        },
+        {
+          "name": "Vacuum Forming",
+          "desc": "~1 bar vacuum for standard shapes and high-volume commercial packaging programmes.",
+          "link": "Vacuum Forming →"
+        },
+        {
+          "name": "Pressure Forming",
+          "desc": "4–11 bar combined — fine detail, sharp corners, consistent deep-draw wall thickness.",
+          "link": "Pressure Forming →"
+        },
+        {
+          "name": "Blister Packaging",
+          "desc": "Thermoformed cavity + foil, Tyvek, or film lidding. Pharmaceutical and medical device formats.",
+          "link": "Blister Packaging →"
+        },
+        {
+          "name": "Clamshell Packaging",
+          "desc": "Two-part hinged packaging with heat-sealed or snap-close closure.",
+          "link": "Clamshell →"
+        },
+        {
+          "name": "Plastic Packaging Solutions",
+          "desc": "Thermoformed plastic packaging spanning multiple formats for OEM programmes.",
+          "link": "Plastic Packaging →"
+        }
+      ],
+      "strips": [],
+      "table": {
+        "headers": [
+          "Stage",
+          "What Happens",
+          "Control Point"
+        ],
+        "rows": [
+          [
+            "1Heat",
+            "Sheet heated to forming temperature. Infrared/ceramic elements controlled per material specification for uniform heat distribution across the forming area.",
+            "Sheet temperature uniformity critical for cavity depth consistency."
+          ],
+          [
+            "2Form",
+            "Vacuum forming (~1 bar): standard geometries, cost-efficient volume. Pressure forming (4–11 bar combined): precision cavities, fine detail, sharp corners, deep-draw wall thickness consistency.",
+            "Process selected from geometry, draw depth, and tolerance requirement."
+          ],
+          [
+            "3Trim",
+            "Formed sheet trimmed to individual part outline. Web removed. Trim accuracy determines edge quality and dimensional conformity.",
+            "Trim tool accuracy across entire production batch."
+          ],
+          [
+            "4Inspect",
+            "Dimensional inspection against design spec. GMP batch records completed for regulated programmes — batch number, material lot, process parameters, QC results.",
+            "Dimensional records. GMP batch records for regulated packaging."
+          ]
+        ]
+      }
+    },
+    {
+      "ey": "Materials",
+      "st": "Materials in Stock at Our Vapi Facility",
+      "eyClass": "gold",
+      "leads": [
+        "8 core thermoforming grades in stock — medical-grade, food-contact, and ESD-modified variants available. Material COAs provided per regulated production batch."
+      ],
+      "products": [],
+      "strips": [],
+      "table": {
+        "headers": [
+          "Material",
+          "Grade",
+          "Clarity",
+          "ETO",
+          "Gamma",
+          "Application"
+        ],
+        "rows": [
+          [
+            "PP — Polypropylene",
+            "Std · Medical · Food",
+            "Translucent",
+            "✓",
+            "✓",
+            "Medical trays, pharma, automotive, food produce, industrial"
+          ],
+          [
+            "PETG",
+            "Std · Medical",
+            "High clarity",
+            "✓",
+            "✓",
+            "Sterile medical trays, pharma blister, cosmetics, electronics"
+          ],
+          [
+            "APET",
+            "Std · Food",
+            "Max clarity",
+            "Ltd",
+            "✓",
+            "Premium cosmetic packaging, luxury gift set inserts"
+          ],
+          [
+            "PVC",
+            "Std · Pharma",
+            "High clarity",
+            "✓",
+            "Ltd",
+            "Pharmaceutical blister, retail blister, clamshells"
+          ],
+          [
+            "PVDC",
+            "Pharma",
+            "High clarity",
+            "✓",
+            "Ltd",
+            "High-barrier pharma blister for moisture-sensitive drugs"
+          ],
+          [
+            "HIPS",
+            "Standard",
+            "Opaque/matte",
+            "✗",
+            "✗",
+            "Industrial trays, machinery covers, large-format packaging"
+          ],
+          [
+            "ABS",
+            "Premium",
+            "Opaque, premium",
+            "✗",
+            "✗",
+            "Equipment enclosures, machinery casing, power tool packaging"
+          ],
+          [
+            "ESD PP/PETG",
+            "Antistatic · Cond.",
+            "ESD standard",
+            "✓",
+            "✓",
+            "Electronic trays, PCB packaging, sensor/ECU packaging"
+          ]
+        ]
+      }
+    },
+    {
+      "ey": "Industry Applications",
+      "st": "Industry Applications — How We Have Solved It Across Sectors",
+      "eyClass": "green",
+      "leads": [
+        "Thermoforming tray manufacturing at Trizen Packaging spans the full regulated and commercial spectrum. Each industry has different requirements — here is how we solve the packaging challenge for each:"
+      ],
+      "products": [],
+      "strips": [],
+      "table": {
+        "headers": [
+          "Industry",
+          "Problem Solved",
+          "Format Produced",
+          "Environment",
+          "Documentation"
+        ],
+        "rows": [
+          [
+            "Medical Devices",
+            "Sterile device packaging with exact cavity geometry. ETO/Gamma compatible. Aseptic peel-open for clinical use.",
+            "Sterile blister trays, peel-open device trays, surgical instrument trays",
+            "Cleanroom Class 8 + GMP",
+            "Cleanroom cert, env. monitoring, GMP batch records, COAs"
+          ],
+          [
+            "Pharmaceutical",
+            "GMP-validated blister packaging for tablets, capsules, injectables. CR and tamper-evident formats.",
+            "Blister packs (PVC/PVDC/APET), syringe trays, diagnostic kits, sample kits",
+            "GMP Validated",
+            "GMP batch records, COAs, in-process QC, outgoing inspection"
+          ],
+          [
+            "Automotive",
+            "Precision assembly line trays at exact component positions for robotic and manual assembly. ESD-safe electronic component protection.",
+            "Assembly line trays, mechanical parts packaging, ESD-safe sensor/ECU trays",
+            "ISO 9001:2015",
+            "Dimensional inspection, material batch documentation"
+          ],
+          [
+            "Cosmetics & Baby Care",
+            "Premium high-clarity APET/PETG inserts at luxury brand quality. BPA-free for baby care.",
+            "Perfume inserts, makeup kit trays, gift set trays, feeding bottle trays",
+            "ISO 9001:2015",
+            "Batch records, dimensional inspection per order"
+          ],
+          [
+            "FMCG",
+            "Retail display packaging for large FMCG brand programmes — confectionery gift trays, CDUs, shelf-ready formats.",
+            "Confectionery gift trays, shelf-ready packaging, counter display units",
+            "ISO 9001:2015",
+            "Batch records, dimensional inspection"
+          ],
+          [
+            "Electronics",
+            "ESD-safe protection for sensitive electronic components from static discharge during transit, storage, and automated assembly.",
+            "ESD-safe trays (antistatic + conductive), PCB packaging, connector trays",
+            "ISO 9001:2015 · ESD",
+            "ESD material cert, dimensional records"
+          ],
+          [
+            "️ Industrial",
+            "Heavy-gauge equipment enclosures and machinery casing in PP and ABS. 3mm to 8mm structural packaging.",
+            "Equipment enclosures, machinery casing, power tool packaging",
+            "ISO 9001:2015",
+            "Structural + dimensional inspection, batch docs"
+          ]
+        ]
+      }
+    },
+    {
+      "ey": "Why Trizen",
+      "st": "Why Choose a Thermoforming Packaging Manufacturer in Vapi, Gujarat?",
+      "eyClass": "gold",
+      "leads": [
+        "What distinguishes Trizen as a thermoforming packaging manufacturer is the combination of regulated industry infrastructure and commercial manufacturing efficiency — rarely found in the same Indian facility:"
+      ],
+      "products": [],
+      "strips": [
+        {
+          "title": "01. In-House CNC Tooling — Prototype in 7 to 14 Business Days",
+          "desc": "All thermoforming moulds designed and CNC-fabricated in-house at Vapi. No outsourced tooling delays. Prototypes in 7 to 14 business days from product sample. Rapid tooling revision when dimensions change — at a fraction of outsourced revision cost. This is the direct answer to the tooling delay problem described above."
+        },
+        {
+          "title": "02. 20+ Years of Thermoforming Specialisation (Since 2005)",
+          "desc": "Not a generalist plastics processor that added thermoforming. Two decades of singular focus — visible in tooling precision, process discipline, and the ability to design packaging for geometrically complex medical devices and pharmaceutical delivery systems that general thermoformers cannot accommodate."
+        },
+        {
+          "title": "03. Three Validated Certificates from One Facility",
+          "desc": "Cleanroom Class 1,00,000 (Class 8), GMP, and ISO 9001:2015 — all validated, documented, and available for supplier qualification before order placement. No thermoforming packaging manufacturer in the Vapi/Daman region holds all three validated certificates simultaneously from a single production facility."
+        },
+        {
+          "title": "04. Complete Documentation Package — No Audit Surprises",
+          "desc": "Medical device and pharmaceutical supplier audits require batch records, material COAs, dimensional inspection data, Cleanroom monitoring records, GMP validation, and ISO 9001:2015 certification. Trizen Packaging provides the complete package per batch — no missing documents discovered at audit time."
+        },
+        {
+          "title": "05. Vapi — Strategic Location for India's Supply Chains",
+          "desc": "Vapi and Daman sit at the junction of India's pharmaceutical corridor (Vadodara, Ankleshwar, Mumbai) and the western India automotive and FMCG supply chain (Rajkot, Pune, Sanand). Direct supply to pharma plants, medical device assembly, and automotive component suppliers without long-haul logistics overhead."
+        }
+      ]
+    },
+    {
+      "ey": "Market Insights",
+      "st": "Market Insights — Thermoforming Packaging Industry",
+      "eyClass": "gold",
+      "leads": [],
+      "products": [
+        {
+          "name": "Sustainability: The rPET Revolution — Recycled Thermoforming Packaging in India",
+          "desc": "rPET vs virgin PET, PCR content, EPR regulations, and recycled content in Indian packaging procurement.",
+          "link": "Read Article →"
+        },
+        {
+          "name": "Process Guide: Vacuum vs Pressure Forming — Which Process Does Your Packaging Need?",
+          "desc": "Process comparison, forming pressure values, application decision table, and cost implications.",
+          "link": "Read Article →"
+        },
+        {
+          "name": "Medical & Pharma: Why Medical and Pharmaceutical Packaging Relies on Thermoforming",
+          "desc": "Sterile barrier systems, Cleanroom requirements, sterilization compatibility, and GMP documentation.",
+          "link": "Read Article →"
+        },
+        {
+          "name": "Industry 4.0: How Industry 4.0 is Changing Packaging Manufacturing in India",
+          "desc": "Automation, IoT monitoring, digital twins, and AI quality inspection for thermoforming buyers.",
+          "link": "Read Article →"
+        }
+      ],
+      "strips": []
+    }
+  ],
   "midCtas": [],
-  "bottomCta": null,
-  "faqs": [],
+  "bottomCta": {
+    "title": "Ready to Solve Your Thermoforming Packaging Challenge?",
+    "text": "Submit your product sample or brief. Our team at Vapi responds within 24 business hours — process recommendation, material selection, and indicative tooling cost included."
+  },
+  "faqs": [
+    {
+      "q": "What does a thermoforming packaging manufacturer in Vapi, Gujarat produce?",
+      "a": "A thermoforming packaging manufacturer in Vapi, Gujarat like Trizen Packaging produces rigid and semi-rigid plastic packaging — custom product trays, pharmaceutical blister packs, retail clamshell packs, protective inserts, and heavy-gauge industrial enclosures. Every tray is moulded to the specific geometry of the product it holds using CNC tooling designed for that product — not a generic standard mould adapted from a catalogue."
+    },
+    {
+      "q": "What is the difference between vacuum forming and pressure forming?",
+      "a": "Vacuum forming uses ~1 bar atmospheric vacuum to draw the heated sheet against the mould — for standard geometries, moderate draw depths, and cost-efficient volume. Pressure forming adds compressed air (4–11 bar combined) driving the sheet into fine mould detail, sharp corners, and consistent deep-draw wall thickness. Both processes are operated in-house at Vapi. Process is recommended from your product geometry and tolerance requirement."
+    },
+    {
+      "q": "How long from product sample to first prototype?",
+      "a": "7 to 14 business days from product sample to first physical prototype — including cavity design, CNC mould fabrication at Vapi, and dimensional inspection. All tooling in-house. No outsourced delays. Typically 2 to 4 weeks faster than manufacturers using outsourced tooling."
+    },
+    {
+      "q": "Can Trizen produce regulated thermoforming packaging for medical and pharmaceutical applications?",
+      "a": "Yes. Trizen Packaging holds validated Cleanroom Class 1,00,000 (Class 8) and GMP certificates — both in documented form, available for supplier qualification before order placement. The complete three-certificate package (Cleanroom Class 8, GMP, ISO 9001:2015) covers all regulated packaging supplier qualification requirements."
+    }
+  ],
   "imageLabels": [
     "Product packaging",
     "Production facility Vapi"

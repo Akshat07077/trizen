@@ -16,6 +16,68 @@
   },
   "sections": [
     {
+      "ey": "PRIORITY: Medical Industry",
+      "st": "Orthopedics Packaging Manufacturer India — Implant Trays, Skin Stapler Packaging, Cleanroom Class 8 · Vapi",
+      "leads": [
+        "Trizen Packaging manufactures orthopedics packaging from our Cleanroom Class 8, GMP-compliant, ISO 9001:2015 certified facility in Vapi, Gujarat — custom PETG thermoformed orthopedic implant trays, skin stapler packaging components, bone screw and plate packaging, dental implant trays, and orthopedic surgical kit inserts. Orthopedic packaging manufacturer from Vapi for orthopedic device companies, implant manufacturers, and surgical instrument companies across India and for export.",
+        "Orthopedic implant packaging is among the most demanding medical packaging applications — orthopedic implants (hip stems, knee components, bone plates, screws, dental implants) are high-value, patient-contact devices that must be delivered sterile and undamaged. The thermoformed PETG tray must protect the implant surface from mechanical damage, hold the implant in the correct sterile presentation position, and provide the heat-seal flange geometry for Tyvek lidding by the orthopedic device manufacturer."
+      ],
+      "products": [],
+      "strips": [],
+      "table": {
+        "headers": [
+          "Medical Device / Application",
+          "Packaging Format",
+          "Material",
+          "Key Requirement"
+        ],
+        "rows": [
+          [
+            "Hip & Knee Implant Trays",
+            "PETG face seal blister tray — implant in sterile presentation position",
+            "Medical-grade PETG",
+            "Implant surface no-contact zones, face seal flange geometry, EO compatible"
+          ],
+          [
+            "Orthopedic Bone Plate & Screw Packaging",
+            "PETG face seal blister tray — plate + screws in defined positions",
+            "Medical-grade PETG",
+            "Plate surface protection, screw array cavity, face seal flange"
+          ],
+          [
+            "Skin Stapler Trays",
+            "PETG thermoformed tray — stapler in protective cavity",
+            "Medical-grade PETG",
+            "Stapler mechanism protection, sterile presentation, face seal flange"
+          ],
+          [
+            "Dental Implant Trays",
+            "Multi-cavity PETG tray — implant components in defined positions",
+            "Medical-grade PETG",
+            "Implant surface protection, fixture and abutment cavities, sterile presentation"
+          ],
+          [
+            "Shoulder & Ankle Implant Packaging",
+            "PETG face seal blister — implant in sterile presentation",
+            "Medical-grade PETG",
+            "Implant geometry support, articular surface protection, face seal flange"
+          ],
+          [
+            "Orthopedic Surgical Instrument Trays",
+            "PETG tray — surgical instruments organised in kit sequence",
+            "Medical-grade PETG",
+            "Instrument surface protection, cutting edge clearance, sterile kit presentation"
+          ],
+          [
+            "Trocar Packaging Blister Trays",
+            "PETG face seal blister for trocar and cannula",
+            "Medical-grade PETG",
+            "Trocar tip protection, cannula geometry support, face seal flange for Tyvek"
+          ]
+        ]
+      }
+    },
+    {
       "ey": "Device-Specific Packaging Challenges",
       "st": "Orthopedics Packaging — Specific Technical Requirements",
       "leads": [],
@@ -93,13 +155,6 @@
       "callout": "Orthopedic packaging manufacturer Vapi — medical packaging manufacturer Gujarat for medical device companies. ISO 9001:2015 · GMP · Cleanroom Class 8 production at Vapi, Gujarat. Medical-grade PETG CoA, GMP batch records, and ISO 11607 compatible dimensional documentation per production run."
     },
     {
-      "ey": "Compliance & Certifications",
-      "st": "Quality Certifications and Regulatory Documentation",
-      "leads": [],
-      "products": [],
-      "strips": []
-    },
-    {
       "ey": "Why Choose Trizen",
       "st": "Why Medical Device Companies Choose Trizen for Orthopedics Packaging",
       "eyClass": "green",
@@ -169,14 +224,10 @@
     {
       "q": "Prototype and production timeline?",
       "a": "First article: 14 to 21 business days from device technical drawing or sample — cleanroom CNC tooling at Vapi. ISO 9001:2015, GMP, and Cleanroom Class 8 documentation per production batch."
-    },
-    {
-      "q": "Does Trizen supply medical packaging for export markets?",
-      "a": "Yes — ISO 9001:2015, GMP, and medical-grade PETG CoA per batch for export medical device market compliance. Medical thermoforming packaging manufacturer from India for international medical device markets."
     }
   ],
   "imageLabels": [
-    "Product packaging",
-    "Production facility Vapi"
+    "Orthopedics Packaging Hero",
+    "Orthopedics Packaging Detail"
   ]
 }

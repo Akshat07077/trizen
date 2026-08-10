@@ -1,6 +1,5 @@
 {
   "slug": "packaging-trays",
-  "industryId": "toy",
   "title": "Toy Packaging Trays Manufacturer India | Toy Packaging Vapi | Trizen",
   "hero": {
     "ey": "Toy Packaging Trays · APET · Vapi",
@@ -22,8 +21,8 @@
         "Trizen Packaging manufactures toy packaging trays from our ISO 9001:2015 certified facility in Vapi, Gujarat — custom APET and PP thermoformed trays for the complete toy range. Bulk toy packaging manufacturer Vapi for toy brands, toy retail companies, and toy OEM manufacturers across India. As a toy packaging trays manufacturer from India, we supply APET retail toy trays and PP bulk OEM supply trays for domestic toy retail and export toy programmes.",
         "Toy packaging trays serve two distinct market applications with different material requirements. Retail toy packaging trays use APET crystal-clear — the toy must be visible through the tray for the child's purchase decision at the retail shelf. Bulk OEM toy supply trays use PP — maximum toy count per pallet with transit protection for the toy manufacturer's supply chain. Both applications are available from our Vapi facility."
       ],
-      "products": [],
       "strips": [],
+      "products": [],
       "table": {
         "headers": [
           "Product / Format",
@@ -75,7 +74,6 @@
       "ey": "Pain Points We Solve",
       "st": "Three Problems Toy Packaging Trays Buyers Face",
       "leads": [],
-      "products": [],
       "strips": [
         {
           "title": "Toy Not Visible in Retail Packaging — Child's Purchase Signal Lost",
@@ -89,13 +87,13 @@
           "title": "OEM Supply Tray Too Thin — Collapses Under Pallet Stack",
           "desc": "Problem: Standard gauge PP toy supply trays deform under the combined weight of multiple toy units and pallet stack loads. Solution: PP tray wall thickness confirmed from toy unit weight and pallet stack load specification — maintains tray geometry throughout supply chain."
         }
-      ]
+      ],
+      "products": []
     },
     {
       "ey": "Design Requirements",
       "st": "Toy Packaging Trays — Key Design Requirements",
       "leads": [],
-      "products": [],
       "strips": [
         {
           "title": "APET Crystal-Clear for Retail — PP for OEM Supply",
@@ -109,15 +107,15 @@
           "title": "OEM Supply Tray Engineering — Weight and Stack Load Rated",
           "desc": "PP tray wall thickness confirmed from toy unit weight and pallet stack specification. Maximum toy count per tray balanced against structural integrity under stack load."
         }
-      ]
+      ],
+      "products": []
     },
     {
       "ey": "Materials",
       "st": "Materials for Toy Packaging Trays",
-      "eyClass": "gold",
       "leads": [],
-      "products": [],
       "strips": [],
+      "products": [],
       "table": {
         "headers": [
           "Material",
@@ -142,14 +140,13 @@
           ]
         ]
       },
-      "callout": "Bulk toy packaging manufacturer Vapi — APET and PP thermoformed toy packaging trays from our Vapi, Gujarat facility. Toy packaging Gujarat for toy brands and toy retail companies. ISO 9001:2015 per production run."
+      "callout": "Bulk toy packaging manufacturer Vapi — APET and PP thermoformed toy packaging trays from our Vapi, Gujarat facility. Toy packaging Gujarat for toy brands and toy retail companies. ISO 9001:2015 per production run.",
+      "eyClass": "gold"
     },
     {
       "ey": "Why Choose Trizen",
       "st": "Why Brands Choose Trizen for Toy Packaging Trays",
-      "eyClass": "green",
       "leads": [],
-      "products": [],
       "strips": [
         {
           "title": "APET Crystal-Clear Retail and PP OEM Supply — Both Available",
@@ -163,7 +160,9 @@
           "title": "Bulk Toy Packaging from India — Domestic and Export",
           "desc": "Toy packaging trays manufacturer from India for domestic toy retail brands and export toy programmes."
         }
-      ]
+      ],
+      "products": [],
+      "eyClass": "green"
     }
   ],
   "midCtas": [
@@ -216,8 +215,16 @@
       "a": "ISO 9001:2015 per batch for export toy market compliance."
     }
   ],
+  "band": {
+    "mainTitle": "Toy Packaging Trays",
+    "mainText": "Custom APET and PP thermoformed toy packaging trays for the complete toy range — general toy retail packaging, bulk toy OEM supply trays, toy brand retail programme packaging. Bulk toy packaging from Vapi — ISO 9001:2015.",
+    "detailTitle": "Toy insert detail",
+    "detailText": "Close-up of cavity fit, display angle, retail tray detail, or molded insert geometry.",
+    "processTitle": "Bulk production",
+    "processText": "Forming, trimming, inspection, stacked trays, or dispatch-ready toy packaging."
+  },
   "imageLabels": [
-    "Product packaging",
-    "Production facility Vapi"
+    "Toy Packaging Range",
+    "Toy Packaging Production Vapi"
   ]
 }

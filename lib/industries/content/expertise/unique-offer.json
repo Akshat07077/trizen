@@ -6,13 +6,142 @@
     "ey": "Our Expertise · A Unique Offer · Vapi, Gujarat · Est. 2005",
     "titleMain": "A Unique Offer",
     "titleTail": "What Makes Trizen a Specialized Thermoforming Manufacturer India, Vapi Gujarat",
-    "desc": "Not a generalist plastics processor. Not a distributor. A dedicated thermoforming packaging manufacturer",
-    "chips": []
+    "desc": "Not a generalist plastics processor. Not a distributor. A dedicated thermoforming packaging manufacturer since 2005 — with 6 specific differentiators no generic thermoformer combines.",
+    "chips": [
+      "ISO 9001:2015",
+      "GMP Validated",
+      "Cleanroom Class 8",
+      "In-House Tooling",
+      "6 Formats",
+      "20+ Years Est. 2005"
+    ]
   },
-  "sections": [],
+  "sections": [
+    {
+      "ey": "What Sets Us Apart",
+      "st": "What Sets a Specialized Thermoforming Manufacturer Apart",
+      "eyClass": "gold",
+      "leads": [
+        "Trizen Packaging is a specialized thermoforming manufacturer in India — a packaging manufacturer with a single, unambiguous specialisation: thermoforming. Not a packaging company that does thermoforming among other processes. A dedicated thermoforming packaging manufacturer, since 2005, in Vapi, Gujarat.",
+        "The difference between a differentiated plastic packaging manufacturer and a generalist is the accumulation of 20 years of exclusive focus — the depth of tooling capability, material expertise, and regulatory documentation that comes with it. Here is exactly what makes Trizen's offer different from a generic thermoformer."
+      ],
+      "products": [],
+      "strips": []
+    },
+    {
+      "ey": "In Practice",
+      "st": "What This Means in Practice — Real Buyer Scenarios",
+      "eyClass": "gold",
+      "leads": [
+        "Value-added custom packaging solutions are easiest to understand through real packaging programme scenarios:"
+      ],
+      "products": [],
+      "strips": [],
+      "table": {
+        "headers": [
+          "Buyer Situation",
+          "Without Trizen's Unique Offer",
+          "With Trizen Packaging"
+        ],
+        "rows": [
+          [
+            "Pharmaceutical company needing both GMP blister and commercial FMCG gift trays",
+            "Two separate suppliers. Two qualification audits. Two documentation systems. Two tooling lead times.",
+            "One qualification at Vapi covers both GMP blister and commercial gift tray manufacturing. One documentation system. One contact."
+          ],
+          [
+            "Medical device OEM needing Tyvek blister components AND product trays for the same device",
+            "Tyvek blister from a regulated specialist. Trays from a standard tray manufacturer. Two audits, two COA chains, two batch record formats.",
+            "Both manufactured in Cleanroom Class 8 at Vapi. One supplier qualification. One GMP documentation package."
+          ],
+          [
+            "FMCG brand needing a packaging prototype quickly",
+            "Commission tool room for tooling — 6 to 12 weeks. Then commission thermoformer. Two-stage, two-supplier process.",
+            "In-house design + in-house CNC tooling + in-house thermoforming at Vapi. Prototype in 7 to 14 business days. One stage."
+          ],
+          [
+            "Automotive OEM needing standard component trays AND ESD-safe ECU packaging",
+            "Standard tray supplier for general trays. Separate ESD packaging specialist for ECU packaging. Two suppliers, two tooling relationships.",
+            "Both standard thermoformed trays and ESD-modified component trays manufactured at Vapi. One supplier, one documentation system."
+          ]
+        ]
+      }
+    },
+    {
+      "ey": "End-to-End Process",
+      "st": "Premium Custom Packaging — End-to-End from Brief to Delivery",
+      "eyClass": "gold",
+      "leads": [
+        "Trizen Packaging is a premium custom packaging manufacturer in India — premium in the sense of what is delivered: packaging engineered for the specific product, application, and regulatory requirement rather than adapted from a standard format."
+      ],
+      "products": [],
+      "strips": [],
+      "table": {
+        "headers": [
+          "Stage",
+          "What Trizen Delivers",
+          "Timeline"
+        ],
+        "rows": [
+          [
+            "1. Brief & Consultation",
+            "Review of product sample, application, regulatory requirements, and commercial brief. Material and format recommendation. Free of charge.",
+            "Same day or next business day"
+          ],
+          [
+            "2. Design",
+            "In-house cavity geometry design — depth, wall thickness, insertion/removal features, stacking, sealing flange profile, ESD requirements where applicable.",
+            "2–5 business days from brief"
+          ],
+          [
+            "3. Prototype Tooling",
+            "CNC prototype tooling fabricated in-house at Vapi. No outsourcing. Design specifically for thermoforming cavity geometry.",
+            "7–14 business days from approved design"
+          ],
+          [
+            "4. Prototype Review",
+            "First physical prototype delivered. Dimensional check against product. Up to 2 tooling refinements included for standard specifications.",
+            "Refinement within 5 days of feedback"
+          ],
+          [
+            "5. Production",
+            "Full production under ISO 9001:2015, GMP, or Cleanroom Class 8 as applicable. Complete batch documentation with shipment.",
+            "Confirmed at order stage"
+          ],
+          [
+            "6. Documentation",
+            "GMP batch records, material COAs, in-process QC, and outgoing inspection — delivered with every regulated batch as standard.",
+            "With every regulated shipment"
+          ]
+        ]
+      }
+    },
+    {
+      "ey": "Why Choose a Specialist",
+      "st": "Why Choose a Specialized Thermoforming Manufacturer?",
+      "eyClass": "gold",
+      "leads": [
+        "The right specialized thermoforming manufacturer brings process knowledge, material expertise, and regulatory capability that makes your packaging programme work without friction."
+      ],
+      "products": [],
+      "strips": []
+    }
+  ],
   "midCtas": [],
-  "bottomCta": null,
-  "faqs": [],
+  "bottomCta": {
+    "title": "Experience the Difference of a Specialist Thermoforming Manufacturer",
+    "text": "Submit your product sample or packaging brief. Our team responds within 24 business hours with format, material, and timeline."
+  },
+  "faqs": [
+    {
+      "q": "What makes Trizen a specialized thermoforming manufacturer in India?",
+      "a": "Trizen Packaging is a specialized thermoforming manufacturer in India built on 20 years of exclusive thermoforming focus at Vapi since 2005. Six differentiators: regulated + commercial from one facility, in-house CNC tooling (prototype 7–14 days), 6 complete thermoforming formats, medical device blister components and pharmaceutical GMP simultaneously, 20+ years exclusive specialisation, and three validated certifications (ISO 9001:2015, GMP, Cleanroom Class 8) at one Vapi facility."
+    },
+    {
+      "q": "How does in-house tooling make Trizen unique?",
+      "a": "All thermoforming moulds at Trizen Packaging are designed and CNC-fabricated in-house at Vapi — not outsourced to a third-party tool room. This means: new thermoforming packaging prototype in 7 to 14 business days, tooling designed specifically for thermoforming cavity geometry, and modifications handled without coordination delays between a toolmaker and a thermoformer."
+    }
+  ],
   "imageLabels": [
     "Product packaging",
     "Production facility Vapi"

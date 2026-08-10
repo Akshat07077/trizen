@@ -1,6 +1,5 @@
 {
   "slug": "retail-display",
-  "industryId": "toy",
   "title": "Retail Display Packaging for Toys Manufacturer India | Toy Packaging Vapi | Trizen",
   "hero": {
     "ey": "Retail Display Packaging · Toys · Vapi",
@@ -22,8 +21,8 @@
         "Trizen Packaging manufactures retail display packaging for toys from our ISO 9001:2015 certified facility in Vapi, Gujarat — custom APET crystal-clear retail display formats for the complete toy retail range. Bulk toy retail packaging from Vapi for hanging blister packs, counter display trays, shelf display inserts, and peg display toy packaging for toy brands and toy retail companies. As a retail display packaging toys manufacturer from India, we supply APET toy retail packaging for domestic toy retail and export toy market programmes.",
         "Toy retail display packaging is the toy at the retail shelf — the packaging format that presents the toy to the child and parent at the point of purchase. Hanging blister packs, counter display trays, and shelf display inserts must all achieve the same objective: maximum toy visibility in the correct display orientation with the toy's hero features prominently visible. APET crystal-clear thermoforming is the standard — the toy is the retail communication, not the packaging."
       ],
-      "products": [],
       "strips": [],
+      "products": [],
       "table": {
         "headers": [
           "Product / Format",
@@ -75,7 +74,6 @@
       "ey": "Pain Points We Solve",
       "st": "Three Problems Retail Display Packaging for Toys Buyers Face",
       "leads": [],
-      "products": [],
       "strips": [
         {
           "title": "Toy Display Orientation — Wrong Facing at Retail Shelf",
@@ -89,13 +87,13 @@
           "title": "Counter Display Stability — Toy Tray Tips Under Product Load",
           "desc": "Problem: Counter display toy trays that tip or are unstable under the combined weight of multiple toys damage the retail display quality. Solution: Counter display tray base dimensions and structural geometry confirmed from the toy weight and counter display unit specification."
         }
-      ]
+      ],
+      "products": []
     },
     {
       "ey": "Design Requirements",
       "st": "Retail Display Packaging for Toys — Key Design Requirements",
       "leads": [],
-      "products": [],
       "strips": [
         {
           "title": "Retail Shelf Orientation — Display Position Specific",
@@ -113,15 +111,15 @@
           "title": "Peg Display Compatibility — Hanging Format Requirements",
           "desc": "Hanging toy blister packs designed with hanging hole geometry matching the toy retail peg system specification. Hole position, diameter, and blister weight distribution confirmed for the standard peg system."
         }
-      ]
+      ],
+      "products": []
     },
     {
       "ey": "Materials",
       "st": "Materials for Retail Display Packaging for Toys",
-      "eyClass": "gold",
       "leads": [],
-      "products": [],
       "strips": [],
+      "products": [],
       "table": {
         "headers": [
           "Material",
@@ -146,14 +144,13 @@
           ]
         ]
       },
-      "callout": "Bulk toy retail packaging Vapi — APET crystal-clear retail display toy packaging from our Vapi, Gujarat facility. Toy display packaging Gujarat for toy brands and toy retail companies. ISO 9001:2015 per production run."
+      "callout": "Bulk toy retail packaging Vapi — APET crystal-clear retail display toy packaging from our Vapi, Gujarat facility. Toy display packaging Gujarat for toy brands and toy retail companies. ISO 9001:2015 per production run.",
+      "eyClass": "gold"
     },
     {
       "ey": "Why Choose Trizen",
       "st": "Why Brands Choose Trizen for Retail Display Packaging for Toys",
-      "eyClass": "green",
       "leads": [],
-      "products": [],
       "strips": [
         {
           "title": "Retail Orientation Confirmed from Display Position",
@@ -167,7 +164,9 @@
           "title": "Retail Display Toy Packaging from India — Domestic and Export",
           "desc": "Retail display packaging toys manufacturer from India for domestic toy brands and export toy retail programmes."
         }
-      ]
+      ],
+      "products": [],
+      "eyClass": "green"
     }
   ],
   "midCtas": [
@@ -220,8 +219,16 @@
       "a": "ISO 9001:2015 per batch for export toy retail market compliance."
     }
   ],
+  "band": {
+    "mainTitle": "Retail Display Packaging for Toys",
+    "mainText": "Custom APET crystal-clear retail display packaging for toys — hanging blister packs, counter display trays, shelf display inserts for toy brands. Bulk toy retail packaging from Vapi — ISO 9001:2015.",
+    "detailTitle": "Toy insert detail",
+    "detailText": "Close-up of cavity fit, display angle, retail tray detail, or molded insert geometry.",
+    "processTitle": "Bulk production",
+    "processText": "Forming, trimming, inspection, stacked trays, or dispatch-ready toy packaging."
+  },
   "imageLabels": [
-    "Product packaging",
-    "Production facility Vapi"
+    "Toy Packaging Range",
+    "Toy Packaging Production Vapi"
   ]
 }

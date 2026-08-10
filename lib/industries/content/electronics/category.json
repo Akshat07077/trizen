@@ -22,8 +22,40 @@
         "Trizen Packaging manufactures electronics thermoforming packaging from our ISO 9001:2015 certified facility in Vapi, Gujarat — ESD-safe thermoformed packaging for the complete electrical and electronic component range. ESD packaging OEM from Vapi Daman for ESD-safe thermoforming trays, PCB and circuit board packaging, connector and micro-component trays, consumer electronics accessory packaging, and switches, sensors, and electronic module packaging. With 20+ years of thermoforming manufacturing experience, we are an electronics thermoforming packaging manufacturer from India serving electronics manufacturers, EMS companies, and OEMs across India and for export.",
         "Electronics packaging requires one critical capability that standard thermoforming cannot provide: ESD (electrostatic discharge) protection. Electronic components can sustain permanent damage from ESD at voltages as low as 10–30 volts — completely imperceptible levels that cause latent damage passing visual inspection but manifesting as field failure in service. Standard PP thermoforming materials are insulators — they generate and accumulate electrostatic charge. ESD-safe PP and ESD-safe PETG have controlled surface resistivity in the dissipative range (10⁶–10⁹ Ω/sq) that dissipates charge rather than accumulating it."
       ],
-      "products": [],
-      "strips": []
+      "products": [
+        {
+          "name": "ESD-Safe Thermoforming Trays",
+          "desc": "ESD-safe PP and PETG thermoformed trays for the complete electronic component range — controlled surface resistivity, resistivity CoA per batch.",
+          "link": "View sub-page →",
+          "href": "/electronics/esd"
+        },
+        {
+          "name": "Connector & Micro-Component Packaging",
+          "desc": "Precision ESD-safe trays for connectors, terminals, micro-components, and small electronic parts — individual cavity isolation, terminal protection.",
+          "link": "View sub-page →",
+          "href": "/electronics/esd"
+        },
+        {
+          "name": "Consumer Electronics Accessory Packaging",
+          "desc": "Crystal-clear APET and ESD-safe retail packaging for consumer electronics accessories — earphones, cables, adapters, and accessories for e-commerce and retail.",
+          "link": "View sub-page →",
+          "href": "/electronics/esd"
+        },
+        {
+          "name": "PCB & Circuit Board Packaging",
+          "desc": "ESD-safe antistatic thermoformed trays for PCBs, bare boards, and assembled circuit boards — gold finger protection, component height clearance.",
+          "link": "View sub-page →",
+          "href": "/electronics/esd"
+        },
+        {
+          "name": "Switches, Sensors & Module Packaging",
+          "desc": "ESD-safe thermoformed packaging for switches, push buttons, proximity sensors, IoT modules, and control electronics — terminal and actuation surface protection.",
+          "link": "View sub-page →",
+          "href": "/electronics/esd"
+        }
+      ],
+      "strips": [],
+      "callout": "ESD Capability Note: ESD-safe thermoforming trays use controlled surface resistivity materials (ESD-safe PP or ESD-safe PETG, typically 10⁶–10⁹ Ω/sq). Surface resistivity test certificates supplied per material batch. All ESD-safe electronics packaging produced with clean handling procedures at our Vapi facility."
     },
     {
       "ey": "Why Technically Demanding",
@@ -113,13 +145,6 @@
       "callout": "ESD packaging OEM manufacturer Vapi Daman — all ESD-safe electronics packaging tooling manufactured and held in-house at our Vapi, Gujarat facility. Electronic component thermoforming manufacturer Gujarat serving electronics manufacturers, EMS companies, and OEMs across India. Surface resistivity test certificates and ISO 9001:2015 batch documentation per production run. Electronics thermoforming packaging manufacturer from India for domestic and export programmes."
     },
     {
-      "ey": "Compliance & Certifications",
-      "st": "Quality Certifications and ESD Documentation",
-      "leads": [],
-      "products": [],
-      "strips": []
-    },
-    {
       "ey": "Why Choose Trizen",
       "st": "Why Electronics Manufacturers Choose Trizen Packaging",
       "eyClass": "green",
@@ -189,14 +214,10 @@
     {
       "q": "What is the MOQ and prototype timeline for electronics packaging?",
       "a": "Prototype: 7 to 14 business days from component sample or technical drawing — in-house CNC tooling at Vapi. MOQ from 500 units. Sustained OEM from 5,000 units per run. ESD material CoA and ISO 9001:2015 batch documentation per production run."
-    },
-    {
-      "q": "Does Trizen provide documentation for ESD supplier qualification?",
-      "a": "Surface resistivity test certificate per material batch, ISO 9001:2015 certificate copy, material CoA per production batch, dimensional inspection records per run, and batch records per run — all available for electronics OEM and EMS supplier ESD packaging qualification programmes."
     }
   ],
   "imageLabels": [
-    "Product packaging",
-    "Production facility Vapi"
+    "Electronics Packaging Range",
+    "Electronics Packaging ESD Detail"
   ]
 }

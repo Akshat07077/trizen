@@ -1,6 +1,5 @@
 {
   "slug": "category",
-  "industryId": "toy",
   "title": "Toy Thermoforming Packaging Manufacturer India | Action Figure Packs Vapi | Trizen",
   "hero": {
     "ey": "Toy Packaging · APET Crystal-Clear · Vapi, India",
@@ -22,14 +21,50 @@
         "Trizen Packaging manufactures toy thermoforming packaging from our ISO 9001:2015 certified facility in Vapi, Gujarat — custom APET and PP thermoformed packaging for the complete toy and games range. Bulk toy packaging from Vapi for toy packaging trays, action figure packs, toy set insert trays, retail display packaging for toys, protective toy packaging boxes, and custom molded toy packs. As a toy thermoforming packaging manufacturer from India, we serve toy brands, action figure companies, and toy retail companies across India and for export.",
         "Toy packaging requires two capabilities simultaneously — product display (the child and parent must see the toy through the packaging) and product protection (toys with small parts, articulated joints, and decorative surfaces must arrive undamaged). APET crystal-clear thermoforming satisfies both requirements — maximum toy visibility and precisely fitted cavities that protect the toy geometry through retail distribution. Action figure blister packs and toy set display packaging are the highest volume toy thermoforming applications — both require APET crystal-clear with the toy displayed in its most impressive retail pose."
       ],
-      "products": [],
-      "strips": []
+      "strips": [],
+      "products": [
+        {
+          "name": "Toy Packaging Trays",
+          "desc": "Custom APET thermoformed trays for toy retail packaging — general toy packaging, bulk toy OEM supply trays, toy brand retail programme packaging. KD 7 · Vol 30.",
+          "link": "View sub-page →",
+          "href": "/toy/packaging-trays"
+        },
+        {
+          "name": "Action Figure Packs",
+          "desc": "APET crystal-clear blister packs for action figures — hero pose display, accessory organization, character identity visible through the pack. KD 7 · Vol 30.",
+          "link": "View sub-page →",
+          "href": "/toy/action-figure"
+        },
+        {
+          "name": "Toy Set Insert Trays",
+          "desc": "Multi-component APET thermoformed trays for toy sets — all components in defined positions, set organisation for the unboxing experience. KD 7 · Vol 30.",
+          "link": "View sub-page →",
+          "href": "/toy/set-inserts"
+        },
+        {
+          "name": "Retail Display Packaging for Toys",
+          "desc": "APET crystal-clear retail display packaging for toy retail — hanging blister packs, counter display trays, shelf display inserts for toy brands.",
+          "link": "View sub-page →",
+          "href": "/toy/retail-display"
+        },
+        {
+          "name": "Protective Toy Packaging Boxes",
+          "desc": "Custom thermoformed protective inserts for toy box packaging — all toy components protected from transit damage, box-ready organisation.",
+          "link": "View sub-page →",
+          "href": "/toy/protective"
+        },
+        {
+          "name": "Custom Molded Toy Packs",
+          "desc": "Bespoke thermoformed inserts for unique toy profiles — custom cavity from toy sample, hero pose thermoforming, toy brand exclusive packaging formats.",
+          "link": "View sub-page →",
+          "href": "/toy/custom-molded"
+        }
+      ]
     },
     {
       "ey": "Why Technically Demanding",
       "st": "Why Toy Thermoforming Packaging Is Technically Demanding",
       "leads": [],
-      "products": [],
       "strips": [
         {
           "title": "Hero Pose Display — Action Figure Must Look Impressive in the Blister",
@@ -47,13 +82,13 @@
           "title": "Retail Blister Pack — Child Appeal at the Toy Retail Shelf",
           "desc": "Toy retail packaging is designed for the primary purchase influencer: the child at the retail shelf. The toy must be visible, the hero pose must be impressive, and the character must be identifiable at 3 metres distance. APET crystal-clear thermoforming presents the toy through the packaging with no visual obstruction — the toy does its own selling at the shelf."
         }
-      ]
+      ],
+      "products": []
     },
     {
       "ey": "Pain Points We Solve",
       "st": "Three Problems Toy Packaging Buyers Face",
       "leads": [],
-      "products": [],
       "strips": [
         {
           "title": "Hero Pose Slump — Action Figure Falls Out of Display Pose",
@@ -67,15 +102,15 @@
           "title": "Loose Components in Toy Set Packaging — Missing Parts at Opening",
           "desc": "Problem: Toy set packaging where small components move freely can result in lost parts before the consumer even opens the box — retailer inspection reports missing components, returns result. Solution: Individual cavity or defined position for every toy set component — confirmed from complete component inventory list before cavity design."
         }
-      ]
+      ],
+      "products": []
     },
     {
       "ey": "Materials",
       "st": "Materials for Toy Thermoforming Packaging",
-      "eyClass": "gold",
       "leads": [],
-      "products": [],
       "strips": [],
+      "products": [],
       "table": {
         "headers": [
           "Material",
@@ -100,21 +135,20 @@
           ]
         ]
       },
-      "callout": "Toy packaging Gujarat — all toy thermoforming packaging tooling manufactured and held in-house at our Vapi, Gujarat facility. Bulk toy packaging from Vapi for toy brands and toy retail companies. ISO 9001:2015 batch documentation per production run. Toy thermoforming packaging manufacturer from India for domestic retail and export toy programmes."
+      "callout": "Toy packaging Gujarat — all toy thermoforming packaging tooling manufactured and held in-house at our Vapi, Gujarat facility. Bulk toy packaging from Vapi for toy brands and toy retail companies. ISO 9001:2015 batch documentation per production run. Toy thermoforming packaging manufacturer from India for domestic retail and export toy programmes.",
+      "eyClass": "gold"
     },
     {
       "ey": "Compliance & Certifications",
       "st": "Quality Certifications and Documentation",
       "leads": [],
-      "products": [],
-      "strips": []
+      "strips": [],
+      "products": []
     },
     {
       "ey": "Why Choose Trizen",
       "st": "Why Toy Brands Choose Trizen Packaging",
-      "eyClass": "green",
       "leads": [],
-      "products": [],
       "strips": [
         {
           "title": "Hero Pose Cavity — Action Figure Display Pose Locked by Cavity Geometry",
@@ -132,7 +166,9 @@
           "title": "Toy Packaging Manufacturer from India — Domestic and Export",
           "desc": "As a toy thermoforming packaging manufacturer from India, Trizen Packaging supplies toy packaging for domestic retail brands and export toy programmes."
         }
-      ]
+      ],
+      "products": [],
+      "eyClass": "green"
     }
   ],
   "midCtas": [
@@ -149,7 +185,7 @@
   ],
   "bottomCta": {
     "title": "Toy Thermoforming Packaging — APET Crystal-Clear, Bulk OEM from Vapi",
-    "text": "Action figure packs · Toy set trays · Retail display packaging · Custom molded toy packsISO 9001:2015 · APET crystal-clear · 7–14 day prototype · Vapi, Gujarat"
+    "text": "Action figure packs · Toy set trays · Retail display packaging · Custom molded toy packs ISO 9001:2015 · APET crystal-clear · 7–14 day prototype · Vapi, Gujarat"
   },
   "faqs": [
     {
@@ -185,8 +221,16 @@
       "a": "Yes — ISO 9001:2015 batch records and material CoA per batch for export toy market compliance. Toy thermoforming packaging manufacturer from India for export programmes."
     }
   ],
+  "band": {
+    "mainTitle": "Toy Thermoforming Packaging",
+    "mainText": "Custom APET crystal-clear thermoformed toy packaging — action figure blister packs in hero pose, toy set insert trays, retail display packaging, protective toy packaging boxes, and custom molded toy packs. Bulk toy packaging from Vapi — ISO 9001:2015 certified.",
+    "detailTitle": "Toy insert detail",
+    "detailText": "Close-up of cavity fit, display angle, retail tray detail, or molded insert geometry.",
+    "processTitle": "Bulk production",
+    "processText": "Forming, trimming, inspection, stacked trays, or dispatch-ready toy packaging."
+  },
   "imageLabels": [
-    "Product packaging",
-    "Production facility Vapi"
+    "Toy Packaging Range",
+    "Toy Packaging Production Vapi"
   ]
 }

@@ -163,6 +163,12 @@ export default function IndustryPage({
                       src={images.content[0]}
                       label={content.imageLabels?.[0] ?? meta.label}
                     />
+                  ) : content.imageLabels?.[0] ? (
+                    <figure className="img-ph">
+                      <div className="img-ph-inner">
+                        <div className="img-ph-label">{content.imageLabels[0]}</div>
+                      </div>
+                    </figure>
                   ) : null}
                 </>
               ) : null}
@@ -176,6 +182,12 @@ export default function IndustryPage({
                         content.imageLabels?.[1] ?? `${meta.label} production`
                       }
                     />
+                  ) : content.imageLabels?.[1] ? (
+                    <figure className="img-ph">
+                      <div className="img-ph-inner">
+                        <div className="img-ph-label">{content.imageLabels[1]}</div>
+                      </div>
+                    </figure>
                   ) : null}
                   <MidCTA {...content.midCtas[1]} />
                 </>
@@ -186,6 +198,14 @@ export default function IndustryPage({
                   src={images.content[1]}
                   label={content.imageLabels?.[1] ?? `${meta.label} production`}
                 />
+              ) : null}
+
+              {sIdx === 2 && !content.midCtas[1] && !images.content[1] && content.imageLabels?.[1] ? (
+                <figure className="img-ph">
+                  <div className="img-ph-inner">
+                    <div className="img-ph-label">{content.imageLabels[1]}</div>
+                  </div>
+                </figure>
               ) : null}
             </div>
           ))}

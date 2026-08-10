@@ -16,6 +16,68 @@
   },
   "sections": [
     {
+      "ey": "PRIORITY: Medical Industry",
+      "st": "Cardiology Packaging Manufacturer India — Cardiac Catheter & Implant Packaging, Cleanroom Class 8 · Vapi",
+      "leads": [
+        "Trizen Packaging manufactures cardiology packaging from our Cleanroom Class 8, GMP-compliant, ISO 9001:2015 certified facility in Vapi, Gujarat — custom PETG thermoformed packaging for the complete cardiology and cardiac surgery device range. Cardiology packaging manufacturer from Vapi for cardiac catheterization device companies, electrophysiology device manufacturers, cardiac implant companies, and cardiac surgery instrument manufacturers across India and for export.",
+        "Cardiology medical device packaging covers both interventional cardiology devices (catheters, stents, balloons used in catheterization laboratory procedures) and cardiac implants (pacemakers, ICDs, cardiac valves) — the highest value and most life-critical category in medical device packaging. Cardiac implant packaging must protect devices worth tens of thousands of dollars through the supply chain. Cardiac catheter packaging must protect delicate balloon and stent systems from any mechanical damage that would cause device failure during a cardiac intervention procedure."
+      ],
+      "products": [],
+      "strips": [],
+      "table": {
+        "headers": [
+          "Medical Device / Application",
+          "Packaging Format",
+          "Material",
+          "Key Requirement"
+        ],
+        "rows": [
+          [
+            "Cardiac Catheter Packaging",
+            "PETG face seal blister tray — cardiac catheter in linear format",
+            "Medical-grade PETG",
+            "Catheter tip protection, curve radius maintenance, hub geometry, face seal flange"
+          ],
+          [
+            "Coronary Stent Delivery System Packaging",
+            "PETG face seal blister — stent delivery system in linear cavity",
+            "Medical-grade PETG",
+            "Balloon protection, stent crimped-profile clearance, hub geometry"
+          ],
+          [
+            "Pacemaker Lead Packaging",
+            "PETG thermoformed tray — pacemaker lead in coiled format",
+            "Medical-grade PETG",
+            "Lead coil geometry, connector protection, minimum bend radius, tip protection"
+          ],
+          [
+            "Electrophysiology Catheter Packaging",
+            "PETG face seal blister — EP catheter in curve-maintained format",
+            "Medical-grade PETG",
+            "Electrode tip protection, catheter curve radius, handle mechanism clearance"
+          ],
+          [
+            "Cardiac Valve Packaging",
+            "PETG thermoformed tray — cardiac valve in sterile solution cavity",
+            "Medical-grade PETG",
+            "Valve leaflet protection, suture cuff clearance, sterile presentation, large cavity format"
+          ],
+          [
+            "ICD & CRT Device Lead Packaging",
+            "PETG thermoformed tray — ICD lead in coiled format",
+            "Medical-grade PETG",
+            "Lead coil minimum bend radius, connector protection, high-value device protection"
+          ],
+          [
+            "Cardiac Surgery Kit Packaging",
+            "Multi-instrument PETG tray — cardiac surgery kit in procedural sequence",
+            "Medical-grade PETG",
+            "All instruments in procedural sequence, sterile kit presentation, face seal flange"
+          ]
+        ]
+      }
+    },
+    {
       "ey": "Device-Specific Packaging Challenges",
       "st": "Cardiology Packaging — Specific Technical Requirements",
       "leads": [],
@@ -93,13 +155,6 @@
       "callout": "Cardiology packaging manufacturer Vapi — medical packaging manufacturer Gujarat for medical device companies. ISO 9001:2015 · GMP · Cleanroom Class 8 production at Vapi, Gujarat. Medical-grade PETG CoA, GMP batch records, and ISO 11607 compatible dimensional documentation per production run."
     },
     {
-      "ey": "Compliance & Certifications",
-      "st": "Quality Certifications and Regulatory Documentation",
-      "leads": [],
-      "products": [],
-      "strips": []
-    },
-    {
       "ey": "Why Choose Trizen",
       "st": "Why Medical Device Companies Choose Trizen for Cardiology Packaging",
       "eyClass": "green",
@@ -169,14 +224,10 @@
     {
       "q": "Prototype and production timeline?",
       "a": "First article: 14 to 21 business days from device technical drawing or sample — cleanroom CNC tooling at Vapi. ISO 9001:2015, GMP, and Cleanroom Class 8 documentation per production batch."
-    },
-    {
-      "q": "Does Trizen supply medical packaging for export markets?",
-      "a": "Yes — ISO 9001:2015, GMP, and medical-grade PETG CoA per batch for export medical device market compliance. Medical thermoforming packaging manufacturer from India for international medical device markets."
     }
   ],
   "imageLabels": [
-    "Product packaging",
-    "Production facility Vapi"
+    "Cardiology Packaging Hero",
+    "Cardiology Packaging Detail"
   ]
 }

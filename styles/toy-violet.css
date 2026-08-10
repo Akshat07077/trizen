@@ -234,6 +234,29 @@ body:has(.industry-page) {
   display: none;
 }
 
+.industry-page .img-ph {
+  margin: 28px 0;
+  background: linear-gradient(135deg, rgba(255, 255, 255, 0.92), rgba(218, 226, 253, 0.58));
+  border: 1px dashed rgba(27, 31, 115, 0.35);
+  box-shadow: 0 25px 80px rgba(27, 31, 115, 0.08);
+  clip-path: polygon(9% 0, 100% 0, 91% 100%, 0 100%);
+}
+.industry-page .img-ph-inner {
+  min-height: 210px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 24px;
+}
+.industry-page .img-ph-label {
+  font-family: var(--fh);
+  color: var(--navy);
+  font-size: 20px;
+  font-weight: 700;
+}
+
 /* Hide legacy chrome that conflicts with violet UI */
 .industry-page .page-loader,
 .industry-page .cursor-spotlight,

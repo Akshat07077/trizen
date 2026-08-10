@@ -3,16 +3,266 @@
   "industryId": "manufacturing",
   "title": "Custom Plastic Packaging Manufacturer India | Thermoformed Trays, Blisters, Clamshells | Trizen, Vapi",
   "hero": {
-    "ey": "",
+    "ey": "Manufacturing Capabilities · Page 7 of 7 · Est. 2005 · Vapi, Daman",
     "titleMain": "Plastic Packaging Supplier India",
     "titleTail": "Thermoformed Trays, Blisters, Clamshells and Industrial Enclosures, Vapi",
-    "desc": "The complete range of custom plastic packaging manufactured",
-    "chips": []
+    "desc": "The complete range of custom plastic packaging manufactured from one Vapi facility — for regulated and commercial industries since 2005. One supplier qualification. One quality system. All formats.",
+    "chips": [
+      "6 Formats",
+      "10+ Industries",
+      "GMP Validated",
+      "Cleanroom Class 8",
+      "ISO 9001:2015",
+      "One Facility"
+    ]
   },
-  "sections": [],
+  "sections": [
+    {
+      "ey": "One Manufacturer, All Formats",
+      "st": "Custom Plastic Packaging Manufactured from One Vapi Facility",
+      "eyClass": "gold",
+      "leads": [
+        "Trizen Packaging is a custom plastic packaging manufacturer in India producing the complete range of thermoformed rigid plastic packaging — custom product trays, pharmaceutical blister packs, retail clamshell packaging, medical device blister components, industrial equipment enclosures, and heavy-gauge machinery panels — all from a single ISO 9001:2015 certified, GMP validated, Cleanroom Class 8 facility in Vapi, Daman.",
+        "As a plastic packaging manufacturer from Vapi, Daman, we eliminate the most common commercial and regulatory sourcing problem: needing multiple separate suppliers for multiple packaging formats across the same product range."
+      ],
+      "products": [],
+      "strips": []
+    },
+    {
+      "ey": "The Problem",
+      "st": "The Multi-Supplier Problem — Why One Manufacturer Matters",
+      "leads": [
+        "Procurement managers sourcing plastic packaging across multiple product lines consistently face the same structural problem:"
+      ],
+      "products": [],
+      "strips": [],
+      "table": {
+        "headers": [
+          "Multi-Supplier Problem",
+          "Real Cost",
+          "The Trizen Solution"
+        ],
+        "rows": [
+          [
+            "Separate qualification audit for each packaging format",
+            "4 formats = 4 audits, 4 quality relationships, 4 annual re-qualification cycles",
+            "One ISO 9001:2015 + GMP + Cleanroom Class 8 qualification covers all 6 plastic packaging formats from Vapi"
+          ],
+          [
+            "Inconsistent documentation standards",
+            "Different batch record formats from each supplier — manual reconciliation for regulatory submissions",
+            "Uniform GMP batch records and material COAs across all packaging formats. One documentation format."
+          ],
+          [
+            "Split tooling ownership",
+            "Product redesign requires contacting multiple suppliers — multiple tooling queues and timelines",
+            "All tooling for all 6 formats CNC-fabricated and held in-house at Vapi. One call revises the entire programme."
+          ],
+          [
+            "Misaligned lead times and MOQs",
+            "Coordinating production across multiple suppliers increases planning complexity and shortage risk",
+            "Single facility. All formats: prototype in 7–14 business days, production from confirmed order."
+          ]
+        ]
+      }
+    },
+    {
+      "ey": "Complete Range",
+      "st": "6 Plastic Packaging Formats — Manufactured at Vapi",
+      "eyClass": "gold",
+      "leads": [
+        "Rigid plastic thermoformed packaging across all six formats from in-house CNC tooling at our Vapi facility:"
+      ],
+      "products": [
+        {
+          "name": "Thermoformed Trays",
+          "desc": "Custom-cavitied trays from 6mm device trays to 500mm automotive staging trays. PP, PETG, APET, HIPS, ABS in 0.20–8.00mm gauge.",
+          "link": "→ Thermoforming Page"
+        },
+        {
+          "name": "Vacuum Forming",
+          "desc": "~1 bar vacuum. Cost-efficient for standard commercial packaging geometries and high-volume programmes.",
+          "link": "→ Vacuum Forming Page"
+        },
+        {
+          "name": "Pressure Forming",
+          "desc": "4–11 bar combined force. ±0.5mm tolerance, sharp corners, fine surface detail on both faces. Injection moulding quality at thermoforming tooling cost.",
+          "link": "→ Pressure Forming Page"
+        },
+        {
+          "name": "Blister Packaging",
+          "desc": "7 blister formats: PVC, PVDC, Alu-Alu, APET retail, Tyvek-compatible medical device components, CR child-resistant, tamper-evident. GMP + Cleanroom Class 8.",
+          "link": "→ Blister Packaging Page"
+        },
+        {
+          "name": "Clamshell Packaging",
+          "desc": "5 formats: hinged snap-close, heat-sealed tamper-evident, clamshell blister, full-face clear, RF/ultrasonic welded security.",
+          "link": "→ Clamshell Packaging Page"
+        },
+        {
+          "name": "Industrial Enclosures",
+          "desc": "Heavy-gauge PP and ABS structural panels, equipment enclosures, machinery casing. 1–8mm gauge for industrial equipment OEMs.",
+          "link": "→ Thermoforming Page"
+        }
+      ],
+      "strips": []
+    },
+    {
+      "ey": "Industries",
+      "st": "Industries We Manufacture For — Plastic Packaging Across All Sectors",
+      "eyClass": "green",
+      "leads": [
+        "As a plastic packaging manufacturer from Vapi, Gujarat, we serve the full regulated and commercial industry spectrum from one facility:"
+      ],
+      "products": [],
+      "strips": [],
+      "table": {
+        "headers": [
+          "Industry",
+          "What We Manufacture",
+          "Production Standard"
+        ],
+        "rows": [
+          [
+            "Pharmaceutical",
+            "GMP blister packaging (PVC, PVDC, Alu-Alu), pharmaceutical trays, syringe trays, diagnostic kit packaging, sample kit packaging.",
+            "GMP · Cleanroom Class 8"
+          ],
+          [
+            "Medical Devices",
+            "Thermoformed PETG/APET blister tray + Tyvek-sealed blister components in ETO/Gamma compatible materials. Surgical instrument trays, implant packaging, catheter trays. Blister component supplied empty to device manufacturer.",
+            "Cleanroom Class 8 · GMP"
+          ],
+          [
+            "Automotive",
+            "Assembly line staging trays, mechanical parts transit packaging, precision component trays, ESD-safe ECU and sensor packaging, exterior and interior component trays.",
+            "ISO 9001:2015"
+          ],
+          [
+            "FMCG & Retail",
+            "Confectionery gift trays for large FMCG brand programmes, shelf-ready packaging, counter display units, retail clamshell packaging.",
+            "ISO 9001:2015"
+          ],
+          [
+            "Cosmetics & Baby Care",
+            "Perfume bottle inserts, makeup kit trays, gift set display trays, feeding bottle trays, hygiene product trays. BPA-free PP/PETG for baby care applications.",
+            "ISO 9001:2015"
+          ],
+          [
+            "Electronics",
+            "ESD-safe thermoformed trays for PCBs, connectors, sensors. Consumer electronics retail blister. Clear clamshells for electronics accessories.",
+            "ISO 9001:2015 · ESD"
+          ],
+          [
+            "Toys & Stationery",
+            "Toy packaging trays, stationery blister packs, school kit thermoformed trays, pen and marker blister, gift set inserts.",
+            "ISO 9001:2015"
+          ],
+          [
+            "️ Industrial",
+            "Heavy-gauge equipment enclosures, machinery casing panels, protective covers, power tool packaging in PP and ABS, 1mm to 8mm gauge.",
+            "ISO 9001:2015"
+          ]
+        ]
+      }
+    },
+    {
+      "ey": "OEM Programmes",
+      "st": "Bulk Plastic Packaging OEM Manufacturing Programmes",
+      "eyClass": "gold",
+      "leads": [],
+      "products": [],
+      "strips": [],
+      "table": {
+        "headers": [
+          "Programme Type",
+          "Scale",
+          "Industries",
+          "Documentation"
+        ],
+        "rows": [
+          [
+            "New Product Launch",
+            "500 units minimum. Prototype to production in 10–20 business days for standard formats. Full GMP documentation for pharma and medical device launches.",
+            "All industries — clinical trial packaging, medical device introduction, FMCG seasonal launch, automotive new model trays",
+            "Full GMP batch records for regulated programmes. ISO 9001:2015 for commercial."
+          ],
+          [
+            "Sustained OEM Production",
+            "10,000+ units per order. Repeat order management with all tooling held in-house at Vapi.",
+            "Automotive assembly line tray programmes, pharmaceutical ongoing blister, medical device contract component supply",
+            "GMP batch records per run. Material COAs. Ongoing audit documentation."
+          ],
+          [
+            "Multi-Format OEM",
+            "Single manufacturer for 2–6 packaging formats in one programme.",
+            "Medical device OEMs, FMCG multi-SKU brands, automotive OEMs needing both assembly trays and retail packaging",
+            "Single quality system. One documentation standard across all formats."
+          ],
+          [
+            "Seasonal Commercial",
+            "High-volume seasonal with dedicated production slots available.",
+            "FMCG confectionery, toy brands, consumer healthcare seasonal, festive retail packaging",
+            "ISO 9001:2015 batch records."
+          ]
+        ]
+      }
+    },
+    {
+      "ey": "Why Trizen",
+      "st": "Why Choose a Custom Plastic Packaging Supplier in India?",
+      "eyClass": "gold",
+      "leads": [
+        "What makes Trizen the right custom plastic packaging manufacturer for multi-format OEM programmes:"
+      ],
+      "products": [],
+      "strips": [
+        {
+          "title": "01. All 6 Formats from One Facility — One Qualification Audit",
+          "desc": "Thermoformed trays, vacuum forming, pressure forming, blister packaging (7 formats), clamshell packaging (5 formats), and heavy-gauge industrial enclosures — all manufactured from in-house CNC tooling at Vapi. One ISO 9001:2015 certification, one GMP validation, one Cleanroom Class 8 classification covers the entire plastic packaging portfolio."
+        },
+        {
+          "title": "02. Fastest Win — Plastic Packaging Manufacturer Vapi Daman (Vol 31, KD 8)",
+          "desc": "Trizen Packaging is a plastic packaging manufacturer in Vapi, Daman — at the junction of India's pharmaceutical manufacturing corridor (Vadodara, Ankleshwar, Mumbai) and the western India automotive and FMCG supply chain (Rajkot, Pune, Sanand). Direct supply to major regulated and commercial manufacturing clusters."
+        },
+        {
+          "title": "03. In-House CNC Tooling — Single Development Timeline for All Formats",
+          "desc": "All plastic packaging tooling CNC-fabricated and held in-house at Vapi. New format prototype in 7 to 14 business days regardless of format. Product redesign involves one facility, one tooling team — not four different supplier relationships."
+        },
+        {
+          "title": "04. Regulated and Commercial Manufacturing from the Same Facility",
+          "desc": "Cleanroom Class 8 medical device blister components and GMP pharmaceutical blister manufacturing in the same Vapi facility as commercial FMCG retail trays, automotive component trays, and consumer electronics clamshells. Three certifications: ISO 9001:2015 + GMP + Cleanroom Class 8 — one facility, all packaging types."
+        },
+        {
+          "title": "05. 20+ Years Thermoforming Manufacturing — Est. 2005",
+          "desc": "Two decades of exclusive thermoforming manufacturing focus — visible in tooling precision, process consistency, and the ability to handle both the most demanding regulated packaging and high-volume commercial OEM programmes from the same production floor in Vapi."
+        }
+      ]
+    }
+  ],
   "midCtas": [],
-  "bottomCta": null,
-  "faqs": [],
+  "bottomCta": {
+    "title": "Get a Custom Plastic Packaging Quote from Vapi, India",
+    "text": "Submit your product sample or packaging brief. Our team identifies the correct format, material, and production standard — and responds within 24 business hours."
+  },
+  "faqs": [
+    {
+      "q": "What does a custom plastic packaging manufacturer in India produce?",
+      "a": "Trizen Packaging is a custom plastic packaging manufacturer in India producing the complete range of rigid thermoformed plastic packaging — custom product trays, pharmaceutical blister packs (PVC, PVDC, Alu-Alu, Tyvek-compatible medical device blister components), retail clamshell packaging (snap-close, heat-sealed, RF-welded), pressure formed precision packaging for medical devices and automotive, and heavy-gauge industrial enclosures in PP and ABS. All packaging manufactured from custom CNC tooling at our Vapi facility under ISO 9001:2015, GMP, and Cleanroom Class 8."
+    },
+    {
+      "q": "Can you manufacture multiple plastic packaging formats from one facility?",
+      "a": "Yes. All six plastic packaging formats manufactured from the same Vapi facility — one ISO 9001:2015 + GMP + Cleanroom Class 8 qualification covers everything. Multi-format OEM manufacturing programmes are a core capability for pharmaceutical companies, medical device OEMs, automotive OEMs, and FMCG brands with multiple packaging requirements."
+    },
+    {
+      "q": "What is the minimum order quantity?",
+      "a": "Minimum 500 units for all formats — including pharmaceutical GMP blister, medical device sterile blister components (Cleanroom Class 8), commercial retail clamshells, and industrial enclosures. OEM manufacturing programmes from 10,000 units per order with repeat order management from Vapi."
+    },
+    {
+      "q": "How long from product sample to first prototype?",
+      "a": "7 to 14 business days from product sample to first physical prototype for all plastic packaging formats — including cavity design, CNC mould fabrication at Vapi, and dimensional inspection. All tooling in-house. No outsourced delays. Same timeline for a standard retail tray, a pressure formed medical device blister, or a pharmaceutical Alu-Alu blister."
+    }
+  ],
   "imageLabels": [
     "Product packaging",
     "Production facility Vapi"

@@ -6,13 +6,163 @@
     "ey": "Our Expertise · R&D Innovation · Vapi, Gujarat · Est. 2005",
     "titleMain": "R&D Innovation",
     "titleTail": "Thermoforming Innovation Manufacturer India, In-House Design and Prototyping, Vapi",
-    "desc": "Brief to physical prototype in 7–14 business days.",
+    "desc": "Brief to physical prototype in 7–14 business days. In-house design. In-house CNC tooling. In-house thermoforming. No outsourcing at any stage — from concept to first sample at Vapi.",
     "chips": []
   },
-  "sections": [],
+  "sections": [
+    {
+      "ey": "What R&D Means Here",
+      "st": "What R&D Innovation Means at a Thermoforming Packaging Manufacturer",
+      "leads": [
+        "Thermoforming innovation manufacturer India — at Trizen Packaging, R&D and innovation is not a laboratory function. It is an applied development capability: take your packaging brief, design the thermoforming solution in-house, fabricate the prototype tooling in-house, and produce the first physical prototype — all without leaving our Vapi facility.",
+        "Packaging R&D solutions from Trizen means the same Vapi facility that develops your packaging prototype then manufactures it at commercial scale under ISO 9001:2015, GMP, or Cleanroom Class 8. No handover between a design agency and a manufacturer."
+      ],
+      "products": [],
+      "strips": []
+    },
+    {
+      "ey": "In-House Design Capability",
+      "st": "Advanced Packaging R&D Manufacturer Gujarat — In-House Design Capability",
+      "eyClass": "gold",
+      "leads": [
+        "As an advanced packaging R&D manufacturer from Gujarat, our in-house design capability at Vapi covers the full range of thermoforming packaging design parameters. Innovative packaging design solutions from Vapi start with your product and work backwards to the correct thermoforming cavity design."
+      ],
+      "products": [],
+      "strips": [],
+      "table": {
+        "headers": [
+          "Design Parameter",
+          "What We Design",
+          "Why It Matters"
+        ],
+        "rows": [
+          [
+            "Cavity geometry and depth",
+            "Shape, depth, and clearance — holds product securely without movement, without excessive dead space, without contact stress points.",
+            "Incorrect cavity geometry is the most common thermoforming failure — product rattles, is difficult to remove, or contact points damage the surface."
+          ],
+          [
+            "Wall thickness and draw ratio",
+            "Thermoforming wall thickness distribution from flat sheet to finished cavity — critical for structural integrity and material efficiency.",
+            "Incorrect draw ratio produces thin walls at cavity corners and base — a structural failure point in medical device and automotive transit packaging."
+          ],
+          [
+            "Sealing flange profile",
+            "Width, flatness tolerance, and geometry of the sealing flange — designed to the sealing method and customer's sealing equipment specification.",
+            "Wrong sealing flange geometry is the most common avoidable error — packaging that cannot be sealed on the customer's packaging line, discovered after tooling is cut."
+          ],
+          [
+            "Insertion and removal features",
+            "Lead-in chamfers, product retention tabs, tactile removal features — for end-user interaction or filling/loading line automation.",
+            "Medical device blisters need clean, reliable product removal. Pharma blisters need push-through force within specification for dispensing device compatibility."
+          ],
+          [
+            "Stacking and nesting geometry",
+            "Cavity profile optimised for vertical stack height in transport and storage — reducing logistics cost while maintaining cavity integrity under stack weight.",
+            "Incorrect stacking geometry collapses under palletised load — a common failure in automotive component tray programmes."
+          ],
+          [
+            "Material and gauge selection",
+            "Material type, grade, and gauge thickness — selected from application regulatory requirement, barrier requirement, clarity, and structural specification.",
+            "Material selection is a design decision made before tooling is cut. The wrong material discovered after first prototype extends development timeline by 2–4 weeks."
+          ]
+        ]
+      }
+    },
+    {
+      "ey": "Prototype Process",
+      "st": "New Thermoforming Packaging Prototype Development — 7 to 14 Business Days",
+      "leads": [
+        "New thermoforming packaging prototype development at Vapi follows a structured process — from product sample to first physical prototype without outsourcing any stage:"
+      ],
+      "products": [],
+      "strips": []
+    },
+    {
+      "ey": "What We Can Develop",
+      "st": "Custom Packaging Development Solutions Vapi — What We Can Develop for You",
+      "eyClass": "gold",
+      "leads": [
+        "Custom packaging development solutions from our Vapi facility cover the complete range of thermoforming applications:"
+      ],
+      "products": [],
+      "strips": [],
+      "table": {
+        "headers": [
+          "Application",
+          "Development Scope",
+          "Industries",
+          "Timeline"
+        ],
+        "rows": [
+          [
+            "Pharmaceutical BlisterPVC, PVDC, Alu-Alu",
+            "OSD cavity design, sealing flange for pharma foil, perforation geometry, GMP prototype documentation.",
+            "Pharmaceutical manufacturers",
+            "7–14 business days"
+          ],
+          [
+            "Medical Device Blister ComponentsPETG/APET + Tyvek",
+            "Device cavity design, sealing flange to Tyvek specification, ETO/Gamma material selection, Cleanroom Class 8 prototype run.",
+            "Medical device OEMs",
+            "10–14 business days"
+          ],
+          [
+            "Automotive Component TraysPP, HIPS, ABS",
+            "Cavity array design, stacking/nesting geometry, part retention features, heavy gauge for transit load.",
+            "Automotive Tier 1/2 suppliers",
+            "7–14 business days"
+          ],
+          [
+            "Pharmaceutical Device TraysPP, PETG",
+            "Multi-cavity design for syringe, ampoule, vial, or device. GMP design documentation. Cleanroom prototype where applicable.",
+            "Pharma · Medical device",
+            "7–14 business days"
+          ],
+          [
+            "Clamshell PackagingPVC, PETG, APET",
+            "Complete clamshell geometry — hinge, snap-close tabs, sealing flange, Euro-hole, branding window.",
+            "Consumer retail · Healthcare",
+            "7–14 business days"
+          ],
+          [
+            "Industrial Enclosures and PanelsPP, HIPS, ABS · 1–8mm",
+            "Structural panel geometry, boss placement, snap-fit features, surface texture. Heavy gauge for structural integrity.",
+            "Industrial OEM · Equipment",
+            "10–14 business days"
+          ]
+        ]
+      }
+    },
+    {
+      "ey": "Why In-House",
+      "st": "Why Choose an Innovation-Led Thermoforming Manufacturer?",
+      "leads": [
+        "The value of an in-house thermoforming innovation manufacturer is speed and accuracy. Speed — every design decision and tooling modification happens at Vapi without external coordination. Accuracy — the prototype is made on the same equipment with the same material as the commercial production run."
+      ],
+      "products": [],
+      "strips": []
+    }
+  ],
   "midCtas": [],
-  "bottomCta": null,
-  "faqs": [],
+  "bottomCta": {
+    "title": "Custom Packaging Development Solutions Vapi — Brief to Prototype in 7–14 Days",
+    "text": "Submit your product sample and application brief. Our team responds within 24 business hours with design approach, material recommendation, and development timeline."
+  },
+  "faqs": [
+    {
+      "q": "What does thermoforming R&D and innovation involve at Trizen Packaging?",
+      "a": "Thermoforming innovation at Trizen Packaging is an applied in-house capability: brief review → in-house cavity geometry design → in-house CNC prototype tooling → first physical prototype — without leaving our Vapi facility. No outsourcing. Timeline: 7 to 14 business days from product sample. The prototype is thermoformed on the same equipment and with the same material as the commercial production run."
+    },
+    {
+      "q": "How long does prototype development take?",
+      "a": "7 to 14 business days from product sample to first physical prototype for standard thermoforming formats. Complex structural geometry (heavy-gauge industrial panels, multi-cavity trays) may extend to 10–14 business days. Refinement cycles: 3 to 5 business days per cycle from feedback. Up to 2 refinement cycles included at no additional charge for standard specifications."
+    },
+    {
+      "q": "Is tooling development outsourced?",
+      "a": "No. All CNC prototype tooling is designed and fabricated in-house at our Vapi production facility. We do not use external tool rooms. In-house tooling means: design decisions translate directly to the physical mould without communication gaps, modifications made at Vapi without external coordination delays, and tooling held in-house for all future production runs from the same approved specification."
+    }
+  ],
   "imageLabels": [
     "Product packaging",
     "Production facility Vapi"

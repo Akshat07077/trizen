@@ -353,32 +353,32 @@
       ],
       "nav": [
         {
+          "href": "/manufacturing/vacuum-forming",
+          "label": "Vacuum Forming"
+        },
+        {
           "href": "/manufacturing/blister-packaging",
-          "label": "Blister Packaging Manufacturer India"
+          "label": "Blister Packaging"
         },
         {
           "href": "/manufacturing/clamshell-packaging",
-          "label": "Clamshell Packaging Manufacturer India"
+          "label": "Clamshell Packaging"
         },
         {
           "href": "/manufacturing/materials",
-          "label": "Thermoforming Packaging Materials Supplier India"
+          "label": "Materials"
         },
         {
           "href": "/manufacturing/plastic-packaging",
-          "label": "Plastic Packaging Supplier India"
+          "label": "Plastic Packaging"
         },
         {
           "href": "/manufacturing/pressure-forming",
-          "label": "Pressure Forming Packaging Manufacturer India"
+          "label": "Pressure Forming"
         },
         {
           "href": "/manufacturing/thermoforming-packaging",
-          "label": "Thermoforming Packaging Manufacturer Vapi Gujarat"
-        },
-        {
-          "href": "/manufacturing/vacuum-forming",
-          "label": "Vacuum Forming Packaging Manufacturer India"
+          "label": "Thermoforming Packaging"
         }
       ]
     },

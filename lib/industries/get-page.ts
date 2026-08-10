@@ -14,6 +14,7 @@ export function resolvePageSlug(
   }
 
   if (industryId === "expertise") return "hub";
+  if (industryId === "manufacturing") return "thermoforming-packaging";
   if (meta.pages.includes("category")) return "category";
   return meta.pages[0] ?? "category";
 }

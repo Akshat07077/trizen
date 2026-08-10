@@ -16,6 +16,68 @@
   },
   "sections": [
     {
+      "ey": "PRIORITY: Medical Industry",
+      "st": "Vascular Packaging Manufacturer India — Catheter Packaging Trays, Cleanroom Class 8 · Vapi",
+      "leads": [
+        "Trizen Packaging manufactures vascular packaging from our Cleanroom Class 8, GMP-compliant, ISO 9001:2015 certified facility in Vapi, Gujarat — custom PETG thermoformed catheter packaging trays, stent packaging components, guide wire packaging, trocar packaging blister trays, and angioplasty device packaging. Vascular packaging manufacturer from Vapi for interventional cardiology and vascular device companies across India and for export.",
+        "Vascular device packaging covers the widest range of device geometries in medical packaging — from ultra-fine guide wires (0.014 inch diameter) to large-bore catheters (32 French) to coiled stent delivery systems. Each device geometry requires custom thermoformed cavity design from the specific device profile. The consistent requirement across all vascular device packaging is sterile barrier integrity — vascular devices are implanted or introduced into the circulatory system, where any contamination is life-threatening."
+      ],
+      "products": [],
+      "strips": [],
+      "table": {
+        "headers": [
+          "Medical Device / Application",
+          "Packaging Format",
+          "Material",
+          "Key Requirement"
+        ],
+        "rows": [
+          [
+            "Central Venous Catheter (CVC) Packaging",
+            "PETG thermoformed tray — catheter coiled in defined position",
+            "Medical-grade PETG",
+            "Catheter coil geometry support, hub protection, lumen cap clearance"
+          ],
+          [
+            "Stent & Stent Delivery System Packaging",
+            "PETG face seal blister tray — delivery system in linear cavity",
+            "Medical-grade PETG",
+            "Delivery system profile support, balloon protection, hub geometry"
+          ],
+          [
+            "Guide Wire Packaging",
+            "PETG or HIPS tray — guide wire coiled without kink stress",
+            "Medical-grade PETG/HIPS",
+            "No kink stress geometry, coil radius minimum confirmed, tip protection"
+          ],
+          [
+            "Angioplasty Balloon Catheter Packaging",
+            "PETG face seal blister — balloon catheter in linear cavity",
+            "Medical-grade PETG",
+            "Balloon protection from pinch points, catheter curve geometry, hub clearance"
+          ],
+          [
+            "Trocar & Cannula Packaging",
+            "PETG face seal blister tray — trocar in tip-protected cavity",
+            "Medical-grade PETG",
+            "Trocar tip protection, cannula length support, face seal flange"
+          ],
+          [
+            "Drainage Catheter & Tube Packaging",
+            "PETG thermoformed tray — drainage catheter in coiled or linear format",
+            "Medical-grade PETG",
+            "Catheter lumen patency maintenance, tip protection, face seal flange"
+          ],
+          [
+            "Combi Pack Vascular Trays",
+            "Multi-device PETG tray — catheter + guide wire + accessories",
+            "Medical-grade PETG",
+            "Each device in defined position, combined kit sterile presentation"
+          ]
+        ]
+      }
+    },
+    {
       "ey": "Device-Specific Packaging Challenges",
       "st": "Vascular Packaging — Specific Technical Requirements",
       "leads": [],
@@ -93,13 +155,6 @@
       "callout": "Vascular packaging manufacturer Vapi — medical packaging manufacturer Gujarat for medical device companies. ISO 9001:2015 · GMP · Cleanroom Class 8 production at Vapi, Gujarat. Medical-grade PETG CoA, GMP batch records, and ISO 11607 compatible dimensional documentation per production run."
     },
     {
-      "ey": "Compliance & Certifications",
-      "st": "Quality Certifications and Regulatory Documentation",
-      "leads": [],
-      "products": [],
-      "strips": []
-    },
-    {
       "ey": "Why Choose Trizen",
       "st": "Why Medical Device Companies Choose Trizen for Vascular Packaging",
       "eyClass": "green",
@@ -169,14 +224,10 @@
     {
       "q": "Prototype and production timeline?",
       "a": "First article: 14 to 21 business days from device technical drawing or sample — cleanroom CNC tooling at Vapi. ISO 9001:2015, GMP, and Cleanroom Class 8 documentation per production batch."
-    },
-    {
-      "q": "Does Trizen supply medical packaging for export markets?",
-      "a": "Yes — ISO 9001:2015, GMP, and medical-grade PETG CoA per batch for export medical device market compliance. Medical thermoforming packaging manufacturer from India for international medical device markets."
     }
   ],
   "imageLabels": [
-    "Product packaging",
-    "Production facility Vapi"
+    "Vascular Packaging Hero",
+    "Vascular Packaging Detail"
   ]
 }

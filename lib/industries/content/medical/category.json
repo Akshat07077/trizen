@@ -22,8 +22,81 @@
         "Trizen Packaging manufactures medical thermoforming packaging from our Cleanroom Class 8, GMP-compliant, ISO 9001:2015 certified facility in Vapi, Gujarat — custom PETG thermoformed trays, blister components, and protective inserts for the complete medical device range. Medical packaging manufacturer from Vapi, Gujarat for orthopedic implant trays, vascular device packaging, ophthalmic packaging, drug delivery device packaging, oncology packaging, respiratory device packaging, wound care packaging, and cardiology device packaging. As a medical thermoforming packaging manufacturer from India, we supply medical-grade packaging components to medical device companies across India and for export.",
         "Medical device packaging is a validated system, not a product. The thermoformed packaging component — the PETG tray or blister shell — must be manufactured under controlled conditions (Cleanroom Class 8), from validated medical-grade materials (PETG, medical-grade HIPS), with dimensional consistency confirmed by documented inspection per production batch. Trizen manufactures the thermoformed packaging component under GMP and ISO 9001:2015. The complete sterile barrier system (tray + Tyvek or foil lid + heat seal) is assembled and validated by the medical device manufacturer."
       ],
-      "products": [],
+      "products": [
+        {
+          "name": "Orthopedics Packaging",
+          "desc": "Orthopedic implant trays, skin stapler trays, bone screw/plate packaging, dental implant trays — face seal blister components manufactured in Cleanroom Class 8.",
+          "link": "View sub-page →",
+          "href": "/medical/ortho"
+        },
+        {
+          "name": "Vascular Packaging",
+          "desc": "Catheter packaging trays, trocar packaging blister components, stent packaging, guide wire packaging — flexible geometry thermoforming for vascular device profiles.",
+          "link": "View sub-page →",
+          "href": "/medical/vascular"
+        },
+        {
+          "name": "Ophthalmic Packaging",
+          "desc": "IOL packaging trays, cataract surgical instrument packaging, ophthalmic surgical kit trays — precision optics protection, sterile component manufacturing.",
+          "link": "View sub-page →",
+          "href": "/medical/ophthalmic"
+        },
+        {
+          "name": "Drug Delivery Packaging",
+          "desc": "Auto-injector packaging, prefilled syringe trays, insulin pen packaging, inhaler component packaging — drug delivery device component thermoforming.",
+          "link": "View sub-page →",
+          "href": "/medical/drug-delivery"
+        },
+        {
+          "name": "Oncology Packaging",
+          "desc": "Biopsy device packaging, oncology catheter packaging, radiation therapy device trays — chemotherapy-resistant material grades, cleanroom production.",
+          "link": "View sub-page →",
+          "href": "/medical/oncology"
+        },
+        {
+          "name": "Respiratory Packaging",
+          "desc": "Nebulizer component packaging, CPAP/BiPAP component trays, ventilator component packaging, oxygen therapy device packaging.",
+          "link": "View sub-page →",
+          "href": "/medical/respiratory"
+        },
+        {
+          "name": "Wound Care Packaging",
+          "desc": "Wound dressing packaging components, wound closure device trays, skin stapler packaging, negative pressure wound therapy device packaging.",
+          "link": "View sub-page →",
+          "href": "/medical/wound-care"
+        },
+        {
+          "name": "Cardiology Packaging",
+          "desc": "Cardiac catheter packaging, pacemaker lead trays, cardiac valve packaging components, coronary stent packaging — high-value cardiac device protection.",
+          "link": "View sub-page →",
+          "href": "/medical/cardiology"
+        }
+      ],
       "strips": []
+    },
+    {
+      "ey": "Why Medical Packaging Is Different",
+      "st": "Why Medical Thermoforming Packaging Requires Specialist Manufacturing",
+      "leads": [],
+      "products": [],
+      "strips": [
+        {
+          "title": "Cleanroom Manufacturing — Particulate Control for Sterile Barrier Packaging",
+          "desc": "Medical packaging components that form part of the sterile barrier system must be manufactured in a controlled environment to limit particulate contamination. Our Cleanroom Class 8 (ISO 14644-1) facility — 100,000 particles per cubic metre — is the standard cleanroom classification for the manufacture of medical packaging components that do not require Class 7 or higher environments. All PETG thermoforming for sterile medical packaging components is produced in our Class 8 cleanroom."
+        },
+        {
+          "title": "GMP Compliance — Documented Manufacturing Process, Batch Records, Material Traceability",
+          "desc": "Medical device packaging manufactured under GMP (Good Manufacturing Practice) requires documented procedures, batch records, material traceability from resin to finished packaging component, and a quality management system that supports the medical device manufacturer's Design History File (DHF) and Device Master Record (DMR). ISO 9001:2015 and GMP at Trizen provides the documented quality system that medical device supplier qualification programmes require."
+        },
+        {
+          "title": "ISO 11607 Compatibility — Packaging Component Dimensional Consistency for Validated Systems",
+          "desc": "ISO 11607 Part 1 and Part 2 govern the requirements for sterile barrier systems for terminally sterilized medical devices. Trizen manufactures the thermoformed packaging component to be compatible with ISO 11607 sterile barrier system validation — dimensional consistency per batch, heat-seal flange geometry, Tyvek compatibility, and material specification documented per batch."
+        },
+        {
+          "title": "PETG Medical Grade — Material Specification for EO and Radiation Sterilization Compatibility",
+          "desc": "Medical-grade PETG is the standard material for thermoformed medical device packaging components. PETG is compatible with Ethylene Oxide (EO) sterilization (the primary method for heat-sensitive medical devices) and compatible with gamma radiation sterilization. Medical-grade PETG has controlled additive specification for direct and indirect food/medical contact applications. Material CoA confirming medical-grade PETG specification per production batch."
+        }
+      ]
     },
     {
       "ey": "Medical Device Categories",
@@ -77,13 +150,6 @@
           ]
         ]
       }
-    },
-    {
-      "ey": "Compliance & Certifications",
-      "st": "Quality Certifications and Regulatory Documentation",
-      "leads": [],
-      "products": [],
-      "strips": []
     },
     {
       "ey": "Why Choose Trizen",
@@ -155,14 +221,10 @@
     {
       "q": "What is the blister packaging scope at Trizen for medical devices?",
       "a": "Trizen manufactures the thermoformed PETG tray component and blister shell component only. Device loading into the blister, Tyvek or foil lidding, heat sealing, and sterilization are performed by the medical device manufacturer at their validated facility. This clear scope definition ensures traceability and validation clarity in the medical device manufacturer's DHF."
-    },
-    {
-      "q": "What is the prototype and production timeline for medical packaging?",
-      "a": "First article: 14 to 21 business days from device technical drawing or device sample — cleanroom CNC tooling at Vapi. Production batch: confirmed at brief stage. ISO 9001:2015, GMP, and Cleanroom Class 8 documentation per production batch."
     }
   ],
   "imageLabels": [
-    "Product packaging",
-    "Production facility Vapi"
+    "Medical Thermoforming Packaging Range",
+    "Medical Packaging Format Detail"
   ]
 }

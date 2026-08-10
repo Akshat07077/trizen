@@ -6,13 +6,191 @@
     "ey": "Our Expertise · Contract Manufacturing · Vapi, Daman · Est. 2005",
     "titleMain": "Thermoforming Contract Manufacturing India",
     "titleTail": "OEM Packaging Programmes, Vapi, Daman",
-    "desc": "We manufacture your thermoforming packaging to your specification from our Vapi facility. Pharmaceutical, medical device, automotive, FMCG and industrial OEM programmes",
+    "desc": "We manufacture your thermoforming packaging to your specification from our Vapi facility. Pharmaceutical, medical device, automotive, FMCG and industrial OEM programmes — GMP validated, Cleanroom Class 8, ISO 9001:2015.",
     "chips": []
   },
-  "sections": [],
+  "sections": [
+    {
+      "ey": "What Is Contract Manufacturing?",
+      "st": "What is Thermoforming Contract Manufacturing?",
+      "eyClass": "gold",
+      "leads": [
+        "Thermoforming contract manufacturing India means Trizen Packaging manufactures your thermoforming packaging — trays, blister packs, clamshells, industrial enclosures — to your specification, at your required volume, from our Vapi production facility. The packaging we manufacture is branded and used by you, produced by us."
+      ],
+      "products": [],
+      "strips": []
+    },
+    {
+      "ey": "Programme Types",
+      "st": "Contract Manufacturing Programmes We Offer",
+      "eyClass": "gold",
+      "leads": [
+        "Our bulk thermoforming contract manufacturing programmes are structured around four standard programme types:"
+      ],
+      "products": [],
+      "strips": [],
+      "table": {
+        "headers": [
+          "Programme",
+          "Scale",
+          "Documentation",
+          "MOQ"
+        ],
+        "rows": [
+          [
+            "New Product Launch",
+            "Prototype to first commercial production. 7–14 days prototype, 3–4 weeks to first production.",
+            "Full GMP batch records + material COAs (regulated) or ISO 9001:2015 records (commercial)",
+            "500 units"
+          ],
+          [
+            "Sustained OEM Production",
+            "Repeat runs on in-house tooling. Fixed spec. Same documentation format every run.",
+            "GMP batch records + material COAs per run. 5-year retention.",
+            "10,000 per run"
+          ],
+          [
+            "Clinical Trial Packaging",
+            "GMP packaging for clinical trial supply. Aligned to trial timelines.",
+            "Full GMP batch records + material COAs to clinical trial documentation standard",
+            "500 units"
+          ],
+          [
+            "Multi-Format OEM",
+            "Single contract, 2–6 formats. One production schedule. One documentation system.",
+            "Single GMP standard across all formats. One supplier qualification audit.",
+            "Per-format MOQ"
+          ]
+        ]
+      }
+    },
+    {
+      "ey": "Industries",
+      "st": "Industries We Serve as a Contract Thermoforming Manufacturer",
+      "eyClass": "green",
+      "leads": [
+        "As an OEM thermoforming packaging manufacturer from Gujarat, we provide bulk OEM thermoforming packaging for these industries:"
+      ],
+      "products": [],
+      "strips": [],
+      "table": {
+        "headers": [
+          "Industry",
+          "Contract Manufacturing Scope",
+          "Standard",
+          "Typical Scale"
+        ],
+        "rows": [
+          [
+            "Pharmaceutical",
+            "GMP blister packaging (PVC, PVDC, Alu-Alu), pharmaceutical trays, syringe trays, diagnostic kit packaging. Supplied as empty packaging components.",
+            "GMP · Cleanroom 8",
+            "500 units (clinical) to 100,000+ (OSD)"
+          ],
+          [
+            "Medical Devices",
+            "Tyvek-sealed blister components and device trays in ETO/Gamma compatible materials. Cleanroom Class 8. Supplied empty to device manufacturer.",
+            "Cleanroom 8 · GMP",
+            "500 to 50,000+ per programme"
+          ],
+          [
+            "Automotive",
+            "Assembly line staging trays, parts trays, ESD-safe ECU and sensor packaging. Sustained repeat production on in-house tooling.",
+            "ISO 9001:2015",
+            "10,000 to 500,000+ per annum"
+          ],
+          [
+            "FMCG & Retail",
+            "Confectionery gift trays for large brand programmes, retail clamshells, shelf-ready inserts. Seasonal and sustained programmes.",
+            "ISO 9001:2015",
+            "10,000 to 200,000+ per run"
+          ],
+          [
+            "Electronics",
+            "ESD-safe component trays for PCBs, connectors, sensors. Retail blister for consumer electronics accessories.",
+            "ISO 9001:2015 · ESD",
+            "10,000 to 500,000+ per annum"
+          ]
+        ]
+      }
+    },
+    {
+      "ey": "Documentation",
+      "st": "What Documentation We Provide",
+      "eyClass": "gold",
+      "leads": [],
+      "products": [],
+      "strips": [],
+      "table": {
+        "headers": [
+          "Document",
+          "What It Contains",
+          "Provided For"
+        ],
+        "rows": [
+          [
+            "GMP Batch Record",
+            "Batch number, material lot numbers, production date, operator records, in-process parameters, QC results, outgoing inspection, and release decision.",
+            "All pharmaceutical GMP and medical device batches — as standard"
+          ],
+          [
+            "Material COA",
+            "Material identity, grade specification, lot number, test results — sourced from material manufacturer and passed through to buyer.",
+            "All regulated batches — standard. Commercial batches on request."
+          ],
+          [
+            "Cleanroom Production Record",
+            "Environmental monitoring data, HEPA filter status, gown log, operator entry/exit records for the specific production session.",
+            "All Cleanroom Class 8 batches — standard"
+          ],
+          [
+            "In-Process QC Data",
+            "Dimensional inspection, seal integrity data (blister), visual inspection records, per-batch statistical summary.",
+            "All production batches — in GMP batch record or separately on request"
+          ],
+          [
+            "ISO 9001:2015 Batch Record",
+            "Production order, material record, inspection record, batch disposition.",
+            "All commercial (non-GMP) batches"
+          ],
+          [
+            "Tooling Record",
+            "CNC tooling specification, maintenance record, last inspection data.",
+            "On request — for supplier qualification"
+          ]
+        ]
+      }
+    },
+    {
+      "ey": "Why Trizen",
+      "st": "Contract Packaging Manufacturer Vapi Daman — Why Choose Trizen?",
+      "eyClass": "gold",
+      "leads": [
+        "As a thermoforming contract manufacturer in Vapi with 20 years of experience, our contract manufacturing programmes are built on in-house capability — not outsourced components of the production process:"
+      ],
+      "products": [],
+      "strips": []
+    }
+  ],
   "midCtas": [],
-  "bottomCta": null,
-  "faqs": [],
+  "bottomCta": {
+    "title": "OEM Thermoforming Packaging from Vapi, Daman",
+    "text": "Submit your specification and volume requirement. Our team responds within 24 business hours with programme structure, MOQ, and documentation outline."
+  },
+  "faqs": [
+    {
+      "q": "What does thermoforming contract manufacturing in India involve?",
+      "a": "Thermoforming contract manufacturing India means Trizen Packaging manufactures your thermoformed packaging — trays, blister packs, clamshells, industrial enclosures — to your specification, at your required volume, from our Vapi facility. We are a contract MANUFACTURER — we do not fill products, load devices, or sterilize. The manufactured packaging components are delivered to you empty for use in your own facility."
+    },
+    {
+      "q": "What is the minimum order quantity for contract manufacturing?",
+      "a": "Minimum 500 units for all thermoforming formats — including pharmaceutical GMP blister, medical device blister components (Cleanroom Class 8), retail clamshells, and industrial enclosures. Sustained OEM programmes from 10,000 units per run. Clinical trial packaging programmes from 500 units with full GMP documentation."
+    },
+    {
+      "q": "Do you supply pharmaceutical supplier qualification documentation?",
+      "a": "Yes. GMP batch records, material COAs (from material manufacturer), Cleanroom Class 8 production records, in-process QC data, and outgoing inspection records are provided with every pharmaceutical GMP and medical device contract manufacturing run. All retained for 5 years post-production. Three certifications available for your qualification package: ISO 9001:2015, GMP, and Cleanroom Class 8."
+    }
+  ],
   "imageLabels": [
     "Product packaging",
     "Production facility Vapi"

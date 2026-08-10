@@ -16,6 +16,68 @@
   },
   "sections": [
     {
+      "ey": "PRIORITY: Medical Industry",
+      "st": "Oncology Packaging Manufacturer India — Biopsy Device & Oncology Catheter Packaging, Cleanroom Class 8",
+      "leads": [
+        "Trizen Packaging manufactures oncology packaging from our Cleanroom Class 8, GMP-compliant, ISO 9001:2015 certified facility in Vapi, Gujarat — custom PETG thermoformed packaging for biopsy devices, oncology catheters, radiation therapy devices, cryotherapy devices, and oncology surgical kits. Oncology packaging manufacturer from Vapi for oncology medical device companies and cancer surgery device manufacturers across India and for export.",
+        "Oncology medical device packaging covers a specialised range of high-value, life-critical devices — biopsy needles and guns, oncology treatment catheters, radiation seed holders, cryotherapy probes, and oncology surgical instrument kits. Many oncology devices are used in cytotoxic environments or are associated with chemotherapy drug delivery, requiring packaging material compatibility with cytotoxic cleaning agents and radiation exposure."
+      ],
+      "products": [],
+      "strips": [],
+      "table": {
+        "headers": [
+          "Medical Device / Application",
+          "Packaging Format",
+          "Material",
+          "Key Requirement"
+        ],
+        "rows": [
+          [
+            "Core Needle Biopsy Device Packaging",
+            "PETG face seal blister tray — biopsy device in tip-protected cavity",
+            "Medical-grade PETG",
+            "Biopsy needle tip protection, cutting mechanism clearance, face seal flange"
+          ],
+          [
+            "Vacuum-Assisted Biopsy System Packaging",
+            "PETG tray — vacuum biopsy system in defined protective cavity",
+            "Medical-grade PETG",
+            "System geometry support, needle protection, sterile presentation"
+          ],
+          [
+            "Oncology Treatment Catheter Packaging",
+            "PETG thermoformed tray — oncology catheter in coiled or linear format",
+            "Medical-grade PETG",
+            "Catheter coil geometry, lumen patency, tip protection, face seal"
+          ],
+          [
+            "Radiation Seed Holder Packaging",
+            "Precision PETG tray — radiation seeds in defined geometric array",
+            "Medical-grade PETG",
+            "Seed array geometry, radiation exposure consideration, sterile packaging"
+          ],
+          [
+            "Cryotherapy Device Packaging",
+            "PETG face seal blister — cryotherapy probe in cavity",
+            "Medical-grade PETG",
+            "Probe geometry support, tip protection, cryogenic material compatibility"
+          ],
+          [
+            "Oncology Surgical Instrument Kit Packaging",
+            "Multi-instrument PETG tray — oncology kit in surgical sequence",
+            "Medical-grade PETG",
+            "Instrument surface protection, cutting edge clearance, sterile kit presentation"
+          ],
+          [
+            "Oncology Port & Access Device Packaging",
+            "PETG face seal blister — port body and catheter in kit format",
+            "Medical-grade PETG",
+            "Port geometry, catheter coil, needle safety clearance, face seal flange"
+          ]
+        ]
+      }
+    },
+    {
       "ey": "Device-Specific Packaging Challenges",
       "st": "Oncology Packaging — Specific Technical Requirements",
       "leads": [],
@@ -93,13 +155,6 @@
       "callout": "Oncology packaging manufacturer Vapi — medical packaging manufacturer Gujarat for medical device companies. ISO 9001:2015 · GMP · Cleanroom Class 8 production at Vapi, Gujarat. Medical-grade PETG CoA, GMP batch records, and ISO 11607 compatible dimensional documentation per production run."
     },
     {
-      "ey": "Compliance & Certifications",
-      "st": "Quality Certifications and Regulatory Documentation",
-      "leads": [],
-      "products": [],
-      "strips": []
-    },
-    {
       "ey": "Why Choose Trizen",
       "st": "Why Medical Device Companies Choose Trizen for Oncology Packaging",
       "eyClass": "green",
@@ -169,14 +224,10 @@
     {
       "q": "Prototype and production timeline?",
       "a": "First article: 14 to 21 business days from device technical drawing or sample — cleanroom CNC tooling at Vapi. ISO 9001:2015, GMP, and Cleanroom Class 8 documentation per production batch."
-    },
-    {
-      "q": "Does Trizen supply medical packaging for export markets?",
-      "a": "Yes — ISO 9001:2015, GMP, and medical-grade PETG CoA per batch for export medical device market compliance. Medical thermoforming packaging manufacturer from India for international medical device markets."
     }
   ],
   "imageLabels": [
-    "Product packaging",
-    "Production facility Vapi"
+    "Oncology Packaging Hero",
+    "Oncology Packaging Detail"
   ]
 }

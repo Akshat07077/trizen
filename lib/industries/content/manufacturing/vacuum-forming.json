@@ -3,16 +3,300 @@
   "industryId": "manufacturing",
   "title": "Vacuum Forming Packaging Manufacturer India | Custom Vacuum Formed Trays | Trizen, Vapi",
   "hero": {
-    "ey": "",
+    "ey": "Manufacturing Capabilities · Page 2 of 7 · Est. 2005 · Vapi, Gujarat",
     "titleMain": "Vacuum Forming Packaging Manufacturer India",
     "titleTail": "Custom Trays for FMCG, Automotive and Industrial Applications, Vapi",
-    "desc": "Custom vacuum formed trays for FMCG, automotive, industrial, stationery, toys",
-    "chips": []
+    "desc": "Custom vacuum formed trays for FMCG, automotive, industrial, stationery, toys and commercial industries. In-house CNC tooling — prototype in 7 to 14 business days.",
+    "chips": [
+      "0.3mm – 8mm Gauge",
+      "PP · HIPS · PETG · PVC · ABS",
+      "ESD-Safe Available",
+      "ISO 9001:2015",
+      "Vapi, India"
+    ]
   },
-  "sections": [],
+  "sections": [
+    {
+      "ey": "Process Decision",
+      "st": "Is Vacuum Forming the Right Process for Your Packaging?",
+      "leads": [
+        "Before specifying a thermoforming manufacturer, the most important decision is process selection. Vacuum forming is the right process when the following conditions apply — and the wrong process when they do not:"
+      ],
+      "products": [],
+      "strips": [],
+      "table": {
+        "headers": [
+          "Condition",
+          "Vacuum Forming (~1 bar)",
+          "️ Consider Pressure Forming Instead"
+        ],
+        "rows": [
+          [
+            "Packaging geometry",
+            "Standard geometry — rounded corners, moderate cavity depth. Trays, standard blisters, presentation inserts.",
+            "Complex geometry — fine surface detail, sharp corner definition, deep draws with consistent wall thickness."
+          ],
+          [
+            "Dimensional tolerance",
+            "±1.0mm to ±2.0mm acceptable — appropriate for commercial packaging where exact cavity fit is important but not precision-critical.",
+            "±0.5mm or tighter — required for medical device cavity fitment, precision automotive trays, pharmaceutical blister."
+          ],
+          [
+            "Surface appearance",
+            "Smooth on mould contact side. Acceptable for commercial and industrial packaging.",
+            "Fine texture reproduction both faces, crisp edges, premium appearance — cosmetic inserts, branded retail, regulated device trays."
+          ],
+          [
+            "Production cost",
+            "Lower tooling cost — standard single-side tooling. Cost-efficient when process capability matches requirement.",
+            "Moderate tooling premium for pressure-sealed tooling. Justified when precision requirement cannot be met by vacuum forming."
+          ],
+          [
+            "Best for",
+            "FMCG retail trays, industrial transit packaging, automotive general trays, stationery, toys, standard commercial blisters.",
+            "Medical device sterile trays, pharmaceutical blister, cosmetic inserts, precision automotive component packaging."
+          ]
+        ]
+      }
+    },
+    {
+      "ey": "What We Produce",
+      "st": "Vacuum Formed Packaging — What We Produce at Vapi",
+      "leads": [
+        "Custom vacuum formed trays and packaging for the full commercial and industrial product range — all moulded to the specific product geometry from in-house CNC tooling at Vapi:"
+      ],
+      "products": [],
+      "strips": []
+    },
+    {
+      "ey": "The Process",
+      "st": "How Vacuum Forming Works — The Process",
+      "leads": [
+        "The vacuum forming plastic packaging process is a single-mould, single-cycle forming method. A thermoplastic sheet is heated to its softening point and drawn against a single-sided mould surface by vacuum pressure (~1 bar). The sheet cools retaining the cavity geometry, then is trimmed to the individual part outline:"
+      ],
+      "products": [],
+      "strips": [],
+      "table": {
+        "headers": [
+          "Stage",
+          "What Happens",
+          "Key Note"
+        ],
+        "rows": [
+          [
+            "1Sheet Loading",
+            "Thermoplastic sheet in the specified material and gauge confirmed against material COA and loaded onto the machine. Gauge range: 0.3mm thin retail blister to 8mm heavy-gauge industrial enclosure.",
+            "Material identity confirmed vs COA. Gauge from product weight and structural requirement."
+          ],
+          [
+            "2IR Heating",
+            "Sheet heated to forming temperature using infrared or ceramic elements — uniformly across the full sheet surface. Uniform temperature is critical: hot spots produce thinner cavities; cool spots produce incomplete forming.",
+            "Sheet temperature uniformity. Non-uniform heating causes cavity depth and wall thickness variation."
+          ],
+          [
+            "3Vacuum Forming",
+            "Heated sheet drawn down over the mould surface by vacuum applied through small holes in the mould (~1 bar). Sheet contacts mould surface on the forming side — the reverse face shows material profile without direct mould contact.",
+            "Vacuum level and application speed. Mould contact quality determines cavity surface finish."
+          ],
+          [
+            "4Cooling",
+            "Formed sheet cools against the mould surface, retaining cavity geometry. Premature release before the correct release temperature causes dimensional distortion.",
+            "Cooling time critical for dimensional accuracy and product fitment."
+          ],
+          [
+            "5Trim & Inspect",
+            "Sheet trimmed to individual part outline. Dimensional inspection per spec. ISO 9001:2015 batch records completed per production run.",
+            "Trim accuracy and dimensional inspection records per batch."
+          ]
+        ]
+      }
+    },
+    {
+      "ey": "Process Comparison",
+      "st": "Vacuum Forming vs Pressure Forming — The Decision Guide",
+      "leads": [
+        "Vacuum forming uses ~1 bar of forming force. Pressure forming uses 4 to 11 bar combined. That difference produces significantly different packaging output:"
+      ],
+      "products": [],
+      "strips": [],
+      "table": {
+        "headers": [
+          "Criterion",
+          "Vacuum Forming (~1 bar)",
+          "Pressure Forming (4–11 bar)"
+        ],
+        "rows": [
+          [
+            "Corner sharpness",
+            "Rounded corners — 1 to 3mm radius typical in deep cavity draws",
+            "Crisp sharp corners — sub-1mm radius achievable. Injection moulding appearance."
+          ],
+          [
+            "Surface texture",
+            "Smooth mould face on contact side only",
+            "Fine texture both faces — grain, logo, identification marks sharply reproduced"
+          ],
+          [
+            "Deep-draw wall thickness",
+            "Wall thins progressively — uniform in shallow to moderate draws",
+            "Consistent wall thickness throughout — critical for device trays and precision automotive"
+          ],
+          [
+            "Dimensional tolerance",
+            "±1.0mm to ±2.0mm — commercial and industrial packaging",
+            "±0.5mm or tighter — medical device, pharmaceutical, precision automotive"
+          ],
+          [
+            "Tooling cost",
+            "Lower — standard single-side vacuum tooling",
+            "Moderate premium — pressure-sealed tooling required"
+          ],
+          [
+            "Best for",
+            "FMCG, industrial, automotive general, stationery, toys, commercial",
+            "Medical device, pharmaceutical, cosmetic inserts, precision automotive"
+          ]
+        ]
+      }
+    },
+    {
+      "ey": "Applications",
+      "st": "Industries and Applications — Vacuum Forming Across Sectors",
+      "leads": [
+        "Vacuum forming packaging at Trizen Packaging serves bulk OEM vacuum forming programmes across the full commercial and industrial industry spectrum:"
+      ],
+      "products": [],
+      "strips": [],
+      "table": {
+        "headers": [
+          "Industry",
+          "What It Solves",
+          "Products",
+          "Programme Type"
+        ],
+        "rows": [
+          [
+            "FMCG & Retail",
+            "Shelf-ready and counter display packaging for large FMCG brand programmes — confectionery gift trays, retail display, CDUs.",
+            "Retail display trays, confectionery inserts, CDUs, shelf-ready packaging",
+            "High volume OEM · Seasonal + sustained"
+          ],
+          [
+            "Automotive",
+            "Assembly line movement trays, general component staging, bulk component transit packaging at automotive production volumes.",
+            "Assembly line trays, component transit packaging, staging trays",
+            "Bulk OEM · High volume per model"
+          ],
+          [
+            "️ Industrial",
+            "Heavy-gauge PP and HIPS transit and retail packaging for industrial equipment, tools, and machinery components.",
+            "Equipment transit trays, power tool retail packaging, machinery trays",
+            "Standard + bulk OEM"
+          ],
+          [
+            "Electronics",
+            "ESD-safe vacuum formed trays for consumer electronics retail and electronic component transit packaging.",
+            "ESD-safe component trays, PCB transit packaging, consumer electronics blister",
+            "Commercial volume · ESD certified"
+          ],
+          [
+            "️ Stationery",
+            "Pen blister packs, school kit trays, stationery gift set base inserts, transparent display trays for retail presentation.",
+            "Pen blister packs, school kit trays, gift set inserts, display trays",
+            "Commercial + seasonal"
+          ],
+          [
+            "Toys",
+            "Toy packaging trays, toy set insert trays, retail display packaging in BPA-free child-safe materials.",
+            "Toy packaging trays, toy set inserts, retail display packaging",
+            "Commercial + seasonal volume"
+          ],
+          [
+            "Baby Care",
+            "Feeding bottle trays, hygiene product trays, and baby care gift set inserts in BPA-free PP and PETG.",
+            "Feeding bottle trays, hygiene product trays, baby care gift set inserts",
+            "Commercial OEM volume"
+          ]
+        ]
+      }
+    },
+    {
+      "ey": "Why Trizen",
+      "st": "Why Choose a Vacuum Forming Packaging Manufacturer in India?",
+      "leads": [
+        "What makes Trizen the right vacuum forming packaging manufacturer for OEM and commercial programmes is a combination of in-house tooling capability, process transparency, and quality infrastructure:"
+      ],
+      "products": [],
+      "strips": [
+        {
+          "title": "01. In-House CNC Vacuum Forming Tooling at Vapi",
+          "desc": "All vacuum forming moulds designed and CNC-fabricated in-house at Vapi. New vacuum forming packaging prototype in 7 to 14 business days from product sample. When product dimensions change — rapid tooling revision at low cost. Most Indian vacuum forming manufacturers outsource tooling and cannot offer this turnaround or revision flexibility."
+        },
+        {
+          "title": "02. Highest-Volume Fast Win — Vacuum Forming Trays Manufacturer Vapi (Vol 30, KD 7)",
+          "desc": "Trizen Packaging produces vacuum formed trays for commercial and industrial programmes from our Vapi facility — the strategic manufacturing location giving direct access to FMCG, automotive, stationery, and toy industry clusters across Gujarat and western India."
+        },
+        {
+          "title": "03. Process Honesty — We Tell You When Pressure Forming Is Needed",
+          "desc": "We specify the correct process from the product before tooling is committed. If your product requires pressure forming, we say so rather than proceed with vacuum forming that produces packaging that falls short of your specification. In-house capability for both processes at Vapi means the right recommendation every time — not a recommendation driven by equipment limitation."
+        },
+        {
+          "title": "04. ISO 9001:2015 Certified Quality on All Vacuum Formed Packaging",
+          "desc": "Every vacuum formed packaging batch — retail display trays, industrial transit packaging, toy trays, FMCG display packaging — is produced under ISO 9001:2015 certified quality management: incoming material COA, in-process dimensional QC, outgoing inspection, and batch records. Commercial buyers get regulated-industry quality discipline on every order."
+        },
+        {
+          "title": "05. Gauge Range 0.3mm to 8mm — Full Commercial Spectrum",
+          "desc": "Thin-gauge 0.3mm PVC and PETG for standard retail blister and consumer product packaging, through to 8mm heavy-gauge PP and HIPS for equipment transit cases, machinery covers, and power tool packaging. Full gauge range from one Vapi facility — no need for multiple suppliers for different gauge requirements."
+        }
+      ]
+    },
+    {
+      "ey": "Related Insights",
+      "st": "Related Articles",
+      "leads": [],
+      "products": [
+        {
+          "name": "Process Guide: Vacuum vs Pressure Forming — Which Process Does Your Packaging Need?",
+          "desc": "Process comparison, forming pressure values, application decision table, and cost implications.",
+          "link": "Read Article →"
+        },
+        {
+          "name": "Sustainability: The rPET Revolution — Recycled Thermoforming Packaging in India",
+          "desc": "rPET vs virgin PET in vacuum formed packaging and EPR regulatory requirements in India.",
+          "link": "Read Article →"
+        },
+        {
+          "name": "Industry 4.0: How Industry 4.0 is Changing Packaging Manufacturing in India",
+          "desc": "Automation in vacuum forming production and what it means for bulk OEM buyers.",
+          "link": "Read Article →"
+        }
+      ],
+      "strips": []
+    }
+  ],
   "midCtas": [],
-  "bottomCta": null,
-  "faqs": [],
+  "bottomCta": {
+    "title": "Ready to Start Your Vacuum Forming Packaging Programme?",
+    "text": "Submit your product sample or brief. Our team specifies the correct process and responds within 24 business hours with recommendation and indicative tooling cost."
+  },
+  "faqs": [
+    {
+      "q": "What does a vacuum forming packaging manufacturer in India produce?",
+      "a": "A vacuum forming packaging manufacturer in India like Trizen Packaging produces custom rigid and semi-rigid packaging — retail display trays, FMCG shelf-ready packaging, industrial component transit trays, automotive assembly line trays, standard blister packaging, and stationery and toy display packaging. All packaging is produced from custom CNC tooling designed for the specific product geometry — no standard shelf moulds."
+    },
+    {
+      "q": "When should I choose vacuum forming over pressure forming?",
+      "a": "Choose vacuum forming when: packaging geometry is standard (moderate draw depth, rounded corners), dimensional tolerance of ±1.0mm or wider is acceptable, and cost efficiency is a primary driver. Use pressure forming instead when: cavity geometry is complex or deep, fine surface detail is required, corner sharpness matters, or tolerance must be tighter than ±1.0mm. Trizen Packaging specifies the correct process from the product sample before any tooling cost is committed."
+    },
+    {
+      "q": "What gauge range do you produce in vacuum forming?",
+      "a": "0.3mm thin gauge for standard retail blister and consumer product packaging through to 8mm heavy gauge for equipment transit cases, machinery covers, and industrial component packaging. Standard commercial range: 0.5mm to 3mm. Heavy gauge industrial formats in PP and HIPS from 2mm to 8mm. Gauge confirmed from product weight, structural requirement, and application at brief stage."
+    },
+    {
+      "q": "What materials do you use for vacuum formed packaging?",
+      "a": "PP (standard, food-grade, automotive grade), PETG (standard and medical-grade), APET, PVC (standard and pharma grade), HIPS, ABS, and ESD-modified PP and PETG. Material selection from application, clarity requirement, and regulatory specification. Food-grade PP available for food-adjacent and produce tray applications. Material COAs provided per regulated production batch."
+    }
+  ],
   "imageLabels": [
     "Product packaging",
     "Production facility Vapi"

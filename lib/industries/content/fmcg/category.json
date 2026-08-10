@@ -22,7 +22,32 @@
         "Trizen Packaging manufactures FMCG thermoforming packaging from our ISO 9001:2015 certified facility in Vapi, Gujarat — food-grade thermoformed packaging for large FMCG brands requiring bulk production volumes. FMCG packaging manufacturer from Vapi Daman for celebration and gift trays, premium retail packaging inserts, food and beverage display trays, and custom thermoformed formats for established FMCG brands. As a FMCG thermoforming packaging manufacturer from India, we serve large consumer goods brands and FMCG companies across India — not generic small-order food container manufacturing.",
         "Trizen's FMCG packaging focus is bulk, brand-centric, food-grade thermoforming — celebration gift trays for confectionery brands (Cadbury, Mondelez, Kinder Joy, Cornetto), custom retail packaging inserts for branded FMCG product ranges, and premium retail display trays for large FMCG companies. We manufacture the thermoformed packaging component — the food-grade tray insert or retail packaging shell — not the filled or sealed finished product. All FMCG packaging is food-grade PP or APET, ISO 9001:2015 certified, produced in bulk from our Vapi facility."
       ],
-      "products": [],
+      "products": [
+        {
+          "name": "Bakery & Confectionery Trays",
+          "desc": "Celebration and gift trays for chocolate brands (Cadbury, Mondelez), confectionery companies, and premium bakery products — food-grade, bulk OEM.",
+          "link": "View sub-page →",
+          "href": "/fmcg/bakery"
+        },
+        {
+          "name": "Retail Packaging for FMCG",
+          "desc": "Custom thermoformed retail packaging inserts for large FMCG brand product ranges — shelf display, product protection, brand presentation.",
+          "link": "View sub-page →",
+          "href": "/fmcg/retail"
+        },
+        {
+          "name": "Food & Beverage Thermoformed Trays",
+          "desc": "Food-grade thermoformed trays for premium F&B brands — display trays, gift packaging, product presentation inserts.",
+          "link": "View sub-page →",
+          "href": "/fmcg/food-bev"
+        },
+        {
+          "name": "Custom Retail Packaging Inserts",
+          "desc": "Bespoke thermoformed inserts for FMCG brand retail packaging — product-specific cavity geometry, brand colour compatibility, bulk OEM.",
+          "link": "View sub-page →",
+          "href": "/fmcg/retail"
+        }
+      ],
       "strips": []
     },
     {
@@ -103,13 +128,6 @@
       "callout": "FMCG packaging Gujarat — all FMCG thermoforming packaging tooling manufactured and held in-house at our Vapi, Gujarat facility. Bulk FMCG packaging manufacturer Vapi for large consumer goods brands. Food-grade CoA and ISO 9001:2015 batch documentation per production run. FMCG thermoforming packaging manufacturer from India serving large brands domestically and for export."
     },
     {
-      "ey": "Compliance & Certifications",
-      "st": "Quality Certifications and Food-Grade Documentation",
-      "leads": [],
-      "products": [],
-      "strips": []
-    },
-    {
       "ey": "Why Choose Trizen",
       "st": "Why Large FMCG Brands Choose Trizen Packaging",
       "eyClass": "green",
@@ -179,14 +197,10 @@
     {
       "q": "MOQ and prototype timeline?",
       "a": "Prototype: 7 to 14 business days from product sample and packaging specification. MOQ for FMCG programmes confirmed at brief stage — bulk order requirements from large brands. Food-grade CoA and ISO 9001:2015 per batch."
-    },
-    {
-      "q": "Does Trizen supply FMCG packaging for seasonal gifting programmes?",
-      "a": "Yes — seasonal celebration gift tray programmes (Diwali, Christmas, Eid, corporate gifting) are a specialist FMCG application from our Vapi facility. Seasonal programme tooling held in-house permanently — same specification year-on-year. MOQ and programme timeline confirmed at brief stage."
     }
   ],
   "imageLabels": [
-    "Product packaging",
-    "Production facility Vapi"
+    "FMCG Packaging Range",
+    "FMCG Packaging Production"
   ]
 }

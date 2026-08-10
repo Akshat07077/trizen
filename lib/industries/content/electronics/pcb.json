@@ -75,7 +75,8 @@
             "Maximum PCB count per tray, ESD-safe throughout supply chain"
           ]
         ]
-      }
+      },
+      "callout": "ESD Capability Note: ESD-safe thermoforming trays use controlled surface resistivity materials (ESD-safe PP or ESD-safe PETG, typically 10⁶–10⁹ Ω/sq). Surface resistivity test certificates supplied per material batch. All ESD-safe electronics packaging produced with clean handling procedures at our Vapi facility."
     },
     {
       "ey": "Pain Points We Solve",
@@ -220,14 +221,10 @@
     {
       "q": "MOQ and prototype timeline?",
       "a": "Prototype: 7 to 14 business days from PCB sample or drawing. MOQ from 500 units. ESD CoA and ISO 9001:2015 per batch."
-    },
-    {
-      "q": "Export PCB supply chain documentation?",
-      "a": "ESD CoA per batch, ISO 9001:2015 records, dimensional inspection per run — available for export electronics supply chain compliance."
     }
   ],
   "imageLabels": [
-    "Product packaging",
-    "Production facility Vapi"
+    "PCB & Circuit Board Packaging Hero",
+    "PCB & Circuit Board Packaging Detail"
   ]
 }

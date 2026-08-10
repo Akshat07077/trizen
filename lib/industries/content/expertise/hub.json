@@ -6,13 +6,107 @@
     "ey": "Our Expertise · Est. 2005 · Vapi, Gujarat",
     "titleMain": "Our Thermoforming Packaging Expertise India",
     "titleTail": "20 Years of Specialisation, Vapi, Gujarat",
-    "desc": "Exclusive thermoforming specialisation since 2005. Not a generalist plastics processor",
-    "chips": []
+    "desc": "Exclusive thermoforming specialisation since 2005. Not a generalist plastics processor — a dedicated thermoforming packaging manufacturer for regulated and commercial industries from one Vapi facility.",
+    "chips": [
+      "20+ Years Est. 2005",
+      "6 Packaging Formats",
+      "10+ Industries",
+      "ISO 9001:2015",
+      "GMP Validated",
+      "Cleanroom Class 8"
+    ]
   },
-  "sections": [],
+  "sections": [
+    {
+      "ey": "What Our Expertise Means",
+      "st": "What Our Thermoforming Expertise Means for Your Packaging",
+      "eyClass": "gold",
+      "leads": [
+        "Trizen Packaging's thermoforming packaging expertise India is the product of 20 years of exclusive specialisation — not a generalist plastics business that added thermoforming to its capabilities list. Since 2005, every production run, every mould, every customer brief at our Vapi facility has been thermoforming. That singular focus is visible in the results."
+      ],
+      "products": [],
+      "strips": []
+    },
+    {
+      "ey": "4 Areas of Expertise",
+      "st": "4 Areas of Expertise — What We Bring to Every Packaging Programme",
+      "eyClass": "gold",
+      "leads": [
+        "Our thermoforming packaging OEM expertise India is organised across four distinct capability areas — each building on 20 years of exclusive thermoforming specialisation at Vapi:"
+      ],
+      "products": [],
+      "strips": []
+    },
+    {
+      "ey": "Specialist vs Generalist",
+      "st": "Why Choose a Specialist Thermoforming Packaging Manufacturer Over a Generalist?",
+      "eyClass": "gold",
+      "leads": [
+        "Advanced thermoforming solutions from Gujarat are available from both specialist thermoformers and generalist plastics processors. The difference is visible when packaging programmes involve regulated applications, complex cavity geometry, or multi-format requirements:"
+      ],
+      "products": [],
+      "strips": [],
+      "table": {
+        "headers": [
+          "Area",
+          "Generalist Plastics Processor",
+          "Trizen — Specialist Thermoformer"
+        ],
+        "rows": [
+          [
+            "Tooling",
+            "Often outsourced to third-party tool room. 6–12 week typical lead time. Design-to-manufacture communication gap.",
+            "In-house CNC tooling at Vapi. Prototype in 7–14 business days. Designed specifically for thermoforming. Modifications without leaving the facility."
+          ],
+          [
+            "Regulatory documentation",
+            "GMP batch records and Cleanroom procedures may be added for specific customers — not built into standard process.",
+            "GMP validation and Cleanroom Class 8 are part of the standard production facility. Batch documentation produced for every regulated run as standard."
+          ],
+          [
+            "Material knowledge",
+            "Standard commercial grades for standard applications. Regulated grades on request from external sources.",
+            "20 years of processing pharmaceutical, medical, ESD, food-contact, and commercial grade thermoforming materials. Material selection is part of the standard brief process."
+          ],
+          [
+            "Format range",
+            "Typically 1–2 thermoforming formats. Blister and clamshell often outsourced or unavailable.",
+            "6 thermoforming formats in-house: trays, vacuum forming, pressure forming, blister (7 formats), clamshell (5 formats), industrial enclosures."
+          ],
+          [
+            "Industry range",
+            "Standard commercial industries. Pharmaceutical and medical typically referred elsewhere.",
+            "Pharmaceutical, medical device, automotive, FMCG, cosmetics, electronics, baby care, stationery, toys, industrial — one facility, one quality system."
+          ]
+        ]
+      }
+    },
+    {
+      "ey": "3 Certifications",
+      "st": "ISO Certified Packaging Expertise Vapi — 3 Certifications, One Facility",
+      "eyClass": "gold",
+      "leads": [
+        "The ISO certified packaging expertise Vapi is grounded in three documented certifications — all held by the same Trizen Packaging production facility at Vapi:"
+      ],
+      "products": [],
+      "strips": []
+    }
+  ],
   "midCtas": [],
-  "bottomCta": null,
-  "faqs": [],
+  "bottomCta": {
+    "title": "20 Years of Thermoforming Expertise — Put to Work for Your Packaging",
+    "text": "Submit your product brief or sample. Our team responds within 24 business hours with format recommendation, material confirmation, and timeline."
+  },
+  "faqs": [
+    {
+      "q": "What is Trizen Packaging's thermoforming packaging expertise in India?",
+      "a": "Trizen Packaging's thermoforming packaging expertise India is built on 20 years of exclusive thermoforming specialisation at Vapi since 2005. Our expertise covers all 6 thermoforming packaging formats for pharmaceutical, medical device, automotive, FMCG, cosmetics, electronics, and industrial applications. Three certifications: ISO 9001:2015, GMP, and Cleanroom Class 8 — all at our Vapi facility."
+    },
+    {
+      "q": "What certifications support Trizen Packaging's expertise?",
+      "a": "Three certifications, all at our Vapi production facility: ISO 9001:2015 (third-party certified quality management), GMP (validated pharmaceutical packaging manufacturing), and Cleanroom Class 8 (validated controlled environment per ISO 14644, March 2026 — next validation March 2027). These three together cover standard commercial, GMP pharmaceutical, and Cleanroom medical device packaging component manufacturing from one facility."
+    }
+  ],
   "imageLabels": [
     "Product packaging",
     "Production facility Vapi"

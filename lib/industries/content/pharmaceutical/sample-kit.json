@@ -149,13 +149,6 @@
       "callout": "Sample packaging manufacturer Vapi — PETG and APET pharma-grade sample kit packaging from our Vapi, Gujarat facility. Sample kit packaging Gujarat for pharmaceutical companies and clinical trial organisations. GMP, Cleanroom Class 8, ISO 9001:2015 per production run."
     },
     {
-      "ey": "Compliance & Certifications",
-      "st": "Quality Certifications and Documentation",
-      "leads": [],
-      "products": [],
-      "strips": []
-    },
-    {
       "ey": "Why Choose Trizen",
       "st": "Why Pharmaceutical Companies Choose Trizen for Sample Kit Packaging",
       "eyClass": "green",
@@ -221,14 +214,10 @@
     {
       "q": "Prototype timeline?",
       "a": "First article: 14 to 21 business days from complete kit contents and packaging format specification."
-    },
-    {
-      "q": "Export pharmaceutical programmes?",
-      "a": "GMP documentation and pharma-grade material CoA per batch for export pharmaceutical market compliance."
     }
   ],
   "imageLabels": [
-    "Product packaging",
-    "Production facility Vapi"
+    "Sample Kit Packaging Hero",
+    "Sample Kit Packaging Detail"
   ]
 }

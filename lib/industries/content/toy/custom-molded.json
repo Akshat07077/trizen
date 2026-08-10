@@ -1,6 +1,5 @@
 {
   "slug": "custom-molded",
-  "industryId": "toy",
   "title": "Custom Molded Toy Packs Manufacturer India | Toy Packaging Vapi | Trizen",
   "hero": {
     "ey": "Custom Molded Toy Packs · Hero Pose · Vapi",
@@ -22,8 +21,8 @@
         "Trizen Packaging manufactures custom molded toy packs from our ISO 9001:2015 certified facility in Vapi, Gujarat — bespoke thermoformed APET inserts for toy profiles that require custom cavity design from the physical toy sample. Custom molded toy packs from Vapi for toy brands with unique toy geometries, hero pose specific display requirements, limited edition toy packaging, and toy brand exclusive packaging formats that standard thermoforming formats cannot accommodate. As a custom molded toy packs manufacturer from India, we supply bespoke toy packaging for domestic toy brands and export toy programmes.",
         "Custom molded toy packs are required when the toy's unique three-dimensional profile, articulation, or accessory configuration cannot be accommodated by any standard thermoforming format. A transformer toy at mid-transformation, a creature toy with irregular organic geometry, a robot toy with extended sensor arms — each has a profile that requires custom thermoforming tooling from the physical toy in its exact display pose. The custom thermoforming process begins from the physical toy sample, not from standard formats."
       ],
-      "products": [],
       "strips": [],
+      "products": [],
       "table": {
         "headers": [
           "Product / Format",
@@ -75,7 +74,6 @@
       "ey": "Pain Points We Solve",
       "st": "Three Problems Custom Molded Toy Packs Buyers Face",
       "leads": [],
-      "products": [],
       "strips": [
         {
           "title": "Standard Blister Cannot Accommodate Unique Toy Geometry",
@@ -89,13 +87,13 @@
           "title": "Limited Edition Collector Pack — Standard Format Communicates Mass Production",
           "desc": "Problem: Limited edition and collector toy packaging in standard blister formats does not communicate the premium positioning of a limited edition release. Solution: Custom PETG premium clarity blister with bespoke form factor — the packaging format itself communicates limited edition exclusivity."
         }
-      ]
+      ],
+      "products": []
     },
     {
       "ey": "Design Requirements",
       "st": "Custom Molded Toy Packs — Key Design Requirements",
       "leads": [],
-      "products": [],
       "strips": [
         {
           "title": "Custom Cavity from Physical Toy in Display State",
@@ -113,15 +111,15 @@
           "title": "Unique Accessory Configuration — All Accessory Positions Custom",
           "desc": "Custom toy packs frequently have unique accessory configurations that require custom cavity positions. Every accessory in the brand's intended display position — weapon at attack angle, shield at guard position, effect piece at maximum drama."
         }
-      ]
+      ],
+      "products": []
     },
     {
       "ey": "Materials",
       "st": "Materials for Custom Molded Toy Packs",
-      "eyClass": "gold",
       "leads": [],
-      "products": [],
       "strips": [],
+      "products": [],
       "table": {
         "headers": [
           "Material",
@@ -146,14 +144,13 @@
           ]
         ]
       },
-      "callout": "Custom molded toy packs Vapi — bespoke thermoformed APET and PETG custom toy packs from our Vapi, Gujarat facility. Toy packaging Gujarat for toy brands with unique toy geometry requirements. ISO 9001:2015 per production run."
+      "callout": "Custom molded toy packs Vapi — bespoke thermoformed APET and PETG custom toy packs from our Vapi, Gujarat facility. Toy packaging Gujarat for toy brands with unique toy geometry requirements. ISO 9001:2015 per production run.",
+      "eyClass": "gold"
     },
     {
       "ey": "Why Choose Trizen",
       "st": "Why Brands Choose Trizen for Custom Molded Toy Packs",
-      "eyClass": "green",
       "leads": [],
-      "products": [],
       "strips": [
         {
           "title": "100% Custom — From Physical Toy in Display State",
@@ -167,7 +164,9 @@
           "title": "Custom Molded Toy Packs from India — Domestic and Export",
           "desc": "Custom molded toy packs manufacturer from India for domestic toy brands and export toy programmes."
         }
-      ]
+      ],
+      "products": [],
+      "eyClass": "green"
     }
   ],
   "midCtas": [
@@ -220,8 +219,16 @@
       "a": "ISO 9001:2015 per batch for export toy market compliance."
     }
   ],
+  "band": {
+    "mainTitle": "Custom Molded Toy Packs",
+    "mainText": "Bespoke thermoformed inserts for unique toy profiles — custom cavity from toy sample, hero pose thermoforming, toy brand exclusive packaging formats. Custom molded toy packs from Vapi — ISO 9001:2015.",
+    "detailTitle": "Toy insert detail",
+    "detailText": "Close-up of cavity fit, display angle, retail tray detail, or molded insert geometry.",
+    "processTitle": "Bulk production",
+    "processText": "Forming, trimming, inspection, stacked trays, or dispatch-ready toy packaging."
+  },
   "imageLabels": [
-    "Product packaging",
-    "Production facility Vapi"
+    "Toy Packaging Range",
+    "Toy Packaging Production Vapi"
   ]
 }

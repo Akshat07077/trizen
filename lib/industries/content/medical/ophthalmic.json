@@ -16,6 +16,68 @@
   },
   "sections": [
     {
+      "ey": "PRIORITY: Medical Industry",
+      "st": "Ophthalmic Packaging Manufacturer India — IOL Trays, Cataract Kit Packaging, Cleanroom Class 8 · Vapi",
+      "leads": [
+        "Trizen Packaging manufactures ophthalmic packaging from our Cleanroom Class 8, GMP-compliant, ISO 9001:2015 certified facility in Vapi, Gujarat — custom PETG thermoformed packaging for intraocular lenses (IOLs), cataract surgical instrument kits, vitreoretinal surgical instrument trays, and ophthalmic device packaging. Ophthalmic packaging manufacturer from Vapi for ophthalmic device companies and eye care surgical instrument manufacturers across India and for export.",
+        "Ophthalmic device packaging requires the most stringent particulate control of any medical packaging category — intraocular lenses (IOLs) are implanted directly into the eye, where any particulate contamination from the packaging can cause endophthalmitis (intraocular infection), a vision-threatening complication. IOL packaging components must be produced in the cleanest possible controlled environment, from the purest available thermoforming materials, with the tightest possible dimensional consistency."
+      ],
+      "products": [],
+      "strips": [],
+      "table": {
+        "headers": [
+          "Medical Device / Application",
+          "Packaging Format",
+          "Material",
+          "Key Requirement"
+        ],
+        "rows": [
+          [
+            "Intraocular Lens (IOL) Packaging Trays",
+            "PETG face seal blister tray — IOL in sterile presentation",
+            "Medical-grade PETG",
+            "IOL optic surface no-contact, haptic protection, face seal flange"
+          ],
+          [
+            "Cataract Surgical Instrument Kit Packaging",
+            "Multi-instrument PETG tray — all instruments in defined kit sequence",
+            "Medical-grade PETG",
+            "Instrument surface protection, cutting edge clearance, sterile kit presentation"
+          ],
+          [
+            "Vitreoretinal Surgical Instrument Packaging",
+            "PETG tray — vitreoretinal instruments in defined positions",
+            "Medical-grade PETG",
+            "Micro-instrument protection, cannula geometry, face seal flange"
+          ],
+          [
+            "Phaco Handpiece & Tip Packaging",
+            "PETG face seal blister — phacoemulsification tip protected",
+            "Medical-grade PETG",
+            "Handpiece geometry, tip clearance, irrigation sleeve protection"
+          ],
+          [
+            "Glaucoma Device Packaging",
+            "PETG blister tray — glaucoma drainage device in cavity",
+            "Medical-grade PETG",
+            "Device geometry support, tube protection, implant surface clearance"
+          ],
+          [
+            "Contact Lens Packaging Inserts",
+            "PETG thermoformed packaging for contact lens secondary packaging",
+            "Medical-grade PETG",
+            "Sterile packaging component for contact lens retail format"
+          ],
+          [
+            "Ophthalmic Surgical Kit Inserts",
+            "Multi-component PETG tray — complete eye surgical kit",
+            "Medical-grade PETG",
+            "All instruments in kit position, sterile kit presentation, face seal flange"
+          ]
+        ]
+      }
+    },
+    {
       "ey": "Device-Specific Packaging Challenges",
       "st": "Ophthalmic Packaging — Specific Technical Requirements",
       "leads": [],
@@ -93,13 +155,6 @@
       "callout": "Ophthalmic packaging manufacturer Vapi — medical packaging manufacturer Gujarat for medical device companies. ISO 9001:2015 · GMP · Cleanroom Class 8 production at Vapi, Gujarat. Medical-grade PETG CoA, GMP batch records, and ISO 11607 compatible dimensional documentation per production run."
     },
     {
-      "ey": "Compliance & Certifications",
-      "st": "Quality Certifications and Regulatory Documentation",
-      "leads": [],
-      "products": [],
-      "strips": []
-    },
-    {
       "ey": "Why Choose Trizen",
       "st": "Why Medical Device Companies Choose Trizen for Ophthalmic Packaging",
       "eyClass": "green",
@@ -169,14 +224,10 @@
     {
       "q": "Prototype and production timeline?",
       "a": "First article: 14 to 21 business days from device technical drawing or sample — cleanroom CNC tooling at Vapi. ISO 9001:2015, GMP, and Cleanroom Class 8 documentation per production batch."
-    },
-    {
-      "q": "Does Trizen supply medical packaging for export markets?",
-      "a": "Yes — ISO 9001:2015, GMP, and medical-grade PETG CoA per batch for export medical device market compliance. Medical thermoforming packaging manufacturer from India for international medical device markets."
     }
   ],
   "imageLabels": [
-    "Product packaging",
-    "Production facility Vapi"
+    "Ophthalmic Packaging Hero",
+    "Ophthalmic Packaging Detail"
   ]
 }

@@ -75,7 +75,8 @@
             "Reel geometry support, tape-and-reel compatible, ESD-safe"
           ]
         ]
-      }
+      },
+      "callout": "ESD Capability Note: ESD-safe thermoforming trays use controlled surface resistivity materials (ESD-safe PP or ESD-safe PETG, typically 10⁶–10⁹ Ω/sq). Surface resistivity test certificates supplied per material batch. All ESD-safe electronics packaging produced with clean handling procedures at our Vapi facility."
     },
     {
       "ey": "Pain Points We Solve",
@@ -220,14 +221,10 @@
     {
       "q": "MOQ and prototype timeline?",
       "a": "Prototype: 7 to 14 business days. MOQ from 500 units. Resistivity CoA and ISO 9001:2015 per batch."
-    },
-    {
-      "q": "Is resistivity consistent batch-to-batch?",
-      "a": "Surface resistivity is tested per material batch and confirmed by CoA. Consistent ESD-safe material sourcing from our Vapi facility."
     }
   ],
   "imageLabels": [
-    "Product packaging",
-    "Production facility Vapi"
+    "ESD-Safe Thermoforming Trays Hero",
+    "ESD-Safe Thermoforming Trays Detail"
   ]
 }

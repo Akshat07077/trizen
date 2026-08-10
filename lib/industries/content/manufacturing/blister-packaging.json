@@ -3,16 +3,329 @@
   "industryId": "manufacturing",
   "title": "Blister Packaging Manufacturer India | Pharmaceutical & Medical Blister Packs | Trizen, Vapi",
   "hero": {
-    "ey": "",
+    "ey": "Manufacturing Capabilities · Page 4 of 7 · Est. 2005 · Vapi, Gujarat",
     "titleMain": "Blister Packaging Manufacturer India",
     "titleTail": "Pharmaceutical, Medical and Retail Blister Packs, Vapi",
-    "desc": "Custom blister packaging components for pharmaceutical, medical device, and retail",
-    "chips": []
+    "desc": "Custom blister packaging components for pharmaceutical, medical device, and retail applications — manufactured from in-house CNC tooling at our GMP validated, Cleanroom Class 8 facility in Vapi since 2005.",
+    "chips": [
+      "PVC",
+      "PVDC",
+      "Alu-Alu",
+      "APET",
+      "Tyvek-Compatible",
+      "CR Blister",
+      "Tamper-Evident"
+    ]
   },
-  "sections": [],
+  "sections": [
+    {
+      "ey": "What is Blister Packaging?",
+      "st": "What is Blister Packaging? — Types, Materials and Applications",
+      "eyClass": "gold",
+      "leads": [
+        "Blister packaging is a pre-formed plastic packaging format — a thermoformed plastic cavity sealed with a lidding material (aluminium foil, Tyvek, or film). The cavity holds the product; the lidding seals it and protects against contamination, moisture, and physical damage. It is the dominant primary packaging format for pharmaceutical oral solid dose products globally, and is widely used for medical device packaging components and commercial retail packaging.",
+        "Trizen Packaging is a blister packaging manufacturer in India producing PVC pharmaceutical blister packs, PVDC high-barrier blister, Alu-Alu cold form blister, APET and PETG retail blister, Tyvek-compatible thermoformed blister components, child-resistant blister, and tamper-evident blister packs — all from custom in-house CNC tooling at our GMP validated, Cleanroom Class 8 facility in Vapi, Gujarat.",
+        "As a blister packaging manufacturer in India, we manufacture the thermoformed blister cavity and, where specified, the lidded blister component — using ETO and Gamma compatible materials (PP, PETG, APET) where medical device applications require it. Device loading and sterilization are performed by the device manufacturer in their own facility."
+      ],
+      "products": [],
+      "strips": []
+    },
+    {
+      "ey": "7 Blister Formats",
+      "st": "7 Blister Packaging Formats We Manufacture",
+      "eyClass": "gold",
+      "leads": [
+        "All major blister packaging formats for pharmaceutical, medical, and commercial applications — all from in-house CNC tooling at Vapi:"
+      ],
+      "products": [
+        {
+          "name": "Standard PVC Blister",
+          "desc": "Most widely used pharmaceutical blister format globally. Good thermoformability, heat-sealable with aluminium foil. WVTR: 3.0–5.0 g/m²/day. For OSD drugs with low to moderate moisture sensitivity."
+        },
+        {
+          "name": "PVDC High-Barrier Blister",
+          "desc": "Superior moisture barrier versus standard PVC. WVTR: 0.5–2.0 g/m²/day. For moisture-sensitive and hygroscopic pharmaceutical products."
+        },
+        {
+          "name": "Alu-Alu Cold Form Blister",
+          "desc": "Maximum moisture barrier for highly hygroscopic drugs and specialty pharmaceutical products. WVTR: &lt;0.1 g/m²/day. Opaque. Premium protection for sensitive drug products."
+        },
+        {
+          "name": "APET/PETG Retail Blister",
+          "desc": "High clarity for maximum product visibility. Consumer product retail blister — electronics accessories, stationery, toys, consumer OTC. Euro-hole for pegboard retail display."
+        },
+        {
+          "name": "Tyvek-Compatible Blister Components",
+          "desc": "Thermoformed blister tray + Tyvek-sealed blister component manufactured in ETO and Gamma compatible materials. Trizen manufactures the component. Device loading and sterilization by device manufacturer in their own facility."
+        },
+        {
+          "name": "Child-Resistant (CR) Blister",
+          "desc": "Child-resistant pharmaceutical packaging for OTC medications and prescription drugs. Push-and-peel mechanism. For pharmaceutical products requiring CR packaging."
+        },
+        {
+          "name": "Tamper-Evident Blister",
+          "desc": "Permanently sealed blister — seal breakage immediately visible and irreversible. For pharmaceutical and consumer healthcare products where tamper evidence is a packaging requirement."
+        }
+      ],
+      "strips": []
+    },
+    {
+      "ey": "Material & Lidding Guide",
+      "st": "Material and Lidding Selection Guide for Blister Packaging",
+      "eyClass": "gold",
+      "leads": [
+        "Material selection determines moisture barrier performance, product visibility, and regulatory suitability. The wrong material results in product degradation, non-compliance, or unnecessary cost:"
+      ],
+      "products": [],
+      "strips": [],
+      "table": {
+        "headers": [
+          "Cavity Material",
+          "Gauge",
+          "WVTR (g/m²/day)",
+          "Clarity",
+          "Cost",
+          "Best Application"
+        ],
+        "rows": [
+          [
+            "PVC",
+            "0.15–0.40mm",
+            "3.0–5.0",
+            "High clarity",
+            "Lowest",
+            "Standard OSD — tablets, capsules with low to moderate moisture sensitivity"
+          ],
+          [
+            "PVDC-coated PVC",
+            "0.20–0.40mm",
+            "0.5–2.0",
+            "High clarity",
+            "Moderate",
+            "Moisture-sensitive drugs needing better barrier than standard PVC"
+          ],
+          [
+            "Alu-Alu Cold Form",
+            "120–150 µm",
+            "&lt;0.1",
+            "Opaque",
+            "Premium",
+            "Highly hygroscopic drugs, specialty pharmaceuticals — maximum barrier"
+          ],
+          [
+            "APET",
+            "0.25–0.50mm",
+            "5.0–8.0",
+            "Maximum clarity",
+            "Moderate",
+            "Retail consumer blister — no pharma barrier requirement; premium clarity"
+          ],
+          [
+            "PETG",
+            "0.25–0.50mm",
+            "3.0–5.0",
+            "High clarity",
+            "Moderate",
+            "Medical device blister components — ETO and Gamma compatible; high clarity and toughness"
+          ]
+        ]
+      }
+    },
+    {
+      "ey": "Pharmaceutical & Medical",
+      "st": "Blister Packaging for Pharmaceutical and Medical Applications",
+      "eyClass": "gold",
+      "leads": [
+        "What Trizen Packaging manufactures and what the buyer is responsible for — clearly defined:"
+      ],
+      "products": [],
+      "strips": [],
+      "table": {
+        "headers": [
+          "Application",
+          "What Trizen Manufactures",
+          "Buyer / Device Manufacturer Responsibility",
+          "Production Standard"
+        ],
+        "rows": [
+          [
+            "Pharmaceutical OSDTablets, capsules, lozenges",
+            "Thermoformed PVC, PVDC, or Alu-Alu blister cavities sealed with pharmaceutical aluminium foil. Complete blister packaging component supplied to pharmaceutical manufacturer with full GMP batch records, material COAs, in-process QC, and outgoing inspection records per batch.",
+            "Drug product and regulatory submissions. Blister packaging line sealing operations. Product stability testing and shelf-life validation.",
+            "GMP ValidatedCleanroom Class 8"
+          ],
+          [
+            "Pharmaceutical SpecialtySyringe trays, diagnostic kits, sample kits",
+            "Thermoformed PETG or PP trays and packaging inserts for pharmaceutical product presentation — syringe trays, diagnostic kit trays, sample kit base inserts. GMP batch documentation provided.",
+            "Kit assembly and final product packaging operations. Regulatory submissions.",
+            "GMP ValidatedCleanroom Class 8"
+          ],
+          [
+            "Medical Device ComponentsThermoformed tray + Tyvek lid",
+            "Thermoformed PETG or APET blister tray in ETO and Gamma compatible material. Where specified, Tyvek lidding heat-sealed to the blister flange — producing the complete empty blister component. Manufactured in Cleanroom Class 8 under GMP.",
+            "Device loading into the blister. Final seal verification. Sterilization (ETO or Gamma) in the device manufacturer's facility. Regulatory submissions and sterile barrier system validation.",
+            "Cleanroom Class 8GMP"
+          ],
+          [
+            "Retail Consumer & OTCStandard blister, CR, consumer healthcare",
+            "Thermoformed PVC, PETG, or APET blister cavity sealed with film or foil. CR blister and tamper-evident blister for OTC consumer healthcare retail packaging. ISO 9001:2015 batch documentation.",
+            "Product loading and retail packaging operations.",
+            "ISO 9001:2015"
+          ]
+        ]
+      }
+    },
+    {
+      "ey": "Manufacturing Process",
+      "st": "How Blister Packaging is Produced — The Manufacturing Process",
+      "eyClass": "green",
+      "leads": [],
+      "products": [],
+      "strips": [],
+      "table": {
+        "headers": [
+          "Stage",
+          "What Trizen Packaging Does",
+          "Critical Parameter"
+        ],
+        "rows": [
+          [
+            "1. Blister cavity thermoforming",
+            "Thermoplastic sheet heated and thermoformed against the cavity mould — producing the product cavity. Cavity dimensions, depth, and sealing flange geometry confirmed against specification.",
+            "Cavity flange flatness ±0.3mm — critical for foil or Tyvek sealing integrity. Cavity depth consistency across all positions in the formed sheet."
+          ],
+          [
+            "2. Lidding alignment and heat sealing",
+            "Aluminium foil, Tyvek, or PVC lid film aligned over the empty blister cavities. Heat and pressure applied to the sealing flange. The blister packaging component is supplied to the buyer empty — product loading is performed by the pharmaceutical or device manufacturer.",
+            "Foil sealing: 140–200°C · 2–6 bar · 0.3–1.5 sec dwell. Tyvek sealing parameters confirmed at specification stage."
+          ],
+          [
+            "3. Seal integrity inspection",
+            "Seals inspected for completeness, seal width consistency, and absence of pinholes or unsealed areas. Pharmaceutical GMP batches: seal integrity inspection per GMP procedure.",
+            "Seal width minimum ≥3mm for pharmaceutical foil seal. Visual inspection per GMP procedure."
+          ],
+          [
+            "4. Perforation / scoring",
+            "Blister sheets scored or perforated for individual strip separation where required for pharmacy dispensing.",
+            "Clean separation without compromising cavity or seal integrity."
+          ],
+          [
+            "5. Batch documentation",
+            "Dimensional inspection against specification. GMP batch records completed per production run — batch number, material lot, process parameters, in-process QC, and outgoing inspection data.",
+            "Complete GMP batch documentation per production run for pharmaceutical and medical device blister components."
+          ]
+        ]
+      }
+    },
+    {
+      "ey": "Industries",
+      "st": "Industries and Applications — Blister Packaging Across Sectors",
+      "eyClass": "green",
+      "leads": [],
+      "products": [],
+      "strips": [],
+      "table": {
+        "headers": [
+          "Industry",
+          "What Trizen Manufactures",
+          "Standard",
+          "Documentation"
+        ],
+        "rows": [
+          [
+            "Pharmaceutical OSD",
+            "PVC, PVDC, or Alu-Alu blister sealed with pharma foil. Complete blister component supplied to pharma manufacturer.",
+            "GMP · Cleanroom 8",
+            "GMP batch records, material COAs, in-process QC, outgoing inspection"
+          ],
+          [
+            "Medical Device Components",
+            "PETG/APET blister tray + Tyvek-sealed component in ETO/Gamma compatible materials. Supplied empty to device manufacturer.",
+            "Cleanroom 8 · GMP",
+            "GMP batch records, material COAs, Cleanroom production records"
+          ],
+          [
+            "Diagnostics & IVD",
+            "PETG or APET blister and tray inserts for diagnostic test kit packaging. Supplied to diagnostics manufacturer.",
+            "ISO 9001:2015",
+            "Batch records, material COAs"
+          ],
+          [
+            "Retail Consumer OTC",
+            "PVC or PETG blister for OTC healthcare, dietary supplements, vitamins. Euro-hole for pegboard display.",
+            "ISO 9001:2015",
+            "Batch records per run"
+          ],
+          [
+            "Electronics & Accessories",
+            "APET or PETG blister for consumer electronics accessories, mobile accessories, cables. High-clarity retail display.",
+            "ISO 9001:2015",
+            "Batch records per run"
+          ],
+          [
+            "️ Stationery & Toys",
+            "PVC or APET blister for stationery, pens, small toys and accessories. Standard retail blister with header card option.",
+            "ISO 9001:2015",
+            "Batch records per run"
+          ]
+        ]
+      }
+    },
+    {
+      "ey": "Why Trizen",
+      "st": "Why Choose a Blister Packaging Manufacturer in India?",
+      "eyClass": "gold",
+      "leads": [
+        "What makes Trizen the right blister packaging manufacturer for pharmaceutical, medical device component, and commercial blister packaging programmes:"
+      ],
+      "products": [],
+      "strips": [
+        {
+          "title": "01. GMP Validated Blister Packaging Manufacturing",
+          "desc": "Trizen Packaging holds GMP validation for pharmaceutical blister packaging production at our Vapi facility. Batch records, material COAs, in-process QC data, and seal integrity records per production batch — the complete documentation package required for pharmaceutical supplier qualification."
+        },
+        {
+          "title": "02. Cleanroom Class 8 — Three Certifications: ISO 9001:2015 · GMP · Cleanroom Class 8",
+          "desc": "Pharmaceutical blister packs and medical device blister components are manufactured in our validated Cleanroom Class 1,00,000 (Class 8) production environment at Vapi. These three certifications — ISO 9001:2015, GMP, and Cleanroom Class 8 — are held by the Vapi facility and available for supplier qualification review."
+        },
+        {
+          "title": "03. ETO and Gamma Compatible Materials for Medical Device Blister Components",
+          "desc": "Blister packaging components for medical device applications are manufactured using PETG and APET — materials that are ETO and Gamma sterilization compatible. Device manufacturers can subject the filled and sealed pack (in their own facility) to their preferred sterilization method without packaging material degradation."
+        },
+        {
+          "title": "04. All 7 Blister Formats from One Vapi Facility",
+          "desc": "PVC, PVDC, Alu-Alu cold form, APET retail, Tyvek-compatible medical device blister components, CR child-resistant, and tamper-evident blister packaging — all from the same Vapi facility. One supplier qualification audit covers the full blister portfolio."
+        },
+        {
+          "title": "05. In-House CNC Blister Tooling — Prototype in 7 to 14 Business Days",
+          "desc": "All blister cavity tooling designed and fabricated in-house at Vapi. New pharmaceutical or medical device blister packaging component prototype in 7 to 14 business days from product sample and specification. No outsourced tooling delays."
+        }
+      ]
+    }
+  ],
   "midCtas": [],
-  "bottomCta": null,
-  "faqs": [],
+  "bottomCta": {
+    "title": "Get a Blister Packaging Quote from Vapi, India",
+    "text": "Submit your product sample or specification. Our team confirms the correct format, material, and production standard — and responds within 24 business hours."
+  },
+  "faqs": [
+    {
+      "q": "What does a blister packaging manufacturer in India produce?",
+      "a": "A blister packaging manufacturer in India like Trizen Packaging manufactures thermoformed plastic blister cavities and lidded blister packaging components — including standard PVC pharmaceutical blister packs, PVDC high-barrier blister, Alu-Alu cold form blister, APET retail consumer blister, Tyvek-compatible blister components for medical device manufacturers, child-resistant blister packaging, and tamper-evident blister packs. Trizen Packaging manufactures the blister packaging component; product loading and sterilization are performed by the pharmaceutical or medical device manufacturer in their own facility."
+    },
+    {
+      "q": "What is the difference between PVC, PVDC, and Alu-Alu blister packaging?",
+      "a": "PVC blister: standard pharmaceutical barrier, WVTR 3.0–5.0 g/m²/day, lowest cost — for OSD drugs with low to moderate moisture sensitivity. PVDC blister: better moisture barrier, WVTR 0.5–2.0 g/m²/day — for moisture-sensitive drugs. Alu-Alu cold form blister (OPA/Alu/PVC composite): maximum moisture barrier, WVTR &lt;0.1 g/m²/day, opaque, premium cost — for highly hygroscopic and specialty pharmaceutical products. Material selection is based on drug product stability data."
+    },
+    {
+      "q": "Do you manufacture blister packaging components for medical devices?",
+      "a": "Yes. Trizen Packaging manufactures thermoformed PETG and APET blister tray components and Tyvek-sealed blister components in ETO and Gamma compatible materials, produced in our Cleanroom Class 8 facility. The blister packaging component is manufactured at Vapi and supplied to the device manufacturer empty. Device loading and sterilization are the device manufacturer's process — Trizen Packaging does not provide device loading or sterilization services."
+    },
+    {
+      "q": "Is your blister packaging manufacturing GMP compliant?",
+      "a": "Yes. Trizen Packaging holds three certifications: GMP validation, ISO 9001:2015, and Cleanroom Class 8 classification — all at our Vapi facility. Full GMP batch documentation — batch records, material COAs, in-process QC, and outgoing inspection — is provided per production batch for pharmaceutical and medical device blister components."
+    }
+  ],
   "imageLabels": [
     "Product packaging",
     "Production facility Vapi"

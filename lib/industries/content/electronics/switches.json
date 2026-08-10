@@ -75,7 +75,8 @@
             "DIN clip protection, terminal block clearance, module body support"
           ]
         ]
-      }
+      },
+      "callout": "ESD Capability Note: ESD-safe thermoforming trays use controlled surface resistivity materials (ESD-safe PP or ESD-safe PETG, typically 10⁶–10⁹ Ω/sq). Surface resistivity test certificates supplied per material batch. All ESD-safe electronics packaging produced with clean handling procedures at our Vapi facility."
     },
     {
       "ey": "Pain Points We Solve",
@@ -220,14 +221,10 @@
     {
       "q": "MOQ?",
       "a": "Prototype: 7 to 14 business days. MOQ from 500 units. ESD CoA and ISO 9001:2015 per batch."
-    },
-    {
-      "q": "Export electronics supply chain?",
-      "a": "ESD CoA per batch and ISO 9001:2015 records per batch for export electronics supply chain documentation."
     }
   ],
   "imageLabels": [
-    "Product packaging",
-    "Production facility Vapi"
+    "Switches, Sensors & Module Packaging Hero",
+    "Switches, Sensors & Module Packaging Detail"
   ]
 }

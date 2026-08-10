@@ -9,10 +9,70 @@
     "desc": "A validated Cleanroom Class 8 production environment for pharmaceutical GMP blister packaging and medical device blister component manufacturing — with complete session-level documentation per production run.",
     "chips": []
   },
-  "sections": [],
+  "sections": [
+    {
+      "ey": "The Facility",
+      "st": "Our Cleanroom Class 8 Facility",
+      "leads": [
+        "Trizen Packaging is a cleanroom thermoforming packaging manufacturer in India operating a validated Cleanroom Class 8 facility at our Vapi, Daman production site. The cleanroom is used for pharmaceutical GMP blister packaging production and medical device blister component manufacturing — the two thermoforming packaging applications that require a particulate-controlled production environment.",
+        "Cleanroom Class 8 (ISO 14644-1) is a HEPA-filtered, controlled-airflow production environment maintained below a defined maximum airborne particulate concentration. Combined with our GMP validation and ISO 9001:2015 certification, it forms the complete quality infrastructure for regulated thermoforming packaging manufacturing at Vapi."
+      ],
+      "products": [],
+      "strips": []
+    },
+    {
+      "ey": "What We Manufacture",
+      "st": "Pharmaceutical and Medical Device Packaging from the Cleanroom",
+      "eyClass": "gold",
+      "leads": [],
+      "products": [],
+      "strips": [],
+      "table": {
+        "headers": [
+          "Application",
+          "Our Manufacturing Scope",
+          "Documentation Provided"
+        ],
+        "rows": [
+          [
+            "Pharmaceutical GMP Blister PackagingPVC · PVDC · Alu-Alu Cold Form",
+            "Thermoformed pharmaceutical blister cavity sealed with pharmaceutical aluminium foil — produced under GMP in our Cleanroom Class 8 facility. Complete blister packaging component supplied to the pharmaceutical manufacturer for use on their filling line.",
+            "GMP batch records · Material COAs · In-process QC · Outgoing inspection · Cleanroom session records per batch"
+          ],
+          [
+            "Medical Device Blister ComponentsPETG / APET + Tyvek · ETO & Gamma compatible",
+            "Thermoformed PETG or APET blister tray and Tyvek-sealed blister component in ETO and Gamma compatible materials. Manufactured in Cleanroom Class 8. Supplied empty — device loading and sterilization are performed by the device manufacturer in their own facility.",
+            "GMP batch records · Material COAs · Cleanroom session records · In-process QC per batch · 5-year retention"
+          ]
+        ]
+      }
+    },
+    {
+      "ey": "Why Trizen",
+      "st": "Cleanroom Packaging Manufacturer Vapi Daman — Why Choose Trizen?",
+      "eyClass": "gold",
+      "leads": [
+        "As a cleanroom packaging manufacturer from Vapi Daman, our facility holds three certifications covering the full scope of pharmaceutical and medical device packaging manufacture from one site:"
+      ],
+      "products": [],
+      "strips": []
+    }
+  ],
   "midCtas": [],
-  "bottomCta": null,
-  "faqs": [],
+  "bottomCta": {
+    "title": "Request Our Qualification Package",
+    "text": "ISO 9001:2015 certificate, GMP certificate, and Cleanroom Class 8 documentation — available for supplier qualification review before order placement."
+  },
+  "faqs": [
+    {
+      "q": "What is Trizen Packaging's Cleanroom Class 8 facility?",
+      "a": "Trizen Packaging is a cleanroom thermoforming packaging manufacturer in India operating a validated Cleanroom Class 8 (ISO 14644-1) facility at Vapi. Used for pharmaceutical GMP blister packaging and medical device blister component manufacturing. Three certifications at Vapi: ISO 9001:2015, GMP, and Cleanroom Class 8."
+    },
+    {
+      "q": "What documentation is provided with Cleanroom production batches?",
+      "a": "GMP batch records, material COAs from the material manufacturer, Cleanroom session records (environmental monitoring, HEPA filter status, operator records), and in-process QC data — per production batch. Retained 5 years post-production for supplier qualification audit access."
+    }
+  ],
   "imageLabels": [
     "Product packaging",
     "Production facility Vapi"

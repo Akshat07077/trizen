@@ -22,7 +22,44 @@
         "Trizen Packaging manufactures stationery thermoforming packaging from our ISO 9001:2015 certified facility in Vapi, Gujarat — custom APET and PP thermoformed packaging for the complete stationery and office supply range. Bulk pen packaging from Vapi for pen and marker blister packs, stationery gift set trays, eraser and sharpener retail packs, transparent display trays, school kit thermoformed packaging, and custom molded inserts for office supplies. As a stationery thermoforming packaging manufacturer from India, we serve stationery brands, school supply companies, and office supply manufacturers across India and for export.",
         "Stationery packaging requires crystal-clear APET for maximum product visibility at the retail shelf — consumers select pens, markers, and stationery by seeing the product through the packaging. School kit packaging requires organised multi-component trays that hold every item in its correct kit position. Gift set trays require premium PETG clarity for the unboxing presentation. All stationery packaging from our Vapi facility uses APET or food-compatible PP, ISO 9001:2015 certified, in bulk OEM supply from Gujarat."
       ],
-      "products": [],
+      "products": [
+        {
+          "name": "Pen & Marker Packaging",
+          "desc": "APET blister packs and clamshell packaging for pens, markers, highlighters, and writing instruments — crystal-clear retail display. KD 7 · Vol 30.",
+          "link": "View sub-page →",
+          "href": "/stationery/pen-marker"
+        },
+        {
+          "name": "Stationery Gift Set Trays",
+          "desc": "Premium APET and PETG thermoformed tray inserts for stationery gift sets — pen sets, marker collections, premium writing instrument gift packaging.",
+          "link": "View sub-page →",
+          "href": "/stationery/gift-set"
+        },
+        {
+          "name": "Eraser & Sharpener Packs",
+          "desc": "APET blister packs and multi-cavity trays for erasers, sharpeners, and small stationery items — individual and multi-pack retail formats.",
+          "link": "View sub-page →",
+          "href": "/stationery/eraser"
+        },
+        {
+          "name": "Transparent Display Trays for Stationery",
+          "desc": "Crystal-clear APET counter display trays and retail display inserts for stationery products — maximum visibility, organized multi-product display.",
+          "link": "View sub-page →",
+          "href": "/stationery/display"
+        },
+        {
+          "name": "School Kit Thermoformed Packaging",
+          "desc": "Multi-component thermoformed trays for school kits — pen, pencil, eraser, sharpener, ruler organized in one tray. KD 7 · Vol 30.",
+          "link": "View sub-page →",
+          "href": "/stationery/eraser"
+        },
+        {
+          "name": "Custom Molded Inserts for Office Supplies",
+          "desc": "Bespoke thermoformed inserts for office supply products — custom cavity geometry for stapler sets, calculator packaging, office supply gift boxes.",
+          "link": "View sub-page →",
+          "href": "/stationery/office"
+        }
+      ],
       "strips": []
     },
     {
@@ -103,13 +140,6 @@
       "callout": "Stationery packaging Gujarat — all stationery thermoforming packaging tooling manufactured and held in-house at our Vapi, Gujarat facility. Bulk pen packaging from Vapi for stationery brands and school supply companies. ISO 9001:2015 batch documentation and material CoA per production run. Stationery thermoforming packaging manufacturer from India for domestic retail and export stationery programmes."
     },
     {
-      "ey": "Compliance & Certifications",
-      "st": "Quality Certifications and Documentation",
-      "leads": [],
-      "products": [],
-      "strips": []
-    },
-    {
       "ey": "Why Choose Trizen",
       "st": "Why Stationery Brands Choose Trizen Packaging",
       "eyClass": "green",
@@ -179,14 +209,10 @@
     {
       "q": "MOQ and prototype timeline?",
       "a": "Prototype: 7 to 14 business days from product sample. MOQ from 500 units. Sustained OEM from 5,000 units per run. ISO 9001:2015 per batch."
-    },
-    {
-      "q": "Does Trizen supply stationery packaging for export markets?",
-      "a": "Yes — ISO 9001:2015 batch records and material CoA per batch for export stationery market compliance. Stationery thermoforming packaging manufacturer from India for export programmes."
     }
   ],
   "imageLabels": [
-    "Product packaging",
-    "Production facility Vapi"
+    "Stationery Packaging Range",
+    "Stationery Packaging Production Vapi"
   ]
 }
