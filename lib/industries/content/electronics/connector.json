@@ -1,0 +1,233 @@
+{
+  "slug": "connector",
+  "industryId": "electronics",
+  "title": "Connector & Micro-Component Packaging Manufacturer India | Electronic Component Trays Vapi | Trizen",
+  "hero": {
+    "ey": "Electronics · Connector & Micro-Component Trays · Vapi, India",
+    "titleMain": "Connector & Micro-Component Packaging Manufacturer India",
+    "titleTail": "ESD-Safe Precision Trays, Bulk from Vapi",
+    "desc": "Custom ESD-safe thermoformed precision trays for electronic connectors, terminal arrays, micro-components, and small electronic parts — individual cavity isolation, terminal pin protection, connector body geometry. Bulk electronics packaging manufacturer Vapi — ISO 9001:2015, ESD-safe PP, resistivity CoA.",
+    "chips": [
+      "ISO 9001:2015",
+      "ESD-Safe PP",
+      "Connector Specialist",
+      "Bulk Vapi"
+    ]
+  },
+  "sections": [
+    {
+      "ey": "What We Manufacture",
+      "st": "Connector & Micro-Component Packaging Manufacturer India — ESD-Safe Precision Trays, Bulk from Vapi",
+      "leads": [
+        "Trizen Packaging manufactures connector and micro-component packaging from our ISO 9001:2015 certified facility in Vapi, Gujarat — custom ESD-safe thermoformed precision trays for electronic connectors, terminal arrays, micro-components, and small electronic parts. Bulk electronics packaging manufacturer Vapi for connector manufacturers, electronics assembly companies, and EMS providers across India and for export.",
+        "Electronic connectors and micro-components are the most precision-sensitive category of electronics packaging — connector pin arrays have tolerances of 0.5mm to 0.1mm pitch that must not be deformed by packaging contact, contaminated by particulates, or damaged by ESD. The thermoformed cavity must accommodate the connector body while providing specific clearance for each pin or terminal in the array."
+      ],
+      "products": [],
+      "strips": [],
+      "table": {
+        "headers": [
+          "Device / Component",
+          "Packaging Format",
+          "Material",
+          "Key Requirement"
+        ],
+        "rows": [
+          [
+            "PCB Connectors (2.54mm, 1.27mm pitch)",
+            "Precision ESD-safe PP tray — connector body cavity",
+            "ESD-safe PP",
+            "Pin array clearance, body support, pitch maintained, ESD protection"
+          ],
+          [
+            "IDC & FPC Connectors",
+            "Multi-cavity ESD-safe PP tray",
+            "ESD-safe PP",
+            "Locking latch protection, FPC slot clearance, ESD-safe"
+          ],
+          [
+            "RF Coaxial Connectors",
+            "Individual cavity ESD-safe PP or PETG tray",
+            "ESD-safe PP/PETG",
+            "Coax pin protection, centre conductor clearance, no contact on RF interface"
+          ],
+          [
+            "USB & HDMI Connectors",
+            "Multi-cavity ESD-safe PP tray",
+            "ESD-safe PP",
+            "Contact surface protection, housing protection, individual isolation"
+          ],
+          [
+            "Micro-Components (Resistors, Capacitors &lt;0402)",
+            "High-density ESD-safe PP tape/tray",
+            "ESD-safe PP",
+            "Component body protection, static-free, high density per tray"
+          ],
+          [
+            "Terminal Blocks & Screw Terminals",
+            "Multi-cavity ESD-safe PP tray",
+            "ESD-safe PP",
+            "Screw terminal protection, captive spring protection, no contact on mating face"
+          ],
+          [
+            "Custom Connector Arrays & Harness Connectors",
+            "Custom cavity ESD-safe PP tray",
+            "ESD-safe PP",
+            "Multi-cavity layout from connector array specification, all connectors isolated"
+          ]
+        ]
+      }
+    },
+    {
+      "ey": "Pain Points We Solve",
+      "st": "Three Problems Connector & Micro-Component Packaging Buyers Face",
+      "leads": [],
+      "products": [],
+      "strips": [
+        {
+          "title": "Bent Terminal Pins — Immediate Assembly Failure",
+          "desc": "Problem: Connector terminal pins bent by packaging contact during transit cause immediate assembly failure — the connector cannot be inserted and is a scrap event. Solution: Precision ESD-safe cavity designed with pin array clearance geometry — the cavity supports the connector body while pins are suspended in clearance zones."
+        },
+        {
+          "title": "ESD Damage to Connector Contact Surfaces",
+          "desc": "Problem: Connector contact surfaces (gold-plated spring contacts, press-fit pins) sustain ESD damage that is not visually detectable but causes contact resistance increase in service. Solution: ESD-safe PP cavities for all electronic connector packaging — charge dissipation prevents ESD damage to contact surfaces."
+        },
+        {
+          "title": "Particulate Contamination of Connector Mating Faces",
+          "desc": "Problem: Particulate contamination on connector mating faces from packaging material contact causes intermittent contact failures — a difficult-to-trace field failure mode. Solution: Precision cavity design where the connector mating face does not contact the packaging — mating faces suspended with clearance."
+        }
+      ]
+    },
+    {
+      "ey": "Design Requirements",
+      "st": "Connector & Micro-Component Packaging — Key Design Requirements",
+      "leads": [],
+      "products": [],
+      "strips": [
+        {
+          "title": "Pin Array Clearance — No Packaging Contact with Terminal Pins",
+          "desc": "Connector pin array geometry confirmed from component specification or physical connector. Each pin in the array has a dedicated clearance zone in the cavity — the pin cannot contact the cavity wall. Pin array clearance is the primary design requirement for all connector packaging."
+        },
+        {
+          "title": "ESD-Safe Material Throughout — Connector Contact Surfaces at Risk",
+          "desc": "All connector packaging in ESD-safe PP — connector contact surfaces are ESD-sensitive. Surface resistivity CoA per batch confirms dissipative range for all production runs."
+        },
+        {
+          "title": "Mating Face Isolation — No Contact on Electrical Interface",
+          "desc": "Connector mating face (the surface that mates with the corresponding connector in use) must not contact packaging material. Cavity geometry provides mating face clearance on all electronic connector packaging."
+        },
+        {
+          "title": "High-Density Multi-Cavity Layout — OEM Supply Efficiency",
+          "desc": "Connector trays designed for maximum component count per tray within ESD-safe handling guidelines — balancing OEM supply efficiency with per-component isolation requirements."
+        }
+      ]
+    },
+    {
+      "ey": "Materials",
+      "st": "Materials for Connector & Micro-Component Packaging",
+      "eyClass": "gold",
+      "leads": [],
+      "products": [],
+      "strips": [],
+      "table": {
+        "headers": [
+          "Material",
+          "Electronics Application",
+          "Key Property"
+        ],
+        "rows": [
+          [
+            "ESD-Safe PP",
+            "Primary — all electronic connector packaging, terminal arrays, micro-components",
+            "10⁶–10⁹ Ω/sq, rigid geometry, pin array clearance compatible, cost-efficient OEM"
+          ],
+          [
+            "ESD-Safe PETG",
+            "RF connectors and precision components requiring inspection through packaging",
+            "ESD protection + crystal clarity"
+          ],
+          [
+            "Standard PP",
+            "Outer transit packaging only — never in direct contact with connectors",
+            "Insulating — not ESD-safe, not for connector contact packaging"
+          ]
+        ]
+      },
+      "callout": "Bulk electronics packaging manufacturer Vapi — ESD-safe thermoformed connector and micro-component packaging from our Vapi, Gujarat facility. Electronics packaging Gujarat for connector manufacturers and EMS companies. Surface resistivity CoA and ISO 9001:2015 per run."
+    },
+    {
+      "ey": "Why Choose Trizen",
+      "st": "Why Electronics Manufacturers Choose Trizen for Connector & Micro-Component Packaging",
+      "eyClass": "green",
+      "leads": [],
+      "products": [],
+      "strips": [
+        {
+          "title": "Pin Array Clearance Confirmed Before Every Tooling",
+          "desc": "Connector pin pitch and array geometry confirmed from component specification before cavity design. No assumption — pin clearance documented before tooling commitment."
+        },
+        {
+          "title": "ESD-Safe PP CoA Per Batch — Connector Contact Surface Protection",
+          "desc": "ESD-safe PP CoA per production batch for connector packaging. Connector contact surfaces protected from ESD damage throughout the supply chain."
+        },
+        {
+          "title": "Bulk Electronics Packaging from Vapi — OEM Consistency",
+          "desc": "In-house CNC tooling, same ESD-safe material grade, same dimensional inspection per batch."
+        }
+      ]
+    }
+  ],
+  "midCtas": [
+    {
+      "title": "Connector & Micro-Component Packaging — ESD-Safe OEM from Vapi",
+      "text": "ESD-safe PP & PETG · Resistivity CoA per batch · ISO 9001:2015 · 7–14 day prototype.",
+      "button": "Request a Quote →"
+    },
+    {
+      "title": "Connector & Micro-Component Packaging — Submit Component Sample",
+      "text": "ESD-safe CoA · Precision cavity · 7–14 day prototype · ISO 9001:2015.",
+      "button": "Submit Enquiry →"
+    }
+  ],
+  "bottomCta": {
+    "title": "Connector & Micro-Component Packaging — ESD-Safe OEM from Vapi",
+    "text": "ESD-safe PP & PETG · Resistivity CoA per batch · ISO 9001:2015 · 7–14 day prototype · Vapi, Gujarat"
+  },
+  "faqs": [
+    {
+      "q": "What connector and micro-component packaging does Trizen manufacture?",
+      "a": "Custom ESD-safe PP and PETG trays for PCB connectors, IDC and FPC connectors, RF coaxial connectors, USB and HDMI connectors, micro-components, terminal blocks, and custom connector arrays. ISO 9001:2015. Bulk electronics packaging manufacturer Vapi."
+    },
+    {
+      "q": "How is pin array clearance achieved in connector packaging?",
+      "a": "Connector pin array geometry confirmed from component specification. Each pin has a dedicated clearance zone in the cavity — the pin cannot contact the cavity wall. Mating face clearance prevents contact with the electrical interface surface."
+    },
+    {
+      "q": "Why is ESD-safe material required for connectors?",
+      "a": "Connector contact surfaces (gold-plated pins, spring contacts, press-fit terminals) are ESD-sensitive — ESD damage causes contact resistance increase in service. ESD-safe PP provides charge dissipation protection throughout the supply chain."
+    },
+    {
+      "q": "Materials?",
+      "a": "ESD-safe PP (primary), ESD-safe PETG (RF connectors requiring optical clarity). Resistivity CoA per batch."
+    },
+    {
+      "q": "Why source from Vapi, Gujarat?",
+      "a": "Bulk electronics packaging manufacturer Vapi. Electronics packaging Gujarat for connector manufacturers. ISO 9001:2015 and ESD CoA per run."
+    },
+    {
+      "q": "What pitch connectors can Trizen package?",
+      "a": "2.54mm, 1.27mm, 1.0mm, and 0.8mm pitch PCB connectors — cavity geometry confirmed from the specific connector pitch and body dimensions. Sub-millimetre pitch confirmed from physical connector before tooling."
+    },
+    {
+      "q": "MOQ?",
+      "a": "Prototype: 7 to 14 business days. MOQ from 500 units. ESD CoA and ISO 9001:2015 per batch."
+    },
+    {
+      "q": "Export?",
+      "a": "ISO 9001:2015 records and ESD CoA per batch for export electronics supply chain compliance."
+    }
+  ],
+  "imageLabels": [
+    "Product packaging",
+    "Production facility Vapi"
+  ]
+}

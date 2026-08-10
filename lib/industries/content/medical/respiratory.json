@@ -1,0 +1,182 @@
+{
+  "slug": "respiratory",
+  "industryId": "medical",
+  "title": "Respiratory Packaging Manufacturer India | Inhaler Packaging Cleanroom GMP | Trizen, Vapi",
+  "hero": {
+    "ey": "🫁 Respiratory Packaging · Inhaler Trays · Vapi",
+    "titleMain": "Respiratory Packaging Manufacturer India",
+    "titleTail": "Nebulizer & Inhaler Packaging, Cleanroom Class 8 · Vapi",
+    "desc": "Custom PETG thermoformed respiratory device packaging — nebulizer component packaging, CPAP/BiPAP component trays, inhaler packaging, ventilator component packaging. Cleanroom Class 8, GMP, ISO 9001:2015. Respiratory packaging manufacturer from Vapi, Gujarat.",
+    "chips": [
+      "Cleanroom Class 8",
+      "GMP",
+      "ISO 9001:2015",
+      "Vapi Gujarat"
+    ]
+  },
+  "sections": [
+    {
+      "ey": "Device-Specific Packaging Challenges",
+      "st": "Respiratory Packaging — Specific Technical Requirements",
+      "leads": [],
+      "products": [],
+      "strips": [
+        {
+          "title": "Patient Airway Contact Surfaces — No Packaging Contact on Breathing Interface",
+          "desc": "Problem: Respiratory device packaging where the mouthpiece, mask inner face, or breathing interface contacts packaging material — any particulate or material residue on the patient's breathing interface causes inhalation of foreign material. Solution: Patient-contact surface clearance cavity — mouthpiece inner bore, mask inner face, and breathing interface surfaces are suspended in clearance with no packaging contact."
+        },
+        {
+          "title": "MDI Dose Mechanism — Actuation During Packaging is Non-Detectable",
+          "desc": "Problem: Metered dose inhaler packaging where packaging contact partially actuates the propellant mechanism delivers a reduced-dose canister — the dose reduction is not visible. Solution: MDI actuator clearance geometry — actuator button suspended in clearance with no packaging contact that could cause partial actuation."
+        },
+        {
+          "title": "Nebulizer Kit Component Organisation — All 6-8 Components in Defined Positions",
+          "desc": "Problem: Nebulizer kit packaging where components (chamber, lid, mouthpiece, mask, tubing, filter, medication cup) are not in defined positions results in tangled tubing and disorganised kit presentation at the healthcare facility. Solution: Individual cavity for every nebulizer kit component in the correct setup sequence."
+        }
+      ]
+    },
+    {
+      "ey": "Design Requirements",
+      "st": "Respiratory Packaging — Key Design Requirements",
+      "leads": [],
+      "products": [],
+      "strips": [
+        {
+          "title": "Patient Airway Contact Surface Clearance — Breathing Interface Protected",
+          "desc": "Patient-contact surfaces of respiratory devices identified from device drawing. Mouthpiece inner bore, mask inner face, breathing interface — all suspended in cavity clearance. No packaging contact on patient airway interfaces."
+        },
+        {
+          "title": "MDI Actuator Clearance — No Partial Actuation in Packaging",
+          "desc": "Actuator button clearance cavity for all metered dose inhaler packaging. MDI actuator suspended in clearance — no packaging contact on actuator button under any handling condition."
+        },
+        {
+          "title": "Nebulizer Kit Sequence Organisation — Setup Sequence Cavity Layout",
+          "desc": "Nebulizer kit tray organised in setup sequence — confirmed from device manufacturer's kit setup instruction. Individual cavity for every kit component."
+        },
+        {
+          "title": "ISO Class 8 Cleanroom — All Respiratory Device Packaging",
+          "desc": "All respiratory device packaging components in Cleanroom Class 8. GMP batch documentation per production run."
+        }
+      ]
+    },
+    {
+      "ey": "Materials",
+      "st": "Materials for Respiratory Packaging",
+      "eyClass": "gold",
+      "leads": [],
+      "products": [],
+      "strips": [],
+      "table": {
+        "headers": [
+          "Material",
+          "Medical Application",
+          "Key Property"
+        ],
+        "rows": [
+          [
+            "Medical-Grade PETG",
+            "Primary — face seal blister trays, lidded trays, all sterile barrier packaging components",
+            "EO and gamma compatible, ISO 11607 compatible, medical-grade additive specification, CoA per batch"
+          ],
+          [
+            "Medical-Grade HIPS",
+            "Protective transit trays and secondary packaging where sterile barrier is not required",
+            "Good impact resistance, chemical resistance, cost-efficient for non-sterile-barrier applications"
+          ],
+          [
+            "Medical-Grade PP",
+            "Non-sterile-barrier protective packaging — device presentation trays",
+            "Chemical resistance, dimensional stability, autoclave compatible grades available"
+          ]
+        ]
+      },
+      "callout": "Respiratory medical packaging manufacturer Vapi — medical packaging manufacturer Gujarat for medical device companies. ISO 9001:2015 · GMP · Cleanroom Class 8 production at Vapi, Gujarat. Medical-grade PETG CoA, GMP batch records, and ISO 11607 compatible dimensional documentation per production run."
+    },
+    {
+      "ey": "Compliance & Certifications",
+      "st": "Quality Certifications and Regulatory Documentation",
+      "leads": [],
+      "products": [],
+      "strips": []
+    },
+    {
+      "ey": "Why Choose Trizen",
+      "st": "Why Medical Device Companies Choose Trizen for Respiratory Packaging",
+      "eyClass": "green",
+      "leads": [],
+      "products": [],
+      "strips": [
+        {
+          "title": "Patient Airway Contact Surface Clearance — Breathing Interface No-Contact Mandatory",
+          "desc": "Patient-contact surfaces identified from device drawing before every respiratory packaging cavity design. Mouthpiece, mask inner face, breathing interface — all suspended in clearance. Mandatory design step for all respiratory device packaging."
+        },
+        {
+          "title": "Cleanroom Class 8 + GMP — Combined Capability",
+          "desc": "All medical packaging components produced in Class 8 cleanroom with full GMP batch documentation. The combined capability that medical device supplier qualification programmes require."
+        },
+        {
+          "title": "ISO 11607 Compatible Components — Validation Documentation",
+          "desc": "First article inspection report, dimensional records per batch, material CoA, batch records — all available to support the medical device manufacturer's ISO 11607 packaging validation documentation package."
+        },
+        {
+          "title": "Medical-Grade PETG — EO and Gamma Sterilization Compatible",
+          "desc": "Medical-grade PETG as standard for all medical packaging components. EO sterilization compatible and gamma radiation compatible. Material CoA per batch."
+        }
+      ]
+    }
+  ],
+  "midCtas": [
+    {
+      "title": "Respiratory Packaging — Technical Enquiry",
+      "text": "Medical-grade PETG · Cleanroom Class 8 · GMP · ISO 9001:2015 · ISO 11607 compatible.",
+      "button": "Request a Consultation →"
+    },
+    {
+      "title": "Respiratory Packaging — Submit Device Drawing",
+      "text": "Cleanroom Class 8 · GMP · ISO 9001:2015 · Medical-grade PETG · Validation support documentation.",
+      "button": "Submit Technical Enquiry →"
+    }
+  ],
+  "bottomCta": {
+    "title": "Respiratory Packaging — Cleanroom Class 8, GMP, ISO 9001:2015 · Vapi",
+    "text": "Medical-grade PETG · ISO 11607 compatible · Validation documentation · Cleanroom Class 8 · Vapi, Gujarat"
+  },
+  "faqs": [
+    {
+      "q": "What respiratory packaging does Trizen manufacture?",
+      "a": "PETG thermoformed packaging for nebulizer kit packaging, CPAP/BiPAP mask component packaging, metered dose inhaler packaging, dry powder inhaler packaging, ventilator breathing circuit component trays, oxygen therapy mask packaging, and respiratory surgical instrument packaging. Cleanroom Class 8, GMP, ISO 9001:2015. Respiratory packaging manufacturer from Vapi, Gujarat."
+    },
+    {
+      "q": "What certifications does Trizen have for Respiratory Packaging?",
+      "a": "ISO 9001:2015, GMP, and Cleanroom Class 8 (ISO 14644-1 — 100,000 particles/m³). All medical packaging components produced in the Class 8 cleanroom with full GMP batch documentation per production batch."
+    },
+    {
+      "q": "Is PETG compatible with EO sterilization for respiratory packaging?",
+      "a": "Yes — medical-grade PETG is compatible with Ethylene Oxide (EO) sterilization and gamma radiation sterilization. EO compatibility confirmed by material CoA per production batch."
+    },
+    {
+      "q": "What documentation is provided for medical device supplier qualification?",
+      "a": "First article inspection report, dimensional inspection records per production batch, material CoA with medical-grade PETG specification per batch, batch records, ISO 9001:2015 certificate, GMP compliance documentation."
+    },
+    {
+      "q": "Why source respiratory packaging from Vapi, Gujarat?",
+      "a": "Respiratory medical packaging manufacturer Vapi — Cleanroom Class 8, GMP, ISO 9001:2015. Respiratory packaging manufacturer Gujarat for medical device companies. Medical packaging manufacturer from India for domestic and export medical device markets."
+    },
+    {
+      "q": "What is Trizen's scope for medical packaging?",
+      "a": "Trizen manufactures the thermoformed PETG packaging component — the tray or blister shell. Device loading, Tyvek/foil lidding, heat sealing, and sterilization are performed by the medical device manufacturer. Clear scope for DHF traceability."
+    },
+    {
+      "q": "Prototype and production timeline?",
+      "a": "First article: 14 to 21 business days from device technical drawing or sample — cleanroom CNC tooling at Vapi. ISO 9001:2015, GMP, and Cleanroom Class 8 documentation per production batch."
+    },
+    {
+      "q": "Does Trizen supply medical packaging for export markets?",
+      "a": "Yes — ISO 9001:2015, GMP, and medical-grade PETG CoA per batch for export medical device market compliance. Medical thermoforming packaging manufacturer from India for international medical device markets."
+    }
+  ],
+  "imageLabels": [
+    "Product packaging",
+    "Production facility Vapi"
+  ]
+}

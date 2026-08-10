@@ -1,0 +1,234 @@
+{
+  "slug": "strip",
+  "industryId": "pharmaceutical",
+  "title": "Strip & Sachet Packaging Manufacturer India | GMP Cleanroom Pharma Packaging | Trizen, Vapi",
+  "hero": {
+    "ey": "Strip & Sachet Packaging · GMP · Vapi",
+    "titleMain": "Strip & Sachet Packaging Manufacturer India",
+    "titleTail": "Pharma Strip Components GMP · Vapi",
+    "desc": "Custom thermoformed strip and sachet packaging components for pharmaceutical dose packaging — APET and pharma-grade PP strip packaging formats. Sachet packaging manufacturer from Vapi — GMP, Cleanroom Class 8, ISO 9001:2015.",
+    "chips": [
+      "GMP",
+      "ISO 9001:2015",
+      "PETG / PVC / PP",
+      "Vapi Gujarat"
+    ]
+  },
+  "sections": [
+    {
+      "ey": "PRIORITY: Pharmaceutical Industry",
+      "st": "Strip & Sachet Packaging Manufacturer India — Pharma Strip Components GMP · Vapi",
+      "leads": [
+        "Trizen Packaging manufactures strip and sachet packaging from our Cleanroom Class 8, GMP-compliant, ISO 9001:2015 certified facility in Vapi, Gujarat — custom thermoformed strip packaging components and sachet secondary packaging for pharmaceutical dose packaging. Sachet packaging manufacturer from Vapi for pharmaceutical companies and contract packagers. As a strip sachet packaging manufacturer from India, we supply APET and pharma-grade packaging components for domestic pharmaceutical and for export.",
+        "Strip and sachet packaging for pharmaceuticals covers thermoformed secondary packaging components for strip-packed tablets, unit-dose sachets, powder sachets, and granule sachets. Trizen manufactures the thermoformed packaging component — secondary packaging trays for strip-packed tablets, sachet secondary holders, and unit-dose secondary packaging inserts. Drug filling, sachet sealing, and batch printing are performed by the pharmaceutical manufacturer."
+      ],
+      "products": [],
+      "strips": [],
+      "table": {
+        "headers": [
+          "Pharma Product / Application",
+          "Packaging Format",
+          "Material",
+          "Key Requirement"
+        ],
+        "rows": [
+          [
+            "Strip-Pack Secondary Packaging Tray",
+            "APET or PP secondary packaging tray for strip-packed tablets",
+            "Pharma-grade APET/PP",
+            "Strip pack length and width support, strip-to-strip no-contact, dispensing accessible"
+          ],
+          [
+            "Sachet Secondary Packaging Inserts",
+            "APET thermoformed insert for sachet secondary packaging",
+            "Pharma-grade APET",
+            "Sachet position defined, flat sachet geometry support, dispensing accessible"
+          ],
+          [
+            "Unit-Dose Sachet Holder Trays",
+            "Multi-cavity APET tray — unit-dose sachets in defined positions",
+            "Pharma-grade APET",
+            "Individual sachet cavity, unit-dose dispensing sequence, pharma-grade material"
+          ],
+          [
+            "Granule & Powder Sachet Secondary Packaging",
+            "APET or PP secondary tray for granule and powder sachets",
+            "Pharma-grade APET/PP",
+            "Sachet upright position, sachet-to-sachet no-contact, dispensing accessible"
+          ],
+          [
+            "ORS & Rehydration Sachet Packaging",
+            "APET secondary packaging tray for ORS and rehydration sachets",
+            "Pharma-grade APET",
+            "Multi-sachet secondary packaging, branded display format, dispensing accessible"
+          ],
+          [
+            "Blister Strip Tray Insert",
+            "APET tray insert for blister strip secondary packaging",
+            "Pharma-grade APET",
+            "Blister strip protection in secondary packaging, strip-to-strip no-contact"
+          ]
+        ]
+      }
+    },
+    {
+      "ey": "Packaging-Specific Technical Requirements",
+      "st": "Strip & Sachet Packaging — Technical Requirements",
+      "leads": [],
+      "products": [],
+      "strips": [
+        {
+          "title": "Strip-Pack Dispensing Sequence — Strips Must Be Accessible for Dispensing",
+          "desc": "Problem: Strip-pack secondary packaging trays where the strip orientation does not align with the dispensing direction — strips must be pulled from the tray from the starting strip, not from a random strip. Solution: Strip pack secondary tray designed with strips aligned in dispensing sequence — first strip dispensed first."
+        },
+        {
+          "title": "Sachet Damage in Secondary Packaging — Sachet Seal Integrity",
+          "desc": "Problem: Sachet secondary packaging where sachets are stacked without individual support can cause sachet seal stress under secondary packaging stack loads — sachet seal integrity compromised. Solution: Sachet secondary packaging tray with individual position support for each sachet — no sachet-to-sachet contact under any stack load."
+        },
+        {
+          "title": "APET Pharma-Grade — Drug Contact Compatibility for Strip Secondary Packaging",
+          "desc": "Problem: Standard APET thermoforming materials are not qualified for pharmaceutical drug-adjacent applications — the additive specification may not be compatible with pharmaceutical stability testing. Solution: Pharma-grade APET with controlled additive specification — CoA per batch confirming pharma-grade specification for pharmaceutical secondary packaging."
+        }
+      ]
+    },
+    {
+      "ey": "Design Requirements",
+      "st": "Strip & Sachet Packaging — Key Design Requirements",
+      "leads": [],
+      "products": [],
+      "strips": [
+        {
+          "title": "Strip Dispensing Sequence — Strips Aligned in Dispensing Direction",
+          "desc": "Strip pack secondary tray designed with strip sequence aligned in the dispensing direction. Confirmed from the pharmaceutical manufacturer's dispensing direction and strip pack format specification."
+        },
+        {
+          "title": "Individual Sachet Position Support — Seal Stress Prevention",
+          "desc": "Individual position support for each sachet in secondary packaging tray. No sachet-to-sachet contact under stack loads. Sachet seal integrity maintained throughout secondary packaging and distribution."
+        },
+        {
+          "title": "Pharma-Grade APET — Drug Contact Compatible Additive Specification",
+          "desc": "Pharma-grade APET with controlled additive specification for pharmaceutical secondary packaging applications. CoA per batch confirming pharma-grade specification."
+        },
+        {
+          "title": "GMP Documentation for Pharmaceutical Strip and Sachet Secondary Packaging",
+          "desc": "All pharmaceutical strip and sachet secondary packaging under GMP. Batch records, material CoA, dimensional inspection per batch."
+        }
+      ]
+    },
+    {
+      "ey": "Materials",
+      "st": "Materials for Strip & Sachet Packaging",
+      "eyClass": "gold",
+      "leads": [],
+      "products": [],
+      "strips": [],
+      "table": {
+        "headers": [
+          "Material",
+          "Pharma Application",
+          "Key Property"
+        ],
+        "rows": [
+          [
+            "Pharma-grade APET",
+            "Primary — sachet secondary packaging, strip-pack secondary trays, unit-dose sachet holders",
+            "Crystal clarity, pharma-grade additive specification, CoA per batch"
+          ],
+          [
+            "Pharma-grade PP",
+            "Non-clear strip and sachet secondary packaging applications",
+            "Chemical resistance, dimensional stability, cost-efficient pharmaceutical OEM"
+          ],
+          [
+            "Pharma-grade PETG",
+            "Sterile sachet secondary packaging requiring cleanroom production",
+            "Pharma-grade specification, cleanroom produced, CoA per batch"
+          ]
+        ]
+      },
+      "callout": "Sachet packaging manufacturer Vapi — APET and pharma-grade PP strip and sachet packaging components from our Vapi, Gujarat facility. Strip sachet packaging Gujarat for pharmaceutical companies and contract packagers. GMP, ISO 9001:2015 per production run."
+    },
+    {
+      "ey": "Compliance & Certifications",
+      "st": "Quality Certifications and Documentation",
+      "leads": [],
+      "products": [],
+      "strips": []
+    },
+    {
+      "ey": "Why Choose Trizen",
+      "st": "Why Pharmaceutical Companies Choose Trizen for Strip & Sachet Packaging",
+      "eyClass": "green",
+      "leads": [],
+      "products": [],
+      "strips": [
+        {
+          "title": "Pharma-Grade APET Standard — Drug Contact Compatible",
+          "desc": "Pharma-grade APET for all pharmaceutical strip and sachet secondary packaging — controlled additive specification, CoA per batch."
+        },
+        {
+          "title": "Strip Dispensing Sequence Confirmed from Pharma Manufacturer Specification",
+          "desc": "Strip pack secondary tray dispensing sequence alignment confirmed from the pharmaceutical manufacturer's dispensing direction specification."
+        },
+        {
+          "title": "Strip Sachet Packaging Manufacturer from India — GMP, Cleanroom Class 8",
+          "desc": "Sachet packaging manufacturer from Vapi — GMP, Cleanroom Class 8, ISO 9001:2015. Pharma-grade APET CoA per batch."
+        }
+      ]
+    }
+  ],
+  "midCtas": [
+    {
+      "title": "Strip & Sachet Packaging — Technical Enquiry",
+      "text": "GMP · Cleanroom Class 8 · ISO 9001:2015 · Pharma-grade materials · Vapi, Gujarat.",
+      "button": "Request a Quote →"
+    },
+    {
+      "title": "Strip & Sachet Packaging — Submit Technical Enquiry",
+      "text": "GMP · Cleanroom Class 8 · ISO 9001:2015 · Pharma-grade materials.",
+      "button": "Submit Technical Enquiry →"
+    }
+  ],
+  "bottomCta": {
+    "title": "Strip & Sachet Packaging — GMP, Cleanroom Class 8, ISO 9001:2015 · Vapi",
+    "text": "GMP · Cleanroom Class 8 · ISO 9001:2015 · Pharma-grade materials · Vapi, Gujarat"
+  },
+  "faqs": [
+    {
+      "q": "What strip and sachet packaging does Trizen manufacture?",
+      "a": "Custom thermoformed strip packaging secondary trays and sachet secondary packaging inserts — strip-pack secondary trays, sachet secondary packaging inserts, unit-dose sachet holder trays, granule and powder sachet secondary packaging, ORS and rehydration sachet packaging, and blister strip tray inserts. Pharma-grade APET and PP. GMP, ISO 9001:2015. Sachet packaging manufacturer from Vapi."
+    },
+    {
+      "q": "What is Trizen scope for pharmaceutical strip and sachet packaging?",
+      "a": "Trizen manufactures the thermoformed secondary packaging component — secondary packaging trays for strip-packed tablets and sachet secondary holders. Drug filling, sachet sealing, and batch printing are performed by the pharmaceutical manufacturer."
+    },
+    {
+      "q": "APET strip sachet packaging?",
+      "a": "Pharma-grade APET strip and sachet secondary packaging components — controlled additive specification, CoA per batch. Pharma-grade APET compatible with pharmaceutical secondary packaging applications."
+    },
+    {
+      "q": "Materials?",
+      "a": "Pharma-grade APET (primary — sachet secondary packaging, strip-pack secondary trays), pharma-grade PP (non-clear strip and sachet secondary packaging), pharma-grade PETG (sterile sachet secondary packaging). CoA per batch."
+    },
+    {
+      "q": "Why source from Vapi?",
+      "a": "Sachet packaging manufacturer Vapi. Strip sachet packaging Gujarat. GMP, ISO 9001:2015 per run."
+    },
+    {
+      "q": "GMP strip packaging manufacturer?",
+      "a": "All pharmaceutical strip and sachet secondary packaging under GMP at Vapi. Batch records, material CoA, dimensional inspection per batch."
+    },
+    {
+      "q": "Prototype timeline?",
+      "a": "First article: 14 to 21 business days from strip pack or sachet format specification."
+    },
+    {
+      "q": "Export pharmaceutical programmes?",
+      "a": "GMP documentation and pharma-grade material CoA per batch for export pharmaceutical market compliance."
+    }
+  ],
+  "imageLabels": [
+    "Product packaging",
+    "Production facility Vapi"
+  ]
+}

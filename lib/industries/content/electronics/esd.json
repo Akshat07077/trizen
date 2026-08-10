@@ -1,0 +1,233 @@
+{
+  "slug": "esd",
+  "industryId": "electronics",
+  "title": "ESD-Safe Thermoforming Trays Manufacturer India | Antistatic Electronic Packaging | Trizen, Vapi",
+  "hero": {
+    "ey": "Electronics · ESD-Safe Trays · Antistatic · Vapi, India",
+    "titleMain": "ESD-Safe Thermoforming Trays Manufacturer India",
+    "titleTail": "Antistatic Electronic Packaging, ESD OEM from Vapi",
+    "desc": "Custom ESD-safe thermoformed trays for the complete range of ESD-sensitive electronic components — controlled surface resistivity PP and PETG, individual component isolation, resistivity CoA per material batch. ESD packaging OEM from Vapi — ISO 9001:2015 certified.",
+    "chips": [
+      "ISO 9001:2015",
+      "ESD-Safe PP & PETG",
+      "Resistivity CoA per Batch",
+      "ESD OEM Vapi"
+    ]
+  },
+  "sections": [
+    {
+      "ey": "What We Manufacture",
+      "st": "ESD-Safe Thermoforming Trays Manufacturer India — Antistatic Electronic Packaging, ESD OEM from Vapi",
+      "leads": [
+        "Trizen Packaging manufactures ESD-safe thermoforming trays from our ISO 9001:2015 certified facility in Vapi, Gujarat — custom ESD-safe PP and ESD-safe PETG thermoformed trays for ESD-sensitive electronic components. ESD packaging OEM from Vapi Daman for semiconductor components, ICs, microcontrollers, power modules, RF components, and any electronic device sensitive to electrostatic discharge. As an ESD-safe thermoforming trays manufacturer from India, we supply ESD-safe packaging for electronics manufacturers, EMS companies, and semiconductor distributors across India and for export.",
+        "ESD-safe thermoforming trays differ from standard thermoformed trays in one fundamental property: surface resistivity. Standard PP is an insulator — it generates and holds electrostatic charge at the packaging surface. ESD-safe PP and PETG have controlled surface resistivity in the dissipative range (10⁶–10⁹ Ω/sq) — charge is continuously dissipated rather than accumulated. This is the difference between packaging that protects from ESD and packaging that causes ESD damage."
+      ],
+      "products": [],
+      "strips": [],
+      "table": {
+        "headers": [
+          "Device / Component",
+          "Packaging Format",
+          "Material",
+          "Key Requirement"
+        ],
+        "rows": [
+          [
+            "Integrated Circuits (ICs) & Microcontrollers",
+            "Multi-cavity ESD-safe PP matrix tray",
+            "ESD-safe PP",
+            "Individual IC cavity, lead/BGA protection, 10⁶–10⁹ Ω/sq confirmed"
+          ],
+          [
+            "Power Modules & MOSFETs",
+            "Precision ESD-safe PP tray",
+            "ESD-safe PP",
+            "Pin geometry protection, thermal pad clearance, ESD CoA"
+          ],
+          [
+            "RF & Wireless Modules",
+            "ESD-safe PP precision cavity tray",
+            "ESD-safe PP",
+            "Antenna element clearance, connector protection, ESD-safe confirmed"
+          ],
+          [
+            "Semiconductor Components",
+            "High-density ESD-safe PP tray",
+            "ESD-safe PP",
+            "Individual component isolation, lead protection, static-free transit"
+          ],
+          [
+            "Memory Modules (DRAM, Flash)",
+            "Multi-cavity ESD-safe PP tray",
+            "ESD-safe PP",
+            "Module edge connector protection, individual isolation"
+          ],
+          [
+            "Optoelectronics & LEDs",
+            "ESD-safe PETG tray with optical clearance",
+            "ESD-safe PETG",
+            "ESD protection + optical clarity for inspection, lens clearance"
+          ],
+          [
+            "High-Value IC Reels & Tape Carriers",
+            "ESD-safe PP carrier tray",
+            "ESD-safe PP",
+            "Reel geometry support, tape-and-reel compatible, ESD-safe"
+          ]
+        ]
+      }
+    },
+    {
+      "ey": "Pain Points We Solve",
+      "st": "Three Problems ESD-Safe Thermoforming Trays Buyers Face",
+      "leads": [],
+      "products": [],
+      "strips": [
+        {
+          "title": "Latent ESD Damage — Passes Test, Fails in Service",
+          "desc": "Problem: ESD damage to semiconductor components is frequently latent — the component passes electrical test at the manufacturing stage but fails in service weeks or months after delivery. The damage occurred during packaging handling. ESD-safe thermoforming with CoA per batch documents that the packaging provided ESD protection throughout the supply chain."
+        },
+        {
+          "title": "Standard PP Packaging Supplied by Thermoformers Without ESD Declaration",
+          "desc": "Problem: Standard thermoforming suppliers supply PP trays for electronic component packaging without disclosing that standard PP is not ESD-safe — the buyer assumes ESD protection is present when it is not. Solution: Explicit ESD-safe material specification (ESD-safe PP or PETG), surface resistivity CoA per production batch. The ESD-safe status is documented, not assumed."
+        },
+        {
+          "title": "ESD Resistivity Not Consistent Across Batches from Uncertified Suppliers",
+          "desc": "Problem: ESD-safe material quality varies between material batches from suppliers without batch-level resistivity testing — the resistivity in batch 1 may be within the dissipative range while batch 2 may be in the insulating range. Solution: Surface resistivity test certificate per material batch from our Vapi facility — batch-level consistency confirmation, not grade-level assumption."
+        }
+      ]
+    },
+    {
+      "ey": "Design Requirements",
+      "st": "ESD-Safe Thermoforming Trays — Key Design Requirements",
+      "leads": [],
+      "products": [],
+      "strips": [
+        {
+          "title": "ESD-Safe Material Confirmed Before Every Production Run",
+          "desc": "ESD-safe PP or PETG material grade confirmed per production run — same material source, same batch testing. Surface resistivity CoA issued per material batch used in each production run. No material substitution without resistivity re-confirmation."
+        },
+        {
+          "title": "Individual Component Isolation — No Component-to-Component Contact",
+          "desc": "Each electronic component in its own ESD-safe cavity — components cannot contact each other during transit vibration. Component-to-component contact in a static-generating environment creates micro-discharge events between components even within ESD-safe packaging."
+        },
+        {
+          "title": "Component Geometry Confirmed Before Tooling",
+          "desc": "IC lead pitch, BGA ball array, power module pin geometry, and module connector geometry confirmed from component technical specification or physical sample before cavity tooling. Cavity geometry prevents packaging contact with electrically sensitive surfaces."
+        },
+        {
+          "title": "Clean Handling During Production — No Static Generation",
+          "desc": "ESD-safe thermoforming production at Vapi with clean handling procedures — ESD-safe material handling to prevent charge introduction during the production process."
+        }
+      ]
+    },
+    {
+      "ey": "Materials",
+      "st": "Materials for ESD-Safe Thermoforming Trays",
+      "eyClass": "gold",
+      "leads": [],
+      "products": [],
+      "strips": [],
+      "table": {
+        "headers": [
+          "Material",
+          "Electronics Application",
+          "Key Property"
+        ],
+        "rows": [
+          [
+            "ESD-Safe PP",
+            "Primary material — all ESD-sensitive electronic component packaging",
+            "10⁶–10⁹ Ω/sq dissipative range, rigid geometry, cost-efficient OEM volumes, CoA per batch"
+          ],
+          [
+            "ESD-Safe PETG",
+            "Optoelectronics, inspection-through-packaging, precision electronics",
+            "ESD protection + crystal clarity, 10⁶–10⁹ Ω/sq, optical clearance geometry"
+          ],
+          [
+            "Standard PP",
+            "Outer transit packaging only — NEVER in contact with ESD-sensitive components",
+            "Insulating range — not ESD-safe, do not use for electronic component contact"
+          ]
+        ]
+      },
+      "callout": "ESD packaging OEM manufacturer Vapi Daman — ESD-safe thermoforming trays from our Vapi, Gujarat facility. Electronic component thermoforming manufacturer Gujarat — ESD-safe packaging for electronics manufacturers and EMS companies. Surface resistivity CoA and ISO 9001:2015 batch documentation per production run."
+    },
+    {
+      "ey": "Why Choose Trizen",
+      "st": "Why Electronics Manufacturers Choose Trizen for ESD-Safe Thermoforming Trays",
+      "eyClass": "green",
+      "leads": [],
+      "products": [],
+      "strips": [
+        {
+          "title": "ESD Material CoA Per Batch — Documented ESD Protection",
+          "desc": "Surface resistivity test certificate per production batch — batch-level ESD documentation, not grade-level assumption. Every electronics packaging run has specific resistivity data confirming the dissipative range. Required for electronics supplier qualification."
+        },
+        {
+          "title": "In-House ESD Capability — Full Process Control",
+          "desc": "ESD-safe material and ESD thermoforming both in-house at Vapi. No external process dependency. Batch documentation complete and unbroken."
+        },
+        {
+          "title": "Precision Cavity from Component Specification",
+          "desc": "IC, MOSFET, module geometry confirmed from technical specification or physical sample before tooling. No standard-format ESD trays — all cavity geometry from specific component."
+        }
+      ]
+    }
+  ],
+  "midCtas": [
+    {
+      "title": "ESD-Safe Thermoforming Trays — ESD-Safe OEM from Vapi",
+      "text": "ESD-safe PP & PETG · Resistivity CoA per batch · ISO 9001:2015 · 7–14 day prototype.",
+      "button": "Request a Quote →"
+    },
+    {
+      "title": "ESD-Safe Thermoforming Trays — Submit Component Sample",
+      "text": "ESD-safe CoA · Precision cavity · 7–14 day prototype · ISO 9001:2015.",
+      "button": "Submit Enquiry →"
+    }
+  ],
+  "bottomCta": {
+    "title": "ESD-Safe Thermoforming Trays — ESD-Safe OEM from Vapi",
+    "text": "ESD-safe PP & PETG · Resistivity CoA per batch · ISO 9001:2015 · 7–14 day prototype · Vapi, Gujarat"
+  },
+  "faqs": [
+    {
+      "q": "What ESD-safe thermoforming trays does Trizen manufacture?",
+      "a": "Custom ESD-safe PP and ESD-safe PETG thermoformed trays for ICs, microcontrollers, power modules, RF modules, semiconductor components, memory modules, optoelectronics, and IC reels. Surface resistivity CoA per batch. ISO 9001:2015. ESD packaging OEM from Vapi, Gujarat."
+    },
+    {
+      "q": "What is the surface resistivity specification?",
+      "a": "ESD-safe PP and ESD-safe PETG: 10⁶–10⁹ Ω/sq dissipative range. Dissipates charge continuously without rapid discharge current. Confirmed per material batch by CoA."
+    },
+    {
+      "q": "Why is standard PP not acceptable for ESD-sensitive electronics?",
+      "a": "Standard PP surface resistivity is in the insulating range (>10¹² Ω/sq) — it generates and holds electrostatic charge. ESD-safe PP in the dissipative range (10⁶–10⁹ Ω/sq) continuously dissipates charge. The visual difference is negligible — the ESD protection difference is complete."
+    },
+    {
+      "q": "What documentation is provided for ESD supplier qualification?",
+      "a": "Surface resistivity test certificate per material batch, ISO 9001:2015 records, material CoA per batch, dimensional inspection per run, and batch records per run."
+    },
+    {
+      "q": "Why source from Vapi, Gujarat?",
+      "a": "ESD packaging OEM manufacturer Vapi Daman — ESD-safe PP and PETG from our Vapi facility. Electronic component thermoforming manufacturer Gujarat. ISO 9001:2015 and resistivity CoA per run."
+    },
+    {
+      "q": "Does ESD-safe PETG provide inspection-through-packaging?",
+      "a": "Yes — ESD-safe PETG combines 10⁶–10⁹ Ω/sq ESD protection with crystal clarity, allowing visual inspection of the electronic component through the closed packaging."
+    },
+    {
+      "q": "MOQ and prototype timeline?",
+      "a": "Prototype: 7 to 14 business days. MOQ from 500 units. Resistivity CoA and ISO 9001:2015 per batch."
+    },
+    {
+      "q": "Is resistivity consistent batch-to-batch?",
+      "a": "Surface resistivity is tested per material batch and confirmed by CoA. Consistent ESD-safe material sourcing from our Vapi facility."
+    }
+  ],
+  "imageLabels": [
+    "Product packaging",
+    "Production facility Vapi"
+  ]
+}

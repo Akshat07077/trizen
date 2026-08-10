@@ -1,0 +1,233 @@
+{
+  "slug": "consumer",
+  "industryId": "electronics",
+  "title": "Consumer Electronics Accessory Packaging Manufacturer India | Retail Electronics Packaging Vapi | Trizen",
+  "hero": {
+    "ey": "Electronics · Consumer Electronics · Retail & E-Commerce · Vapi, India",
+    "titleMain": "Consumer Electronics Accessory Packaging Manufacturer India",
+    "titleTail": "Retail & E-Commerce Packaging, Bulk from Vapi",
+    "desc": "Custom thermoformed consumer electronics accessory packaging for retail and e-commerce — APET crystal-clear blister packs, clamshell packaging, and display inserts for earphones, TWS earbuds, cables, chargers, adapters, and consumer electronics accessories. Bulk electronics packaging from Vapi — ISO 9001:2015 certified.",
+    "chips": [
+      "ISO 9001:2015",
+      "Crystal-Clear APET",
+      "Retail & E-Commerce",
+      "Bulk Vapi"
+    ]
+  },
+  "sections": [
+    {
+      "ey": "What We Manufacture",
+      "st": "Consumer Electronics Accessory Packaging Manufacturer India — Retail & E-Commerce Packaging, Bulk from Vapi",
+      "leads": [
+        "Trizen Packaging manufactures consumer electronics accessory packaging from our ISO 9001:2015 certified facility in Vapi, Gujarat — custom thermoformed APET crystal-clear packaging for consumer electronics accessories sold through retail and e-commerce channels. Bulk electronics packaging from Vapi for earphones, TWS earbuds, charging cables, adapters, screen protectors, power banks, and consumer electronics accessories. As a consumer electronics packaging manufacturer from India, we serve consumer electronics brands and FMCG electronics companies.",
+        "Consumer electronics accessory packaging has different requirements from industrial electronics packaging — ESD protection is secondary (most consumer accessories are not ESD-sensitive), and retail product visibility is primary. Crystal-clear APET thermoforming is the standard material — the product design, brand colours, and accessory detail must all be visible through the packaging at the retail shelf or e-commerce product image stage."
+      ],
+      "products": [],
+      "strips": [],
+      "table": {
+        "headers": [
+          "Device / Component",
+          "Packaging Format",
+          "Material",
+          "Key Requirement"
+        ],
+        "rows": [
+          [
+            "TWS Earbuds & Cases",
+            "APET clamshell or blister pack — charging case + earbuds visible",
+            "APET crystal-clear",
+            "Full product visibility, charging case geometry support, earbud cavity"
+          ],
+          [
+            "Wired Earphones & Headphones",
+            "APET blister or clamshell — product in display orientation",
+            "APET crystal-clear",
+            "Driver housing protection, cable organization cavity, tamper-evident"
+          ],
+          [
+            "USB-C & Lightning Cables",
+            "APET blister or clamshell — cable in loop display",
+            "APET crystal-clear",
+            "Cable loop geometry, connector end protection, product visible"
+          ],
+          [
+            "Chargers & Power Adapters",
+            "APET or PP box insert for charger retail box",
+            "APET or PP",
+            "Charger geometry support, prong protection, cable cavity if included"
+          ],
+          [
+            "Screen Protectors",
+            "APET or PP retail blister for screen protector sets",
+            "APET or PP",
+            "Multi-piece protection, application tool cavity, tamper evidence"
+          ],
+          [
+            "Power Banks",
+            "APET clamshell or box insert — product label visible",
+            "APET crystal-clear",
+            "Unit geometry support, port protection, full product visibility"
+          ],
+          [
+            "Phone Cases & Accessories",
+            "APET hanging blister for retail peg display",
+            "APET crystal-clear",
+            "Product shape visible, hanging peg format, brand card compatibility"
+          ]
+        ]
+      }
+    },
+    {
+      "ey": "Pain Points We Solve",
+      "st": "Three Problems Consumer Electronics Accessory Packaging Buyers Face",
+      "leads": [],
+      "products": [],
+      "strips": [
+        {
+          "title": "Product Visibility — Consumer Electronics Sell on Product Design",
+          "desc": "Problem: Consumer electronics in opaque or low-clarity packaging hide the product design — the primary purchase driver for premium accessories. Consumers choose competitive products with better visibility. Solution: APET crystal-clear thermoforming for all consumer electronics retail packaging — full product visibility, accurate colour and design representation."
+        },
+        {
+          "title": "E-Commerce Packaging — Product Must Survive Unboxing and Returns",
+          "desc": "Problem: E-commerce consumer electronics packaging must protect the product through logistics handling and survive the returns process — opened and repackaged for resale. Standard blister packs cannot be resealed. Solution: Clamshell packaging with tamper-evident sealing tabs for e-commerce electronics — resealable for returns without visible damage."
+        },
+        {
+          "title": "Cable and Accessory Organisation — Multiple Accessories in One Package",
+          "desc": "Problem: Consumer electronics packages containing the main product plus accessories (cable, adapter, documentation, screen protector) have multiple small components that move freely in generic packaging — poor unboxing experience. Solution: Multi-cavity APET insert — each accessory in its defined cavity position."
+        }
+      ]
+    },
+    {
+      "ey": "Design Requirements",
+      "st": "Consumer Electronics Accessory Packaging — Key Design Requirements",
+      "leads": [],
+      "products": [],
+      "strips": [
+        {
+          "title": "Crystal-Clear APET — Product Visibility as Primary Design Goal",
+          "desc": "All consumer electronics retail packaging designed with product visibility as the primary goal. APET cavity geometry minimises the packaging silhouette — the product floats in the packaging. Crystal-clear APET standard for all consumer electronics blister and clamshell applications."
+        },
+        {
+          "title": "E-Commerce Clamshell — Resealable for Returns Process",
+          "desc": "Consumer electronics e-commerce clamshell packaging designed with a resealable hinge and tamper-evident sealing tabs — product can be repackaged for returns without visible damage to the packaging. Returns channel compatibility is a standard design consideration for consumer electronics packaging."
+        },
+        {
+          "title": "Multi-Accessory Organisation — Box Insert Design",
+          "desc": "Consumer electronics product boxes containing multiple accessories use a thermoformed APET or PP box insert — each accessory in its defined cavity, unboxing sequence maintained. Box insert designed from all accessories and the specific product box interior dimensions."
+        },
+        {
+          "title": "Retail Format — Hanging Blister and Peg Display Compatibility",
+          "desc": "Consumer electronics retail packaging designed for hanging peg display — APET blister with hanging hole for standard retail peg system, product facing consumer, brand card compatibility confirmed from retail programme specification."
+        }
+      ]
+    },
+    {
+      "ey": "Materials",
+      "st": "Materials for Consumer Electronics Accessory Packaging",
+      "eyClass": "gold",
+      "leads": [],
+      "products": [],
+      "strips": [],
+      "table": {
+        "headers": [
+          "Material",
+          "Electronics Application",
+          "Key Property"
+        ],
+        "rows": [
+          [
+            "APET Crystal-Clear",
+            "Primary consumer electronics retail packaging — blister packs, clamshells, display inserts",
+            "Crystal clarity, tamper-evident seal compatible, retail shelf presence"
+          ],
+          [
+            "ESD-Safe PP",
+            "Consumer electronics accessories with mild ESD sensitivity — cables with integrated ICs",
+            "10⁶–10⁹ Ω/sq where ESD protection needed alongside product protection"
+          ],
+          [
+            "PP Standard",
+            "Box inserts and secondary packaging for consumer electronics retail boxes",
+            "Dimensional stability, cost-efficient, product protection"
+          ]
+        ]
+      },
+      "callout": "Bulk electronics packaging manufacturer Vapi — APET thermoformed consumer electronics accessory packaging from our Vapi, Gujarat facility. Custom electronics packaging India for consumer electronics brands and FMCG electronics companies. ISO 9001:2015 batch documentation per production run."
+    },
+    {
+      "ey": "Why Choose Trizen",
+      "st": "Why Electronics Manufacturers Choose Trizen for Consumer Electronics Accessory Packaging",
+      "eyClass": "green",
+      "leads": [],
+      "products": [],
+      "strips": [
+        {
+          "title": "Crystal-Clear APET Standard — Consumer Electronics Retail Presence",
+          "desc": "APET crystal-clear as standard for all consumer electronics retail packaging — full product visibility, maximum shelf presence."
+        },
+        {
+          "title": "E-Commerce Clamshell Expertise — Resealable for Returns",
+          "desc": "E-commerce clamshell design with resealable hinge and tamper-evident tabs — returns-process compatible as standard."
+        },
+        {
+          "title": "Consumer Electronics Packaging from India — Domestic and Export",
+          "desc": "As a consumer electronics packaging manufacturer from India, Trizen Packaging supplies retail packaging for domestic electronics brands and export consumer electronics programmes."
+        }
+      ]
+    }
+  ],
+  "midCtas": [
+    {
+      "title": "Consumer Electronics Accessory Packaging — ESD-Safe OEM from Vapi",
+      "text": "ESD-safe PP & PETG · Resistivity CoA per batch · ISO 9001:2015 · 7–14 day prototype.",
+      "button": "Request a Quote →"
+    },
+    {
+      "title": "Consumer Electronics Accessory Packaging — Submit Component Sample",
+      "text": "ESD-safe CoA · Precision cavity · 7–14 day prototype · ISO 9001:2015.",
+      "button": "Submit Enquiry →"
+    }
+  ],
+  "bottomCta": {
+    "title": "Consumer Electronics Accessory Packaging — ESD-Safe OEM from Vapi",
+    "text": "ESD-safe PP & PETG · Resistivity CoA per batch · ISO 9001:2015 · 7–14 day prototype · Vapi, Gujarat"
+  },
+  "faqs": [
+    {
+      "q": "What consumer electronics accessory packaging does Trizen manufacture?",
+      "a": "Custom APET thermoformed packaging for TWS earbuds and cases, wired earphones, USB-C and Lightning cables, chargers, screen protectors, power banks, and phone cases and accessories. APET crystal-clear blister packs, clamshells, and box inserts. ISO 9001:2015. Bulk electronics packaging from Vapi."
+    },
+    {
+      "q": "Does consumer electronics packaging require ESD-safe materials?",
+      "a": "Most consumer electronics accessories (cables, chargers, cases) are not ESD-sensitive — APET crystal-clear is suitable. Accessories containing active ICs or sensitive components may benefit from ESD-safe PP. Confirmed from the specific accessory component specification at brief stage."
+    },
+    {
+      "q": "Materials?",
+      "a": "APET crystal-clear (primary — all retail display applications), ESD-safe PP (accessories with mild ESD sensitivity), standard PP (box inserts, secondary packaging)."
+    },
+    {
+      "q": "Why source from Vapi?",
+      "a": "Bulk electronics packaging manufacturer Vapi. Custom electronics packaging India for consumer electronics brands. ISO 9001:2015 per run."
+    },
+    {
+      "q": "E-commerce packaging requirements?",
+      "a": "APET clamshell with resealable hinge and tamper-evident sealing tabs — product can be repackaged for returns. Drop-protection confirmed from logistics specification."
+    },
+    {
+      "q": "Multi-accessory product boxes?",
+      "a": "APET or PP box insert with individual cavity for each accessory. Box insert designed from all accessories and product box interior dimensions."
+    },
+    {
+      "q": "MOQ?",
+      "a": "7 to 14 business days from product sample. MOQ from 500 units. ISO 9001:2015 per batch."
+    },
+    {
+      "q": "Export consumer electronics programmes?",
+      "a": "ISO 9001:2015 batch records per batch for export consumer electronics market compliance."
+    }
+  ],
+  "imageLabels": [
+    "Product packaging",
+    "Production facility Vapi"
+  ]
+}

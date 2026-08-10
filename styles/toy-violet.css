@@ -1,16 +1,16 @@
-/* Toy-specific overrides on the violet editorial system */
+/* Industry page overrides on the violet editorial system */
 
-.toy-page {
+.industry-page {
   --hero-image: none;
 }
 
-.toy-page .hero {
+.industry-page .hero {
   position: relative;
   isolation: isolate;
 }
 
 /* Hero image from page CSS variable (replaces hardcoded auto asset) */
-.toy-page .hero:before {
+.industry-page .hero:before {
   background:
     linear-gradient(90deg, rgba(238, 247, 248, 0.2), rgba(54, 53, 108, 0.08)),
     var(--hero-image) center / cover no-repeat !important;
@@ -18,8 +18,8 @@
 
 /* Keep sidebar visible on tablet (base CSS hides it under 880px) */
 @media (max-width: 880px) and (min-width: 701px) {
-  .toy-page .aside,
-  .toy-page .hcards {
+  .industry-page .aside,
+  .industry-page .hcards {
     display: block !important;
   }
 }
@@ -28,7 +28,7 @@
   Hard layout lock: main LEFT | sidebar RIGHT.
   Sidebar stays sticky (does not scroll away with content).
 */
-.toy-page .page-wrap {
+.industry-page .page-wrap {
   display: grid !important;
   grid-template-columns: minmax(0, 1fr) 300px !important;
   gap: clamp(24px, 3vw, 48px) !important;
@@ -43,7 +43,7 @@
   contain: none !important;
 }
 
-.toy-page .page-wrap > main {
+.industry-page .page-wrap > main {
   display: block !important;
   visibility: visible !important;
   opacity: 1 !important;
@@ -58,7 +58,7 @@
 }
 
 /* Outer sticky shell — no clip-path (clip-path breaks sticky in browsers) */
-.toy-page .page-wrap > .aside {
+.industry-page .page-wrap > .aside {
   display: block !important;
   visibility: visible !important;
   opacity: 1 !important;
@@ -87,7 +87,7 @@
   -webkit-align-self: start !important;
 }
 
-.toy-page .page-wrap > .aside.is-pinned {
+.industry-page .page-wrap > .aside.is-pinned {
   position: fixed !important;
   z-index: 30 !important;
   margin: 0 !important;
@@ -96,7 +96,7 @@
   transform: none !important;
 }
 
-.toy-page .aside-spacer {
+.industry-page .aside-spacer {
   grid-column: 2 !important;
   grid-row: 1 !important;
   width: 300px;
@@ -104,31 +104,31 @@
 }
 
 /* Keep card visuals; shell stays unclipped for sticky */
-.toy-page .aside:before {
+.industry-page .aside:before {
   display: none !important;
 }
 
 @media (max-width: 1050px) and (min-width: 701px) {
-  .toy-page .page-wrap {
+  .industry-page .page-wrap {
     grid-template-columns: minmax(0, 1fr) 255px !important;
   }
-  .toy-page .page-wrap > .aside {
+  .industry-page .page-wrap > .aside {
     max-width: 255px !important;
   }
 }
 
 @media (max-width: 700px) {
-  .toy-page .page-wrap {
+  .industry-page .page-wrap {
     display: flex !important;
     flex-direction: column !important;
     grid-template-columns: none !important;
     padding: 0 4vw 65px !important;
   }
-  .toy-page .page-wrap > main {
+  .industry-page .page-wrap > main {
     order: 1 !important;
     width: 100% !important;
   }
-  .toy-page .page-wrap > .aside {
+  .industry-page .page-wrap > .aside {
     order: 2 !important;
     position: relative !important;
     top: auto !important;
@@ -139,17 +139,17 @@
   }
 }
 
-/* overflow-x:hidden on html/body breaks sticky — neutralize on toy pages */
-html:has(.toy-page),
-body:has(.toy-page) {
+/* overflow-x:hidden on html/body breaks sticky — neutralize on industry pages */
+html:has(.industry-page),
+body:has(.industry-page) {
   overflow-x: visible !important;
 }
 
 /* Eyebrow label from data-label instead of automobile copy */
-.toy-page .hey {
+.industry-page .hey {
   font-size: 0;
 }
-.toy-page .hey:after {
+.industry-page .hey:after {
   content: attr(data-label) !important;
   font-size: 9px;
   font-weight: 800;
@@ -159,42 +159,42 @@ body:has(.toy-page) {
 }
 
 /* Real sidebar titles (disable automobile :after labels) */
-.toy-page .aside .aside-title {
+.industry-page .aside .aside-title {
   font-size: 10px !important;
   font-weight: 700;
   letter-spacing: 0.14em;
   text-transform: uppercase;
   color: var(--violet) !important;
 }
-.toy-page .aside .aside-title:after {
+.industry-page .aside .aside-title:after {
   content: none !important;
   display: none !important;
 }
-.toy-page .aside .aside-card:nth-child(1) .aside-title:after,
-.toy-page .aside .aside-card:nth-child(3) .aside-title:after,
-.toy-page .aside .aside-card:nth-child(4) .aside-title:after {
+.industry-page .aside .aside-card:nth-child(1) .aside-title:after,
+.industry-page .aside .aside-card:nth-child(3) .aside-title:after,
+.industry-page .aside .aside-card:nth-child(4) .aside-title:after {
   content: none !important;
 }
 
 /* Product grid for category overview */
-.toy-page .pgrid {
+.industry-page .pgrid {
   display: grid;
   grid-template-columns: repeat(2, minmax(0, 1fr));
   gap: 14px;
   margin: 22px 0;
 }
-.toy-page .pc {
+.industry-page .pc {
   padding: 22px 24px;
   background: linear-gradient(135deg, #fff 0 76%, var(--ice) 76%);
   clip-path: polygon(16px 0, 100% 0, calc(100% - 16px) 100%, 0 100%);
   border: 1px solid var(--line);
   transition: transform 0.25s ease, box-shadow 0.25s ease;
 }
-.toy-page .pc:hover {
+.industry-page .pc:hover {
   transform: translateY(-4px);
   box-shadow: 0 16px 36px rgba(54, 53, 108, 0.12);
 }
-.toy-page .pc-name {
+.industry-page .pc-name {
   font-family: var(--fh);
   font-size: 18px;
   font-weight: 700;
@@ -202,13 +202,13 @@ body:has(.toy-page) {
   margin-bottom: 8px;
   letter-spacing: -0.02em;
 }
-.toy-page .pc-desc {
+.industry-page .pc-desc {
   font-size: 13px;
   color: var(--muted);
   line-height: 1.65;
   margin-bottom: 10px;
 }
-.toy-page .pc-link {
+.industry-page .pc-link {
   font-size: 11px;
   font-weight: 700;
   letter-spacing: 0.06em;
@@ -217,50 +217,50 @@ body:has(.toy-page) {
 }
 
 /* Content images match source-image angled treatment */
-.toy-page .source-image {
+.industry-page .source-image {
   margin: 28px 0;
   position: relative;
   overflow: hidden;
   background: var(--ice);
   clip-path: polygon(9% 0, 100% 0, 91% 100%, 0 100%);
 }
-.toy-page .source-image img {
+.industry-page .source-image img {
   display: block;
   width: 100%;
   height: clamp(280px, 42vw, 520px);
   object-fit: cover;
 }
-.toy-page .source-image figcaption {
+.industry-page .source-image figcaption {
   display: none;
 }
 
 /* Hide legacy chrome that conflicts with violet UI */
-.toy-page .page-loader,
-.toy-page .cursor-spotlight,
-.toy-page .ambient-blob,
-.toy-page .benzene-pattern,
-.toy-page .scan-effect,
-.toy-page #hero-canvas,
-.toy-page .floating-action {
+.industry-page .page-loader,
+.industry-page .cursor-spotlight,
+.industry-page .ambient-blob,
+.industry-page .benzene-pattern,
+.industry-page .scan-effect,
+.industry-page #hero-canvas,
+.industry-page .floating-action {
   display: none !important;
 }
 
 /* Also kill leftover fixed-sidebar docking rules */
-@media(min-width:701px){
-  .toy-page .aside.sidebar-fixed{
-    position:sticky!important;
-    top:100px!important;
-    right:auto!important;
-    width:100%!important;
-    max-width:300px!important;
-    margin:0!important;
+@media (min-width: 701px) {
+  .industry-page .aside.sidebar-fixed {
+    position: sticky !important;
+    top: 100px !important;
+    right: auto !important;
+    width: 100% !important;
+    max-width: 300px !important;
+    margin: 0 !important;
   }
 }
 
 /* Hero copy always visible */
-.toy-page .hero .hi > div:first-child{
-  opacity:1!important;
-  visibility:visible!important;
-  position:relative;
-  z-index:2;
+.industry-page .hero .hi > div:first-child {
+  opacity: 1 !important;
+  visibility: visible !important;
+  position: relative;
+  z-index: 2;
 }

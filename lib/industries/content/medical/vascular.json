@@ -1,0 +1,182 @@
+{
+  "slug": "vascular",
+  "industryId": "medical",
+  "title": "Vascular Packaging Manufacturer India | Catheter Packaging Trays Cleanroom GMP | Trizen, Vapi",
+  "hero": {
+    "ey": "🩺 Vascular Packaging · Catheter Trays · Vapi",
+    "titleMain": "Vascular Packaging Manufacturer India",
+    "titleTail": "Catheter Packaging Trays, Cleanroom Class 8 · Vapi",
+    "desc": "Custom PETG thermoformed catheter packaging trays, stent packaging, guide wire packaging, angioplasty balloon packaging — face seal blister components for vascular device sterile packaging. Manufactured in Cleanroom Class 8 under GMP and ISO 9001:2015. Vascular packaging manufacturer from Vapi, Gujarat.",
+    "chips": [
+      "Cleanroom Class 8",
+      "GMP",
+      "ISO 9001:2015",
+      "Vapi Gujarat"
+    ]
+  },
+  "sections": [
+    {
+      "ey": "Device-Specific Packaging Challenges",
+      "st": "Vascular Packaging — Specific Technical Requirements",
+      "leads": [],
+      "products": [],
+      "strips": [
+        {
+          "title": "Guide Wire Kink Stress — Packaging Coil Geometry Must Respect Minimum Bend Radius",
+          "desc": "Problem: Guide wire packaging where the coil radius is below the guide wire's minimum bend radius causes permanent kink deformation — the guide wire is non-functional. Guide wire kink damage from packaging is not visible in the sealed blister. Solution: Minimum bend radius confirmed from guide wire technical specification. Coil cavity radius designed to exceed the minimum bend radius."
+        },
+        {
+          "title": "Long Catheter Linear Geometry — Packaging Must Maintain Lumen Patency",
+          "desc": "Problem: Catheter packaging where the tray imposes a sharp bend in the catheter body can cause partial lumen collapse — the catheter lumen has reduced internal diameter at the bend. Solution: Catheter curve geometry confirmed from the catheter's minimum curve radius specification. Tray cavity provides smooth curves with no sharp bend points."
+        },
+        {
+          "title": "Trocar Tip — Sharp Point Must Not Contact Any Packaging Surface",
+          "desc": "Problem: Trocar tips are surgical cutting edges — any contact with the packaging material before use causes visible damage to the cutting edge. Solution: Trocar tip cavity with defined tip clearance zone — the trocar tip is suspended in clearance, no packaging contact on the tip geometry."
+        }
+      ]
+    },
+    {
+      "ey": "Design Requirements",
+      "st": "Vascular Packaging — Key Design Requirements",
+      "leads": [],
+      "products": [],
+      "strips": [
+        {
+          "title": "Guide Wire Coil Cavity — Minimum Bend Radius Confirmed Before Tooling",
+          "desc": "Minimum bend radius confirmed from guide wire technical specification before coil cavity design. Cavity coil radius designed to exceed minimum bend radius. No kink stress on any section of the guide wire in the packaging."
+        },
+        {
+          "title": "Catheter Lumen Patency — No Sharp Bend Points in Cavity Profile",
+          "desc": "Catheter curve radius confirmed from minimum curve specification. Tray cavity provides smooth curves with no sharp bend points that could partially collapse the catheter lumen."
+        },
+        {
+          "title": "Trocar Tip Clearance — Cutting Edge No-Contact Geometry",
+          "desc": "Trocar tip clearance zone in cavity design — tip suspended with no packaging contact on the cutting edge geometry."
+        },
+        {
+          "title": "Face Seal Flange for All Vascular Sterile Components",
+          "desc": "Heat seal flange geometry on all vascular device face seal blister components — flange width, corner radius, and surface flatness confirmed from device manufacturer's sealing equipment specification."
+        }
+      ]
+    },
+    {
+      "ey": "Materials",
+      "st": "Materials for Vascular Packaging",
+      "eyClass": "gold",
+      "leads": [],
+      "products": [],
+      "strips": [],
+      "table": {
+        "headers": [
+          "Material",
+          "Medical Application",
+          "Key Property"
+        ],
+        "rows": [
+          [
+            "Medical-Grade PETG",
+            "Primary — face seal blister trays, lidded trays, all sterile barrier packaging components",
+            "EO and gamma compatible, ISO 11607 compatible, medical-grade additive specification, CoA per batch"
+          ],
+          [
+            "Medical-Grade HIPS",
+            "Protective transit trays and secondary packaging where sterile barrier is not required",
+            "Good impact resistance, chemical resistance, cost-efficient for non-sterile-barrier applications"
+          ],
+          [
+            "Medical-Grade PP",
+            "Non-sterile-barrier protective packaging — device presentation trays",
+            "Chemical resistance, dimensional stability, autoclave compatible grades available"
+          ]
+        ]
+      },
+      "callout": "Vascular packaging manufacturer Vapi — medical packaging manufacturer Gujarat for medical device companies. ISO 9001:2015 · GMP · Cleanroom Class 8 production at Vapi, Gujarat. Medical-grade PETG CoA, GMP batch records, and ISO 11607 compatible dimensional documentation per production run."
+    },
+    {
+      "ey": "Compliance & Certifications",
+      "st": "Quality Certifications and Regulatory Documentation",
+      "leads": [],
+      "products": [],
+      "strips": []
+    },
+    {
+      "ey": "Why Choose Trizen",
+      "st": "Why Medical Device Companies Choose Trizen for Vascular Packaging",
+      "eyClass": "green",
+      "leads": [],
+      "products": [],
+      "strips": [
+        {
+          "title": "Guide Wire Kink Stress Analysis — Minimum Bend Radius Confirmed",
+          "desc": "Minimum bend radius confirmed from guide wire technical specification before every catheter packaging coil cavity design. Kink stress analysis mandatory for all guide wire and coiled catheter packaging."
+        },
+        {
+          "title": "Cleanroom Class 8 + GMP — Combined Capability",
+          "desc": "All medical packaging components produced in Class 8 cleanroom with full GMP batch documentation. The combined capability that medical device supplier qualification programmes require."
+        },
+        {
+          "title": "ISO 11607 Compatible Components — Validation Documentation",
+          "desc": "First article inspection report, dimensional records per batch, material CoA, batch records — all available to support the medical device manufacturer's ISO 11607 packaging validation documentation package."
+        },
+        {
+          "title": "Medical-Grade PETG — EO and Gamma Sterilization Compatible",
+          "desc": "Medical-grade PETG as standard for all medical packaging components. EO sterilization compatible and gamma radiation compatible. Material CoA per batch."
+        }
+      ]
+    }
+  ],
+  "midCtas": [
+    {
+      "title": "Vascular Packaging — Technical Enquiry",
+      "text": "Medical-grade PETG · Cleanroom Class 8 · GMP · ISO 9001:2015 · ISO 11607 compatible.",
+      "button": "Request a Consultation →"
+    },
+    {
+      "title": "Vascular Packaging — Submit Device Drawing",
+      "text": "Cleanroom Class 8 · GMP · ISO 9001:2015 · Medical-grade PETG · Validation support documentation.",
+      "button": "Submit Technical Enquiry →"
+    }
+  ],
+  "bottomCta": {
+    "title": "Vascular Packaging — Cleanroom Class 8, GMP, ISO 9001:2015 · Vapi",
+    "text": "Medical-grade PETG · ISO 11607 compatible · Validation documentation · Cleanroom Class 8 · Vapi, Gujarat"
+  },
+  "faqs": [
+    {
+      "q": "What vascular packaging does Trizen manufacture?",
+      "a": "PETG thermoformed packaging for catheter packaging trays (CVC, drainage catheters), stent and delivery system packaging, guide wire packaging, angioplasty balloon catheter packaging, trocar and cannula packaging, and combi pack vascular trays. Cleanroom Class 8, GMP, ISO 9001:2015. Vascular packaging manufacturer from Vapi, Gujarat."
+    },
+    {
+      "q": "What certifications does Trizen have for Vascular Packaging?",
+      "a": "ISO 9001:2015, GMP, and Cleanroom Class 8 (ISO 14644-1 — 100,000 particles/m³). All medical packaging components produced in the Class 8 cleanroom with full GMP batch documentation per production batch."
+    },
+    {
+      "q": "Is PETG compatible with EO sterilization for vascular packaging?",
+      "a": "Yes — medical-grade PETG is compatible with Ethylene Oxide (EO) sterilization and gamma radiation sterilization. EO compatibility confirmed by material CoA per production batch."
+    },
+    {
+      "q": "What documentation is provided for medical device supplier qualification?",
+      "a": "First article inspection report, dimensional inspection records per production batch, material CoA with medical-grade PETG specification per batch, batch records, ISO 9001:2015 certificate, GMP compliance documentation."
+    },
+    {
+      "q": "Why source vascular packaging from Vapi, Gujarat?",
+      "a": "Vascular packaging manufacturer Vapi — Cleanroom Class 8, GMP, ISO 9001:2015. Vascular packaging manufacturer Gujarat for medical device companies. Medical packaging manufacturer from India for domestic and export medical device markets."
+    },
+    {
+      "q": "What is Trizen's scope for medical packaging?",
+      "a": "Trizen manufactures the thermoformed PETG packaging component — the tray or blister shell. Device loading, Tyvek/foil lidding, heat sealing, and sterilization are performed by the medical device manufacturer. Clear scope for DHF traceability."
+    },
+    {
+      "q": "Prototype and production timeline?",
+      "a": "First article: 14 to 21 business days from device technical drawing or sample — cleanroom CNC tooling at Vapi. ISO 9001:2015, GMP, and Cleanroom Class 8 documentation per production batch."
+    },
+    {
+      "q": "Does Trizen supply medical packaging for export markets?",
+      "a": "Yes — ISO 9001:2015, GMP, and medical-grade PETG CoA per batch for export medical device market compliance. Medical thermoforming packaging manufacturer from India for international medical device markets."
+    }
+  ],
+  "imageLabels": [
+    "Product packaging",
+    "Production facility Vapi"
+  ]
+}

@@ -1,0 +1,234 @@
+{
+  "slug": "diagnostic",
+  "industryId": "pharmaceutical",
+  "title": "Diagnostic Kit Packaging Manufacturer India | GMP Cleanroom Pharma Packaging | Trizen, Vapi",
+  "hero": {
+    "ey": "Diagnostic Kit Packaging · IVD · Vapi",
+    "titleMain": "Diagnostic Kit Packaging Manufacturer India",
+    "titleTail": "IVD Kit Packaging GMP Cleanroom · Vapi",
+    "desc": "Custom thermoformed diagnostic kit packaging — multi-component PETG and APET trays for IVD diagnostic kits, rapid test kits, clinical diagnostic packaging. Diagnostic packaging manufacturer from Vapi — GMP, Cleanroom Class 8, ISO 9001:2015.",
+    "chips": [
+      "GMP",
+      "ISO 9001:2015",
+      "PETG / PVC / PP",
+      "Vapi Gujarat"
+    ]
+  },
+  "sections": [
+    {
+      "ey": "PRIORITY: Pharmaceutical Industry",
+      "st": "Diagnostic Kit Packaging Manufacturer India — IVD Kit Packaging GMP Cleanroom · Vapi",
+      "leads": [
+        "Trizen Packaging manufactures diagnostic kit packaging from our Cleanroom Class 8, GMP-compliant, ISO 9001:2015 certified facility in Vapi, Gujarat — custom thermoformed multi-component trays for IVD diagnostic kits, rapid test kit packaging, clinical chemistry diagnostic packaging, and molecular diagnostic kit packaging. Diagnostic packaging manufacturer from Vapi for IVD companies, clinical diagnostic manufacturers, and rapid test kit companies.",
+        "Diagnostic kit packaging must organise multiple components — test cassettes, sample collection tubes, lancets, buffer bottles, pipettes, instruction leaflets — in a defined kit layout that supports correct diagnostic test execution. Every diagnostic kit component must be present, undamaged, and positioned correctly for the test procedure. A missing lancet, a contaminated test cassette, or a broken buffer bottle makes the diagnostic kit unusable — and in point-of-care diagnostic applications, an unusable kit delays patient treatment."
+      ],
+      "products": [],
+      "strips": [],
+      "table": {
+        "headers": [
+          "Pharma Product / Application",
+          "Packaging Format",
+          "Material",
+          "Key Requirement"
+        ],
+        "rows": [
+          [
+            "Rapid Test Kit Packaging (COVID-19, HbA1c, etc.)",
+            "Multi-component APET tray — cassette, buffer, swab, instructions in kit position",
+            "Pharma-grade APET",
+            "Test cassette in sealed position, buffer bottle clearance, swab protection"
+          ],
+          [
+            "Blood Chemistry Diagnostic Kit Packaging",
+            "Multi-component PETG tray for blood chemistry kit components",
+            "Pharma-grade PETG",
+            "Reaction tube protection, reagent strip cavity, calibrator vial upright"
+          ],
+          [
+            "Molecular Diagnostic Kit Packaging",
+            "Precision PETG tray for molecular diagnostic components",
+            "Pharma-grade PETG",
+            "Enzyme tube protection, primer/probe tube cavities, sterile component format"
+          ],
+          [
+            "Point-of-Care (POC) Diagnostic Kit Packaging",
+            "Multi-component APET tray for POC kit in clinical use sequence",
+            "Pharma-grade APET",
+            "All POC components in clinical procedure sequence, protected, accessible"
+          ],
+          [
+            "Immunoassay Kit Packaging",
+            "Multi-component PETG tray for ELISA and immunoassay kits",
+            "Pharma-grade PETG",
+            "Microplate protection, reagent vial upright, standards and controls cavities"
+          ],
+          [
+            "Haematology & Coagulation Kit Packaging",
+            "Multi-component PETG tray for haematology kit components",
+            "Pharma-grade PETG",
+            "Vacutainer protection, reagent tube upright, all components in test sequence"
+          ]
+        ]
+      }
+    },
+    {
+      "ey": "Packaging-Specific Technical Requirements",
+      "st": "Diagnostic Kit Packaging — Technical Requirements",
+      "leads": [],
+      "products": [],
+      "strips": [
+        {
+          "title": "Incomplete Diagnostic Kit — Missing Component at Point of Care",
+          "desc": "Problem: Diagnostic kit packaging where components are not individually held allows components to fall out — POC diagnostic kits arrive with missing lancets or test cassettes. Solution: Individual cavity for every kit component confirmed from complete kit contents list."
+        },
+        {
+          "title": "Test Cassette Contamination — Cassette Patient Sample Zone Must Not Contact Packaging",
+          "desc": "Problem: Rapid test cassette packaging where the test cassette sample zone contacts packaging material can cause contamination of the test zone — false test results in clinical use. Solution: Test cassette cavity with clearance over the sample application zone — no packaging contact on the test cassette patient sample area."
+        },
+        {
+          "title": "Reagent Vial Upright — Reagent Must Not Contact Stopper in Secondary Packaging",
+          "desc": "Problem: Reagent vials in diagnostic kits that are not maintained upright can have reagent contact the stopper — reagent-stopper interaction can affect reagent stability. Solution: PETG cavity designed to maintain reagent vials upright at all standard distribution orientations."
+        }
+      ]
+    },
+    {
+      "ey": "Design Requirements",
+      "st": "Diagnostic Kit Packaging — Key Design Requirements",
+      "leads": [],
+      "products": [],
+      "strips": [
+        {
+          "title": "Complete Kit Component Inventory — Individual Cavity for Every Component",
+          "desc": "Complete diagnostic kit contents list confirmed before cavity design. Individual cavity for every component. Test cassette sample zone clearance. Physical placement test on prototype."
+        },
+        {
+          "title": "Test Cassette Sample Zone Clearance — No Contact on Test Area",
+          "desc": "Test cassette sample application zone suspended in cavity clearance — no packaging contact on the patient sample area of the rapid test cassette."
+        },
+        {
+          "title": "Reagent Vial Upright — At All Distribution Orientations",
+          "desc": "Reagent vial PETG cavity designed to maintain upright position at all standard distribution orientations. Reagent-stopper contact prevented."
+        },
+        {
+          "title": "GMP Documentation for IVD Diagnostic Kit Packaging",
+          "desc": "All IVD diagnostic kit packaging under GMP. Batch records, material CoA with pharma-grade APET/PETG specification, dimensional inspection per batch."
+        }
+      ]
+    },
+    {
+      "ey": "Materials",
+      "st": "Materials for Diagnostic Kit Packaging",
+      "eyClass": "gold",
+      "leads": [],
+      "products": [],
+      "strips": [],
+      "table": {
+        "headers": [
+          "Material",
+          "Pharma Application",
+          "Key Property"
+        ],
+        "rows": [
+          [
+            "Pharma-grade APET",
+            "Rapid test kit packaging, POC diagnostic kit packaging — crystal clarity for kit component visibility",
+            "Crystal clarity, pharma-grade specification, CoA per batch, cost-efficient OEM IVD volumes"
+          ],
+          [
+            "Pharma-grade PETG",
+            "Molecular diagnostic kits, blood chemistry kits, immunoassay kits — sterile component packaging",
+            "Pharmaceutical-grade specification, cleanroom produced, CoA per batch"
+          ],
+          [
+            "Pharma-grade PP",
+            "Non-sterile diagnostic secondary packaging applications",
+            "Chemical resistance, dimensional stability, pharma-grade available"
+          ]
+        ]
+      },
+      "callout": "Diagnostic packaging manufacturer Vapi — APET and PETG pharma-grade diagnostic kit packaging from our Vapi, Gujarat facility. Diagnostic kit packaging Gujarat for IVD companies and clinical diagnostic manufacturers. GMP, Cleanroom Class 8, ISO 9001:2015 per production run."
+    },
+    {
+      "ey": "Compliance & Certifications",
+      "st": "Quality Certifications and Documentation",
+      "leads": [],
+      "products": [],
+      "strips": []
+    },
+    {
+      "ey": "Why Choose Trizen",
+      "st": "Why Pharmaceutical Companies Choose Trizen for Diagnostic Kit Packaging",
+      "eyClass": "green",
+      "leads": [],
+      "products": [],
+      "strips": [
+        {
+          "title": "Test Cassette Sample Zone Clearance — No Contact on Test Area Mandatory",
+          "desc": "Test cassette sample application zone clearance confirmed before every diagnostic kit tray design. No packaging contact on patient sample area."
+        },
+        {
+          "title": "Complete Kit Component Inventory — Individual Cavity for Every Component",
+          "desc": "Every diagnostic kit component listed before cavity design. Individual cavity confirmed. Reagent vials maintained upright. Physical placement test on prototype."
+        },
+        {
+          "title": "Diagnostic Kit Packaging Manufacturer from India — GMP, Cleanroom Class 8",
+          "desc": "Diagnostic packaging manufacturer from Vapi — GMP, Cleanroom Class 8, ISO 9001:2015. Pharma-grade APET and PETG CoA per batch."
+        }
+      ]
+    }
+  ],
+  "midCtas": [
+    {
+      "title": "Diagnostic Kit Packaging — Technical Enquiry",
+      "text": "GMP · Cleanroom Class 8 · ISO 9001:2015 · Pharma-grade materials · Vapi, Gujarat.",
+      "button": "Request a Quote →"
+    },
+    {
+      "title": "Diagnostic Kit Packaging — Submit Technical Enquiry",
+      "text": "GMP · Cleanroom Class 8 · ISO 9001:2015 · Pharma-grade materials.",
+      "button": "Submit Technical Enquiry →"
+    }
+  ],
+  "bottomCta": {
+    "title": "Diagnostic Kit Packaging — GMP, Cleanroom Class 8, ISO 9001:2015 · Vapi",
+    "text": "GMP · Cleanroom Class 8 · ISO 9001:2015 · Pharma-grade materials · Vapi, Gujarat"
+  },
+  "faqs": [
+    {
+      "q": "What diagnostic kit packaging does Trizen manufacture?",
+      "a": "Custom PETG and APET thermoformed trays for rapid test kit packaging (COVID-19, HbA1c), blood chemistry diagnostic kits, molecular diagnostic kits, POC diagnostic kits, immunoassay kits, and haematology and coagulation kit packaging. GMP, Cleanroom Class 8, ISO 9001:2015. Diagnostic packaging manufacturer from Vapi."
+    },
+    {
+      "q": "Test cassette sample zone clearance?",
+      "a": "Test cassette sample application zone suspended in cavity clearance — no packaging contact on the patient sample area of the rapid test cassette."
+    },
+    {
+      "q": "IVD kit packaging manufacturer?",
+      "a": "Trizen manufactures IVD thermoforming packaging — multi-component PETG and APET trays for the complete IVD diagnostic kit range. GMP, Cleanroom Class 8, ISO 9001:2015. Diagnostic packaging manufacturer from Vapi."
+    },
+    {
+      "q": "Materials?",
+      "a": "Pharma-grade APET (rapid test kits, POC diagnostic kits), pharma-grade PETG (molecular kits, blood chemistry kits, immunoassay kits), pharma-grade PP (non-sterile diagnostic secondary packaging). CoA per batch."
+    },
+    {
+      "q": "Why source from Vapi?",
+      "a": "Diagnostic packaging manufacturer Vapi. Diagnostic kit packaging Gujarat. GMP, Cleanroom Class 8, ISO 9001:2015 per run."
+    },
+    {
+      "q": "GMP diagnostic kit packaging?",
+      "a": "All IVD diagnostic kit packaging under GMP at Vapi. Batch records, material CoA, dimensional inspection per batch."
+    },
+    {
+      "q": "Prototype timeline?",
+      "a": "First article: 14 to 21 business days from complete diagnostic kit contents."
+    },
+    {
+      "q": "Export IVD programmes?",
+      "a": "GMP documentation and pharma-grade material CoA per batch for export IVD market compliance."
+    }
+  ],
+  "imageLabels": [
+    "Product packaging",
+    "Production facility Vapi"
+  ]
+}

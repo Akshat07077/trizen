@@ -1,0 +1,202 @@
+{
+  "slug": "category",
+  "industryId": "electronics",
+  "title": "Electronics Thermoforming Packaging Manufacturer India | ESD-Safe Electronic Packaging | Trizen, Vapi",
+  "hero": {
+    "ey": "Electronics · Electronics Packaging · ESD-Safe · Vapi, India",
+    "titleMain": "Electronics Thermoforming Packaging Manufacturer India",
+    "titleTail": "ESD-Safe, Antistatic, Bulk from Vapi Gujarat",
+    "desc": "Custom ESD-safe thermoformed electronics packaging for the complete electrical and electronic component range — ESD-safe thermoforming trays, PCB and circuit board packaging, connector and micro-component trays, consumer electronics accessory packaging, and switches and sensor module packaging. ESD packaging OEM from Vapi Daman — ISO 9001:2015, resistivity CoA per batch.",
+    "chips": [
+      "ISO 9001:2015",
+      "ESD-Safe PP & PETG",
+      "Resistivity CoA Per Batch",
+      "ESD OEM Vapi"
+    ]
+  },
+  "sections": [
+    {
+      "ey": "What We Manufacture",
+      "st": "Electronics Thermoforming Packaging — 5 Sub-Categories, ESD-Safe, Bulk OEM from Vapi",
+      "leads": [
+        "Trizen Packaging manufactures electronics thermoforming packaging from our ISO 9001:2015 certified facility in Vapi, Gujarat — ESD-safe thermoformed packaging for the complete electrical and electronic component range. ESD packaging OEM from Vapi Daman for ESD-safe thermoforming trays, PCB and circuit board packaging, connector and micro-component trays, consumer electronics accessory packaging, and switches, sensors, and electronic module packaging. With 20+ years of thermoforming manufacturing experience, we are an electronics thermoforming packaging manufacturer from India serving electronics manufacturers, EMS companies, and OEMs across India and for export.",
+        "Electronics packaging requires one critical capability that standard thermoforming cannot provide: ESD (electrostatic discharge) protection. Electronic components can sustain permanent damage from ESD at voltages as low as 10–30 volts — completely imperceptible levels that cause latent damage passing visual inspection but manifesting as field failure in service. Standard PP thermoforming materials are insulators — they generate and accumulate electrostatic charge. ESD-safe PP and ESD-safe PETG have controlled surface resistivity in the dissipative range (10⁶–10⁹ Ω/sq) that dissipates charge rather than accumulating it."
+      ],
+      "products": [],
+      "strips": []
+    },
+    {
+      "ey": "Why Technically Demanding",
+      "st": "Why Electronics Thermoforming Packaging Is Technically Demanding",
+      "leads": [],
+      "products": [],
+      "strips": [
+        {
+          "title": "ESD Damage — 10 Volts Can Permanently Damage an Electronic Component",
+          "desc": "Electronic components sustain permanent ESD damage at voltages as low as 10–30 volts — levels imperceptible to human touch but permanently damaging to CMOS, MOSFET, and BiCMOS semiconductor devices. Standard thermoforming PP is an insulator (surface resistivity >10¹²  Ω/sq) that generates and holds electrostatic charge. ESD-safe PP and PETG with controlled surface resistivity (10⁶–10⁹ Ω/sq) dissipates charge continuously, preventing accumulation to damaging levels."
+        },
+        {
+          "title": "Connector and Terminal Geometry — Precision Cavity for Pin Arrays",
+          "desc": "Electronic connectors and terminal arrays have precise pin geometries that must be protected from any mechanical deformation during transit. A bent terminal pin or contaminated connector face is an immediate assembly failure at the electronics manufacturing stage. ESD-safe thermoformed trays with precision connector protection cavities — each connector body in its own cavity with clearance for the pin array — are the industry standard."
+        },
+        {
+          "title": "PCB Gold Finger and Component Height Clearance",
+          "desc": "PCBs have two critical packaging dimensions: gold finger edge connectors (exposed contact pads at the PCB edge that must not be touched by packaging material) and component height (the tallest component on the assembled PCB determines the minimum cavity height). Both must be confirmed from the PCB specification before cavity design."
+        },
+        {
+          "title": "Static-Generating Transit Environment — Plastic Friction Charge Accumulation",
+          "desc": "Electronics components moving in packaging during transit generate electrostatic charge through plastic-to-plastic friction contact. Standard packaging materials have no means of dissipating this charge — it accumulates until it discharges through the enclosed component. ESD-safe packaging dissipates charge continuously — the accumulation mechanism is neutralised."
+        }
+      ]
+    },
+    {
+      "ey": "Pain Points We Solve",
+      "st": "Three Problems Electronics Packaging Buyers Face",
+      "leads": [],
+      "products": [],
+      "strips": [
+        {
+          "title": "Latent ESD Damage — Field Failures Traced Back to Packaging",
+          "desc": "Problem: Electronic components passing all in-process and final tests but sustaining latent ESD damage at the packaging stage cause field failures in service — the most expensive and reputationally damaging failure mode in electronics. Root cause analysis eventually traces the damage to non-ESD-safe packaging in the supply chain. Solution: ESD-safe PP and PETG packaging with controlled surface resistivity CoA per batch — documented ESD protection traceability for the full supply chain."
+        },
+        {
+          "title": "Terminal and Connector Damage During Transit",
+          "desc": "Problem: Electronic connectors and terminal arrays with bent or contaminated pins cause immediate assembly failures — the connector cannot be used, a rework or scrap event results. Solution: Precision ESD-safe thermoformed cavities designed from the specific connector body and pin array geometry — each connector in its own ESD-safe cavity with pin array clearance."
+        },
+        {
+          "title": "Non-ESD-Safe Packaging from Thermoforming Suppliers Without ESD Capability",
+          "desc": "Problem: Standard thermoforming suppliers without ESD material capability cannot supply ESD-safe electronics packaging — but may supply standard PP without disclosing the ESD risk. Solution: ESD-safe PP and PETG thermoforming capability in-house at Vapi, with surface resistivity testing and CoA per batch. The ESD-safe specification is documented, not claimed."
+        }
+      ]
+    },
+    {
+      "ey": "Materials",
+      "st": "Materials for Electronics Thermoforming Packaging",
+      "eyClass": "gold",
+      "leads": [],
+      "products": [],
+      "strips": [],
+      "table": {
+        "headers": [
+          "Material",
+          "Electronics Application",
+          "Surface Resistivity",
+          "Key Property"
+        ],
+        "rows": [
+          [
+            "ESD-Safe PP",
+            "Primary ESD electronics packaging — PCB trays, connector trays, sensor packaging, module packaging",
+            "10⁶–10⁹ Ω/sq (dissipative)",
+            "ESD charge dissipation, rigid geometry, cost-efficient OEM volumes"
+          ],
+          [
+            "ESD-Safe PETG",
+            "Precision electronics requiring optical clarity — inspection through packaging, ADAS sensors, optoelectronics",
+            "10⁶–10⁹ Ω/sq (dissipative)",
+            "ESD protection + crystal clarity for visual inspection before use"
+          ],
+          [
+            "APET (Crystal-Clear)",
+            "Consumer electronics retail packaging — where ESD risk is low (accessories, cables, non-sensitive items)",
+            "Insulating range (not ESD-safe)",
+            "Crystal clarity, tamper-evident, retail shelf presence"
+          ],
+          [
+            "PP (Standard)",
+            "Non-ESD-sensitive electronics outer packaging only — never in contact with ESD-sensitive components",
+            "Insulating range (not ESD-safe)",
+            "Standard thermoforming — do not use for ESD-sensitive component packaging"
+          ]
+        ]
+      },
+      "callout": "ESD packaging OEM manufacturer Vapi Daman — all ESD-safe electronics packaging tooling manufactured and held in-house at our Vapi, Gujarat facility. Electronic component thermoforming manufacturer Gujarat serving electronics manufacturers, EMS companies, and OEMs across India. Surface resistivity test certificates and ISO 9001:2015 batch documentation per production run. Electronics thermoforming packaging manufacturer from India for domestic and export programmes."
+    },
+    {
+      "ey": "Compliance & Certifications",
+      "st": "Quality Certifications and ESD Documentation",
+      "leads": [],
+      "products": [],
+      "strips": []
+    },
+    {
+      "ey": "Why Choose Trizen",
+      "st": "Why Electronics Manufacturers Choose Trizen Packaging",
+      "eyClass": "green",
+      "leads": [],
+      "products": [],
+      "strips": [
+        {
+          "title": "ESD-Safe Material CoA Per Batch — Not Per Grade Only",
+          "desc": "Our ESD-safe PP and PETG is supplied with surface resistivity test certificates per production batch. Every electronics packaging run comes with the specific batch resistivity data — not just the material grade specification. This batch-level ESD documentation is what electronics supplier qualification programmes require."
+        },
+        {
+          "title": "Precision Cavity Geometry — PCB Gold Fingers, Connector Pin Arrays, Micro-Components",
+          "desc": "PCB gold finger edge connectors, connector pin arrays, and micro-component geometries require precision cavity design and dimensional consistency that CNC-tooled thermoforming provides. In-house CNC tooling at Vapi with dimensional inspection per batch."
+        },
+        {
+          "title": "In-House ESD Capability — No External Material or Process Dependency",
+          "desc": "ESD-safe material and ESD thermoforming production are both in-house at Vapi. No external ESD material supplier risk, no process variability from outsourced ESD thermoforming. ESD-safe electronics packaging from a single facility with full process control and batch documentation."
+        },
+        {
+          "title": "Electronics Packaging Manufacturer from India — Domestic and Export",
+          "desc": "As an electronics thermoforming packaging manufacturer from India, Trizen Packaging supplies ESD-safe packaging for electronics manufacturers across India and for export to international electronics manufacturing programmes."
+        }
+      ]
+    }
+  ],
+  "midCtas": [
+    {
+      "title": "Electronics Packaging OEM — ESD-Safe, Bulk from Vapi",
+      "text": "ESD-safe PP & PETG · Resistivity CoA per batch · ISO 9001:2015 · 7–14 day prototype.",
+      "button": "Request a Quote →"
+    },
+    {
+      "title": "Electronics Packaging — ESD-Safe OEM from Vapi",
+      "text": "ESD-safe PP & PETG · Resistivity CoA per batch · 7–14 day prototype · ISO 9001:2015.",
+      "button": "Submit Enquiry →"
+    }
+  ],
+  "bottomCta": {
+    "title": "Electronics Thermoforming Packaging — ESD-Safe OEM from Vapi",
+    "text": "ESD-safe trays · PCB packaging · Connector trays · Sensor packaging · Consumer electronicsESD-safe PP & PETG · Resistivity CoA per batch · ISO 9001:2015 · Vapi, Gujarat"
+  },
+  "faqs": [
+    {
+      "q": "What electronics thermoforming packaging does Trizen manufacture?",
+      "a": "Custom ESD-safe thermoformed packaging for the complete electronics range: ESD-safe thermoforming trays, PCB and circuit board packaging, connector and micro-component trays, consumer electronics accessory packaging, and switches, sensors, and electronic module packaging. ESD-safe PP and PETG with surface resistivity CoA per batch. ISO 9001:2015. ESD packaging OEM from Vapi, Gujarat."
+    },
+    {
+      "q": "What is ESD-safe thermoforming for electronics packaging?",
+      "a": "ESD-safe thermoforming uses materials with controlled surface resistivity in the dissipative range — typically 10⁶ to 10⁹ Ω/sq — that continuously dissipate electrostatic charge rather than allowing it to accumulate and discharge through electronic components. Electronic components can sustain permanent ESD damage at as low as 10 to 30 volts — imperceptible to human senses but permanently damaging to semiconductor devices. ESD-safe packaging eliminates the charge accumulation mechanism."
+    },
+    {
+      "q": "What is the surface resistivity specification for ESD-safe electronics packaging?",
+      "a": "Dissipative range: 10⁶ to 10⁹ Ω/sq for ESD-safe PP and ESD-safe PETG. This range dissipates charge slowly enough to prevent rapid discharge current through components while preventing accumulation to damaging charge levels. Surface resistivity confirmed per material batch by CoA. Available for OEM and EMS supplier qualification review."
+    },
+    {
+      "q": "What materials are used for electronics thermoforming packaging?",
+      "a": "ESD-safe PP (primary — PCB trays, connector trays, sensor packaging, module packaging, dissipative range), ESD-safe PETG (precision electronics requiring optical clarity through packaging), APET crystal-clear (consumer electronics retail packaging for non-ESD-sensitive accessories). See PETG materials page."
+    },
+    {
+      "q": "Why source electronics packaging from Vapi, Gujarat?",
+      "a": "ESD packaging OEM manufacturer Vapi Daman — all ESD-safe electronics packaging tooling in-house at our Vapi, Gujarat facility. Electronic component thermoforming manufacturer Gujarat serving electronics manufacturers and EMS companies across India. As an electronics packaging manufacturer from India, also serving export electronics manufacturing programmes."
+    },
+    {
+      "q": "What is the difference between ESD-safe PP and standard PP for electronics packaging?",
+      "a": "Standard PP surface resistivity is in the insulating range (>10¹² Ω/sq) — it generates and holds electrostatic charge, creating the risk of damaging ESD discharge to enclosed components. ESD-safe PP surface resistivity is in the dissipative range (10⁶–10⁹ Ω/sq) — charge is continuously dissipated. The visual difference between ESD-safe and standard PP is minimal — the functional difference is complete ESD protection vs no ESD protection."
+    },
+    {
+      "q": "What is the MOQ and prototype timeline for electronics packaging?",
+      "a": "Prototype: 7 to 14 business days from component sample or technical drawing — in-house CNC tooling at Vapi. MOQ from 500 units. Sustained OEM from 5,000 units per run. ESD material CoA and ISO 9001:2015 batch documentation per production run."
+    },
+    {
+      "q": "Does Trizen provide documentation for ESD supplier qualification?",
+      "a": "Surface resistivity test certificate per material batch, ISO 9001:2015 certificate copy, material CoA per production batch, dimensional inspection records per run, and batch records per run — all available for electronics OEM and EMS supplier ESD packaging qualification programmes."
+    }
+  ],
+  "imageLabels": [
+    "Product packaging",
+    "Production facility Vapi"
+  ]
+}

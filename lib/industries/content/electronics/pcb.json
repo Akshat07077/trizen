@@ -1,0 +1,233 @@
+{
+  "slug": "pcb",
+  "industryId": "electronics",
+  "title": "PCB Circuit Board Packaging Manufacturer India | Antistatic PCB Trays | Trizen, Vapi",
+  "hero": {
+    "ey": "Electronics · PCB Packaging · Antistatic · Vapi, India",
+    "titleMain": "PCB & Circuit Board Packaging Manufacturer India",
+    "titleTail": "ESD-Safe Antistatic PCB Trays, Bulk from Vapi",
+    "desc": "Custom ESD-safe antistatic thermoformed trays for PCBs and circuit boards — bare PCB packaging, assembled board trays, gold finger edge connector protection, component height clearance. Bulk PCB packaging trays from Vapi — ESD-safe PP, antistatic PCB tray supplier Gujarat, ISO 9001:2015.",
+    "chips": [
+      "ISO 9001:2015",
+      "ESD-Safe Antistatic",
+      "PCB Specialist",
+      "Bulk PCB Trays Vapi"
+    ]
+  },
+  "sections": [
+    {
+      "ey": "What We Manufacture",
+      "st": "PCB & Circuit Board Packaging Manufacturer India — ESD-Safe Antistatic PCB Trays, Bulk from Vapi",
+      "leads": [
+        "Trizen Packaging manufactures PCB and circuit board packaging from our ISO 9001:2015 certified facility in Vapi, Gujarat — custom ESD-safe antistatic thermoformed trays for bare PCBs, assembled circuit boards, and mixed-technology boards. Bulk PCB packaging trays from Vapi for PCB manufacturers, EMS companies, electronics OEMs, and PCB distributors across India and for export. As a PCB circuit board packaging manufacturer from India, we supply ESD-safe antistatic packaging for domestic electronics manufacturing and export PCB supply chains.",
+        "PCB packaging has two critical design dimensions that no other electronics packaging application requires simultaneously: gold finger protection and component height clearance. Gold fingers (exposed edge connector pads at the PCB perimeter used for PCB-to-PCB connection) must not contact any packaging material — contamination or mechanical damage to gold finger pads causes connector failure. Component height — the maximum height of any component on the assembled PCB — determines the minimum cavity height the packaging must provide without component contact."
+      ],
+      "products": [],
+      "strips": [],
+      "table": {
+        "headers": [
+          "Device / Component",
+          "Packaging Format",
+          "Material",
+          "Key Requirement"
+        ],
+        "rows": [
+          [
+            "Bare PCBs (Single & Double Layer)",
+            "Multi-PCB ESD-safe PP tray — PCBs stacked with separator",
+            "ESD-safe PP",
+            "Gold finger edge clearance, PCB surface no-contact, ESD-safe"
+          ],
+          [
+            "Multilayer PCBs",
+            "Individual cavity ESD-safe PP tray",
+            "ESD-safe PP",
+            "Edge connector protection, via exposure, PCB warp prevention under stack"
+          ],
+          [
+            "Assembled PCBs (SMT populated)",
+            "Cavity tray with component height clearance",
+            "ESD-safe PP",
+            "All components clear of cavity ceiling, gold finger edge clearance, ESD-safe"
+          ],
+          [
+            "High-Power PCBs & Heatsink Assemblies",
+            "HDPE or ESD-safe PP heavy-duty tray",
+            "ESD-safe PP or HDPE",
+            "Heatsink geometry clearance, heavy assembly support, thermal pad protection"
+          ],
+          [
+            "Flexible PCBs & FPCs",
+            "ESD-safe PETG tray — FPC in flat position",
+            "ESD-safe PETG",
+            "FPC flat geometry preservation, connector tab protection, ESD-safe"
+          ],
+          [
+            "PCB Sub-Assemblies",
+            "Multi-component ESD-safe PP tray",
+            "ESD-safe PP",
+            "All sub-assembly components organized, connector protection, ESD-safe"
+          ],
+          [
+            "PCB OEM Bulk Supply",
+            "High-density ESD-safe PP bulk supply tray",
+            "ESD-safe PP",
+            "Maximum PCB count per tray, ESD-safe throughout supply chain"
+          ]
+        ]
+      }
+    },
+    {
+      "ey": "Pain Points We Solve",
+      "st": "Three Problems PCB & Circuit Board Packaging Buyers Face",
+      "leads": [],
+      "products": [],
+      "strips": [
+        {
+          "title": "Gold Finger Contamination — Connector Failure at System Assembly",
+          "desc": "Problem: Gold finger edge connectors contaminated by packaging material contact (oil from PP, particulates from cavity wall) cause contact resistance failures at system assembly — the PCB edge connector does not make reliable electrical contact with the system connector. Solution: Gold finger clearance cavity — the edge connector area of the PCB is suspended in a defined clearance zone with no packaging contact on gold finger surfaces."
+        },
+        {
+          "title": "ESD Damage to Assembled PCB Components",
+          "desc": "Problem: Assembled PCBs with populated components are highly ESD-sensitive — a single ESD event through a component lead can permanently damage the entire PCB assembly. Non-ESD-safe packaging in the PCB supply chain is one of the primary sources of latent PCB damage. Solution: ESD-safe PP trays for all assembled PCB packaging — charge dissipation throughout the supply chain, CoA per batch."
+        },
+        {
+          "title": "Component Height Mismatch — Components Contact Cavity Ceiling",
+          "desc": "Problem: Assembled PCBs where the tallest component height has not been accounted for in the packaging cavity height — the component contacts the cavity ceiling under stack load, causing component deformation. Solution: Maximum component height confirmed from PCB assembly specification or physical board measurement before cavity design."
+        }
+      ]
+    },
+    {
+      "ey": "Design Requirements",
+      "st": "PCB & Circuit Board Packaging — Key Design Requirements",
+      "leads": [],
+      "products": [],
+      "strips": [
+        {
+          "title": "Gold Finger Clearance Zone — No Packaging Contact on Edge Connector",
+          "desc": "The gold finger edge connector area (typically 2–5mm at the PCB perimeter) is mapped from the PCB specification before cavity design. The cavity provides a defined clearance zone over the gold finger area — no packaging material contact with the gold finger surface. Clearance width confirmed from the edge connector specification."
+        },
+        {
+          "title": "Component Height Survey — Maximum Component Clearance",
+          "desc": "All assembled PCB packaging includes a component height survey — the maximum height of any component on the populated board is confirmed from the PCB assembly drawing or physical board measurement. Cavity height designed to provide minimum 2mm clearance above the maximum component height under full stack load."
+        },
+        {
+          "title": "ESD-Safe PP Throughout — Bare Board and Assembled Board",
+          "desc": "ESD-safe PP for both bare PCB packaging (PCB substrate is ESD-sensitive) and assembled PCB packaging (populated components are ESD-sensitive). Surface resistivity CoA per batch for all PCB packaging production runs."
+        },
+        {
+          "title": "PCB Warp Prevention — Flat Geometry Maintenance",
+          "desc": "PCBs (particularly large-format PCBs) must be maintained flat during transit — pallet stack load on improperly supported PCBs causes permanent warp. Cavity design provides full PCB footprint support at the base — no edge-only support that allows PCB centre sag under load."
+        }
+      ]
+    },
+    {
+      "ey": "Materials",
+      "st": "Materials for PCB & Circuit Board Packaging",
+      "eyClass": "gold",
+      "leads": [],
+      "products": [],
+      "strips": [],
+      "table": {
+        "headers": [
+          "Material",
+          "Electronics Application",
+          "Key Property"
+        ],
+        "rows": [
+          [
+            "ESD-Safe PP",
+            "Primary — all bare PCB and assembled PCB packaging",
+            "10⁶–10⁹ Ω/sq, rigid geometry, flat PCB support, gold finger clearance compatible"
+          ],
+          [
+            "ESD-Safe PETG",
+            "FPCs and flexible circuits requiring inspection through packaging",
+            "ESD protection + crystal clarity, FPC flat geometry"
+          ],
+          [
+            "HDPE",
+            "Heavy PCB sub-assemblies with heatsink — weight and stack load management",
+            "Heavy-duty, maintains geometry under assembly weight and pallet stack"
+          ]
+        ]
+      },
+      "callout": "Bulk PCB packaging trays Vapi — ESD-safe antistatic PCB and circuit board packaging from our Vapi, Gujarat facility. PCB packaging manufacturer Gujarat — antistatic PCB tray supplier Gujarat serving PCB manufacturers and EMS companies. ISO 9001:2015 batch documentation and ESD CoA per production run."
+    },
+    {
+      "ey": "Why Choose Trizen",
+      "st": "Why Electronics Manufacturers Choose Trizen for PCB & Circuit Board Packaging",
+      "eyClass": "green",
+      "leads": [],
+      "products": [],
+      "strips": [
+        {
+          "title": "Gold Finger Clearance Confirmed Before Every PCB Tooling",
+          "desc": "Gold finger position and dimensions confirmed from PCB specification before cavity design. Gold finger clearance documented before tooling — no assumption, no contamination risk."
+        },
+        {
+          "title": "Component Height Survey — Maximum Height Confirmed",
+          "desc": "Maximum component height confirmed before every assembled PCB packaging tool. 2mm minimum clearance above maximum component height maintained under full pallet stack load."
+        },
+        {
+          "title": "ESD-Safe PP CoA Per Batch — Antistatic PCB Packaging Documentation",
+          "desc": "Surface resistivity CoA per production batch for all PCB packaging. PCB packaging antistatic documentation for electronics supply chain qualification."
+        }
+      ]
+    }
+  ],
+  "midCtas": [
+    {
+      "title": "PCB & Circuit Board Packaging — ESD-Safe OEM from Vapi",
+      "text": "ESD-safe PP & PETG · Resistivity CoA per batch · ISO 9001:2015 · 7–14 day prototype.",
+      "button": "Request a Quote →"
+    },
+    {
+      "title": "PCB & Circuit Board Packaging — Submit Component Sample",
+      "text": "ESD-safe CoA · Precision cavity · 7–14 day prototype · ISO 9001:2015.",
+      "button": "Submit Enquiry →"
+    }
+  ],
+  "bottomCta": {
+    "title": "PCB & Circuit Board Packaging — ESD-Safe OEM from Vapi",
+    "text": "ESD-safe PP & PETG · Resistivity CoA per batch · ISO 9001:2015 · 7–14 day prototype · Vapi, Gujarat"
+  },
+  "faqs": [
+    {
+      "q": "What PCB and circuit board packaging does Trizen manufacture?",
+      "a": "Custom ESD-safe antistatic thermoformed trays for bare PCBs, multilayer PCBs, assembled PCBs, high-power PCB assemblies, flexible PCBs, PCB sub-assemblies, and PCB OEM bulk supply. ESD-safe PP and PETG. ISO 9001:2015. Bulk PCB packaging trays from Vapi, Gujarat."
+    },
+    {
+      "q": "What is gold finger protection in PCB packaging?",
+      "a": "Gold fingers are exposed edge connector pads at the PCB perimeter. Gold finger contamination from packaging material contact causes contact resistance failures. Gold finger clearance zone in the cavity — no packaging material contact with the gold finger surface. Clearance confirmed from PCB specification before tooling."
+    },
+    {
+      "q": "What is the component height survey for assembled PCBs?",
+      "a": "Maximum height of any populated component confirmed from PCB assembly drawing or physical measurement. Cavity height designed for minimum 2mm clearance above maximum component height under pallet stack load."
+    },
+    {
+      "q": "Why ESD-safe PP for both bare and assembled PCB packaging?",
+      "a": "Bare PCB substrate is ESD-sensitive. Assembled PCB populated components are ESD-sensitive. ESD-safe PP for both applications — CoA per batch confirms dissipative range."
+    },
+    {
+      "q": "Why source from Vapi, Gujarat?",
+      "a": "Bulk PCB packaging trays Vapi. PCB packaging manufacturer Gujarat. Antistatic PCB tray supplier Gujarat. ISO 9001:2015 and ESD CoA per run."
+    },
+    {
+      "q": "What is the antistatic PCB packaging specification?",
+      "a": "ESD-safe PP: 10⁶–10⁹ Ω/sq dissipative range. Confirmed by surface resistivity CoA per material batch. Compliant with ANSI/ESD S541 and IEC 61340-5 requirements — confirm specific standard at brief stage."
+    },
+    {
+      "q": "MOQ and prototype timeline?",
+      "a": "Prototype: 7 to 14 business days from PCB sample or drawing. MOQ from 500 units. ESD CoA and ISO 9001:2015 per batch."
+    },
+    {
+      "q": "Export PCB supply chain documentation?",
+      "a": "ESD CoA per batch, ISO 9001:2015 records, dimensional inspection per run — available for export electronics supply chain compliance."
+    }
+  ],
+  "imageLabels": [
+    "Product packaging",
+    "Production facility Vapi"
+  ]
+}

@@ -1,0 +1,182 @@
+{
+  "slug": "drug-delivery",
+  "industryId": "medical",
+  "title": "Drug Delivery Packaging Manufacturer India | Auto-Injector Packaging Cleanroom GMP | Trizen, Vapi",
+  "hero": {
+    "ey": "💉 Drug Delivery Packaging · Auto-Injector · Vapi",
+    "titleMain": "Drug Delivery Packaging Manufacturer India",
+    "titleTail": "Auto-Injector & Prefilled Syringe Packaging, Cleanroom Class 8",
+    "desc": "Custom PETG thermoformed drug delivery device packaging — auto-injector packaging, prefilled syringe trays, insulin pen packaging, inhaler component packaging. Cleanroom Class 8, GMP, ISO 9001:2015. Drug delivery packaging manufacturer from Vapi, Gujarat.",
+    "chips": [
+      "Cleanroom Class 8",
+      "GMP",
+      "ISO 9001:2015",
+      "Vapi Gujarat"
+    ]
+  },
+  "sections": [
+    {
+      "ey": "Device-Specific Packaging Challenges",
+      "st": "Drug Delivery Packaging — Specific Technical Requirements",
+      "leads": [],
+      "products": [],
+      "strips": [
+        {
+          "title": "Safety Mechanism Actuation — Auto-Injector Activated in Packaging",
+          "desc": "Problem: Auto-injector packaging where packaging contact forces partially or fully actuate the safety mechanism — the device safety cover is pre-engaged before patient use, rendering the auto-injector non-functional or unsafe. Solution: Safety mechanism clearance analysis from device technical drawing — packaging cavity provides clearance at all actuation surfaces of the safety mechanism."
+        },
+        {
+          "title": "Plunger Movement in Prefilled Syringe Packaging — Dose Volume Displacement",
+          "desc": "Problem: Prefilled syringe packaging where pressure on the plunger from packaging contact displaces the plunger — changing the fill volume and dose accuracy. Solution: Plunger back-face clearance cavity — no packaging contact on the plunger stopper back face at any point."
+        },
+        {
+          "title": "Dose Mechanism Protection — Insulin Pen Dose Setting Integrity",
+          "desc": "Problem: Insulin pen packaging where impact loads on the dose mechanism change the dose setting — the pen delivers a different dose than set. Solution: Dose mechanism clearance analysis — packaging cavity provides clearance at dose dial and mechanism surfaces."
+        }
+      ]
+    },
+    {
+      "ey": "Design Requirements",
+      "st": "Drug Delivery Packaging — Key Design Requirements",
+      "leads": [],
+      "products": [],
+      "strips": [
+        {
+          "title": "Safety Mechanism Clearance — Auto-Injector Cavity Analysis Mandatory",
+          "desc": "Actuation surfaces of the auto-injector safety mechanism identified from device technical drawing. Cavity provides defined clearance at all actuation surfaces — no partial or full safety mechanism engagement from packaging contact."
+        },
+        {
+          "title": "Plunger Back-Face Clearance — No Pressure on Prefilled Syringe Plunger",
+          "desc": "Plunger back-face clearance zone in all prefilled syringe packaging — no packaging contact on the plunger stopper back face at any orientation or packing density."
+        },
+        {
+          "title": "EO Compatibility Confirmed for All Drug Delivery Packaging",
+          "desc": "Medical-grade PETG EO sterilization compatible for all drug delivery combination product packaging. Material CoA per batch."
+        },
+        {
+          "title": "ISO Class 8 Cleanroom for All Drug Delivery Packaging Components",
+          "desc": "All drug delivery device packaging components produced in Cleanroom Class 8. GMP batch documentation per run."
+        }
+      ]
+    },
+    {
+      "ey": "Materials",
+      "st": "Materials for Drug Delivery Packaging",
+      "eyClass": "gold",
+      "leads": [],
+      "products": [],
+      "strips": [],
+      "table": {
+        "headers": [
+          "Material",
+          "Medical Application",
+          "Key Property"
+        ],
+        "rows": [
+          [
+            "Medical-Grade PETG",
+            "Primary — face seal blister trays, lidded trays, all sterile barrier packaging components",
+            "EO and gamma compatible, ISO 11607 compatible, medical-grade additive specification, CoA per batch"
+          ],
+          [
+            "Medical-Grade HIPS",
+            "Protective transit trays and secondary packaging where sterile barrier is not required",
+            "Good impact resistance, chemical resistance, cost-efficient for non-sterile-barrier applications"
+          ],
+          [
+            "Medical-Grade PP",
+            "Non-sterile-barrier protective packaging — device presentation trays",
+            "Chemical resistance, dimensional stability, autoclave compatible grades available"
+          ]
+        ]
+      },
+      "callout": "Drug delivery packaging manufacturer Vapi — medical packaging manufacturer Gujarat for medical device companies. ISO 9001:2015 · GMP · Cleanroom Class 8 production at Vapi, Gujarat. Medical-grade PETG CoA, GMP batch records, and ISO 11607 compatible dimensional documentation per production run."
+    },
+    {
+      "ey": "Compliance & Certifications",
+      "st": "Quality Certifications and Regulatory Documentation",
+      "leads": [],
+      "products": [],
+      "strips": []
+    },
+    {
+      "ey": "Why Choose Trizen",
+      "st": "Why Medical Device Companies Choose Trizen for Drug Delivery Packaging",
+      "eyClass": "green",
+      "leads": [],
+      "products": [],
+      "strips": [
+        {
+          "title": "Safety Mechanism Clearance Analysis — Auto-Injector Actuation Prevention",
+          "desc": "Actuation surface clearance analysis mandatory for all auto-injector and safety-mechanism drug delivery device packaging. Safety mechanism cannot be engaged by packaging contact — confirmed before every tooling design."
+        },
+        {
+          "title": "Cleanroom Class 8 + GMP — Combined Capability",
+          "desc": "All medical packaging components produced in Class 8 cleanroom with full GMP batch documentation. The combined capability that medical device supplier qualification programmes require."
+        },
+        {
+          "title": "ISO 11607 Compatible Components — Validation Documentation",
+          "desc": "First article inspection report, dimensional records per batch, material CoA, batch records — all available to support the medical device manufacturer's ISO 11607 packaging validation documentation package."
+        },
+        {
+          "title": "Medical-Grade PETG — EO and Gamma Sterilization Compatible",
+          "desc": "Medical-grade PETG as standard for all medical packaging components. EO sterilization compatible and gamma radiation compatible. Material CoA per batch."
+        }
+      ]
+    }
+  ],
+  "midCtas": [
+    {
+      "title": "Drug Delivery Packaging — Technical Enquiry",
+      "text": "Medical-grade PETG · Cleanroom Class 8 · GMP · ISO 9001:2015 · ISO 11607 compatible.",
+      "button": "Request a Consultation →"
+    },
+    {
+      "title": "Drug Delivery Packaging — Submit Device Drawing",
+      "text": "Cleanroom Class 8 · GMP · ISO 9001:2015 · Medical-grade PETG · Validation support documentation.",
+      "button": "Submit Technical Enquiry →"
+    }
+  ],
+  "bottomCta": {
+    "title": "Drug Delivery Packaging — Cleanroom Class 8, GMP, ISO 9001:2015 · Vapi",
+    "text": "Medical-grade PETG · ISO 11607 compatible · Validation documentation · Cleanroom Class 8 · Vapi, Gujarat"
+  },
+  "faqs": [
+    {
+      "q": "What drug delivery packaging does Trizen manufacture?",
+      "a": "PETG thermoformed packaging for auto-injectors, prefilled syringes, insulin pens, infusion pump components, inhalers, needle-free injectors, and drug delivery combi pack trays. Cleanroom Class 8, GMP, ISO 9001:2015. Drug delivery packaging manufacturer from Vapi, Gujarat."
+    },
+    {
+      "q": "What certifications does Trizen have for Drug Delivery Packaging?",
+      "a": "ISO 9001:2015, GMP, and Cleanroom Class 8 (ISO 14644-1 — 100,000 particles/m³). All medical packaging components produced in the Class 8 cleanroom with full GMP batch documentation per production batch."
+    },
+    {
+      "q": "Is PETG compatible with EO sterilization for drug delivery packaging?",
+      "a": "Yes — medical-grade PETG is compatible with Ethylene Oxide (EO) sterilization and gamma radiation sterilization. EO compatibility confirmed by material CoA per production batch."
+    },
+    {
+      "q": "What documentation is provided for medical device supplier qualification?",
+      "a": "First article inspection report, dimensional inspection records per production batch, material CoA with medical-grade PETG specification per batch, batch records, ISO 9001:2015 certificate, GMP compliance documentation."
+    },
+    {
+      "q": "Why source drug delivery packaging from Vapi, Gujarat?",
+      "a": "Drug delivery packaging manufacturer Vapi — Cleanroom Class 8, GMP, ISO 9001:2015. Drug delivery packaging manufacturer Gujarat for medical device companies. Medical packaging manufacturer from India for domestic and export medical device markets."
+    },
+    {
+      "q": "What is Trizen's scope for medical packaging?",
+      "a": "Trizen manufactures the thermoformed PETG packaging component — the tray or blister shell. Device loading, Tyvek/foil lidding, heat sealing, and sterilization are performed by the medical device manufacturer. Clear scope for DHF traceability."
+    },
+    {
+      "q": "Prototype and production timeline?",
+      "a": "First article: 14 to 21 business days from device technical drawing or sample — cleanroom CNC tooling at Vapi. ISO 9001:2015, GMP, and Cleanroom Class 8 documentation per production batch."
+    },
+    {
+      "q": "Does Trizen supply medical packaging for export markets?",
+      "a": "Yes — ISO 9001:2015, GMP, and medical-grade PETG CoA per batch for export medical device market compliance. Medical thermoforming packaging manufacturer from India for international medical device markets."
+    }
+  ],
+  "imageLabels": [
+    "Product packaging",
+    "Production facility Vapi"
+  ]
+}

@@ -20,9 +20,9 @@ export default function PageEffects() {
       document.querySelector(".read-progress span") as HTMLElement | null;
     const getBackTop = () => document.querySelector(".back-top");
     const getPageWrap = () =>
-      document.querySelector(".toy-page .page-wrap") as HTMLElement | null;
+      document.querySelector(".industry-page .page-wrap") as HTMLElement | null;
     const getSidebar = () =>
-      document.querySelector(".toy-page .aside") as HTMLElement | null;
+      document.querySelector(".industry-page .aside") as HTMLElement | null;
 
     const clearPin = () => {
       const sidebar = getSidebar();
@@ -96,7 +96,7 @@ export default function PageEffects() {
 
     const decorateSections = () => {
       document
-        .querySelectorAll(".toy-page .page-wrap main .sec")
+        .querySelectorAll(".industry-page .page-wrap main .sec")
         .forEach((section, index) => {
           if (index % 2 === 1) section.classList.add("tone-ice");
           const label = section.querySelector(".ey");

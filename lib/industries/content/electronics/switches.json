@@ -1,0 +1,233 @@
+{
+  "slug": "switches",
+  "industryId": "electronics",
+  "title": "Switches, Sensors & Electronic Module Packaging India | ESD-Safe Module Trays Vapi | Trizen",
+  "hero": {
+    "ey": "Electronics · Switches & Sensors · Module Packaging · Vapi, India",
+    "titleMain": "Switches, Sensors & Module Packaging Manufacturer India",
+    "titleTail": "ESD-Safe Thermoformed Trays, Bulk from Vapi",
+    "desc": "Custom ESD-safe thermoformed packaging for switches, push buttons, proximity sensors, temperature sensors, IoT modules, relay modules, and control electronics — actuation surface protection, terminal protection, ESD-safe PP. ESD packaging OEM from Vapi — ISO 9001:2015, resistivity CoA per batch.",
+    "chips": [
+      "ISO 9001:2015",
+      "ESD-Safe PP",
+      "Switch & Module Specialist",
+      "ESD OEM Vapi"
+    ]
+  },
+  "sections": [
+    {
+      "ey": "What We Manufacture",
+      "st": "Switches, Sensors & Module Packaging Manufacturer India — ESD-Safe Thermoformed Trays, Bulk from Vapi",
+      "leads": [
+        "Trizen Packaging manufactures switches, sensors, and electronic module packaging from our ISO 9001:2015 certified facility in Vapi, Gujarat — custom ESD-safe thermoformed packaging for the complete range of electromechanical switches, proximity and temperature sensors, IoT modules, relay modules, and control electronics. ESD packaging OEM from Vapi Daman for switch manufacturers, sensor manufacturers, and electronic module producers across India and for export.",
+        "Switch and sensor packaging presents unique requirements not found in passive component or PCB packaging: actuation surface protection. Electromechanical switches have actuator buttons, levers, and toggle mechanisms that must not be pre-actuated or mechanically damaged by packaging contact. Proximity sensors have active face geometries that must be free from contamination and contact. IoT and relay modules have mounting headers and connector interfaces that require specific protection geometry."
+      ],
+      "products": [],
+      "strips": [],
+      "table": {
+        "headers": [
+          "Device / Component",
+          "Packaging Format",
+          "Material",
+          "Key Requirement"
+        ],
+        "rows": [
+          [
+            "SPDT & DPDT Toggle Switches",
+            "Multi-cavity ESD-safe PP tray — switch in non-actuated position",
+            "ESD-safe PP",
+            "Toggle mechanism clearance, actuator protection, terminal protection"
+          ],
+          [
+            "Tactile Push Buttons",
+            "High-density ESD-safe PP array tray",
+            "ESD-safe PP",
+            "Button cap clearance — no pre-actuation, terminal pitch maintained"
+          ],
+          [
+            "Proximity Sensors (Inductive, Capacitive)",
+            "Cavity ESD-safe PP tray — active face clearance",
+            "ESD-safe PP",
+            "Active sensing face clearance — no contact on sensing surface"
+          ],
+          [
+            "Temperature & Humidity Sensors",
+            "ESD-safe PP cavity tray — sensing element protection",
+            "ESD-safe PP",
+            "Sensing element clearance, terminal protection, ESD-safe"
+          ],
+          [
+            "IoT Modules (ESP32, RP2040, etc.)",
+            "ESD-safe PP multi-cavity tray",
+            "ESD-safe PP",
+            "PCB edge clearance, antenna clearance, USB port protection"
+          ],
+          [
+            "Relay Modules",
+            "ESD-safe PP tray — coil and contact clearance",
+            "ESD-safe PP",
+            "Coil terminal protection, contact face clearance, mounting header protection"
+          ],
+          [
+            "Industrial Control Modules",
+            "ESD-safe PP tray for DIN rail and panel-mount modules",
+            "ESD-safe PP",
+            "DIN clip protection, terminal block clearance, module body support"
+          ]
+        ]
+      }
+    },
+    {
+      "ey": "Pain Points We Solve",
+      "st": "Three Problems Switches, Sensors & Module Packaging Buyers Face",
+      "leads": [],
+      "products": [],
+      "strips": [
+        {
+          "title": "Pre-Actuated Switches — Assembly Failure at First Use",
+          "desc": "Problem: Electromechanical switches with actuator mechanisms pre-actuated by packaging pressure during transit fail at the first use test in assembly — the switch mechanism is in the wrong state and may be permanently damaged. Solution: Cavity geometry designed with actuator clearance — the switch actuator button, lever, or toggle is suspended in a clearance zone, cannot be pre-actuated by packaging contact."
+        },
+        {
+          "title": "Active Sensing Face Contamination — Sensor Performance Degradation",
+          "desc": "Problem: Proximity sensor and optical sensor active faces contaminated by packaging material contact during transit show reduced sensing range and increased false trigger rate in service. Solution: Active sensing face clearance cavity — sensing face suspended in a defined clearance zone with no packaging contact."
+        },
+        {
+          "title": "ESD Damage to Module Microcontrollers and ICs",
+          "desc": "Problem: IoT modules and relay modules contain microcontrollers, crystals, and ICs that are ESD-sensitive — ESD damage from non-ESD-safe packaging causes latent failures in module firmware execution and control logic. Solution: ESD-safe PP packaging for all electronic module packaging — CoA per batch confirms dissipative range."
+        }
+      ]
+    },
+    {
+      "ey": "Design Requirements",
+      "st": "Switches, Sensors & Module Packaging — Key Design Requirements",
+      "leads": [],
+      "products": [],
+      "strips": [
+        {
+          "title": "Actuator Clearance — Switch Mechanism Cannot Be Pre-Actuated",
+          "desc": "Actuator geometry (button height, lever travel, toggle sweep) confirmed from switch datasheet or physical sample before cavity design. Cavity provides actuator clearance in all positions — the switch cannot reach actuation state from packaging pressure under transit load. Confirmed from physical switch actuator test on prototype before production."
+        },
+        {
+          "title": "Active Face Clearance — Sensing Surface Isolation",
+          "desc": "Proximity sensor and optical sensor active face dimensions confirmed from sensor datasheet before cavity design. Defined clearance zone over sensing face — no cavity wall contact on sensing surface. Particulate contamination path between cavity wall and sensing face minimised."
+        },
+        {
+          "title": "ESD-Safe PP Throughout — Microcontroller and IC Protection",
+          "desc": "All electronic module packaging in ESD-safe PP — IoT modules, relay modules, and control electronics contain microcontrollers that are ESD-sensitive. Surface resistivity CoA per batch."
+        },
+        {
+          "title": "Terminal and Header Protection — Mounting Interface Integrity",
+          "desc": "Through-hole header pins and PCB mounting terminals confirmed from module specification before cavity design. Terminal clearance geometry prevents pin deformation during transit and pallet stack loads."
+        }
+      ]
+    },
+    {
+      "ey": "Materials",
+      "st": "Materials for Switches, Sensors & Module Packaging",
+      "eyClass": "gold",
+      "leads": [],
+      "products": [],
+      "strips": [],
+      "table": {
+        "headers": [
+          "Material",
+          "Electronics Application",
+          "Key Property"
+        ],
+        "rows": [
+          [
+            "ESD-Safe PP",
+            "Primary — all switch, sensor, and electronic module packaging",
+            "10⁶–10⁹ Ω/sq, rigid actuator clearance geometry, cost-efficient OEM"
+          ],
+          [
+            "ESD-Safe PETG",
+            "Optical sensors and optoelectronic modules requiring inspection through packaging",
+            "ESD protection + crystal clarity, sensing element inspection"
+          ],
+          [
+            "Standard PP",
+            "Outer transit packaging only — not for direct switch/sensor contact",
+            "Insulating — not ESD-safe, not for switch/sensor packaging"
+          ]
+        ]
+      },
+      "callout": "ESD packaging OEM manufacturer Vapi Daman — ESD-safe thermoformed switch, sensor, and module packaging from our Vapi, Gujarat facility. Electronic component thermoforming manufacturer Gujarat for switch manufacturers, sensor producers, and IoT module companies. ISO 9001:2015 batch documentation and ESD resistivity CoA per production run."
+    },
+    {
+      "ey": "Why Choose Trizen",
+      "st": "Why Electronics Manufacturers Choose Trizen for Switches, Sensors & Module Packaging",
+      "eyClass": "green",
+      "leads": [],
+      "products": [],
+      "strips": [
+        {
+          "title": "Actuator Clearance Confirmed Before Every Switch Tool",
+          "desc": "Switch actuator geometry confirmed from datasheet before cavity design. Actuator clearance confirmed on physical prototype before production tooling — no pre-actuation risk."
+        },
+        {
+          "title": "Active Face Clearance for Proximity and Optical Sensors",
+          "desc": "Sensing face clearance cavity designed from sensor active face dimensions. Confirmed before tooling. Sensing performance protection throughout the supply chain."
+        },
+        {
+          "title": "ESD-Safe Module Packaging from India — Domestic and Export",
+          "desc": "ESD packaging OEM from Vapi for switch manufacturers, sensor producers, and IoT module companies. Domestic and export electronics supply chain."
+        }
+      ]
+    }
+  ],
+  "midCtas": [
+    {
+      "title": "Switches, Sensors & Module Packaging — ESD-Safe OEM from Vapi",
+      "text": "ESD-safe PP & PETG · Resistivity CoA per batch · ISO 9001:2015 · 7–14 day prototype.",
+      "button": "Request a Quote →"
+    },
+    {
+      "title": "Switches, Sensors & Module Packaging — Submit Component Sample",
+      "text": "ESD-safe CoA · Precision cavity · 7–14 day prototype · ISO 9001:2015.",
+      "button": "Submit Enquiry →"
+    }
+  ],
+  "bottomCta": {
+    "title": "Switches, Sensors & Module Packaging — ESD-Safe OEM from Vapi",
+    "text": "ESD-safe PP & PETG · Resistivity CoA per batch · ISO 9001:2015 · 7–14 day prototype · Vapi, Gujarat"
+  },
+  "faqs": [
+    {
+      "q": "What switches, sensors, and modules does Trizen manufacture packaging for?",
+      "a": "ESD-safe packaging for SPDT/DPDT toggle switches, tactile push buttons, proximity sensors (inductive, capacitive), temperature and humidity sensors, IoT modules, relay modules, and industrial control modules. ESD-safe PP. ISO 9001:2015. ESD packaging OEM from Vapi."
+    },
+    {
+      "q": "What is actuator clearance in switch packaging?",
+      "a": "Switch actuator (button, lever, toggle) geometry confirmed from switch datasheet or physical sample. Cavity provides clearance in all actuator positions — the switch cannot reach actuation state from packaging contact pressure. Confirmed on physical prototype before production tooling."
+    },
+    {
+      "q": "Why is active sensing face clearance required for proximity sensors?",
+      "a": "Proximity sensor active faces contaminated by packaging contact show reduced sensing range and increased false trigger rate in service. Active face clearance cavity — no packaging contact on sensing surface, particulate contamination path minimised."
+    },
+    {
+      "q": "Why ESD-safe PP for IoT and relay modules?",
+      "a": "IoT modules and relay modules contain microcontrollers, crystals, and ICs that sustain ESD damage at 10–30V. ESD-safe PP provides continuous charge dissipation — latent ESD damage prevention throughout the supply chain."
+    },
+    {
+      "q": "Why source from Vapi, Gujarat?",
+      "a": "ESD packaging OEM manufacturer Vapi Daman. Electronic component thermoforming manufacturer Gujarat. ISO 9001:2015 and ESD CoA per run."
+    },
+    {
+      "q": "Antistatic thermoformed packaging India — what standard applies?",
+      "a": "ESD-safe PP and PETG at 10⁶–10⁹ Ω/sq dissipative range meets ANSI/ESD S541 and IEC 61340-5 packaging material requirements. Specific standard compliance confirmed at brief stage."
+    },
+    {
+      "q": "MOQ?",
+      "a": "Prototype: 7 to 14 business days. MOQ from 500 units. ESD CoA and ISO 9001:2015 per batch."
+    },
+    {
+      "q": "Export electronics supply chain?",
+      "a": "ESD CoA per batch and ISO 9001:2015 records per batch for export electronics supply chain documentation."
+    }
+  ],
+  "imageLabels": [
+    "Product packaging",
+    "Production facility Vapi"
+  ]
+}

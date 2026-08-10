@@ -8,6 +8,8 @@ type HeroProps = {
   chips: string[];
   imageSrc: string;
   imageLabel: string;
+  backHref?: string;
+  backLabel?: string;
   stats?: { value: string; label: string }[];
 };
 
@@ -24,6 +26,8 @@ export default function Hero({
   desc,
   chips,
   imageSrc,
+  backHref = "/toy",
+  backLabel = "← Toy Overview",
   stats = DEFAULT_STATS,
 }: HeroProps) {
   return (
@@ -31,7 +35,7 @@ export default function Hero({
       className="hero"
       style={
         {
-          ["--hero-image"]: `url("${imageSrc}")`,
+          ["--hero-image"]: imageSrc ? `url("${imageSrc}")` : "none",
         } as CSSProperties
       }
     >
@@ -47,8 +51,8 @@ export default function Hero({
             <a href="mailto:contact@trizenpackaging.com" className="bp">
               Request a Quote →
             </a>
-            <a href="/toy" className="bg2">
-              ← Toy Overview
+            <a href={backHref} className="bg2">
+              {backLabel}
             </a>
           </div>
           {chips.length > 0 ? (

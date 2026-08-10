@@ -1,0 +1,472 @@
+{
+  "industries": {
+    "toy": {
+      "prefix": "Trizen_Toy_",
+      "route": "/toy",
+      "label": "Toys",
+      "sidebarTitle": "Toy pages",
+      "ctaTitle": "Toy Packaging Quote",
+      "ctaText": "Retail trays · Action figure packs · Protective packaging · Display trays · Custom molded — ISO 9001:2015 · Vapi.",
+      "footerLabel": "Toy Packaging",
+      "faqSub": "Toy thermoforming packaging",
+      "pages": [
+        "action-figure",
+        "category",
+        "custom-molded",
+        "packaging-trays",
+        "protective",
+        "retail-display",
+        "set-inserts"
+      ],
+      "nav": [
+        {
+          "href": "/toy",
+          "label": "Toy Overview"
+        },
+        {
+          "href": "/toy/action-figure",
+          "label": "Action Figure Packaging"
+        },
+        {
+          "href": "/toy/set-inserts",
+          "label": "Toy Set Inserts"
+        },
+        {
+          "href": "/toy/custom-molded",
+          "label": "Custom Molded Packaging"
+        },
+        {
+          "href": "/toy/packaging-trays",
+          "label": "Toy Packaging Trays"
+        },
+        {
+          "href": "/toy/protective",
+          "label": "Protective Toy Packaging"
+        },
+        {
+          "href": "/toy/retail-display",
+          "label": "Retail Display Packaging"
+        }
+      ]
+    },
+    "electronics": {
+      "prefix": "Trizen_Elec_",
+      "route": "/electronics",
+      "label": "Electronics",
+      "sidebarTitle": "Electronics pages",
+      "ctaTitle": "Electronics Packaging Quote",
+      "ctaText": "ESD-safe trays · PCB packaging · Connector trays · Consumer electronics — ISO 9001:2015 · Vapi.",
+      "footerLabel": "Electronics Packaging",
+      "faqSub": "Electronics thermoforming packaging",
+      "pages": [
+        "category",
+        "connector",
+        "consumer",
+        "esd",
+        "pcb",
+        "switches"
+      ],
+      "nav": [
+        {
+          "href": "/electronics",
+          "label": "Electronics Overview"
+        },
+        {
+          "href": "/electronics/esd",
+          "label": "ESD-Safe Trays"
+        },
+        {
+          "href": "/electronics/pcb",
+          "label": "PCB Packaging"
+        },
+        {
+          "href": "/electronics/connector",
+          "label": "Connector Packaging"
+        },
+        {
+          "href": "/electronics/switches",
+          "label": "Switches & Sensors"
+        },
+        {
+          "href": "/electronics/consumer",
+          "label": "Consumer Electronics"
+        }
+      ]
+    },
+    "fmcg": {
+      "prefix": "Trizen_FMCG_",
+      "route": "/fmcg",
+      "label": "FMCG",
+      "sidebarTitle": "FMCG pages",
+      "ctaTitle": "FMCG Packaging Quote",
+      "ctaText": "Food & beverage · Bakery · Retail · Custom FMCG trays — ISO 9001:2015 · Vapi.",
+      "footerLabel": "FMCG Packaging",
+      "faqSub": "FMCG thermoforming packaging",
+      "pages": [
+        "bakery",
+        "category",
+        "custom",
+        "food-bev",
+        "retail"
+      ],
+      "nav": [
+        {
+          "href": "/fmcg",
+          "label": "FMCG Overview"
+        },
+        {
+          "href": "/fmcg/bakery",
+          "label": "Bakery & Confectionery"
+        },
+        {
+          "href": "/fmcg/retail",
+          "label": "Retail Packaging"
+        },
+        {
+          "href": "/fmcg/custom",
+          "label": "Custom Retail Inserts"
+        },
+        {
+          "href": "/fmcg/food-bev",
+          "label": "Food & Beverage"
+        }
+      ]
+    },
+    "industrial": {
+      "prefix": "Trizen_Ind_",
+      "route": "/industrial",
+      "label": "Industrial",
+      "sidebarTitle": "Industrial pages",
+      "ctaTitle": "Industrial Packaging Quote",
+      "ctaText": "Power tools · Enclosures · Machinery covers — ISO 9001:2015 · Vapi.",
+      "footerLabel": "Industrial Packaging",
+      "faqSub": "Industrial thermoforming packaging",
+      "pages": [
+        "category",
+        "enclosures",
+        "machinery",
+        "power-tools"
+      ],
+      "nav": [
+        {
+          "href": "/industrial",
+          "label": "Industrial Overview"
+        },
+        {
+          "href": "/industrial/power-tools",
+          "label": "Power Tools Packaging"
+        },
+        {
+          "href": "/industrial/enclosures",
+          "label": "Equipment Enclosures"
+        },
+        {
+          "href": "/industrial/machinery",
+          "label": "Machinery Covers"
+        }
+      ]
+    },
+    "medical": {
+      "prefix": "Trizen_Med_",
+      "route": "/medical",
+      "label": "Medical",
+      "sidebarTitle": "Medical pages",
+      "ctaTitle": "Medical Packaging Quote",
+      "ctaText": "Cardiology · Vascular · Drug delivery · Wound care — ISO 9001:2015 · Vapi.",
+      "footerLabel": "Medical Device Packaging",
+      "faqSub": "Medical device packaging",
+      "pages": [
+        "cardiology",
+        "category",
+        "drug-delivery",
+        "oncology",
+        "ophthalmic",
+        "ortho",
+        "respiratory",
+        "vascular",
+        "wound-care"
+      ],
+      "nav": [
+        {
+          "href": "/medical",
+          "label": "Medical Overview"
+        },
+        {
+          "href": "/medical/cardiology",
+          "label": "Cardiology Packaging"
+        },
+        {
+          "href": "/medical/vascular",
+          "label": "Vascular Packaging"
+        },
+        {
+          "href": "/medical/drug-delivery",
+          "label": "Drug Delivery"
+        },
+        {
+          "href": "/medical/respiratory",
+          "label": "Respiratory Packaging"
+        },
+        {
+          "href": "/medical/ophthalmic",
+          "label": "Ophthalmic Packaging"
+        },
+        {
+          "href": "/medical/ortho",
+          "label": "Orthopedics Packaging"
+        },
+        {
+          "href": "/medical/wound-care",
+          "label": "Wound Care Packaging"
+        },
+        {
+          "href": "/medical/oncology",
+          "label": "Oncology Packaging"
+        }
+      ]
+    },
+    "pharmaceutical": {
+      "prefix": "Trizen_Pharma_",
+      "route": "/pharmaceutical",
+      "label": "Pharmaceutical",
+      "sidebarTitle": "Pharmaceutical pages",
+      "ctaTitle": "Pharma Packaging Quote",
+      "ctaText": "Sterile · Syringe · Ampoule · Strip · Tamper-proof — ISO 9001:2015 · Vapi.",
+      "footerLabel": "Pharmaceutical Packaging",
+      "faqSub": "Pharmaceutical packaging",
+      "pages": [
+        "ampoule",
+        "category",
+        "child-resistant",
+        "diagnostic",
+        "sample-kit",
+        "sterile",
+        "strip",
+        "syringe",
+        "tamper-proof"
+      ],
+      "nav": [
+        {
+          "href": "/pharmaceutical",
+          "label": "Pharma Overview"
+        },
+        {
+          "href": "/pharmaceutical/sterile",
+          "label": "Sterile Packaging"
+        },
+        {
+          "href": "/pharmaceutical/syringe",
+          "label": "Syringe Packaging"
+        },
+        {
+          "href": "/pharmaceutical/ampoule",
+          "label": "Ampoule Packaging"
+        },
+        {
+          "href": "/pharmaceutical/strip",
+          "label": "Strip Packaging"
+        },
+        {
+          "href": "/pharmaceutical/diagnostic",
+          "label": "Diagnostic Kit Packaging"
+        },
+        {
+          "href": "/pharmaceutical/sample-kit",
+          "label": "Sample Kit Packaging"
+        },
+        {
+          "href": "/pharmaceutical/tamper-proof",
+          "label": "Tamper Proof Packaging"
+        },
+        {
+          "href": "/pharmaceutical/child-resistant",
+          "label": "Child Resistant Packaging"
+        }
+      ]
+    },
+    "stationery": {
+      "prefix": "Trizen_Stat_",
+      "route": "/stationery",
+      "label": "Stationery",
+      "sidebarTitle": "Stationery pages",
+      "ctaTitle": "Stationery Packaging Quote",
+      "ctaText": "Pen & marker · Eraser · School kit · Display · Gift set — ISO 9001:2015 · Vapi.",
+      "footerLabel": "Stationery Packaging",
+      "faqSub": "Stationery thermoforming packaging",
+      "pages": [
+        "category",
+        "display",
+        "eraser",
+        "gift-set",
+        "office",
+        "pen-marker",
+        "school-kit"
+      ],
+      "nav": [
+        {
+          "href": "/stationery",
+          "label": "Stationery Overview"
+        },
+        {
+          "href": "/stationery/pen-marker",
+          "label": "Pen & Marker Packaging"
+        },
+        {
+          "href": "/stationery/eraser",
+          "label": "Eraser Packaging"
+        },
+        {
+          "href": "/stationery/school-kit",
+          "label": "School Kit Packaging"
+        },
+        {
+          "href": "/stationery/display",
+          "label": "Display Packaging"
+        },
+        {
+          "href": "/stationery/gift-set",
+          "label": "Gift Set Packaging"
+        },
+        {
+          "href": "/stationery/office",
+          "label": "Office Supplies Packaging"
+        }
+      ]
+    },
+    "manufacturing": {
+      "prefix": "Trizen_Mfg_",
+      "route": "/manufacturing",
+      "label": "Manufacturing",
+      "sidebarTitle": "Manufacturing pages",
+      "ctaTitle": "Manufacturing Capabilities",
+      "ctaText": "Vacuum forming · Pressure forming · Blister · Clamshell · Materials — Vapi.",
+      "footerLabel": "Manufacturing Capabilities",
+      "faqSub": "Trizen manufacturing capabilities",
+      "pages": [
+        "blister-packaging",
+        "clamshell-packaging",
+        "materials",
+        "plastic-packaging",
+        "pressure-forming",
+        "thermoforming-packaging",
+        "vacuum-forming"
+      ],
+      "nav": [
+        {
+          "href": "/manufacturing/blister-packaging",
+          "label": "Blister Packaging Manufacturer India"
+        },
+        {
+          "href": "/manufacturing/clamshell-packaging",
+          "label": "Clamshell Packaging Manufacturer India"
+        },
+        {
+          "href": "/manufacturing/materials",
+          "label": "Thermoforming Packaging Materials Supplier India"
+        },
+        {
+          "href": "/manufacturing/plastic-packaging",
+          "label": "Plastic Packaging Supplier India"
+        },
+        {
+          "href": "/manufacturing/pressure-forming",
+          "label": "Pressure Forming Packaging Manufacturer India"
+        },
+        {
+          "href": "/manufacturing/thermoforming-packaging",
+          "label": "Thermoforming Packaging Manufacturer Vapi Gujarat"
+        },
+        {
+          "href": "/manufacturing/vacuum-forming",
+          "label": "Vacuum Forming Packaging Manufacturer India"
+        }
+      ]
+    },
+    "expertise": {
+      "prefix": "Trizen_Expertise_",
+      "route": "/expertise",
+      "label": "Expertise",
+      "sidebarTitle": "Expertise pages",
+      "ctaTitle": "Trizen Expertise",
+      "ctaText": "Cleanroom · Contract manufacturing · R&D · Unique offer — Vapi.",
+      "footerLabel": "Trizen Expertise",
+      "faqSub": "Trizen expertise and services",
+      "pages": [
+        "cleanroom",
+        "contract-manufacturing",
+        "hub",
+        "rnd-innovation",
+        "unique-offer"
+      ],
+      "nav": [
+        {
+          "href": "/expertise/hub",
+          "label": "Expertise Hub"
+        },
+        {
+          "href": "/expertise/unique-offer",
+          "label": "A Unique Offer"
+        },
+        {
+          "href": "/expertise/cleanroom",
+          "label": "Cleanroom Capability"
+        },
+        {
+          "href": "/expertise/contract-manufacturing",
+          "label": "Contract Manufacturing"
+        },
+        {
+          "href": "/expertise/rnd-innovation",
+          "label": "R&D Innovation"
+        }
+      ]
+    }
+  },
+  "allIndustriesNav": [
+    {
+      "id": "toy",
+      "href": "/toy",
+      "label": "Toys"
+    },
+    {
+      "id": "electronics",
+      "href": "/electronics",
+      "label": "Electronics"
+    },
+    {
+      "id": "fmcg",
+      "href": "/fmcg",
+      "label": "FMCG"
+    },
+    {
+      "id": "industrial",
+      "href": "/industrial",
+      "label": "Industrial"
+    },
+    {
+      "id": "medical",
+      "href": "/medical",
+      "label": "Medical"
+    },
+    {
+      "id": "pharmaceutical",
+      "href": "/pharmaceutical",
+      "label": "Pharmaceutical"
+    },
+    {
+      "id": "stationery",
+      "href": "/stationery",
+      "label": "Stationery"
+    },
+    {
+      "id": "manufacturing",
+      "href": "/manufacturing",
+      "label": "Manufacturing"
+    },
+    {
+      "id": "expertise",
+      "href": "/expertise",
+      "label": "Expertise"
+    }
+  ]
+}

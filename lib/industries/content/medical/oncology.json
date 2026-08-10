@@ -1,0 +1,182 @@
+{
+  "slug": "oncology",
+  "industryId": "medical",
+  "title": "Oncology Packaging Manufacturer India | Cancer Device Packaging Cleanroom GMP | Trizen, Vapi",
+  "hero": {
+    "ey": "🎗️ Oncology Packaging · Biopsy Devices · Vapi",
+    "titleMain": "Oncology Packaging Manufacturer India",
+    "titleTail": "Biopsy Device & Oncology Catheter Packaging, Cleanroom Class 8",
+    "desc": "Custom PETG thermoformed oncology packaging — biopsy device packaging, oncology catheter packaging, radiation therapy device packaging, oncology surgical kit trays. Cleanroom Class 8, GMP, ISO 9001:2015. Oncology packaging manufacturer from Vapi, Gujarat.",
+    "chips": [
+      "Cleanroom Class 8",
+      "GMP",
+      "ISO 9001:2015",
+      "Vapi Gujarat"
+    ]
+  },
+  "sections": [
+    {
+      "ey": "Device-Specific Packaging Challenges",
+      "st": "Oncology Packaging — Specific Technical Requirements",
+      "leads": [],
+      "products": [],
+      "strips": [
+        {
+          "title": "Biopsy Needle Tip — Cutting Mechanism Must Not Contact Packaging",
+          "desc": "Problem: Biopsy needle tips and cutting cannulas are precision-ground cutting edges — any packaging contact causes deformation of the cutting edge, requiring device rejection. Solution: Biopsy needle tip clearance cavity — cutting mechanism suspended in clearance, no packaging contact on the cutting edge geometry."
+        },
+        {
+          "title": "Cytotoxic Environment Compatibility — Packaging Material Must Withstand Oncology Facility Conditions",
+          "desc": "Problem: Oncology packaging used in chemotherapy and radiation environments must be compatible with cytotoxic cleaning agents and radiation levels used in oncology facilities. Solution: Medical-grade PETG with cytotoxic cleaning agent compatibility confirmed from oncology facility cleaning specification at brief stage."
+        },
+        {
+          "title": "Radiation Seed Array Geometry — Precise Seed Position for Dosimetry",
+          "desc": "Problem: Radiation seed holder packaging where seeds are not in their precise geometric positions changes the seed array dosimetry calculation — the treatment dose delivered to the tumour may be incorrect. Solution: Precision PETG seed holder tray with individual defined position for each seed — seed array geometry confirmed from the dosimetry specification."
+        }
+      ]
+    },
+    {
+      "ey": "Design Requirements",
+      "st": "Oncology Packaging — Key Design Requirements",
+      "leads": [],
+      "products": [],
+      "strips": [
+        {
+          "title": "Biopsy Needle Tip Clearance — Cutting Edge No-Contact Mandatory",
+          "desc": "Biopsy needle tip and cutting cannula geometry identified from device drawing. Cavity tip clearance zone — no packaging contact on cutting edge geometry."
+        },
+        {
+          "title": "Cytotoxic Cleaning Compatibility Confirmed at Brief Stage",
+          "desc": "Medical-grade PETG cytotoxic cleaning agent compatibility confirmed from oncology facility specification. Material CoA per batch."
+        },
+        {
+          "title": "Radiation Seed Holder Precision Geometry",
+          "desc": "Precision PETG seed holder tray with individual cavity position per seed. Seed array geometry confirmed from dosimetry specification before tooling design."
+        },
+        {
+          "title": "ISO Class 8 Cleanroom — All Oncology Packaging Components",
+          "desc": "All oncology device packaging components produced in Cleanroom Class 8 at Vapi. GMP batch documentation per production run."
+        }
+      ]
+    },
+    {
+      "ey": "Materials",
+      "st": "Materials for Oncology Packaging",
+      "eyClass": "gold",
+      "leads": [],
+      "products": [],
+      "strips": [],
+      "table": {
+        "headers": [
+          "Material",
+          "Medical Application",
+          "Key Property"
+        ],
+        "rows": [
+          [
+            "Medical-Grade PETG",
+            "Primary — face seal blister trays, lidded trays, all sterile barrier packaging components",
+            "EO and gamma compatible, ISO 11607 compatible, medical-grade additive specification, CoA per batch"
+          ],
+          [
+            "Medical-Grade HIPS",
+            "Protective transit trays and secondary packaging where sterile barrier is not required",
+            "Good impact resistance, chemical resistance, cost-efficient for non-sterile-barrier applications"
+          ],
+          [
+            "Medical-Grade PP",
+            "Non-sterile-barrier protective packaging — device presentation trays",
+            "Chemical resistance, dimensional stability, autoclave compatible grades available"
+          ]
+        ]
+      },
+      "callout": "Oncology packaging manufacturer Vapi — medical packaging manufacturer Gujarat for medical device companies. ISO 9001:2015 · GMP · Cleanroom Class 8 production at Vapi, Gujarat. Medical-grade PETG CoA, GMP batch records, and ISO 11607 compatible dimensional documentation per production run."
+    },
+    {
+      "ey": "Compliance & Certifications",
+      "st": "Quality Certifications and Regulatory Documentation",
+      "leads": [],
+      "products": [],
+      "strips": []
+    },
+    {
+      "ey": "Why Choose Trizen",
+      "st": "Why Medical Device Companies Choose Trizen for Oncology Packaging",
+      "eyClass": "green",
+      "leads": [],
+      "products": [],
+      "strips": [
+        {
+          "title": "Biopsy Needle Tip Clearance Analysis — Cutting Edge Protected Mandatory",
+          "desc": "Biopsy needle tip clearance analysis mandatory for all biopsy device packaging. Cutting edge suspended in clearance — no packaging contact on cutting geometry."
+        },
+        {
+          "title": "Cleanroom Class 8 + GMP — Combined Capability",
+          "desc": "All medical packaging components produced in Class 8 cleanroom with full GMP batch documentation. The combined capability that medical device supplier qualification programmes require."
+        },
+        {
+          "title": "ISO 11607 Compatible Components — Validation Documentation",
+          "desc": "First article inspection report, dimensional records per batch, material CoA, batch records — all available to support the medical device manufacturer's ISO 11607 packaging validation documentation package."
+        },
+        {
+          "title": "Medical-Grade PETG — EO and Gamma Sterilization Compatible",
+          "desc": "Medical-grade PETG as standard for all medical packaging components. EO sterilization compatible and gamma radiation compatible. Material CoA per batch."
+        }
+      ]
+    }
+  ],
+  "midCtas": [
+    {
+      "title": "Oncology Packaging — Technical Enquiry",
+      "text": "Medical-grade PETG · Cleanroom Class 8 · GMP · ISO 9001:2015 · ISO 11607 compatible.",
+      "button": "Request a Consultation →"
+    },
+    {
+      "title": "Oncology Packaging — Submit Device Drawing",
+      "text": "Cleanroom Class 8 · GMP · ISO 9001:2015 · Medical-grade PETG · Validation support documentation.",
+      "button": "Submit Technical Enquiry →"
+    }
+  ],
+  "bottomCta": {
+    "title": "Oncology Packaging — Cleanroom Class 8, GMP, ISO 9001:2015 · Vapi",
+    "text": "Medical-grade PETG · ISO 11607 compatible · Validation documentation · Cleanroom Class 8 · Vapi, Gujarat"
+  },
+  "faqs": [
+    {
+      "q": "What oncology packaging does Trizen manufacture?",
+      "a": "PETG thermoformed packaging for core needle biopsy devices, vacuum-assisted biopsy systems, oncology treatment catheters, radiation seed holder trays, cryotherapy device packaging, oncology surgical kit packaging, and oncology port and access device packaging. Cleanroom Class 8, GMP, ISO 9001:2015. Oncology packaging manufacturer from Vapi, Gujarat."
+    },
+    {
+      "q": "What certifications does Trizen have for Oncology Packaging?",
+      "a": "ISO 9001:2015, GMP, and Cleanroom Class 8 (ISO 14644-1 — 100,000 particles/m³). All medical packaging components produced in the Class 8 cleanroom with full GMP batch documentation per production batch."
+    },
+    {
+      "q": "Is PETG compatible with EO sterilization for oncology packaging?",
+      "a": "Yes — medical-grade PETG is compatible with Ethylene Oxide (EO) sterilization and gamma radiation sterilization. EO compatibility confirmed by material CoA per production batch."
+    },
+    {
+      "q": "What documentation is provided for medical device supplier qualification?",
+      "a": "First article inspection report, dimensional inspection records per production batch, material CoA with medical-grade PETG specification per batch, batch records, ISO 9001:2015 certificate, GMP compliance documentation."
+    },
+    {
+      "q": "Why source oncology packaging from Vapi, Gujarat?",
+      "a": "Oncology packaging manufacturer Vapi — Cleanroom Class 8, GMP, ISO 9001:2015. Oncology packaging manufacturer Gujarat for medical device companies. Medical packaging manufacturer from India for domestic and export medical device markets."
+    },
+    {
+      "q": "What is Trizen's scope for medical packaging?",
+      "a": "Trizen manufactures the thermoformed PETG packaging component — the tray or blister shell. Device loading, Tyvek/foil lidding, heat sealing, and sterilization are performed by the medical device manufacturer. Clear scope for DHF traceability."
+    },
+    {
+      "q": "Prototype and production timeline?",
+      "a": "First article: 14 to 21 business days from device technical drawing or sample — cleanroom CNC tooling at Vapi. ISO 9001:2015, GMP, and Cleanroom Class 8 documentation per production batch."
+    },
+    {
+      "q": "Does Trizen supply medical packaging for export markets?",
+      "a": "Yes — ISO 9001:2015, GMP, and medical-grade PETG CoA per batch for export medical device market compliance. Medical thermoforming packaging manufacturer from India for international medical device markets."
+    }
+  ],
+  "imageLabels": [
+    "Product packaging",
+    "Production facility Vapi"
+  ]
+}
