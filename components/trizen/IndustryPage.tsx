@@ -1,4 +1,3 @@
-import SiteNav from "@/components/trizen/SiteNav";
 import Hero from "@/components/trizen/Hero";
 import IndustrySidebar from "@/components/trizen/IndustrySidebar";
 import FAQ from "@/components/trizen/FAQ";
@@ -47,24 +46,11 @@ export default function IndustryPage({
   content,
 }: IndustryPageProps) {
   const images = getIndustryImages(industryId, content.slug);
-  const isCategory =
-    content.slug === "category" ||
-    (industryId === "expertise" && content.slug === "hub");
-  const trailLabel = isCategory ? meta.label : content.hero.titleMain;
   const overviewHref =
     industryId === "expertise" ? "/expertise/hub" : meta.route;
 
   return (
     <div className="industry-page">
-      <SiteNav
-        trail={[
-          { href: "/", label: "Home" },
-          { href: "#", label: "Industries" },
-          { href: overviewHref, label: meta.label },
-          ...(!isCategory ? [{ label: trailLabel }] : []),
-        ]}
-      />
-
       <Hero
         ey={content.hero.ey}
         titleMain={content.hero.titleMain}
@@ -228,20 +214,6 @@ export default function IndustryPage({
 
         <IndustrySidebar industryId={industryId} meta={meta} />
       </div>
-
-      <footer>
-        <div className="fi">
-          <p>
-            © 2025 Trizen Packaging · {meta.footerLabel} · Vapi, Gujarat, India
-            · ISO 9001:2015
-          </p>
-          <div className="fl">
-            <a href={overviewHref}>{meta.label}</a>
-            <a href="/manufacturing">Capabilities</a>
-            <a href="mailto:contact@trizenpackaging.com">Contact</a>
-          </div>
-        </div>
-      </footer>
     </div>
   );
 }

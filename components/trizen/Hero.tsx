@@ -1,4 +1,5 @@
 import type { CSSProperties } from "react";
+import ImagePreview from "@/components/trizen/ImagePreview";
 
 type HeroProps = {
   ey: string;
@@ -26,17 +27,20 @@ export default function Hero({
   desc,
   chips,
   imageSrc,
+  imageLabel,
   backHref = "/toy",
   backLabel = "← Toy Overview",
   stats = DEFAULT_STATS,
 }: HeroProps) {
   return (
     <div
-      className="hero"
+      className={imageSrc ? "hero has-product-photo" : "hero"}
       style={
-        {
-          ["--hero-image"]: imageSrc ? `url("${imageSrc}")` : "none",
-        } as CSSProperties
+        imageSrc
+          ? undefined
+          : ({
+              ["--hero-image"]: "none",
+            } as CSSProperties)
       }
     >
       <div className="hi">
@@ -65,14 +69,29 @@ export default function Hero({
             </div>
           ) : null}
         </div>
-        <div className="hcards">
-          {stats.map((stat) => (
-            <div key={stat.label} className="hc">
-              <div className="hn">{stat.value}</div>
-              <div className="hl">{stat.label}</div>
+        {imageSrc ? (
+          <ImagePreview src={imageSrc} alt={imageLabel}>
+            <div className="hero-showcase" aria-label={imageLabel}>
+              <div className="showcase-frame has-photo">
+                {/* eslint-disable-next-line @next/next/no-img-element */}
+                <img
+                  className="toy-photo toy-photo-hero"
+                  src={imageSrc}
+                  alt={imageLabel}
+                />
+              </div>
             </div>
-          ))}
-        </div>
+          </ImagePreview>
+        ) : (
+          <div className="hcards">
+            {stats.map((stat) => (
+              <div key={stat.label} className="hc">
+                <div className="hn">{stat.value}</div>
+                <div className="hl">{stat.label}</div>
+              </div>
+            ))}
+          </div>
+        )}
       </div>
     </div>
   );

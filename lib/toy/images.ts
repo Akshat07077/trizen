@@ -43,14 +43,15 @@ const retail = {
 };
 
 function imgs(
-  a: string,
+  hero: string,
   b: string,
   c: string,
-): ToyImageSet {
-  return { hero: a, bandMain: a, bandDetail: b, bandProcess: c, content: [b, c] };
+): Pick<ToyImageSet, "hero" | "content"> {
+  return { hero, content: [b, c] };
 }
 
-export const TOY_IMAGES: Record<string, ToyImageSet> = {
+/** Product photos per toy page — files live in public/images/toy/{slug}/ */
+export const TOY_IMAGES: Record<string, Pick<ToyImageSet, "hero" | "content">> = {
   category: imgs(trays.a, trays.b, trays.c),
   "action-figure": imgs(action.a, action.b, action.c),
   "set-inserts": imgs(setInserts.a, setInserts.b, setInserts.c),

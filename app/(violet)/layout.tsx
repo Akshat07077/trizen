@@ -1,7 +1,12 @@
 import type { Metadata } from "next";
 import PageEffects from "@/components/trizen/PageEffects";
+import SiteNav from "@/components/trizen/SiteNav";
+import SiteFooter from "@/components/trizen/SiteFooter";
 import "@/styles/trizen-violet.css";
 import "@/styles/toy-violet.css";
+import "@/styles/toy-images.css";
+import "@/styles/site-chrome.css";
+import "@/styles/image-preview.css";
 
 export const metadata: Metadata = {
   title: {
@@ -18,7 +23,9 @@ export default function VioletLayout({
   return (
     <>
       <PageEffects />
+      <SiteNav />
       {children}
+      <SiteFooter />
     </>
   );
 }
