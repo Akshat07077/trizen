@@ -287,3 +287,28 @@ body:has(.industry-page) {
   position: relative;
   z-index: 2;
 }
+
+/* Product photo hero (Action Figure style) */
+.industry-page .hero.has-product-photo:before {
+  display: none !important;
+}
+
+.industry-page .hero.has-product-photo .hi {
+  grid-template-columns: minmax(0, 1fr) minmax(280px, 0.82fr) !important;
+  align-items: center !important;
+}
+
+.industry-page .hero.has-product-photo .hero-showcase {
+  min-height: 0;
+  width: 100%;
+}
+
+@media (max-width: 900px) {
+  .industry-page .hero.has-product-photo .hi {
+    grid-template-columns: 1fr !important;
+  }
+
+  .industry-page .hero.has-product-photo .hero-showcase {
+    margin-top: 8px;
+  }
+}

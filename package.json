@@ -5,6 +5,9 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build --webpack",
+    "images:setup": "node scripts/setup-image-folders.js",
+    "images:generate": "node scripts/generate-placeholder-images.js",
+    "images:sync": "node scripts/sync-source-images.js",
     "start": "next start",
     "lint": "eslint"
   },

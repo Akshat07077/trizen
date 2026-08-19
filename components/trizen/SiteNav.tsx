@@ -1,42 +1,187 @@
+"use client";
+
 import Link from "next/link";
-import { Fragment } from "react";
+import { usePathname } from "next/navigation";
+import { useEffect, useId, useState } from "react";
+import { registry } from "@/lib/industries/registry";
 
-type SiteNavProps = {
-  trail?: { href?: string; label: string }[];
-};
+const PRIMARY_LINKS = [
+  { href: "/manufacturing", label: "Manufacturing" },
+  { href: "/expertise", label: "Expertise" },
+] as const;
 
-export default function SiteNav({
-  trail = [
+function currentIndustryId(pathname: string): string | null {
+  const first = pathname.split("/").filter(Boolean)[0];
+  if (!first) return null;
+  return registry.allIndustriesNav.some((item) => item.id === first)
+    ? first
+    : null;
+}
+
+function crumbsFor(pathname: string) {
+  if (pathname === "/") return [];
+
+  const industryId = currentIndustryId(pathname);
+  if (!industryId) return [{ href: "/", label: "Home" }];
+
+  const industry = registry.industries[industryId];
+  const items = [
     { href: "/", label: "Home" },
-    { href: "#", label: "Industries" },
-    { href: "/toy", label: "Toys" },
-  ],
-}: SiteNavProps) {
+    { href: "/", label: "Industries" },
+    { href: industry.route, label: industry.label },
+  ];
+
+  const match = industry.nav.find(
+    (item) => item.href === pathname && item.href !== industry.route,
+  );
+  if (match) items.push({ href: match.href, label: match.label });
+
+  return items;
+}
+
+export default function SiteNav() {
+  const pathname = usePathname();
+  const [open, setOpen] = useState(false);
+  const [industriesOpen, setIndustriesOpen] = useState(false);
+  const menuId = useId();
+  const industryId = currentIndustryId(pathname);
+  const crumbs = crumbsFor(pathname);
+
+  useEffect(() => {
+    setOpen(false);
+    setIndustriesOpen(false);
+  }, [pathname]);
+
+  useEffect(() => {
+    document.body.style.overflow = open ? "hidden" : "";
+    return () => {
+      document.body.style.overflow = "";
+    };
+  }, [open]);
+
   return (
-    <nav className="snav">
-      <div className="ni">
-        <Link href="/" className="logo">
-          <div className="lm">T</div>
-          <div className="ln">
-            Trizen<em>.</em>
+    <header className="site-chrome">
+      <nav className="snav site-nav" aria-label="Primary">
+        <div className="ni site-nav-inner">
+          <Link href="/" className="logo" aria-label="Trizen Packaging home">
+            <div className="lm">T</div>
+            <div className="ln">
+              Trizen<em>.</em>
+            </div>
+          </Link>
+
+          <div className="site-nav-links">
+            <div
+              className={`site-nav-drop${industriesOpen ? " is-open" : ""}`}
+              onMouseEnter={() => setIndustriesOpen(true)}
+              onMouseLeave={() => setIndustriesOpen(false)}
+            >
+              <button
+                type="button"
+                className={`site-nav-link${industryId ? " is-current" : ""}`}
+                aria-expanded={industriesOpen}
+                aria-haspopup="true"
+                onClick={() => setIndustriesOpen((value) => !value)}
+              >
+                Industries
+                <span aria-hidden="true">▾</span>
+              </button>
+              <div className="site-nav-mega" role="menu">
+                <p className="site-nav-mega-kicker">Thermoforming sectors</p>
+                <div className="site-nav-mega-grid">
+                  {registry.allIndustriesNav.map((item) => (
+                    <Link
+                      key={item.id}
+                      href={item.href}
+                      role="menuitem"
+                      className={`site-nav-mega-item${item.id === industryId ? " is-current" : ""}`}
+                    >
+                      <strong>{item.label}</strong>
+                      <span>View packaging pages</span>
+                    </Link>
+                  ))}
+                </div>
+              </div>
+            </div>
+
+            {PRIMARY_LINKS.map((link) => {
+              const current = pathname.startsWith(link.href);
+              return (
+                <Link
+                  key={link.href}
+                  href={link.href}
+                  className={`site-nav-link${current ? " is-current" : ""}`}
+                >
+                  {link.label}
+                </Link>
+              );
+            })}
           </div>
-        </Link>
-        <div className="ntrail">
-          {trail.map((item, index) => (
-            <Fragment key={`${item.label}-${index}`}>
-              {index > 0 ? <span>›</span> : null}
-              {item.href ? (
-                <Link href={item.href}>{item.label}</Link>
-              ) : (
-                <span>{item.label}</span>
-              )}
-            </Fragment>
-          ))}
+
+          <div className="site-nav-actions">
+            <a href="mailto:contact@trizenpackaging.com" className="ncta">
+              Get a Quote
+            </a>
+            <button
+              type="button"
+              className="site-nav-toggle"
+              aria-expanded={open}
+              aria-controls={menuId}
+              aria-label={open ? "Close menu" : "Open menu"}
+              onClick={() => setOpen((value) => !value)}
+            >
+              <span />
+              <span />
+              <span />
+            </button>
+          </div>
         </div>
+      </nav>
+
+      {crumbs.length > 0 ? (
+        <div className="site-crumbs" aria-label="Breadcrumb">
+          <ol>
+            {crumbs.map((item, index) => {
+              const last = index === crumbs.length - 1;
+              return (
+                <li key={`${item.label}-${index}`}>
+                  {last ? (
+                    <span aria-current="page">{item.label}</span>
+                  ) : (
+                    <Link href={item.href}>{item.label}</Link>
+                  )}
+                </li>
+              );
+            })}
+          </ol>
+        </div>
+      ) : null}
+
+      <div
+        id={menuId}
+        className={`site-nav-drawer${open ? " is-open" : ""}`}
+        hidden={!open}
+      >
+        <p className="site-nav-mega-kicker">Industries</p>
+        {registry.allIndustriesNav.map((item) => (
+          <Link
+            key={item.id}
+            href={item.href}
+            className={item.id === industryId ? "is-current" : undefined}
+          >
+            {item.label}
+          </Link>
+        ))}
+        <hr />
+        {PRIMARY_LINKS.map((link) => (
+          <Link key={link.href} href={link.href}>
+            {link.label}
+          </Link>
+        ))}
         <a href="mailto:contact@trizenpackaging.com" className="ncta">
           Get a Quote
         </a>
       </div>
-    </nav>
+    </header>
   );
 }

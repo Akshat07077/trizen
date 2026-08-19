@@ -1,11 +1,16 @@
 import Link from "next/link";
+import SiteNav from "@/components/trizen/SiteNav";
+import SiteFooter from "@/components/trizen/SiteFooter";
 import { registry } from "@/lib/industries/registry";
 import "@/styles/trizen-violet.css";
+import "@/styles/site-chrome.css";
 
 export default function Home() {
   const industries = registry.allIndustriesNav;
 
   return (
+    <>
+    <SiteNav />
     <div className="home-hub">
       <header className="home-header">
         <p className="home-ey">Trizen Packaging · Vapi, Gujarat · ISO 9001:2015</p>
@@ -110,5 +115,7 @@ export default function Home() {
         }
       `}</style>
     </div>
+    <SiteFooter />
+    </>
   );
 }
