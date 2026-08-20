@@ -7,6 +7,12 @@
 .industry-page .hero {
   position: relative;
   isolation: isolate;
+  min-height: auto;
+}
+
+.industry-page .hero .hi {
+  padding-top: 36px !important;
+  padding-bottom: 40px !important;
 }
 
 /* Hero image from page CSS variable (replaces hardcoded auto asset) */

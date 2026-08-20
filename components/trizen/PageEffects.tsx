@@ -49,7 +49,7 @@ export default function PageEffects() {
       }
 
       const wrapRect = pageWrap.getBoundingClientRect();
-      const navOffset = 100;
+      const navOffset = 64;
       const sideWidth = sidebar.offsetWidth || 300;
 
       const shouldPin =
