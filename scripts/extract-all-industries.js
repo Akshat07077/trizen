@@ -5,7 +5,7 @@
 const fs = require("fs");
 const path = require("path");
 
-const HTML_DIR = path.resolve(__dirname, "../../");
+const HTML_DIR = path.resolve(__dirname, "../html-pages");
 const OUT_CONTENT = path.resolve(__dirname, "../lib/industries/content");
 const OUT_REGISTRY = path.resolve(
   __dirname,

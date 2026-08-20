@@ -148,6 +148,16 @@
   align-self: center;
 }
 
+.site-nav-contact {
+  display: none;
+}
+
+@media (min-width: 981px) {
+  .site-nav-contact {
+    display: inline-flex;
+  }
+}
+
 .site-nav-toggle {
   display: none;
   width: 40px;

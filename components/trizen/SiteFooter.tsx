@@ -86,7 +86,7 @@ export default function SiteFooter({ industryLabel }: SiteFooterProps) {
           <Link href="/">Home</Link>
           <Link href="/manufacturing">Manufacturing</Link>
           <Link href="/expertise">Expertise</Link>
-          <a href="mailto:contact@trizenpackaging.com">Contact</a>
+          <Link href="/contact">Contact</Link>
         </div>
       </div>
     </footer>

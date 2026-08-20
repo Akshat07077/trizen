@@ -8,6 +8,7 @@ import { registry } from "@/lib/industries/registry";
 const PRIMARY_LINKS = [
   { href: "/manufacturing", label: "Manufacturing" },
   { href: "/expertise", label: "Expertise" },
+  { href: "/contact", label: "Contact" },
 ] as const;
 
 function currentIndustryId(pathname: string): string | null {
@@ -18,14 +19,20 @@ function currentIndustryId(pathname: string): string | null {
     : null;
 }
 
-function crumbsFor(pathname: string) {
+function crumbsFor(pathname: string): Array<{ label: string; href?: string }> {
   if (pathname === "/") return [];
+  if (pathname === "/contact") {
+    return [
+      { href: "/", label: "Home" },
+      { label: "Contact" },
+    ];
+  }
 
   const industryId = currentIndustryId(pathname);
   if (!industryId) return [{ href: "/", label: "Home" }];
 
   const industry = registry.industries[industryId];
-  const items = [
+  const items: Array<{ label: string; href?: string }> = [
     { href: "/", label: "Home" },
     { href: "/", label: "Industries" },
     { href: industry.route, label: industry.label },
@@ -104,7 +111,8 @@ export default function SiteNav() {
               </div>
             </div>
 
-            {PRIMARY_LINKS.map((link) => {
+            {PRIMARY_LINKS.filter((link) => link.href !== "/contact").map(
+              (link) => {
               const current = pathname.startsWith(link.href);
               return (
                 <Link
@@ -115,10 +123,17 @@ export default function SiteNav() {
                   {link.label}
                 </Link>
               );
-            })}
+            },
+            )}
           </div>
 
           <div className="site-nav-actions">
+            <Link
+              href="/contact"
+              className={`site-nav-link site-nav-contact${pathname === "/contact" ? " is-current" : ""}`}
+            >
+              Contact
+            </Link>
             <a href="mailto:contact@trizenpackaging.com" className="ncta">
               Get a Quote
             </a>
@@ -145,8 +160,8 @@ export default function SiteNav() {
               const last = index === crumbs.length - 1;
               return (
                 <li key={`${item.label}-${index}`}>
-                  {last ? (
-                    <span aria-current="page">{item.label}</span>
+                  {last || !item.href ? (
+                    <span aria-current={last ? "page" : undefined}>{item.label}</span>
                   ) : (
                     <Link href={item.href}>{item.label}</Link>
                   )}
@@ -174,7 +189,11 @@ export default function SiteNav() {
         ))}
         <hr />
         {PRIMARY_LINKS.map((link) => (
-          <Link key={link.href} href={link.href}>
+          <Link
+            key={link.href}
+            href={link.href}
+            className={pathname === link.href ? "is-current" : undefined}
+          >
             {link.label}
           </Link>
         ))}
