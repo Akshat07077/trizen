@@ -66,6 +66,24 @@ export default function SiteNav() {
     };
   }, [open]);
 
+  useEffect(() => {
+    if (!industriesOpen) return;
+    const onPointerDown = (event: PointerEvent) => {
+      const target = event.target as Element | null;
+      if (target?.closest(".site-nav-drop")) return;
+      setIndustriesOpen(false);
+    };
+    const onKey = (event: KeyboardEvent) => {
+      if (event.key === "Escape") setIndustriesOpen(false);
+    };
+    document.addEventListener("pointerdown", onPointerDown);
+    document.addEventListener("keydown", onKey);
+    return () => {
+      document.removeEventListener("pointerdown", onPointerDown);
+      document.removeEventListener("keydown", onKey);
+    };
+  }, [industriesOpen]);
+
   return (
     <header className="site-chrome">
       <nav className="snav site-nav" aria-label="Primary">
@@ -89,6 +107,12 @@ export default function SiteNav() {
                 aria-expanded={industriesOpen}
                 aria-haspopup="true"
                 onClick={() => setIndustriesOpen((value) => !value)}
+                onBlur={(event) => {
+                  const next = event.relatedTarget as Element | null;
+                  if (!next?.closest(".site-nav-drop")) {
+                    setIndustriesOpen(false);
+                  }
+                }}
               >
                 Industries
                 <span aria-hidden="true">▾</span>
@@ -102,6 +126,7 @@ export default function SiteNav() {
                       href={item.href}
                       role="menuitem"
                       className={`site-nav-mega-item${item.id === industryId ? " is-current" : ""}`}
+                      onClick={() => setIndustriesOpen(false)}
                     >
                       <strong>{item.label}</strong>
                       <span>View packaging pages</span>
@@ -119,6 +144,8 @@ export default function SiteNav() {
                   key={link.href}
                   href={link.href}
                   className={`site-nav-link${current ? " is-current" : ""}`}
+                  onMouseEnter={() => setIndustriesOpen(false)}
+                  onFocus={() => setIndustriesOpen(false)}
                 >
                   {link.label}
                 </Link>
@@ -131,10 +158,15 @@ export default function SiteNav() {
             <Link
               href="/contact"
               className={`site-nav-link site-nav-contact${pathname === "/contact" ? " is-current" : ""}`}
+              onMouseEnter={() => setIndustriesOpen(false)}
             >
               Contact
             </Link>
-            <a href="mailto:contact@trizenpackaging.com" className="ncta">
+            <a
+              href="mailto:contact@trizenpackaging.com"
+              className="ncta"
+              onMouseEnter={() => setIndustriesOpen(false)}
+            >
               Get a Quote
             </a>
             <button

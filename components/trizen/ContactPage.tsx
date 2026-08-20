@@ -91,6 +91,22 @@ export default function ContactPage() {
                     Required for local SEO and Google Business Profile
                   </small>
                 </div>
+                <div className="contact-map">
+                  <iframe
+                    title="Trizen Packaging — Vapi, Gujarat"
+                    src="https://maps.google.com/maps?q=GIDC%20Vapi%20Gujarat&z=13&output=embed"
+                    loading="lazy"
+                    referrerPolicy="no-referrer-when-downgrade"
+                  />
+                </div>
+                <a
+                  className="contact-map-link"
+                  href="https://maps.google.com/?q=GIDC+Vapi+Gujarat"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  Open map — Vapi / Daman, Gujarat
+                </a>
               </div>
 
               <div className="contact-info-block">

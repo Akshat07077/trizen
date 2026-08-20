@@ -74,7 +74,7 @@
   display: none;
   position: absolute !important;
   top: 100%;
-  left: 0;
+  left: -240px;
   width: min(640px, 72vw);
   padding: 16px;
   background: #fff;
@@ -85,8 +85,7 @@
 }
 
 .site-nav-drop.is-open .site-nav-mega,
-.site-nav-drop:hover .site-nav-mega,
-.site-nav-drop:focus-within .site-nav-mega {
+.site-nav-drop:hover .site-nav-mega {
   display: block;
 }
 
