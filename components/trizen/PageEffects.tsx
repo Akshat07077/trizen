@@ -24,6 +24,14 @@ export default function PageEffects() {
     const getSidebar = () =>
       document.querySelector(".industry-page .aside") as HTMLElement | null;
 
+    const getFooter = () =>
+      document.querySelector(".site-footer") as HTMLElement | null;
+
+    const getNavOffset = () => {
+      const chrome = document.querySelector(".site-chrome");
+      return chrome ? chrome.getBoundingClientRect().bottom : 88;
+    };
+
     const clearPin = () => {
       const sidebar = getSidebar();
       sidebar?.classList.remove("is-pinned");
@@ -49,11 +57,23 @@ export default function PageEffects() {
       }
 
       const wrapRect = pageWrap.getBoundingClientRect();
-      const navOffset = 64;
+      const footerRect = getFooter()?.getBoundingClientRect();
+      const navOffset = getNavOffset();
       const sideWidth = sidebar.offsetWidth || 300;
+      const edgeGap = 16;
+
+      const contentBottom = wrapRect.bottom;
+      const footerTop = footerRect?.top ?? window.innerHeight;
+      const viewportLimit = window.innerHeight - navOffset - edgeGap;
+      const contentLimit = contentBottom - navOffset - edgeGap;
+      const footerLimit = footerTop - navOffset - edgeGap;
+      const maxHeight = Math.min(viewportLimit, contentLimit, footerLimit);
 
       const shouldPin =
-        wrapRect.top <= navOffset && wrapRect.bottom > navOffset + 120;
+        wrapRect.top <= navOffset &&
+        contentBottom > navOffset + 120 &&
+        footerTop > navOffset + 80 &&
+        maxHeight > 100;
 
       if (!shouldPin) {
         clearPin();
@@ -75,11 +95,7 @@ export default function PageEffects() {
       sidebar.style.setProperty("top", `${navOffset}px`, "important");
       sidebar.style.setProperty("left", `${Math.max(0, left)}px`, "important");
       sidebar.style.setProperty("width", `${sideWidth}px`, "important");
-      sidebar.style.setProperty(
-        "max-height",
-        `calc(100vh - ${navOffset + 20}px)`,
-        "important",
-      );
+      sidebar.style.setProperty("max-height", `${maxHeight}px`, "important");
     };
 
     const updatePageUi = () => {
