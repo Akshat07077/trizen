@@ -74,6 +74,23 @@ export default function SiteFooter({ industryLabel }: SiteFooterProps) {
             <li>ISO 9001:2015</li>
             <li>Prototype in 7–14 business days</li>
           </ul>
+          <div className="site-footer-map">
+            <iframe
+              title="Trizen Packaging — Vapi, Gujarat"
+              src="https://www.google.com/maps?q=GIDC+Vapi,+Gujarat,+India&hl=en&z=14&output=embed"
+              loading="lazy"
+              referrerPolicy="no-referrer-when-downgrade"
+              allowFullScreen
+            />
+          </div>
+          <a
+            className="site-footer-map-link"
+            href="https://www.google.com/maps/search/?api=1&query=GIDC+Vapi+Gujarat+India"
+            target="_blank"
+            rel="noreferrer"
+          >
+            Open map →
+          </a>
         </div>
       </div>
 

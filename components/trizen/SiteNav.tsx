@@ -11,7 +11,7 @@ const PRIMARY_LINKS = [
   { href: "/contact", label: "Contact" },
 ] as const;
 
-function currentIndustryId(pathname: string): string | null {
+function industryIdFromPath(pathname: string): string | null {
   const first = pathname.split("/").filter(Boolean)[0];
   if (!first) return null;
   return registry.allIndustriesNav.some((item) => item.id === first)
@@ -28,7 +28,7 @@ function crumbsFor(pathname: string): Array<{ label: string; href?: string }> {
     ];
   }
 
-  const industryId = currentIndustryId(pathname);
+  const industryId = industryIdFromPath(pathname);
   if (!industryId) return [{ href: "/", label: "Home" }];
 
   const industry = registry.industries[industryId];
@@ -50,13 +50,23 @@ export default function SiteNav() {
   const pathname = usePathname();
   const [open, setOpen] = useState(false);
   const [industriesOpen, setIndustriesOpen] = useState(false);
+  const [activeMegaId, setActiveMegaId] = useState(
+    () => industryIdFromPath(pathname) ?? registry.allIndustriesNav[0]?.id ?? "toy",
+  );
+  const [drawerIndustry, setDrawerIndustry] = useState<string | null>(null);
   const menuId = useId();
-  const industryId = currentIndustryId(pathname);
+  const industryId = industryIdFromPath(pathname);
   const crumbs = crumbsFor(pathname);
+  const megaIndustry =
+    registry.industries[activeMegaId] ??
+    registry.industries[registry.allIndustriesNav[0]?.id ?? "toy"];
 
   useEffect(() => {
     setOpen(false);
     setIndustriesOpen(false);
+    setDrawerIndustry(null);
+    const fromPath = industryIdFromPath(pathname);
+    if (fromPath) setActiveMegaId(fromPath);
   }, [pathname]);
 
   useEffect(() => {
@@ -118,20 +128,47 @@ export default function SiteNav() {
                 <span aria-hidden="true">▾</span>
               </button>
               <div className="site-nav-mega" role="menu">
-                <p className="site-nav-mega-kicker">Thermoforming sectors</p>
-                <div className="site-nav-mega-grid">
-                  {registry.allIndustriesNav.map((item) => (
-                    <Link
-                      key={item.id}
-                      href={item.href}
-                      role="menuitem"
-                      className={`site-nav-mega-item${item.id === industryId ? " is-current" : ""}`}
-                      onClick={() => setIndustriesOpen(false)}
-                    >
-                      <strong>{item.label}</strong>
-                      <span>View packaging pages</span>
-                    </Link>
-                  ))}
+                <div className="site-nav-mega-panel">
+                  <p className="site-nav-mega-kicker">Thermoforming sectors</p>
+                  <div className="site-nav-mega-list">
+                    {registry.allIndustriesNav.map((item) => (
+                      <Link
+                        key={item.id}
+                        href={item.href}
+                        role="menuitem"
+                        className={`site-nav-mega-item${
+                          item.id === activeMegaId ? " is-active" : ""
+                        }${item.id === industryId ? " is-current" : ""}`}
+                        onMouseEnter={() => setActiveMegaId(item.id)}
+                        onFocus={() => setActiveMegaId(item.id)}
+                        onClick={() => setIndustriesOpen(false)}
+                      >
+                        <strong>{item.label}</strong>
+                        <span>Hover for pages</span>
+                      </Link>
+                    ))}
+                  </div>
+                </div>
+                <div className="site-nav-mega-sub" aria-live="polite">
+                  <p className="site-nav-mega-kicker">
+                    {megaIndustry?.label ?? "Pages"}
+                  </p>
+                  <div className="site-nav-mega-sub-list">
+                    {(megaIndustry?.nav ?? []).map((page) => {
+                      const current = pathname === page.href;
+                      return (
+                        <Link
+                          key={page.href}
+                          href={page.href}
+                          role="menuitem"
+                          className={`site-nav-mega-sub-item${current ? " is-current" : ""}`}
+                          onClick={() => setIndustriesOpen(false)}
+                        >
+                          {page.label}
+                        </Link>
+                      );
+                    })}
+                  </div>
                 </div>
               </div>
             </div>
@@ -210,15 +247,50 @@ export default function SiteNav() {
         hidden={!open}
       >
         <p className="site-nav-mega-kicker">Industries</p>
-        {registry.allIndustriesNav.map((item) => (
-          <Link
-            key={item.id}
-            href={item.href}
-            className={item.id === industryId ? "is-current" : undefined}
-          >
-            {item.label}
-          </Link>
-        ))}
+        {registry.allIndustriesNav.map((item) => {
+          const meta = registry.industries[item.id];
+          const expanded = drawerIndustry === item.id;
+          return (
+            <div key={item.id} className="site-nav-drawer-group">
+              <div className="site-nav-drawer-row">
+                <Link
+                  href={item.href}
+                  className={item.id === industryId ? "is-current" : undefined}
+                >
+                  {item.label}
+                </Link>
+                {meta?.nav?.length ? (
+                  <button
+                    type="button"
+                    className="site-nav-drawer-toggle"
+                    aria-expanded={expanded}
+                    aria-label={`${expanded ? "Hide" : "Show"} ${item.label} pages`}
+                    onClick={() =>
+                      setDrawerIndustry((value) =>
+                        value === item.id ? null : item.id,
+                      )
+                    }
+                  >
+                    {expanded ? "−" : "+"}
+                  </button>
+                ) : null}
+              </div>
+              {expanded && meta?.nav ? (
+                <div className="site-nav-drawer-sub">
+                  {meta.nav.map((page) => (
+                    <Link
+                      key={page.href}
+                      href={page.href}
+                      className={pathname === page.href ? "is-current" : undefined}
+                    >
+                      {page.label}
+                    </Link>
+                  ))}
+                </div>
+              ) : null}
+            </div>
+          );
+        })}
         <hr />
         {PRIMARY_LINKS.map((link) => (
           <Link
