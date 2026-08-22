@@ -3,6 +3,9 @@ import IndustrySidebar from "@/components/trizen/IndustrySidebar";
 import FAQ from "@/components/trizen/FAQ";
 import { MidCTA, BottomCTA } from "@/components/trizen/CTA";
 import ImageBlock from "@/components/trizen/ImageBlock";
+import ComponentSlider, {
+  buildToySliderSlides,
+} from "@/components/trizen/ComponentSlider";
 import { getIndustryImages } from "@/lib/industries/images";
 import type { IndustryMeta, IndustryPageContent } from "@/lib/industries/types";
 
@@ -48,9 +51,12 @@ export default function IndustryPage({
   const images = getIndustryImages(industryId, content.slug);
   const overviewHref =
     industryId === "expertise" ? "/expertise/hub" : meta.route;
+  const useToyEditorial = industryId === "toy";
 
   return (
-    <div className="industry-page">
+    <div
+      className={`industry-page${useToyEditorial ? " industry-toy" : ""}`}
+    >
       <Hero
         ey={content.hero.ey}
         titleMain={content.hero.titleMain}
@@ -61,6 +67,7 @@ export default function IndustryPage({
         imageLabel={content.hero.titleMain}
         backHref={overviewHref}
         backLabel={`← ${meta.label} Overview`}
+        variant={useToyEditorial ? "editorial" : "default"}
       />
 
       <div className="page-wrap">
@@ -80,7 +87,18 @@ export default function IndustryPage({
                   </p>
                 ))}
 
-                {section.products && section.products.length > 0 ? (
+                {useToyEditorial &&
+                sIdx === 0 &&
+                buildToySliderSlides(section).length > 0 ? (
+                  <ComponentSlider
+                    slides={buildToySliderSlides(section)}
+                    ariaLabel={`${meta.label} packaging slider`}
+                  />
+                ) : null}
+
+                {(!useToyEditorial || sIdx !== 0) &&
+                section.products &&
+                section.products.length > 0 ? (
                   <div className="pgrid">
                     {section.products.map((product) => (
                       <a
@@ -99,26 +117,49 @@ export default function IndustryPage({
                 ) : null}
 
                 {section.table && section.table.rows.length > 0 ? (
-                  <table className="gtbl">
-                    <thead>
-                      <tr>
-                        {section.table.headers.map((header) => (
-                          <th key={header}>{header}</th>
-                        ))}
-                      </tr>
-                    </thead>
-                    <tbody>
-                      {section.table.rows.map((row) => (
-                        <tr key={row.join("|").slice(0, 64)}>
-                          {row.map((cell, cellIdx) => (
-                            <td key={`${cellIdx}-${cell.slice(0, 24)}`}>
-                              {cell}
-                            </td>
+                  useToyEditorial && sIdx === 0 ? (
+                    <table className="gtbl slider-source">
+                      <thead>
+                        <tr>
+                          {section.table.headers.map((header) => (
+                            <th key={header}>{header}</th>
                           ))}
                         </tr>
-                      ))}
-                    </tbody>
-                  </table>
+                      </thead>
+                      <tbody>
+                        {section.table.rows.map((row) => (
+                          <tr key={row.join("|").slice(0, 64)}>
+                            {row.map((cell, cellIdx) => (
+                              <td key={`${cellIdx}-${cell.slice(0, 24)}`}>
+                                {cell}
+                              </td>
+                            ))}
+                          </tr>
+                        ))}
+                      </tbody>
+                    </table>
+                  ) : (
+                    <table className="gtbl">
+                      <thead>
+                        <tr>
+                          {section.table.headers.map((header) => (
+                            <th key={header}>{header}</th>
+                          ))}
+                        </tr>
+                      </thead>
+                      <tbody>
+                        {section.table.rows.map((row) => (
+                          <tr key={row.join("|").slice(0, 64)}>
+                            {row.map((cell, cellIdx) => (
+                              <td key={`${cellIdx}-${cell.slice(0, 24)}`}>
+                                {cell}
+                              </td>
+                            ))}
+                          </tr>
+                        ))}
+                      </tbody>
+                    </table>
+                  )
                 ) : null}
 
                 {section.callout ? (

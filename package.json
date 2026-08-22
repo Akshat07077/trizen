@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "next dev",
+    "dev": "next dev --webpack",
     "build": "next build --webpack",
     "images:setup": "node scripts/setup-image-folders.js",
     "images:generate": "node scripts/generate-placeholder-images.js",

@@ -4,6 +4,7 @@ import SiteNav from "@/components/trizen/SiteNav";
 import SiteFooter from "@/components/trizen/SiteFooter";
 import "@/styles/trizen-violet.css";
 import "@/styles/toy-violet.css";
+import "@/styles/toy-editorial.css";
 import "@/styles/toy-images.css";
 import "@/styles/site-chrome.css";
 import "@/styles/image-preview.css";

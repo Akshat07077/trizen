@@ -12,6 +12,7 @@ type HeroProps = {
   backHref?: string;
   backLabel?: string;
   stats?: { value: string; label: string }[];
+  variant?: "default" | "editorial";
 };
 
 const DEFAULT_STATS = [
@@ -31,16 +32,30 @@ export default function Hero({
   backHref = "/toy",
   backLabel = "← Toy Overview",
   stats = DEFAULT_STATS,
+  variant = "default",
 }: HeroProps) {
+  const editorial = variant === "editorial";
+  const heroClass = [
+    "hero",
+    imageSrc && !editorial ? "has-product-photo" : "",
+    editorial ? "hero-editorial" : "",
+  ]
+    .filter(Boolean)
+    .join(" ");
+
   return (
     <div
-      className={imageSrc ? "hero has-product-photo" : "hero"}
+      className={heroClass}
       style={
-        imageSrc
-          ? undefined
-          : ({
-              ["--hero-image"]: "none",
+        editorial && imageSrc
+          ? ({
+              ["--hero-image" as string]: `url("${imageSrc}")`,
             } as CSSProperties)
+          : imageSrc && !editorial
+            ? undefined
+            : ({
+                ["--hero-image" as string]: "none",
+              } as CSSProperties)
       }
     >
       <div className="hi">
@@ -69,7 +84,17 @@ export default function Hero({
             </div>
           ) : null}
         </div>
-        {imageSrc ? (
+
+        {editorial ? (
+          <div className="hcards">
+            {stats.map((stat) => (
+              <div key={stat.label} className="hc">
+                <div className="hn">{stat.value}</div>
+                <div className="hl">{stat.label}</div>
+              </div>
+            ))}
+          </div>
+        ) : imageSrc ? (
           <ImagePreview src={imageSrc} alt={imageLabel}>
             <div className="hero-showcase" aria-label={imageLabel}>
               <div className="showcase-frame has-photo">
@@ -93,6 +118,11 @@ export default function Hero({
           </div>
         )}
       </div>
+      {editorial && imageSrc ? (
+        <ImagePreview src={imageSrc} alt={imageLabel}>
+          <span className="hero-image-hit" aria-hidden="true" />
+        </ImagePreview>
+      ) : null}
     </div>
   );
 }
