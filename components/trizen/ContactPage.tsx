@@ -1,5 +1,5 @@
 import ContactForm from "@/components/trizen/ContactForm";
-import ContactFAQ from "@/components/trizen/ContactFAQ";
+import FAQ from "@/components/trizen/FAQ";
 import {
   CONTACT_FAQS,
   CONTACT_PEOPLE,
@@ -12,53 +12,62 @@ export default function ContactPage() {
     <div className="contact-page">
       <section className="contact-hero">
         <div className="contact-hero-inner">
-          <div>
-            <div className="contact-hero-ey">Vapi / Daman, India</div>
-            <h1>
-              Contact Trizen Packaging —
-              <em> Custom Thermoforming</em> Solutions, Vapi India
+          <div className="contact-hero-copy">
+            <div
+              className="hey"
+              data-label="Contact · Vapi / Daman, India · ISO 9001:2015"
+            />
+            <h1 className="hh1">
+              <span className="headline-main">Contact Trizen Packaging</span>
+              <span className="headline-sub">
+                Custom Thermoforming Solutions, Vapi India
+              </span>
             </h1>
-            <p className="contact-hero-lead">
+            <p className="hdesc">
               Every product deserves packaging that protects, presents, and
-              performs. At Trizen Packaging — based in{" "}
-              <strong>Vapi/Daman, India</strong> — our{" "}
-              <strong>ISO 9001:2015 certified</strong> team creates
-              thermoforming solutions tailored to your exact requirements. Get
-              your free consultation today.
+              performs. At Trizen Packaging — based in Vapi/Daman, India — our
+              ISO 9001:2015 certified team creates thermoforming solutions
+              tailored to your exact requirements.
             </p>
-            <a href="#contact-form" className="contact-hero-btn">
-              Send Your Requirements →
-            </a>
+            <div className="hbtns">
+              <a href="#contact-form" className="bp">
+                Send Your Requirements →
+              </a>
+              <a href="mailto:contact@trizenpackaging.com" className="bg2">
+                Email Us Directly
+              </a>
+            </div>
+            <div className="cprow">
+              <span className="cp">ISO 9001:2015</span>
+              <span className="cp">7–14 Day Prototype</span>
+              <span className="cp">MOQ from 500 Units</span>
+            </div>
           </div>
 
           <aside className="contact-quick-card">
             <p className="contact-quick-kicker">Quick Contact</p>
             {CONTACT_PEOPLE.map((person) => (
               <div key={person.name} className="contact-quick-row">
-                <div className="contact-quick-ico" aria-hidden="true">
-                  📞
-                </div>
                 <div>
                   <strong>{person.name}</strong>
                   <span>
-                    {person.role} · {person.phone}
+                    {person.role} ·{" "}
+                    <a href={`tel:${person.tel}`}>{person.phone}</a>
                   </span>
                 </div>
               </div>
             ))}
             <div className="contact-quick-row">
-              <div className="contact-quick-ico" aria-hidden="true">
-                ✉
-              </div>
               <div>
                 <strong>Email</strong>
-                <span>contact@trizenpackaging.com</span>
+                <span>
+                  <a href="mailto:contact@trizenpackaging.com">
+                    contact@trizenpackaging.com
+                  </a>
+                </span>
               </div>
             </div>
             <div className="contact-quick-row">
-              <div className="contact-quick-ico" aria-hidden="true">
-                🕐
-              </div>
               <div>
                 <strong>Business Hours</strong>
                 <span>Mon–Sat: 9:00 AM – 6:00 PM</span>
@@ -121,9 +130,6 @@ export default function ContactPage() {
                 <h3>Direct Contacts</h3>
                 {CONTACT_PEOPLE.map((person) => (
                   <div key={person.name} className="contact-person">
-                    <div className="contact-person-ico" aria-hidden="true">
-                      👤
-                    </div>
                     <div>
                       <strong>{person.name}</strong>
                       <span>{person.role}</span>
@@ -145,15 +151,6 @@ export default function ContactPage() {
                   <span className="time">Closed</span>
                 </div>
               </div>
-
-              <div className="contact-info-block">
-                <h3>Email</h3>
-                <p className="contact-email">
-                  <a href="mailto:contact@trizenpackaging.com">
-                    contact@trizenpackaging.com
-                  </a>
-                </p>
-              </div>
             </div>
           </div>
         </div>
@@ -161,11 +158,14 @@ export default function ContactPage() {
 
       <section className="contact-sec contact-sec-alt">
         <div className="contact-sec-in">
-          <div className="contact-eyebrow">Why Choose Us</div>
-          <h2 className="contact-sec-title">
-            Why Choose Trizen Packaging for Your Enquiry
+          <div className="ey">Why Choose Us</div>
+          <h2 className="st">
+            <span className="section-title-main">
+              Why Choose Trizen Packaging
+            </span>
+            <span className="section-title-sub">for Your Enquiry</span>
           </h2>
-          <p className="contact-sec-body">
+          <p className="lead">
             When you contact Trizen Packaging, you speak directly with an ISO
             9001:2015 certified thermoforming manufacturer — not a reseller or
             agent.
@@ -173,9 +173,6 @@ export default function ContactPage() {
           <div className="contact-why-grid">
             {WHY_CHOOSE.map((item) => (
               <div key={item.title} className="contact-why-card">
-                <div className="contact-why-ico" aria-hidden="true">
-                  {item.icon}
-                </div>
                 <div>
                   <strong>{item.title}</strong>
                   <p>{item.desc}</p>
@@ -188,9 +185,12 @@ export default function ContactPage() {
 
       <section className="contact-sec">
         <div className="contact-sec-in">
-          <div className="contact-eyebrow">Process</div>
-          <h2 className="contact-sec-title">
-            Ready to Protect Your Products with Premium Packaging?
+          <div className="ey">Process</div>
+          <h2 className="st">
+            <span className="section-title-main">
+              Ready to Protect Your Products
+            </span>
+            <span className="section-title-sub">with Premium Packaging?</span>
           </h2>
           <div className="contact-steps">
             {STEPS.map((step) => (
@@ -206,11 +206,14 @@ export default function ContactPage() {
 
       <section className="contact-sec contact-sec-alt">
         <div className="contact-sec-in contact-faq-wrap">
-          <div className="contact-eyebrow">FAQs</div>
-          <h2 className="contact-sec-title">
-            Common Questions About Our Packaging Services
+          <div className="ey">FAQs</div>
+          <h2 className="st">
+            <span className="section-title-main">
+              Common Questions About Our Packaging
+            </span>
+            <span className="section-title-sub">Services &amp; Enquiries</span>
           </h2>
-          <ContactFAQ items={CONTACT_FAQS} />
+          <FAQ items={CONTACT_FAQS.map((item) => ({ q: item.q, a: item.a }))} />
         </div>
       </section>
 
@@ -221,7 +224,7 @@ export default function ContactPage() {
         target="_blank"
         rel="noreferrer"
       >
-        💬
+        WhatsApp
       </a>
     </div>
   );
