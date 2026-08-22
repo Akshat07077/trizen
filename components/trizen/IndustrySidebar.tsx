@@ -5,15 +5,23 @@ import { usePathname } from "next/navigation";
 import { PLACEHOLDER_INDUSTRIES, registry } from "@/lib/industries/registry";
 import type { IndustryMeta } from "@/lib/industries/types";
 
-const CAPABILITY_LINKS = [
+const MANUFACTURING_LINKS = [
+  { href: "/manufacturing", label: "Manufacturing Overview" },
   { href: "/manufacturing/thermoforming-packaging", label: "Thermoforming" },
+  { href: "/manufacturing/vacuum-forming", label: "Vacuum Forming" },
+  { href: "/manufacturing/pressure-forming", label: "Pressure Forming" },
+  { href: "/manufacturing/blister-packaging", label: "Blister Packaging" },
   { href: "/manufacturing/clamshell-packaging", label: "Clamshell Packaging" },
+  { href: "/manufacturing/plastic-packaging", label: "Plastic Packaging" },
   { href: "/manufacturing/materials", label: "Materials" },
-  { href: "/expertise/cleanroom", label: "Cleanroom" },
-  {
-    href: "/expertise/contract-manufacturing",
-    label: "Contract Manufacturing",
-  },
+] as const;
+
+const EXPERTISE_LINKS = [
+  { href: "/expertise/hub", label: "Expertise Hub" },
+  { href: "/expertise/unique-offer", label: "A Unique Offer" },
+  { href: "/expertise/cleanroom", label: "Cleanroom Capability" },
+  { href: "/expertise/contract-manufacturing", label: "Contract Manufacturing" },
+  { href: "/expertise/rnd-innovation", label: "R&D Innovation" },
 ] as const;
 
 type IndustrySidebarProps = {
@@ -76,20 +84,27 @@ export default function IndustrySidebar({
       </div>
 
       <div className="aside-card">
-        <div className="aside-title">Capabilities</div>
-        {CAPABILITY_LINKS.map((item) => (
+        <div className="aside-title">Manufacturing</div>
+        {MANUFACTURING_LINKS.map((item) => (
           <Link
             key={item.href}
             href={item.href}
-            style={{
-              display: "block",
-              fontSize: 12,
-              color: "var(--accent)",
-              padding: "5px 0",
-              borderBottom: "1px solid var(--border)",
-            }}
+            className={`sublink${pathname === item.href ? " active" : ""}`}
           >
-            {item.label} ↗
+            {item.label}
+          </Link>
+        ))}
+      </div>
+
+      <div className="aside-card">
+        <div className="aside-title">Expertise</div>
+        {EXPERTISE_LINKS.map((item) => (
+          <Link
+            key={item.href}
+            href={item.href}
+            className={`sublink${pathname === item.href ? " active" : ""}`}
+          >
+            {item.label}
           </Link>
         ))}
       </div>

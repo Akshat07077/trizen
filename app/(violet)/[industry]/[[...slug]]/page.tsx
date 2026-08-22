@@ -1,7 +1,10 @@
 import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 import IndustryPage from "@/components/trizen/IndustryPage";
-import { getIndustryPage, getAllStaticIndustryParams } from "@/lib/industries/get-page";
+import {
+  getIndustryPage,
+  getAllStaticIndustryParams,
+} from "@/lib/industries/get-page";
 import { getIndustryMeta, listIndustryIds } from "@/lib/industries/registry";
 
 type PageProps = {
@@ -12,7 +15,9 @@ export async function generateStaticParams() {
   return getAllStaticIndustryParams();
 }
 
-export async function generateMetadata({ params }: PageProps): Promise<Metadata> {
+export async function generateMetadata({
+  params,
+}: PageProps): Promise<Metadata> {
   const { industry, slug } = await params;
 
   if (!listIndustryIds().includes(industry)) {

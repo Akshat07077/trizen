@@ -3,7 +3,11 @@ export function isPainPointsSection(ey: string): boolean {
 }
 
 export function isDesignRequirementsSection(ey: string): boolean {
-  return /design requirements/i.test(ey);
+  return /design\s+requirements/i.test(ey);
+}
+
+export function isOverviewSlug(slug: string): boolean {
+  return slug === "category" || slug === "hub";
 }
 
 export function findDesignSectionIndex(

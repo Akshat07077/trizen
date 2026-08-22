@@ -33,21 +33,58 @@ export default function Home() {
       </section>
 
       <section className="home-grid">
-        <h2>Also available</h2>
+        <h2>Manufacturing capabilities</h2>
         <ul>
           <li>
-            <Link href="/toy/action-figure">Toy — Action Figure Packaging</Link>
-          </li>
-          <li>
-            <Link href="/electronics/esd">Electronics — ESD-Safe Trays</Link>
+            <Link href="/manufacturing">Manufacturing Overview</Link>
           </li>
           <li>
             <Link href="/manufacturing/thermoforming-packaging">
-              Manufacturing — Thermoforming
+              Thermoforming Packaging
             </Link>
           </li>
           <li>
+            <Link href="/manufacturing/vacuum-forming">Vacuum Forming</Link>
+          </li>
+          <li>
+            <Link href="/manufacturing/pressure-forming">Pressure Forming</Link>
+          </li>
+          <li>
+            <Link href="/manufacturing/blister-packaging">Blister Packaging</Link>
+          </li>
+          <li>
+            <Link href="/manufacturing/clamshell-packaging">
+              Clamshell Packaging
+            </Link>
+          </li>
+          <li>
+            <Link href="/manufacturing/plastic-packaging">Plastic Packaging</Link>
+          </li>
+          <li>
+            <Link href="/manufacturing/materials">Materials</Link>
+          </li>
+        </ul>
+      </section>
+
+      <section className="home-grid">
+        <h2>Expertise</h2>
+        <ul>
+          <li>
             <Link href="/expertise/hub">Expertise Hub</Link>
+          </li>
+          <li>
+            <Link href="/expertise/unique-offer">A Unique Offer</Link>
+          </li>
+          <li>
+            <Link href="/expertise/cleanroom">Cleanroom Capability</Link>
+          </li>
+          <li>
+            <Link href="/expertise/contract-manufacturing">
+              Contract Manufacturing
+            </Link>
+          </li>
+          <li>
+            <Link href="/expertise/rnd-innovation">R&D Innovation</Link>
           </li>
         </ul>
       </section>

@@ -353,6 +353,14 @@
       ],
       "nav": [
         {
+          "href": "/manufacturing",
+          "label": "Manufacturing Overview"
+        },
+        {
+          "href": "/manufacturing/thermoforming-packaging",
+          "label": "Thermoforming Packaging"
+        },
+        {
           "href": "/manufacturing/vacuum-forming",
           "label": "Vacuum Forming"
         },
@@ -375,10 +383,6 @@
         {
           "href": "/manufacturing/pressure-forming",
           "label": "Pressure Forming"
-        },
-        {
-          "href": "/manufacturing/thermoforming-packaging",
-          "label": "Thermoforming Packaging"
         }
       ]
     },

@@ -5,15 +5,16 @@ import { MidCTA, BottomCTA } from "@/components/trizen/CTA";
 import FullImageBlock from "@/components/trizen/FullImageBlock";
 import DesignControlPanel from "@/components/trizen/DesignControlPanel";
 import ComponentSlider from "@/components/trizen/ComponentSlider";
-import ToyHeroGallery from "@/components/trizen/ToyHeroGallery";
+import IndustryHeroGallery from "@/components/trizen/IndustryHeroGallery";
 import { buildToySliderSlides } from "@/lib/industries/build-toy-slider-slides";
 import {
   findDesignSectionIndex,
   isDesignRequirementsSection,
   isPainPointsSection,
+  isOverviewSlug,
 } from "@/lib/industries/section-layout";
 import { getIndustryImages } from "@/lib/industries/images";
-import { getToyGalleryImages } from "@/lib/toy/gallery";
+import { getIndustryGalleryImages } from "@/lib/industries/gallery";
 import type { IndustryMeta, IndustryPageContent } from "@/lib/industries/types";
 
 type IndustryPageProps = {
@@ -58,17 +59,21 @@ export default function IndustryPage({
   const images = getIndustryImages(industryId, content.slug);
   const overviewHref =
     industryId === "expertise" ? "/expertise/hub" : meta.route;
-  const useToyEditorial = industryId === "toy";
-  const designSectionIdx = useToyEditorial
-    ? findDesignSectionIndex(content.sections)
-    : -1;
-  const toyGallery = useToyEditorial
-    ? getToyGalleryImages(content.slug, content.imageLabels)
+  const useEditorial = !isOverviewSlug(content.slug);
+  const designSectionIdx = findDesignSectionIndex(content.sections);
+  const heroGallery = useEditorial
+    ? getIndustryGalleryImages(
+        industryId,
+        content.slug,
+        content.imageLabels,
+      )
     : [];
+  const designImageSrc =
+    images.content[0] || images.content[1] || images.hero || "";
 
   return (
     <div
-      className={`industry-page${useToyEditorial ? " industry-toy" : ""}`}
+      className={`industry-page${useEditorial ? " industry-editorial" : ""}`}
     >
       <Hero
         ey={content.hero.ey}
@@ -80,204 +85,211 @@ export default function IndustryPage({
         imageLabel={content.hero.titleMain}
         backHref={overviewHref}
         backLabel={`← ${meta.label} Overview`}
-        variant={useToyEditorial ? "editorial" : "default"}
+        variant={useEditorial ? "editorial" : "default"}
       />
 
-      {useToyEditorial ? <ToyHeroGallery images={toyGallery} /> : null}
+      {useEditorial ? <IndustryHeroGallery images={heroGallery} /> : null}
 
       <div className="page-wrap">
         <main>
           {content.sections.map((section, sIdx) => {
-            const toySliderSlides =
-              useToyEditorial && sIdx === 0
-                ? buildToySliderSlides(section)
-                : [];
+            const sliderSlides =
+              useEditorial && sIdx === 0 ? buildToySliderSlides(section) : [];
             const painLayout =
-              useToyEditorial && isPainPointsSection(section.ey);
-            const designLayout =
-              useToyEditorial && isDesignRequirementsSection(section.ey);
+              useEditorial && isPainPointsSection(section.ey);
+            const designLayout = isDesignRequirementsSection(section.ey);
 
             return (
-            <div key={`${section.ey}-${sIdx}`}>
-              <div
-                className={`sec${painLayout ? " problem-layout" : ""}${designLayout ? " design-layout" : ""}`}
-              >
-                <SectionTitle
-                  ey={section.ey}
-                  st={section.st}
-                  eyClass={section.eyClass}
-                />
-
-                {section.leads?.map((lead) => (
-                  <p key={lead.slice(0, 48)} className="lead">
-                    {lead}
-                  </p>
-                ))}
-
-                {toySliderSlides.length > 0 ? (
-                  <ComponentSlider
-                    slides={toySliderSlides}
-                    ariaLabel={`${meta.label} packaging slider`}
+              <div key={`${section.ey}-${sIdx}`}>
+                <div
+                  className={`sec${painLayout ? " problem-layout" : ""}${designLayout ? " design-layout" : ""}`}
+                >
+                  <SectionTitle
+                    ey={section.ey}
+                    st={section.st}
+                    eyClass={section.eyClass}
                   />
-                ) : null}
 
-                {(!useToyEditorial || sIdx !== 0) &&
-                section.products &&
-                section.products.length > 0 ? (
-                  <div className="pgrid">
-                    {section.products.map((product) => (
-                      <a
-                        key={product.name}
-                        href={product.href ?? "#"}
-                        className="pc"
-                      >
-                        <div className="pc-name">{product.name}</div>
-                        <div className="pc-desc">{product.desc}</div>
-                        {product.link ? (
-                          <div className="pc-link">{product.link}</div>
-                        ) : null}
-                      </a>
-                    ))}
-                  </div>
-                ) : null}
+                  {section.leads?.map((lead) => (
+                    <p key={lead.slice(0, 48)} className="lead">
+                      {lead}
+                    </p>
+                  ))}
 
-                {section.table && section.table.rows.length > 0 ? (
-                  useToyEditorial && sIdx === 0 ? (
-                    <table className="gtbl slider-source">
-                      <thead>
-                        <tr>
-                          {section.table.headers.map((header) => (
-                            <th key={header}>{header}</th>
-                          ))}
-                        </tr>
-                      </thead>
-                      <tbody>
-                        {section.table.rows.map((row) => (
-                          <tr key={row.join("|").slice(0, 64)}>
-                            {row.map((cell, cellIdx) => (
-                              <td key={`${cellIdx}-${cell.slice(0, 24)}`}>
-                                {cell}
-                              </td>
+                  {sliderSlides.length > 0 ? (
+                    <ComponentSlider
+                      slides={sliderSlides}
+                      ariaLabel={`${meta.label} packaging slider`}
+                    />
+                  ) : null}
+
+                  {(!useEditorial || sIdx !== 0) &&
+                  section.products &&
+                  section.products.length > 0 ? (
+                    <div className="pgrid">
+                      {section.products.map((product) => (
+                        <a
+                          key={product.name}
+                          href={product.href ?? "#"}
+                          className="pc"
+                        >
+                          <div className="pc-name">{product.name}</div>
+                          <div className="pc-desc">{product.desc}</div>
+                          {product.link ? (
+                            <div className="pc-link">{product.link}</div>
+                          ) : null}
+                        </a>
+                      ))}
+                    </div>
+                  ) : null}
+
+                  {section.table && section.table.rows.length > 0 ? (
+                    useEditorial && sIdx === 0 ? (
+                      <table className="gtbl slider-source">
+                        <thead>
+                          <tr>
+                            {section.table.headers.map((header) => (
+                              <th key={header}>{header}</th>
                             ))}
                           </tr>
-                        ))}
-                      </tbody>
-                    </table>
-                  ) : (
-                    <table className="gtbl">
-                      <thead>
-                        <tr>
-                          {section.table.headers.map((header) => (
-                            <th key={header}>{header}</th>
+                        </thead>
+                        <tbody>
+                          {section.table.rows.map((row) => (
+                            <tr key={row.join("|").slice(0, 64)}>
+                              {row.map((cell, cellIdx) => (
+                                <td key={`${cellIdx}-${cell.slice(0, 24)}`}>
+                                  {cell}
+                                </td>
+                              ))}
+                            </tr>
                           ))}
-                        </tr>
-                      </thead>
-                      <tbody>
-                        {section.table.rows.map((row) => (
-                          <tr key={row.join("|").slice(0, 64)}>
-                            {row.map((cell, cellIdx) => (
-                              <td key={`${cellIdx}-${cell.slice(0, 24)}`}>
-                                {cell}
-                              </td>
+                        </tbody>
+                      </table>
+                    ) : (
+                      <table className="gtbl">
+                        <thead>
+                          <tr>
+                            {section.table.headers.map((header) => (
+                              <th key={header}>{header}</th>
                             ))}
                           </tr>
-                        ))}
-                      </tbody>
-                    </table>
-                  )
-                ) : null}
+                        </thead>
+                        <tbody>
+                          {section.table.rows.map((row) => (
+                            <tr key={row.join("|").slice(0, 64)}>
+                              {row.map((cell, cellIdx) => (
+                                <td key={`${cellIdx}-${cell.slice(0, 24)}`}>
+                                  {cell}
+                                </td>
+                              ))}
+                            </tr>
+                          ))}
+                        </tbody>
+                      </table>
+                    )
+                  ) : null}
 
-                {section.callout ? (
-                  <div className="callout">
-                    <strong>{section.callout}</strong>
-                  </div>
-                ) : null}
+                  {section.callout ? (
+                    <div className="callout">
+                      <strong>{section.callout}</strong>
+                    </div>
+                  ) : null}
 
-                {designLayout && section.strips && section.strips.length > 0 ? (
-                  <DesignControlPanel
-                    items={section.strips}
-                    imageAlt={
-                      content.imageLabels?.[1] ??
-                      section.strips[0]?.title ??
-                      meta.label
-                    }
-                    kickerLabel={`${meta.label} packaging control`}
-                  />
-                ) : section.strips && section.strips.length > 0 ? (
-                  <div className="strips">
-                    {section.strips.map((strip) => (
-                      <div key={strip.title} className="strip">
-                        <div className="strip-body">
-                          <div className="strip-title">{strip.title}</div>
-                          <div className="strip-desc">{strip.desc}</div>
+                  {designLayout &&
+                  section.strips &&
+                  section.strips.length > 0 ? (
+                    <DesignControlPanel
+                      items={section.strips}
+                      imageSrc={designImageSrc || undefined}
+                      imageAlt={
+                        content.imageLabels?.[1] ??
+                        section.strips[0]?.title ??
+                        meta.label
+                      }
+                      kickerLabel={`${meta.label} packaging control`}
+                    />
+                  ) : section.strips && section.strips.length > 0 ? (
+                    <div className="strips">
+                      {section.strips.map((strip) => (
+                        <div key={strip.title} className="strip">
+                          <div className="strip-body">
+                            <div className="strip-title">{strip.title}</div>
+                            <div className="strip-desc">{strip.desc}</div>
+                          </div>
                         </div>
+                      ))}
+                    </div>
+                  ) : null}
+                </div>
+
+                {sIdx === 0 && content.midCtas[0] ? (
+                  <>
+                    <MidCTA {...content.midCtas[0]} />
+                    {!useEditorial && images.content[0] ? (
+                      <FullImageBlock
+                        src={images.content[0]}
+                        label={content.imageLabels?.[0] ?? meta.label}
+                      />
+                    ) : null}
+                    {!useEditorial &&
+                    !images.content[0] &&
+                    content.imageLabels?.[0] ? (
+                      <figure className="img-ph img-ph-full">
+                        <div className="img-ph-inner">
+                          <div className="img-ph-label">
+                            {content.imageLabels[0]}
+                          </div>
+                        </div>
+                      </figure>
+                    ) : null}
+                  </>
+                ) : null}
+
+                {sIdx === 2 && content.midCtas[1] ? (
+                  <>
+                    {!useEditorial &&
+                    images.content[1] &&
+                    sIdx !== designSectionIdx ? (
+                      <FullImageBlock
+                        src={images.content[1]}
+                        label={
+                          content.imageLabels?.[1] ??
+                          `${meta.label} production`
+                        }
+                      />
+                    ) : null}
+                    <MidCTA {...content.midCtas[1]} />
+                  </>
+                ) : null}
+
+                {!useEditorial &&
+                sIdx === 2 &&
+                !content.midCtas[1] &&
+                images.content[1] &&
+                sIdx !== designSectionIdx ? (
+                  <FullImageBlock
+                    src={images.content[1]}
+                    label={
+                      content.imageLabels?.[1] ?? `${meta.label} production`
+                    }
+                  />
+                ) : null}
+
+                {!useEditorial &&
+                sIdx === 2 &&
+                !content.midCtas[1] &&
+                !images.content[1] &&
+                content.imageLabels?.[1] &&
+                sIdx !== designSectionIdx ? (
+                  <figure className="img-ph img-ph-full">
+                    <div className="img-ph-inner">
+                      <div className="img-ph-label">
+                        {content.imageLabels[1]}
                       </div>
-                    ))}
-                  </div>
+                    </div>
+                  </figure>
                 ) : null}
               </div>
-
-              {sIdx === 0 && content.midCtas[0] ? (
-                <>
-                  <MidCTA {...content.midCtas[0]} />
-                  {!useToyEditorial && images.content[0] ? (
-                    <FullImageBlock
-                      src={images.content[0]}
-                      label={content.imageLabels?.[0] ?? meta.label}
-                    />
-                  ) : null}
-                  {!useToyEditorial &&
-                  !images.content[0] &&
-                  content.imageLabels?.[0] ? (
-                    <figure className="img-ph img-ph-full">
-                      <div className="img-ph-inner">
-                        <div className="img-ph-label">{content.imageLabels[0]}</div>
-                      </div>
-                    </figure>
-                  ) : null}
-                </>
-              ) : null}
-
-              {sIdx === 2 && content.midCtas[1] ? (
-                <>
-                  {!useToyEditorial &&
-                  images.content[1] &&
-                  sIdx !== designSectionIdx ? (
-                    <FullImageBlock
-                      src={images.content[1]}
-                      label={
-                        content.imageLabels?.[1] ?? `${meta.label} production`
-                      }
-                    />
-                  ) : null}
-                  <MidCTA {...content.midCtas[1]} />
-                </>
-              ) : null}
-
-              {!useToyEditorial &&
-              sIdx === 2 &&
-              !content.midCtas[1] &&
-              images.content[1] &&
-              sIdx !== designSectionIdx ? (
-                <FullImageBlock
-                  src={images.content[1]}
-                  label={content.imageLabels?.[1] ?? `${meta.label} production`}
-                />
-              ) : null}
-
-              {!useToyEditorial &&
-              sIdx === 2 &&
-              !content.midCtas[1] &&
-              !images.content[1] &&
-              content.imageLabels?.[1] &&
-              sIdx !== designSectionIdx ? (
-                <figure className="img-ph img-ph-full">
-                  <div className="img-ph-inner">
-                    <div className="img-ph-label">{content.imageLabels[1]}</div>
-                  </div>
-                </figure>
-              ) : null}
-            </div>
             );
           })}
 
