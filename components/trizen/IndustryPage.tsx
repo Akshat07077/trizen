@@ -2,10 +2,18 @@ import Hero from "@/components/trizen/Hero";
 import IndustrySidebar from "@/components/trizen/IndustrySidebar";
 import FAQ from "@/components/trizen/FAQ";
 import { MidCTA, BottomCTA } from "@/components/trizen/CTA";
-import ImageBlock from "@/components/trizen/ImageBlock";
+import FullImageBlock from "@/components/trizen/FullImageBlock";
+import DesignControlPanel from "@/components/trizen/DesignControlPanel";
 import ComponentSlider from "@/components/trizen/ComponentSlider";
+import ToyHeroGallery from "@/components/trizen/ToyHeroGallery";
 import { buildToySliderSlides } from "@/lib/industries/build-toy-slider-slides";
+import {
+  findDesignSectionIndex,
+  isDesignRequirementsSection,
+  isPainPointsSection,
+} from "@/lib/industries/section-layout";
 import { getIndustryImages } from "@/lib/industries/images";
+import { getToyGalleryImages } from "@/lib/toy/gallery";
 import type { IndustryMeta, IndustryPageContent } from "@/lib/industries/types";
 
 type IndustryPageProps = {
@@ -51,6 +59,12 @@ export default function IndustryPage({
   const overviewHref =
     industryId === "expertise" ? "/expertise/hub" : meta.route;
   const useToyEditorial = industryId === "toy";
+  const designSectionIdx = useToyEditorial
+    ? findDesignSectionIndex(content.sections)
+    : -1;
+  const toyGallery = useToyEditorial
+    ? getToyGalleryImages(content.slug, content.imageLabels)
+    : [];
 
   return (
     <div
@@ -69,6 +83,8 @@ export default function IndustryPage({
         variant={useToyEditorial ? "editorial" : "default"}
       />
 
+      {useToyEditorial ? <ToyHeroGallery images={toyGallery} /> : null}
+
       <div className="page-wrap">
         <main>
           {content.sections.map((section, sIdx) => {
@@ -76,10 +92,16 @@ export default function IndustryPage({
               useToyEditorial && sIdx === 0
                 ? buildToySliderSlides(section)
                 : [];
+            const painLayout =
+              useToyEditorial && isPainPointsSection(section.ey);
+            const designLayout =
+              useToyEditorial && isDesignRequirementsSection(section.ey);
 
             return (
             <div key={`${section.ey}-${sIdx}`}>
-              <div className="sec">
+              <div
+                className={`sec${painLayout ? " problem-layout" : ""}${designLayout ? " design-layout" : ""}`}
+              >
                 <SectionTitle
                   ey={section.ey}
                   st={section.st}
@@ -171,7 +193,17 @@ export default function IndustryPage({
                   </div>
                 ) : null}
 
-                {section.strips && section.strips.length > 0 ? (
+                {designLayout && section.strips && section.strips.length > 0 ? (
+                  <DesignControlPanel
+                    items={section.strips}
+                    imageAlt={
+                      content.imageLabels?.[1] ??
+                      section.strips[0]?.title ??
+                      meta.label
+                    }
+                    kickerLabel={`${meta.label} packaging control`}
+                  />
+                ) : section.strips && section.strips.length > 0 ? (
                   <div className="strips">
                     {section.strips.map((strip) => (
                       <div key={strip.title} className="strip">
@@ -188,13 +220,16 @@ export default function IndustryPage({
               {sIdx === 0 && content.midCtas[0] ? (
                 <>
                   <MidCTA {...content.midCtas[0]} />
-                  {images.content[0] ? (
-                    <ImageBlock
+                  {!useToyEditorial && images.content[0] ? (
+                    <FullImageBlock
                       src={images.content[0]}
                       label={content.imageLabels?.[0] ?? meta.label}
                     />
-                  ) : content.imageLabels?.[0] ? (
-                    <figure className="img-ph">
+                  ) : null}
+                  {!useToyEditorial &&
+                  !images.content[0] &&
+                  content.imageLabels?.[0] ? (
+                    <figure className="img-ph img-ph-full">
                       <div className="img-ph-inner">
                         <div className="img-ph-label">{content.imageLabels[0]}</div>
                       </div>
@@ -205,33 +240,38 @@ export default function IndustryPage({
 
               {sIdx === 2 && content.midCtas[1] ? (
                 <>
-                  {images.content[1] ? (
-                    <ImageBlock
+                  {!useToyEditorial &&
+                  images.content[1] &&
+                  sIdx !== designSectionIdx ? (
+                    <FullImageBlock
                       src={images.content[1]}
                       label={
                         content.imageLabels?.[1] ?? `${meta.label} production`
                       }
                     />
-                  ) : content.imageLabels?.[1] ? (
-                    <figure className="img-ph">
-                      <div className="img-ph-inner">
-                        <div className="img-ph-label">{content.imageLabels[1]}</div>
-                      </div>
-                    </figure>
                   ) : null}
                   <MidCTA {...content.midCtas[1]} />
                 </>
               ) : null}
 
-              {sIdx === 2 && !content.midCtas[1] && images.content[1] ? (
-                <ImageBlock
+              {!useToyEditorial &&
+              sIdx === 2 &&
+              !content.midCtas[1] &&
+              images.content[1] &&
+              sIdx !== designSectionIdx ? (
+                <FullImageBlock
                   src={images.content[1]}
                   label={content.imageLabels?.[1] ?? `${meta.label} production`}
                 />
               ) : null}
 
-              {sIdx === 2 && !content.midCtas[1] && !images.content[1] && content.imageLabels?.[1] ? (
-                <figure className="img-ph">
+              {!useToyEditorial &&
+              sIdx === 2 &&
+              !content.midCtas[1] &&
+              !images.content[1] &&
+              content.imageLabels?.[1] &&
+              sIdx !== designSectionIdx ? (
+                <figure className="img-ph img-ph-full">
                   <div className="img-ph-inner">
                     <div className="img-ph-label">{content.imageLabels[1]}</div>
                   </div>
