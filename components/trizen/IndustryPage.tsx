@@ -3,9 +3,8 @@ import IndustrySidebar from "@/components/trizen/IndustrySidebar";
 import FAQ from "@/components/trizen/FAQ";
 import { MidCTA, BottomCTA } from "@/components/trizen/CTA";
 import ImageBlock from "@/components/trizen/ImageBlock";
-import ComponentSlider, {
-  buildToySliderSlides,
-} from "@/components/trizen/ComponentSlider";
+import ComponentSlider from "@/components/trizen/ComponentSlider";
+import { buildToySliderSlides } from "@/lib/industries/build-toy-slider-slides";
 import { getIndustryImages } from "@/lib/industries/images";
 import type { IndustryMeta, IndustryPageContent } from "@/lib/industries/types";
 
@@ -72,7 +71,13 @@ export default function IndustryPage({
 
       <div className="page-wrap">
         <main>
-          {content.sections.map((section, sIdx) => (
+          {content.sections.map((section, sIdx) => {
+            const toySliderSlides =
+              useToyEditorial && sIdx === 0
+                ? buildToySliderSlides(section)
+                : [];
+
+            return (
             <div key={`${section.ey}-${sIdx}`}>
               <div className="sec">
                 <SectionTitle
@@ -87,11 +92,9 @@ export default function IndustryPage({
                   </p>
                 ))}
 
-                {useToyEditorial &&
-                sIdx === 0 &&
-                buildToySliderSlides(section).length > 0 ? (
+                {toySliderSlides.length > 0 ? (
                   <ComponentSlider
-                    slides={buildToySliderSlides(section)}
+                    slides={toySliderSlides}
                     ariaLabel={`${meta.label} packaging slider`}
                   />
                 ) : null}
@@ -235,7 +238,8 @@ export default function IndustryPage({
                 </figure>
               ) : null}
             </div>
-          ))}
+            );
+          })}
 
           {content.faqs.length > 0 ? (
             <div className="sec">

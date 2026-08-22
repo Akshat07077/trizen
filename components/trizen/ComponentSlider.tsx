@@ -1,12 +1,9 @@
 "use client";
 
 import { useCallback, useEffect, useRef, useState } from "react";
-import type { IndustryProduct, IndustryTable } from "@/lib/industries/types";
-
-export type ComponentSlide = {
-  title: string;
-  meta: { label: string; value: string }[];
-};
+import type { IndustryTable } from "@/lib/industries/types";
+import type { ComponentSlide } from "@/lib/industries/build-toy-slider-slides";
+import { buildToySliderSlides } from "@/lib/industries/build-toy-slider-slides";
 
 type ComponentSliderProps = {
   table?: IndustryTable;
@@ -14,45 +11,14 @@ type ComponentSliderProps = {
   ariaLabel?: string;
 };
 
-function slidesFromTable(table: IndustryTable): ComponentSlide[] {
-  const [titleHeader, ...metaHeaders] = table.headers;
-  return table.rows.map((row) => ({
-    title: row[0] ?? "",
-    meta: metaHeaders.map((label, index) => ({
-      label,
-      value: row[index + 1] ?? "",
-    })),
-  }));
-}
-
-function slidesFromProducts(products: IndustryProduct[]): ComponentSlide[] {
-  return products.map((product) => ({
-    title: product.name,
-    meta: [
-      { label: "Description", value: product.desc },
-      { label: "Packaging page", value: product.link ?? "View sub-page" },
-    ],
-  }));
-}
-
-export function buildToySliderSlides(
-  section: {
-    table?: IndustryTable;
-    products?: IndustryProduct[];
-  },
-): ComponentSlide[] {
-  if (section.table?.rows.length) return slidesFromTable(section.table);
-  if (section.products?.length) return slidesFromProducts(section.products);
-  return [];
-}
-
 export default function ComponentSlider({
   table,
   slides: slidesProp,
   ariaLabel = "Product packaging slider",
 }: ComponentSliderProps) {
   const slides =
-    slidesProp ?? (table?.rows.length ? slidesFromTable(table) : []);
+    slidesProp ??
+    (table?.rows.length ? buildToySliderSlides({ table }) : []);
   const [current, setCurrent] = useState(0);
   const timerRef = useRef<ReturnType<typeof setInterval> | null>(null);
   const startXRef = useRef(0);
@@ -83,11 +49,10 @@ export default function ComponentSlider({
 
   if (slides.length === 0) return null;
 
-  const slide = slides[current];
-
   return (
     <div className="component-slider" aria-label={ariaLabel}>
-      <div className="component-viewport"
+      <div
+        className="component-viewport"
         onPointerDown={(event) => {
           startXRef.current = event.clientX;
         }}
