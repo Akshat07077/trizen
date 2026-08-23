@@ -13,7 +13,11 @@ import {
   isPainPointsSection,
   isOverviewSlug,
 } from "@/lib/industries/section-layout";
-import { getIndustryImages } from "@/lib/industries/images";
+import {
+  designKickerLabel,
+  getDesignPanelImage,
+  getIndustryImages,
+} from "@/lib/industries/images";
 import { getIndustryGalleryImages } from "@/lib/industries/gallery";
 import type { IndustryMeta, IndustryPageContent } from "@/lib/industries/types";
 
@@ -68,8 +72,9 @@ export default function IndustryPage({
         content.imageLabels,
       )
     : [];
-  const designImageSrc =
-    images.content[0] || images.content[1] || images.hero || "";
+  const designImageSrc = getDesignPanelImage(images);
+  const designImageCaption =
+    content.imageLabels?.[1] ?? content.imageLabels?.[0] ?? "";
 
   return (
     <div
@@ -202,11 +207,12 @@ export default function IndustryPage({
                       items={section.strips}
                       imageSrc={designImageSrc || undefined}
                       imageAlt={
-                        content.imageLabels?.[1] ??
-                        section.strips[0]?.title ??
+                        designImageCaption ||
+                        section.strips[0]?.title ||
                         meta.label
                       }
-                      kickerLabel={`${meta.label} packaging control`}
+                      imageCaption={designImageCaption || undefined}
+                      kickerLabel={designKickerLabel(meta, content.slug)}
                     />
                   ) : section.strips && section.strips.length > 0 ? (
                     <div className="strips">

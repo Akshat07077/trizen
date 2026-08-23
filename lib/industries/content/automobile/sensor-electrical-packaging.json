@@ -1,0 +1,243 @@
+{
+  "slug": "sensor-electrical-packaging",
+  "industryId": "automobile",
+  "title": "Sensor & Electrical Component Packaging Manufacturer India | ESD-Safe Automotive Trays | Trizen, Vapi",
+  "hero": {
+    "ey": "🚗 Automobile · Sensor & Electrical Packaging · ESD-Safe · Vapi, India",
+    "titleMain": "Sensor & Electrical Component Packaging Manufacturer India",
+    "titleTail": "ESD-Safe Automotive Packaging, Bulk from Vapi",
+    "desc": "Custom ESD-safe thermoformed packaging for automotive sensors and electrical components — ECUs, ABS modules, ADAS radar and camera sensors, TPMS sensors, wiring harness sub-assemblies, and control modules. Electrical component trays from Vapi — ESD-safe PP and PETG, ISO 9001:2015 certified.",
+    "chips": [
+      "📋 ISO 9001:2015",
+      "⚡ ESD-Safe Materials",
+      "🏭 Electrical Trays Vapi",
+      "Resistivity Certificates Supplied"
+    ]
+  },
+  "sections": [
+    {
+      "ey": "What We Manufacture",
+      "st": "Sensor & Electrical Component Packaging Manufacturer India — ESD-Safe Automotive Packaging from Vapi",
+      "leads": [
+        "Trizen Packaging manufactures ESD-safe thermoformed packaging for automotive sensors and electrical components from our ISO 9001:2015 certified facility in Vapi, Gujarat. Electrical component trays from Vapi — ESD-safe PP and ESD-safe PETG thermoformed packaging for automotive sensors, ECU modules, ABS control units, ADAS radar and camera sensors, TPMS sensors, oxygen sensors, control modules, and wiring harness sub-assemblies. As a sensor packaging manufacturer from India, we supply ESD-safe automotive component trays for OEM programmes and export — with surface resistivity test certificates per material batch.",
+        "Automotive sensors and electronic control units are the most technically sensitive category of automotive component packaging. ESD (electrostatic discharge) damage to automotive sensors and ECUs occurs at voltages as low as 30 volts — levels that are completely imperceptible to human touch but permanently damaging to microelectronics. The packaging material itself is the source of ESD risk when standard (insulating) plastics are used. Standard PP thermoforming generates and holds electrostatic charge at surface resistivity levels in the insulator range. ESD-safe materials dissipate this charge. This is not an optional feature for automotive sensor packaging — it is a fundamental requirement."
+      ],
+      "products": [],
+      "strips": [],
+      "table": {
+        "headers": [
+          "Automotive Device",
+          "Packaging Format",
+          "Material",
+          "Key Requirement"
+        ],
+        "rows": [
+          [
+            "TPMS (Tyre Pressure Monitoring Sensors)",
+            "Multi-cavity ESD blister or tray",
+            "ESD-safe PP",
+            "ESD protection, valve stem protection, sensor body isolation"
+          ],
+          [
+            "ABS / Wheel Speed Sensors",
+            "Multi-cavity ESD tray",
+            "ESD-safe PP",
+            "ESD protection, connector terminal protection, sensor tip isolation"
+          ],
+          [
+            "ECU / Engine Control Units",
+            "ESD-safe precision tray",
+            "ESD-safe PP",
+            "PCB and connector protection, anti-shock geometry, ESD compliance documentation"
+          ],
+          [
+            "ADAS Radar & Camera Sensors",
+            "ESD-safe PETG precision tray",
+            "ESD-safe PETG (crystal clear)",
+            "ESD protection, optical surface protection, precise cavity — no lens contact"
+          ],
+          [
+            "Oxygen / Lambda Sensors",
+            "ESD-safe PP tray with tip protection",
+            "ESD-safe PP",
+            "Sensor element protection, thread protection, catalytic element isolation"
+          ],
+          [
+            "Transmission & Gearbox Sensors",
+            "Multi-cavity ESD tray",
+            "ESD-safe PP",
+            "ESD protection, connector protection, magnetically sensitive component"
+          ],
+          [
+            "Wiring Harness Sub-Assemblies",
+            "Multi-cavity organised PP tray",
+            "PP",
+            "Connector organisation, no tangling, terminal protection"
+          ],
+          [
+            "Control Module Assemblies",
+            "ESD-safe PETG multi-cavity tray",
+            "ESD-safe PETG",
+            "PCB protection, connector array protection, ESD documentation"
+          ]
+        ]
+      }
+    },
+    {
+      "ey": "Pain Points We Solve",
+      "st": "Three Problems Automotive Sensor Packaging Buyers Face",
+      "leads": [],
+      "products": [],
+      "strips": [
+        {
+          "title": "ESD Damage Creating Latent Field Failures in Automotive Electronics",
+          "desc": "Problem: Standard PP packaging generates and holds electrostatic charge at insulator surface resistivity levels. When a sensor or ECU contacts this packaging, the charge discharges through the component — causing permanent damage that passes visual inspection but causes field failure after vehicle delivery. This is the most expensive automotive failure mode — tracing field failures back to ESD damage at the packaging stage takes months and significant cost. Solution: ESD-safe PP and PETG packaging with controlled surface resistivity dissipates charge rather than allowing it to build up, eliminating the source of ESD damage before the component reaches the assembly line."
+        },
+        {
+          "title": "Connector and Terminal Damage During Transit Causing Assembly Failures",
+          "desc": "Problem: Automotive sensor connectors and ECU connector arrays are precision components — bent terminals, contaminated connector faces, or cracked connector housings cause immediate assembly failure that is traced to packaging damage. Solution: Cavity geometry with specific connector protection recesses — each connector terminal array is suspended in a clearance cavity that prevents packaging contact with connector faces or terminal pins. Connector geometry mapped from the component specification."
+        },
+        {
+          "title": "ADAS Sensor Optical Surface Contamination",
+          "desc": "Problem: ADAS radar and camera sensors have optical surfaces — radar antenna arrays, camera lens housings — that must be free from fingerprints, particulate contamination, and micro-scratches. Standard packaging contact on optical surfaces causes performance degradation not detectable during vehicle assembly but manifesting as ADAS system calibration failure. Solution: ESD-safe PETG packaging with precision optical surface clearance cavity — no contact with optical surfaces. PETG crystal clarity also allows visual inspection of the sensor through the closed packaging."
+        }
+      ]
+    },
+    {
+      "ey": "Design Requirements",
+      "st": "Sensor Packaging Design — Key Technical Requirements",
+      "leads": [],
+      "products": [],
+      "strips": [
+        {
+          "title": "ESD-Safe Material — Controlled Surface Resistivity",
+          "desc": "ESD-safe packaging materials have controlled surface resistivity in the dissipative range — typically 10⁶ to 10⁹ Ω/sq for ESD-safe PP, and similar for ESD-safe PETG. This range is chosen to dissipate charge slowly enough to prevent rapid discharge current through the component while still preventing charge accumulation. Surface resistivity is confirmed per material batch by CoA."
+        },
+        {
+          "title": "Cavity Precision — Sensor Terminals and Optical Surfaces Must Not Contact Packaging",
+          "desc": "Automotive sensors are precision devices. ADAS camera and radar sensors have optical surfaces requiring ≥1mm clearance from packaging contact. ECU connector arrays require terminal-clearance cavities. Cavity geometry is designed from the device technical drawing or physical sample — confirmed against dimensional specification before tooling."
+        },
+        {
+          "title": "ESD Documentation — Supplier Qualification Requirement",
+          "desc": "Automotive electronics manufacturers require ESD-safe packaging suppliers to provide surface resistivity test certificates per material batch. Our ESD-safe PP and PETG is supplied with batch CoA including surface resistivity test data. Documentation available for automotive OEM and Tier 1 supplier qualification for ESD packaging programmes."
+        },
+        {
+          "title": "Individual Component Isolation — No Component-to-Component Contact",
+          "desc": "Multiple sensors in one tray must be individually isolated — no sensor-to-sensor contact during transit vibration. Each sensor in its own ESD-safe cavity, with cavity wall geometry that prevents component movement and inter-component contact. Particularly important for magnetically sensitive sensors where proximity to ferrous or magnetic components during transit could affect sensor calibration."
+        }
+      ]
+    },
+    {
+      "ey": "Materials",
+      "st": "Materials for Automotive Sensor & Electrical Component Packaging",
+      "eyClass": "gold",
+      "leads": [],
+      "products": [],
+      "strips": [],
+      "table": {
+        "headers": [
+          "Material",
+          "Automotive Application",
+          "Key Property"
+        ],
+        "rows": [
+          [
+            "ESD-Safe PP",
+            "Primary ESD packaging material — TPMS, ABS sensors, ECUs, oxygen sensors, control modules",
+            "Controlled surface resistivity 10⁶–10⁹ Ω/sq, robotic pick compatible, CoA per batch"
+          ],
+          [
+            "ESD-Safe PETG",
+            "ADAS radar and camera sensors, precision control modules requiring optical clarity",
+            "ESD protection + crystal clarity for inspection through closed packaging"
+          ],
+          [
+            "PP",
+            "Wiring harness sub-assemblies not requiring ESD protection",
+            "Standard PP for non-ESD-sensitive electrical components"
+          ]
+        ]
+      },
+      "callout": "Electrical component trays manufacturer Vapi — ESD-safe thermoformed automotive sensor and electrical component packaging from our Vapi, Gujarat facility. Surface resistivity test certificates per material batch. ISO 9001:2015 batch documentation and material CoA per production run. Sensor packaging from Gujarat for automotive OEM programmes across India and for export to international automotive electronics programmes."
+    },
+    {
+      "ey": "Why Choose Trizen",
+      "st": "Why Automotive Sensor Packaging Buyers Choose Trizen",
+      "eyClass": "green",
+      "leads": [],
+      "products": [],
+      "strips": [
+        {
+          "title": "ESD-Safe Material CoA Per Batch — Not Per Material Grade Only",
+          "desc": "Our ESD-safe PP and PETG is supplied with surface resistivity test certificates per production batch — not just per material grade specification. This means every production run of ESD-safe sensor packaging comes with the specific batch resistivity data. Automotive electronics supplier qualification programmes require this batch-level documentation."
+        },
+        {
+          "title": "Optical Surface Clearance — ADAS Sensor Specialist",
+          "desc": "ADAS radar and camera sensor packaging requires optical surface clearance geometry — we design this from the sensor technical specification, not from standard cavity formats. ESD-safe PETG crystal clarity allows sensor inspection through the packaging. Cavity design document confirms optical surface clearance before tooling."
+        },
+        {
+          "title": "ISO 9001:2015 Per Batch — Full ESD Traceability",
+          "desc": "ISO 9001:2015 batch records, material CoA with resistivity data, and dimensional inspection records per production batch. Full ESD packaging traceability — if an ESD event is traced to a packaging batch, the batch records identify the material lot, production parameters, and dispatch details."
+        },
+        {
+          "title": "ESD-Safe Sensor Packaging from India — Automotive Export Programmes",
+          "desc": "As an automotive sensor packaging manufacturer from India, Trizen Packaging supplies ESD-safe sensor and electrical component trays to automotive electronics OEMs and Tier 1 suppliers — for both domestic programmes and export to international automotive electronics manufacturing locations."
+        }
+      ]
+    }
+  ],
+  "midCtas": [
+    {
+      "title": "Sensor & Electrical Component Packaging — ESD-Safe OEM from Vapi",
+      "text": "ECU trays · ADAS sensor packaging · ABS module trays · ISO 9001:2015 · Resistivity CoA per batch.",
+      "button": "Request a Quote →"
+    },
+    {
+      "title": "Sensor & Electrical Packaging — Submit Device Sample or Drawing",
+      "text": "ESD-safe trays · Surface resistivity CoA · 7–14 day prototype · ISO 9001:2015.",
+      "button": "Submit Enquiry →"
+    }
+  ],
+  "bottomCta": {
+    "title": "Sensor & Electrical Component Packaging — ESD-Safe OEM from Vapi",
+    "text": "ECU trays · ADAS sensor packaging · ABS module trays · TPMS sensor packagingESD-safe PP & PETG · Surface resistivity CoA per batch · ISO 9001:2015 · Vapi, Gujarat"
+  },
+  "faqs": [
+    {
+      "q": "What automotive sensors and electrical components does Trizen manufacture packaging for?",
+      "a": "TPMS and wheel speed sensors, ABS and ESP sensors, ECU and engine control units, ADAS radar and camera sensors, oxygen and lambda sensors, transmission sensors, wiring harness sub-assemblies, and control module assemblies. ESD-safe PP for most sensor applications. ESD-safe PETG for ADAS and optical surface applications. Surface resistivity test certificates per material batch. ISO 9001:2015. Bulk OEM from Vapi, Gujarat."
+    },
+    {
+      "q": "What is ESD-safe packaging for automotive sensors?",
+      "a": "ESD-safe packaging uses materials with controlled surface resistivity — typically 10⁶ to 10⁹ Ω/sq — that dissipate electrostatic charge rather than allowing it to accumulate and discharge through the sensor or electronic component. Automotive sensors and ECUs can sustain permanent damage from ESD at voltages as low as 30V — imperceptible to human touch but permanently damaging to microelectronics. ESD damage that passes visual inspection manifests as field failure after vehicle delivery — the most expensive automotive failure mode to trace. ESD-safe packaging eliminates the source of this risk."
+    },
+    {
+      "q": "What is the surface resistivity specification for ESD-safe automotive packaging?",
+      "a": "ESD-safe PP and ESD-safe PETG have controlled surface resistivity in the dissipative range — typically 10⁶ to 10⁹ Ω/sq. This range dissipates charge slowly enough to prevent rapid discharge current through the component while preventing charge accumulation. Surface resistivity is confirmed per material batch by CoA. Batch CoA available for automotive OEM and Tier 1 supplier qualification review. For specific ESD packaging standards compliance (ANSI/ESD S541, IEC 61340-5), the material specification is confirmed at brief stage."
+    },
+    {
+      "q": "Why source sensor packaging from Vapi, Gujarat?",
+      "a": "Electrical component trays from Vapi for automotive OEM programmes across India's automotive electronics manufacturing hubs. As an automotive sensor packaging manufacturer from India, Trizen Packaging supplies ESD-safe automotive packaging for both domestic and export programmes. All tooling in-house at Vapi — no external delays, same geometry on every repeat production run. ISO 9001:2015 batch documentation and surface resistivity CoA per run."
+    },
+    {
+      "q": "What makes ADAS sensor packaging different from standard sensor packaging?",
+      "a": "ADAS radar and camera sensors have optical surfaces — radar antenna arrays and camera lens housings — requiring optical surface clearance (≥1mm no-contact zone) and zero particulate contamination. Standard ESD-safe PP provides the ESD protection but not optical clarity for inspection. ESD-safe PETG provides both ESD protection and crystal clarity — the sensor can be inspected through the closed packaging. Optical surface clearance geometry is confirmed from the sensor technical specification before tooling."
+    },
+    {
+      "q": "Does ESD-safe packaging also protect against mechanical shock?",
+      "a": "ESD-safe packaging addresses electrostatic risk. Mechanical shock protection is provided by cavity geometry — the component is held in a precise cavity that prevents movement within the packaging during transit vibration and impact. ESD-safe PP and PETG have good impact resistance at the gauge thickness used for sensor packaging. For sensors in particularly shock-sensitive applications, shock-absorbing foam inserts can be integrated with the thermoformed cavity tray."
+    },
+    {
+      "q": "What is the MOQ and prototype timeline for ESD-safe sensor packaging?",
+      "a": "Prototype: 7 to 14 business days from device sample or technical drawing — in-house CNC tooling at Vapi. MOQ from 500 units. Sustained OEM from 5,000 units per run. Surface resistivity test certificates and ISO 9001:2015 batch documentation per production run."
+    },
+    {
+      "q": "What documentation does Trizen provide for ESD-safe packaging supplier qualification?",
+      "a": "Surface resistivity test certificate per material batch, ISO 9001:2015 certificate copy, material CoA per production batch, dimensional inspection records per production batch, and batch records per production run. All documentation available for automotive OEM and Tier 1 supplier ESD packaging qualification programmes."
+    }
+  ],
+  "imageLabels": [
+    "ESD-Safe Automotive Sensor Packaging",
+    "ESD-Safe Sensor Packaging Design"
+  ]
+}

@@ -61,6 +61,13 @@ import expertise_hub from "@/lib/industries/content/expertise/hub.json";
 import expertise_rnd_innovation from "@/lib/industries/content/expertise/rnd-innovation.json";
 import expertise_unique_offer from "@/lib/industries/content/expertise/unique-offer.json";
 
+import automobile_assembly_line_trays from "@/lib/industries/content/automobile/assembly-line-trays.json";
+import automobile_category from "@/lib/industries/content/automobile/category.json";
+import automobile_exterior_component_packaging from "@/lib/industries/content/automobile/exterior-component-packaging.json";
+import automobile_interior_fittings_packaging from "@/lib/industries/content/automobile/interior-fittings-packaging.json";
+import automobile_mechanical_parts_packaging from "@/lib/industries/content/automobile/mechanical-parts-packaging.json";
+import automobile_sensor_electrical_packaging from "@/lib/industries/content/automobile/sensor-electrical-packaging.json";
+
 export const industryContentMap: Record<
   string,
   Record<string, IndustryPageContent>
@@ -141,5 +148,13 @@ export const industryContentMap: Record<
     "hub": expertise_hub as IndustryPageContent,
     "rnd-innovation": expertise_rnd_innovation as IndustryPageContent,
     "unique-offer": expertise_unique_offer as IndustryPageContent
+  },
+  automobile: {
+    "assembly-line-trays": automobile_assembly_line_trays as IndustryPageContent,
+    "category": automobile_category as IndustryPageContent,
+    "exterior-component-packaging": automobile_exterior_component_packaging as IndustryPageContent,
+    "interior-fittings-packaging": automobile_interior_fittings_packaging as IndustryPageContent,
+    "mechanical-parts-packaging": automobile_mechanical_parts_packaging as IndustryPageContent,
+    "sensor-electrical-packaging": automobile_sensor_electrical_packaging as IndustryPageContent
   }
 };

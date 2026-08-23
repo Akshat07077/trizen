@@ -298,6 +298,30 @@
           "desc": "If your EPR obligation or brand packaging sustainability commitment requires recycled content, we manufacture your thermoformed packaging using rPET in 30% to 100% PCR content — with PCR chain-of-custody documentation from the material manufacturer included in production batch records."
         }
       ]
+    },
+    {
+      "ey": "Design Requirements",
+      "st": "Material Selection Design — Key Requirements",
+      "leads": [],
+      "products": [],
+      "strips": [
+        {
+          "title": "Step 1 — RegulatoryApplied first — rules out incompatible materials",
+          "desc": "Pharmaceutical primary packaging? → We use pharma-grade PVC or PVDCSterile medical device packaging? → We use ETO/Gamma compatible PETG or PPFood-contact packaging? → We use food-grade PP or APETESD-sensitive components? → We use ESD-modified PP or PETGStandard commercial packaging? → We select the best-fit grade — Pharma: PVC or PVDCMedical: PETG or PPFood: PP or APET food gradeESD: ESD PP or PETGCommercial: best-fit grade"
+        },
+        {
+          "title": "Step 2 — Moisture BarrierPharmaceutical only",
+          "desc": "Low drug moisture sensitivity → PVC (WVTR 3.0–5.0 g/m²/day)Moderate sensitivity → PVDC (WVTR 0.5–2.0 g/m²/day)High / hygroscopic → Alu-Alu cold form (&lt;0.1 g/m²/day) — Low: PVCModerate: PVDCHigh: Alu-Alu"
+        },
+        {
+          "title": "Step 3 — Clarity",
+          "desc": "Maximum clarity → APET  |  High clarity → PETG or PVCTranslucent acceptable → PP  |  Opaque acceptable → HIPS or ABS — Max: APET · High: PETG/PVCTranslucent: PP · Opaque: HIPS/ABS"
+        },
+        {
+          "title": "Step 4 — Gauge",
+          "desc": "Thin blister 0.15–0.40mm → PVC, PETG, or APETStandard tray 0.40–2.00mm → PP, PETG, or HIPSHeavy structural 2.00–8.00mm → PP, HIPS, or ABS — Thin: PVC/PETG/APETStandard: PP/PETG/HIPSHeavy: PP/HIPS/ABS"
+        }
+      ]
     }
   ],
   "midCtas": [],

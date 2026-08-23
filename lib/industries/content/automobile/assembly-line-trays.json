@@ -1,0 +1,237 @@
+{
+  "slug": "assembly-line-trays",
+  "industryId": "automobile",
+  "title": "Assembly Line Trays Manufacturer India | Automotive Movement Trays | Trizen Packaging, Vapi",
+  "hero": {
+    "ey": "🚗 Automobile · Assembly Line Trays · Automotive OEM · Vapi, India",
+    "titleMain": "Assembly Line & Industrial Movement Trays Manufacturer India",
+    "titleTail": "Automotive OEM Trays, Vapi Gujarat",
+    "desc": "Custom thermoformed assembly line and industrial movement trays for automotive OEM production — robotic pick-and-place trays, JIT component delivery trays, inter-plant movement trays, and kit assembly presentation trays. ISO 9001:2015 certified, bulk automotive assembly tray OEM from Vapi, Gujarat.",
+    "chips": [
+      "📋 ISO 9001:2015",
+      "🔩 Assembly Line Specialist",
+      "🏭 Bulk OEM from Vapi",
+      "±0.5mm Dimensional Consistency"
+    ]
+  },
+  "sections": [
+    {
+      "ey": "What We Manufacture",
+      "st": "Assembly Line & Industrial Movement Trays — Robotic Pick, JIT Delivery & Inter-Plant Transit from Vapi",
+      "leads": [
+        "Trizen Packaging manufactures assembly line and industrial movement trays for automotive OEM production from our ISO 9001:2015 certified facility in Vapi, Gujarat. Automotive assembly tray OEM from Vapi — thermoformed trays for robotic pick-and-place assembly stations, JIT component delivery systems, inter-plant movement and transit, and multi-component kit assembly presentation. As an assembly line trays manufacturer from India serving automotive OEMs and Tier 1 suppliers, we produce trays with the dimensional consistency, cycle life durability, and documentation quality that automotive production programmes require.",
+        "Assembly line thermoformed trays are production tools, not standard packaging. The distinction matters: a standard protective tray holds a component safely. An assembly line tray holds the component at a defined X-Y position corresponding to the robotic pick coordinate — consistently, across every tray in the production batch, and across every batch in the OEM programme. This dimensional consistency requirement is what makes automotive assembly line trays a specialist thermoforming application."
+      ],
+      "products": [],
+      "strips": [],
+      "table": {
+        "headers": [
+          "Tray Type",
+          "Automotive Application",
+          "Material",
+          "Key Requirement"
+        ],
+        "rows": [
+          [
+            "Robotic Pick-and-Place Trays",
+            "Automated assembly stations — component at defined robotic pick coordinate",
+            "PP",
+            "Cavity position to ±0.5mm across full OEM batch — dimensional consistency for robot"
+          ],
+          [
+            "JIT Delivery Trays",
+            "Just-in-time component delivery to assembly line from supplier",
+            "PP",
+            "Returnable, high cycle life, correct component orientation for direct line feed"
+          ],
+          [
+            "Inter-Plant Movement Trays",
+            "Component transit between manufacturing plants and suppliers",
+            "HDPE",
+            "Stack load resistance, forklift handling, road transit vibration resistance"
+          ],
+          [
+            "Kit Assembly Presentation Trays",
+            "Sub-assembly kits — all components for one assembly operation in one tray",
+            "PP",
+            "Component positional accuracy in assembly sequence — reduces pick errors"
+          ],
+          [
+            "Bulk Component Feeding Trays",
+            "High-density bulk component feeding to assembly cells",
+            "PP",
+            "Maximum component density per tray, consistent stack height for automated feeding"
+          ],
+          [
+            "ESD-Safe Assembly Line Trays",
+            "Assembly stations handling electronic sub-assemblies and sensor components",
+            "ESD-safe PP",
+            "Controlled surface resistivity, robot-compatible geometry, ESD compliance documentation"
+          ],
+          [
+            "Returnable Automotive Trays",
+            "Returnable packaging programmes for OEM supplier loop systems",
+            "HDPE",
+            "Minimum 500-cycle service life, dimensional stability across full service period"
+          ]
+        ]
+      }
+    },
+    {
+      "ey": "Pain Points We Solve",
+      "st": "Three Problems Automotive Assembly Line Packaging Buyers Face",
+      "leads": [],
+      "products": [],
+      "strips": [
+        {
+          "title": "Robotic Pick Errors from Dimensional Drift Between Batches",
+          "desc": "Problem: Robotic pick coordinates are programmed to the prototype tray geometry. When thermoforming supplier batches show dimensional drift — even by 1–2mm — the robot misses the pick, causing assembly line stoppages. Solution: In-house CNC tooling at Vapi with ISO 9001:2015 dimensional inspection per batch. Same tool, same material grade, same process parameters on every repeat production run. Dimensional check records supplied per batch."
+        },
+        {
+          "title": "Component Damage During Inter-Plant Transit and Supplier-to-Line Movement",
+          "desc": "Problem: Automotive components shipped in inadequate transit trays suffer surface damage, deformation, and part-to-part contact damage — rejected on receipt and traced back to packaging supplier. Solution: HDPE inter-plant movement trays with custom cavity geometry designed from the specific component profile. HDPE tray geometry maintains under palletised stack loads that would deform standard PP trays."
+        },
+        {
+          "title": "Kit Assembly Errors from Incorrect Component Positional Organisation",
+          "desc": "Problem: Sub-assembly kits with components in wrong positional order cause assembly errors at the line station — the operator or robot picks the wrong component for the sequence. Solution: Kit assembly presentation trays designed with each component in its specific assembly-sequence position. Component positions confirmed from the assembly sequence documentation before tooling."
+        }
+      ]
+    },
+    {
+      "ey": "Design Requirements",
+      "st": "Assembly Line Tray Design — Key Requirements",
+      "leads": [],
+      "products": [],
+      "strips": [
+        {
+          "title": "Dimensional Consistency — ±0.5mm Across Full OEM Production Volume",
+          "desc": "Robotic assembly applications require tray cavity position to ±0.5mm across the full production batch — not just the prototype approval sample. This requires CNC-tooled thermoforming, controlled process parameters, and dimensional inspection of every batch. Standard thermoforming without these controls cannot reliably hold this tolerance across 10,000+ tray production runs."
+        },
+        {
+          "title": "Cycle Life — Designed for 300 to 500+ Return Cycles",
+          "desc": "Automotive returnable trays must maintain dimensional accuracy across 300 to 500 or more use cycles — loading, transit, line feeding, emptying, return, and restacking. HDPE is the preferred material for high-cycle returnable applications. PP is suitable for lower cycle count programmes. Material selection and wall thickness confirmed from the cycle life requirement."
+        },
+        {
+          "title": "Stack Load Geometry — Tray Must Not Deform Under Pallet Load",
+          "desc": "Assembly line trays are stacked 10 to 20 high on pallets in transit and at line-side storage. The tray geometry must support the stack load without tray deformation — base wall thickness, rib geometry, and stacking ledge design all contribute to stack load performance. Confirmed from the tray size, component weight, and stack height specification."
+        },
+        {
+          "title": "Robotic Pick Geometry — Cavity Position, Depth, and Extraction Force",
+          "desc": "Robotic pick-and-place requires not just correct cavity position but correct cavity depth and extraction force — the robot gripper must be able to extract the component cleanly without the cavity grip force causing extraction failure. Cavity geometry designed in coordination with the robotic pick system specification."
+        }
+      ]
+    },
+    {
+      "ey": "Materials",
+      "st": "Materials for Assembly Line & Movement Trays",
+      "eyClass": "gold",
+      "leads": [],
+      "products": [],
+      "strips": [],
+      "table": {
+        "headers": [
+          "Material",
+          "Application",
+          "Key Property"
+        ],
+        "rows": [
+          [
+            "PP",
+            "Robotic pick-and-place trays, JIT delivery trays, kit assembly trays",
+            "Good dimensional stability, cost-efficient for OEM volumes, chemical resistance"
+          ],
+          [
+            "HDPE",
+            "Inter-plant movement trays, heavy component trays, returnable tray programmes",
+            "Very high impact resistance, stack load performance, 500+ cycle service life"
+          ],
+          [
+            "ESD-Safe PP",
+            "Assembly line trays for electronic sub-assembly stations",
+            "Controlled surface resistivity (10⁶–10⁹ Ω/sq), robotic pick compatible"
+          ]
+        ]
+      },
+      "callout": "Automotive assembly tray OEM manufacturer Vapi — All assembly line tray tooling fabricated and held in-house at our Vapi, Gujarat facility. Dimensional inspection records and ISO 9001:2015 batch documentation per production run. Bulk production line packaging trays from Gujarat for automotive OEM programmes across India and for export."
+    },
+    {
+      "ey": "Why Choose Trizen",
+      "st": "Why Automotive OEMs Choose Trizen for Assembly Line Trays",
+      "eyClass": "green",
+      "leads": [],
+      "products": [],
+      "strips": [
+        {
+          "title": "In-House CNC Tooling — Same Geometry on Every Repeat Batch",
+          "desc": "Assembly line trays cannot tolerate tooling variability between production batches. All tooling is fabricated in-house at Vapi and held permanently — the same CNC-machined tool produces every batch of your assembly line trays. No external tool room, no tooling transfer risk, no geometry variation between repeat orders."
+        },
+        {
+          "title": "ISO 9001:2015 Dimensional Inspection Per Batch",
+          "desc": "Every production batch of automotive assembly line trays is inspected against the dimensional specification before dispatch. ISO 9001:2015 dimensional inspection records supplied per batch for OEM supplier quality documentation requirements."
+        },
+        {
+          "title": "Material Grade Consistency — Same Grade, Same Batch CoA",
+          "desc": "The same PP or HDPE material grade is used on every repeat production run, with material batch CoA per production run. Consistent material properties produce consistent tray performance — no dimensional drift from material grade variation."
+        },
+        {
+          "title": "Automotive OEM from India — Serving Production Lines Across India and Export",
+          "desc": "As a thermoforming packaging manufacturer from India, Trizen Packaging supplies automotive assembly line trays to OEMs and Tier 1 suppliers across India's automotive manufacturing clusters — Pune, Rajkot, Vadodara, Nashik, Mumbai — and for export to international automotive programmes."
+        }
+      ]
+    }
+  ],
+  "midCtas": [
+    {
+      "title": "Assembly Line Trays — Automotive OEM from Vapi",
+      "text": "Robotic pick trays · JIT delivery trays · Inter-plant transit trays · ISO 9001:2015 · 7–14 day prototype.",
+      "button": "Request a Quote →"
+    },
+    {
+      "title": "Assembly Line Trays — Submit Component Sample or Drawing",
+      "text": "7–14 day prototype · ISO 9001:2015 · Dimensional inspection per batch · Bulk OEM from Vapi.",
+      "button": "Submit Enquiry →"
+    }
+  ],
+  "bottomCta": {
+    "title": "Assembly Line & Industrial Movement Trays — Bulk OEM from Vapi",
+    "text": "Robotic pick-and-place trays · JIT delivery trays · Inter-plant movement trays · Kit assembly traysISO 9001:2015 · In-house CNC tooling · 7–14 day prototype · Dimensional inspection per batch"
+  },
+  "faqs": [
+    {
+      "q": "What assembly line and movement trays does Trizen manufacture?",
+      "a": "Trizen Packaging manufactures robotic pick-and-place trays, JIT component delivery trays, inter-plant movement and transit trays, kit assembly presentation trays, bulk component feeding trays, ESD-safe assembly line trays, and returnable automotive tray systems. PP for standard assembly applications, HDPE for heavy-duty transit and returnable programmes, ESD-safe PP for electronic component assembly stations. ISO 9001:2015 certified, bulk OEM from Vapi, Gujarat."
+    },
+    {
+      "q": "What is the dimensional tolerance for robotic pick-and-place assembly line trays?",
+      "a": "Robotic pick-and-place assembly applications require tray cavity position to ±0.5mm across the full production batch. This is achieved through CNC-tooled thermoforming, controlled process parameters per production run, and dimensional inspection of every batch. Dimensional inspection records are supplied per batch for OEM quality documentation. This tolerance is confirmed against the robotic pick system specification during prototype approval."
+    },
+    {
+      "q": "What materials are used for automotive assembly line trays?",
+      "a": "PP is the primary material for robotic pick-and-place trays, JIT delivery trays, and kit assembly trays — good dimensional stability, cost-efficient for OEM volumes. HDPE is used for inter-plant movement trays and returnable tray programmes — very high impact resistance, 500+ cycle service life. ESD-safe PP for assembly stations handling electronic sub-assemblies. See our PP materials page and HDPE materials page for full technical specifications."
+    },
+    {
+      "q": "What certifications apply to automotive assembly line trays at Trizen?",
+      "a": "ISO 9001:2015 covers all automotive assembly line tray production — documented procedures, batch records, dimensional inspection records, material CoA, and dispatch documentation per batch. ESD-safe assembly line trays supplied with material surface resistivity test certificates. All documentation available for automotive OEM supplier qualification review. For full compliance details, see our Automobile Thermoforming Packaging category page."
+    },
+    {
+      "q": "Why source assembly line trays from Vapi, Gujarat?",
+      "a": "Vapi, Gujarat is within the industrial corridor serving India's major automotive manufacturing hubs — Pune, Rajkot, Vadodara, Nashik, and Mumbai. Supply from Vapi combines manufacturing cost efficiency with logistics access to these production locations. All assembly line tray tooling is held in-house at Vapi — no external tool room, no lead time delays on repeat orders. Automotive assembly tray OEM from Vapi for both domestic and export automotive programmes."
+    },
+    {
+      "q": "What is a JIT delivery tray and how does it differ from a transit tray?",
+      "a": "A JIT delivery tray is designed for the supplier-to-assembly-line direct feed system — the component leaves the supplier in the tray and goes directly to the line station without repacking. It must be returnable (for the supplier loop), correctly oriented for direct line feed, and sized for the line station rack system. A transit tray is designed for inter-plant movement with protection as the primary requirement. Both are thermoformed — but the JIT tray is designed from the line station specification, while the transit tray is designed from the logistics chain specification."
+    },
+    {
+      "q": "What is the MOQ and prototype timeline for assembly line trays?",
+      "a": "Prototype: 7 to 14 business days from component sample or CAD drawing — in-house CNC tooling at Vapi. MOQ: from 500 units for new programme tooling approval. Sustained OEM from 5,000 units per run. Returnable tray programmes confirmed at brief stage based on programme volume and cycle life requirement. ISO 9001:2015 dimensional inspection records and batch documentation per production run."
+    },
+    {
+      "q": "How are automotive assembly line trays tested for dimensional consistency?",
+      "a": "Each production batch is dimensionally inspected against the approved prototype drawing. Key dimensions are: cavity X-Y position (robot pick coordinate), cavity depth, cavity wall angle, and tray stack height. Inspection carried out using calibrated measurement tools under ISO 9001:2015 procedure. Dimensional inspection records supplied per batch. Prototype approval process includes dimensional check against the robotic pick system specification before production tooling is committed."
+    }
+  ],
+  "imageLabels": [
+    "Assembly Line Trays In Use",
+    "Assembly Line Tray Design Detail"
+  ]
+}

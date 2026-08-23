@@ -12,6 +12,7 @@ const PUBLIC_IMAGES = path.resolve(__dirname, "../public/images");
 const EXTENSIONS = [".jpg", ".jpeg", ".webp", ".png", ".avif", ".svg"];
 
 const INDUSTRY_PALETTE = {
+  automobile: ["#0F2644", "#2563A8"],
   toy: ["#36356C", "#6866A0"],
   electronics: ["#0B3D91", "#2563EB"],
   fmcg: ["#0F766E", "#14B8A6"],

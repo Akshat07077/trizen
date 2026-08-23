@@ -186,6 +186,26 @@
       }
     },
     {
+      "ey": "Design Requirements",
+      "st": "Clamshell Packaging Design — Key Requirements",
+      "leads": [],
+      "products": [],
+      "strips": [
+        {
+          "title": "Snap-Close Tab Lock",
+          "desc": "Interlocking thermoformed tabs — no separate sealing operation. Consumer snaps open and closed. — None — fully resealable"
+        },
+        {
+          "title": "Heat Sealing (Perimeter)",
+          "desc": "Heat and pressure at 140–180°C on the full sealing flange. Irreversible permanent bond. Seal breakage visible. — High — seal breakage clearly visible"
+        },
+        {
+          "title": "RF/Ultrasonic Welding",
+          "desc": "RF electromagnetic energy or high-freq. vibration creates molecular-level weld. Stronger than heat sealing. Permanent. — Maximum — cannot be separated without destruction"
+        }
+      ]
+    },
+    {
       "ey": "Why Trizen",
       "st": "Why Choose a Clamshell Packaging Manufacturer in India?",
       "leads": [

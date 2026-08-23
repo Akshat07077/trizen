@@ -265,6 +265,30 @@
       }
     },
     {
+      "ey": "Design Requirements",
+      "st": "Pressure Forming Design — Key Requirements",
+      "leads": [],
+      "products": [],
+      "strips": [
+        {
+          "title": "1Material Setup",
+          "desc": "Thermoplastic sheet confirmed against material COA. Medical-grade PETG or PP confirmed for regulated packaging. Material grade confirmed for Cleanroom production where required. — Same material range as vacuum forming. Medical-grade and ESD-grade confirmed at brief stage."
+        },
+        {
+          "title": "2Controlled Heating",
+          "desc": "Sheet heated uniformly to forming temperature. Temperature uniformity requirements are tighter in pressure forming — non-uniform temperature produces asymmetric forming force response under the combined pressure system. — Tighter temperature uniformity requirement vs vacuum forming. Thermocouple monitoring of sheet temperature profile."
+        },
+        {
+          "title": "3Stage 1 — Vacuum Draw",
+          "desc": "Vacuum applied through the mould (~1 bar) draws the heated sheet into approximate contact with the mould — the same initial stage as vacuum forming. But this is only preparation for the compressed air stage. — Vacuum stage performs initial forming. The result is not the finished form — it is the setup for Stage 2."
+        },
+        {
+          "title": "4Stage 2 — Compressed Air",
+          "desc": "Compressed air at 3 to 10 bar applied to the opposite face of the sheet — simultaneously with or immediately after the vacuum draw. Combined forming force: 4 to 11 bar total. Drives the sheet into fine corner geometry, textured surfaces, deep cavity walls, and undercut geometry. — This is the pressure forming difference. 4–11× the forming force of vacuum alone. Achieves geometry that vacuum forming physically cannot."
+        }
+      ]
+    },
+    {
       "ey": "Why Trizen",
       "st": "Why Choose a Pressure Forming Packaging Manufacturer in India?",
       "leads": [

@@ -268,6 +268,30 @@
       }
     },
     {
+      "ey": "Design Requirements",
+      "st": "Thermoforming Packaging Design — Key Requirements",
+      "leads": [],
+      "products": [],
+      "strips": [
+        {
+          "title": "1Heat",
+          "desc": "Sheet heated to forming temperature. Infrared/ceramic elements controlled per material specification for uniform heat distribution across the forming area. — Sheet temperature uniformity critical for cavity depth consistency."
+        },
+        {
+          "title": "2Form",
+          "desc": "Vacuum forming (~1 bar): standard geometries, cost-efficient volume. Pressure forming (4–11 bar combined): precision cavities, fine detail, sharp corners, deep-draw wall thickness consistency. — Process selected from geometry, draw depth, and tolerance requirement."
+        },
+        {
+          "title": "3Trim",
+          "desc": "Formed sheet trimmed to individual part outline. Web removed. Trim accuracy determines edge quality and dimensional conformity. — Trim tool accuracy across entire production batch."
+        },
+        {
+          "title": "4Inspect",
+          "desc": "Dimensional inspection against design spec. GMP batch records completed for regulated programmes — batch number, material lot, process parameters, QC results. — Dimensional records. GMP batch records for regulated packaging."
+        }
+      ]
+    },
+    {
       "ey": "Why Trizen",
       "st": "Why Choose a Thermoforming Packaging Manufacturer in Vapi, Gujarat?",
       "eyClass": "gold",

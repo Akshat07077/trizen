@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="780" viewBox="0 0 1400 780">
+  <defs>
+    <linearGradient id="bg" x1="100%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0F2644"/>
+      <stop offset="100%" stop-color="#2563A8"/>
+    </linearGradient>
+    <linearGradient id="shine" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0"/>
+      <stop offset="50%" stop-color="#ffffff" stop-opacity="0.08"/>
+      <stop offset="100%" stop-color="#ffffff" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+  <rect width="1400" height="780" fill="url(#bg)"/>
+  <g opacity="0.14" stroke="#ffffff" stroke-width="1" fill="none">
+    <path d="M120 40l34.64 20v40L120 120 85.36 100V60z"/>
+    <path d="M280 120l34.64 20v40L280 200 245.36 180V140z"/>
+    <path d="M440 40l34.64 20v40L440 120 405.36 100V60z"/>
+    <path d="M600 120l34.64 20v40L600 200 565.36 180V140z"/>
+    <path d="M760 40l34.64 20v40L760 120 725.36 100V60z"/>
+    <path d="M920 120l34.64 20v40L920 200 885.36 180V140z"/>
+    <path d="M1080 40l34.64 20v40L1080 120 1055.36 100V60z"/>
+    <path d="M1280 120l34.64 20v40L1280 200 1245.36 180V140z"/>
+    <path d="M1460 40l34.64 20v40L1460 120 1425.36 100V60z"/>
+  </g>
+  <rect x="0" y="0" width="1400" height="780" fill="url(#shine)"/>
+  <rect x="72" y="218.40000000000003" width="64" height="4" fill="rgba(255,255,255,0.55)"/>
+  <text x="72" y="265.20000000000005" fill="rgba(255,255,255,0.72)" font-family="Consolas, monospace" font-size="21.84" font-weight="700" letter-spacing="3">CONTENT IMAGE 1</text>
+  <text x="72" y="327.59999999999997" fill="#ffffff" font-family="Arial, Helvetica, sans-serif" font-size="40.559999999999995" font-weight="700">Product Packaging</text>
+  <text x="72" y="561.6" fill="rgba(255,255,255,0.68)" font-family="Arial, Helvetica, sans-serif" font-size="23.4">Automobile Overview</text>
+  <text x="72" y="608.4" fill="rgba(255,255,255,0.45)" font-family="Consolas, monospace" font-size="17.16" letter-spacing="2">TRIZEN PACKAGING · VAPI, GUJARAT · ISO 9001:2015</text>
+  <polygon points="1320,700 1400,700 1400,780" fill="rgba(255,255,255,0.12)"/>
+</svg>

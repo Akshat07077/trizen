@@ -22,7 +22,6 @@ export const EXPERTISE_NAV =
 
 /** Industries shown in sidebar before the live migrated list. */
 export const PLACEHOLDER_INDUSTRIES = [
-  { href: "#", label: "Automobile" },
   { href: "#", label: "Baby Care" },
   { href: "#", label: "Cosmetics" },
 ] as const;

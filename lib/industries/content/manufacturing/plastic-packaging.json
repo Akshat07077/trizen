@@ -209,6 +209,30 @@
       }
     },
     {
+      "ey": "Design Requirements",
+      "st": "Plastic Packaging Design — Key Requirements",
+      "leads": [],
+      "products": [],
+      "strips": [
+        {
+          "title": "Thermoformed Trays",
+          "desc": "Custom-cavitied trays from 6mm device trays to 500mm automotive staging trays. PP, PETG, APET, HIPS, ABS in 0.20–8.00mm gauge."
+        },
+        {
+          "title": "Vacuum Forming",
+          "desc": "~1 bar vacuum. Cost-efficient for standard commercial packaging geometries and high-volume programmes."
+        },
+        {
+          "title": "Pressure Forming",
+          "desc": "4–11 bar combined force. ±0.5mm tolerance, sharp corners, fine surface detail on both faces. Injection moulding quality at thermoforming tooling cost."
+        },
+        {
+          "title": "Blister Packaging",
+          "desc": "7 blister formats: PVC, PVDC, Alu-Alu, APET retail, Tyvek-compatible medical device components, CR child-resistant, tamper-evident. GMP + Cleanroom Class 8."
+        }
+      ]
+    },
+    {
       "ey": "Why Trizen",
       "st": "Why Choose a Custom Plastic Packaging Supplier in India?",
       "eyClass": "gold",

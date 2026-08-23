@@ -221,6 +221,30 @@
       }
     },
     {
+      "ey": "Design Requirements",
+      "st": "Vacuum Forming Design — Key Requirements",
+      "leads": [],
+      "products": [],
+      "strips": [
+        {
+          "title": "1Sheet Loading",
+          "desc": "Thermoplastic sheet in the specified material and gauge confirmed against material COA and loaded onto the machine. Gauge range: 0.3mm thin retail blister to 8mm heavy-gauge industrial enclosure. — Material identity confirmed vs COA. Gauge from product weight and structural requirement."
+        },
+        {
+          "title": "2IR Heating",
+          "desc": "Sheet heated to forming temperature using infrared or ceramic elements — uniformly across the full sheet surface. Uniform temperature is critical: hot spots produce thinner cavities; cool spots produce incomplete forming. — Sheet temperature uniformity. Non-uniform heating causes cavity depth and wall thickness variation."
+        },
+        {
+          "title": "3Vacuum Forming",
+          "desc": "Heated sheet drawn down over the mould surface by vacuum applied through small holes in the mould (~1 bar). Sheet contacts mould surface on the forming side — the reverse face shows material profile without direct mould contact. — Vacuum level and application speed. Mould contact quality determines cavity surface finish."
+        },
+        {
+          "title": "4Cooling",
+          "desc": "Formed sheet cools against the mould surface, retaining cavity geometry. Premature release before the correct release temperature causes dimensional distortion. — Cooling time critical for dimensional accuracy and product fitment."
+        }
+      ]
+    },
+    {
       "ey": "Why Trizen",
       "st": "Why Choose a Vacuum Forming Packaging Manufacturer in India?",
       "leads": [

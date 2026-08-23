@@ -146,3 +146,28 @@ export function getIndustryImages(
 
   return EMPTY;
 }
+
+/** Prefer content-2 for the design tab panel (matches reference HTML source-image order). */
+export function getDesignPanelImage(images: IndustryImageSet): string {
+  return images.content[1] || images.content[0] || images.hero || "";
+}
+
+export function designKickerLabel(
+  meta: { label: string; route: string; nav?: { href: string; label: string }[] },
+  slug: string,
+): string {
+  const navItem = meta.nav?.find(
+    (item) =>
+      item.href.endsWith(`/${slug}`) ||
+      (slug === "category" && item.href === meta.route) ||
+      (slug === "hub" && item.href === meta.route),
+  );
+  if (navItem) {
+    const short = navItem.label
+      .replace(/\s*&\s*.*/i, "")
+      .replace(/\s*packaging\s*$/i, "")
+      .trim();
+    return `${short} control`;
+  }
+  return `${meta.label} packaging control`;
+}

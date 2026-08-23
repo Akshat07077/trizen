@@ -424,6 +424,50 @@
           "label": "R&D Innovation"
         }
       ]
+    },
+    "automobile": {
+      "prefix": "Trizen_Auto_",
+      "route": "/automobile",
+      "label": "Automobile",
+      "sidebarTitle": "Automobile pages",
+      "ctaTitle": "Automotive Packaging Quote",
+      "ctaText": "Assembly line trays · Exterior · Interior · Mechanical · Sensor packaging — ISO 9001:2015 · Vapi.",
+      "footerLabel": "Automotive Packaging",
+      "faqSub": "Automotive thermoforming packaging",
+      "pages": [
+        "assembly-line-trays",
+        "category",
+        "exterior-component-packaging",
+        "interior-fittings-packaging",
+        "mechanical-parts-packaging",
+        "sensor-electrical-packaging"
+      ],
+      "nav": [
+        {
+          "href": "/automobile",
+          "label": "Automobile Overview"
+        },
+        {
+          "href": "/automobile/assembly-line-trays",
+          "label": "Assembly Line & Movement Trays"
+        },
+        {
+          "href": "/automobile/exterior-component-packaging",
+          "label": "Exterior Component Packaging"
+        },
+        {
+          "href": "/automobile/interior-fittings-packaging",
+          "label": "Interior Fittings Packaging"
+        },
+        {
+          "href": "/automobile/mechanical-parts-packaging",
+          "label": "Mechanical Parts Packaging"
+        },
+        {
+          "href": "/automobile/sensor-electrical-packaging",
+          "label": "Sensor & Electrical Packaging"
+        }
+      ]
     }
   },
   "allIndustriesNav": [
@@ -431,6 +475,11 @@
       "id": "toy",
       "href": "/toy",
       "label": "Toys"
+    },
+    {
+      "id": "automobile",
+      "href": "/automobile",
+      "label": "Automobile"
     },
     {
       "id": "electronics",

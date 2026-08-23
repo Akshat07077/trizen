@@ -33,20 +33,20 @@ export default function DesignControlPanel({
   };
 
   return (
-    <div
-      className={`design-control-panel${imageSrc ? "" : " no-media"}`}
-    >
-      {imageSrc ? (
-        <figure className="design-media">
+    <div className="design-control-panel">
+      <figure className="design-media">
+        {imageSrc ? (
           <ImagePreview src={imageSrc} alt={imageAlt}>
             {/* eslint-disable-next-line @next/next/no-img-element */}
             <img src={imageSrc} alt={imageAlt} />
           </ImagePreview>
-          {imageCaption ? (
-            <span className="design-media-caption">{imageCaption}</span>
-          ) : null}
-        </figure>
-      ) : null}
+        ) : (
+          <div className="design-media-placeholder" aria-hidden="true" />
+        )}
+        {imageCaption ? (
+          <span className="design-media-caption">{imageCaption}</span>
+        ) : null}
+      </figure>
 
       <div className={`design-detail${animating ? " is-changing" : ""}`}>
         <div className="design-tabs" role="tablist" aria-label={kickerLabel}>

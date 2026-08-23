@@ -272,6 +272,30 @@
       }
     },
     {
+      "ey": "Design Requirements",
+      "st": "Blister Packaging Design — Key Requirements",
+      "leads": [],
+      "products": [],
+      "strips": [
+        {
+          "title": "1. Blister cavity thermoforming",
+          "desc": "Thermoplastic sheet heated and thermoformed against the cavity mould — producing the product cavity. Cavity dimensions, depth, and sealing flange geometry confirmed against specification. — Cavity flange flatness ±0.3mm — critical for foil or Tyvek sealing integrity. Cavity depth consistency across all positions in the formed sheet."
+        },
+        {
+          "title": "2. Lidding alignment and heat sealing",
+          "desc": "Aluminium foil, Tyvek, or PVC lid film aligned over the empty blister cavities. Heat and pressure applied to the sealing flange. The blister packaging component is supplied to the buyer empty — product loading is performed by the pharmaceutical or device manufacturer. — Foil sealing: 140–200°C · 2–6 bar · 0.3–1.5 sec dwell. Tyvek sealing parameters confirmed at specification stage."
+        },
+        {
+          "title": "3. Seal integrity inspection",
+          "desc": "Seals inspected for completeness, seal width consistency, and absence of pinholes or unsealed areas. Pharmaceutical GMP batches: seal integrity inspection per GMP procedure. — Seal width minimum ≥3mm for pharmaceutical foil seal. Visual inspection per GMP procedure."
+        },
+        {
+          "title": "4. Perforation / scoring",
+          "desc": "Blister sheets scored or perforated for individual strip separation where required for pharmacy dispensing. — Clean separation without compromising cavity or seal integrity."
+        }
+      ]
+    },
+    {
       "ey": "Why Trizen",
       "st": "Why Choose a Blister Packaging Manufacturer in India?",
       "eyClass": "gold",
