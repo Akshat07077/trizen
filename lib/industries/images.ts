@@ -1,6 +1,7 @@
 import fs from "fs";
 import path from "path";
 import { TOY_IMAGES } from "@/lib/toy/images";
+import { isRasterFilename, isRasterUrl } from "@/lib/industries/image-url";
 
 export type IndustryImageSet = {
   hero: string;
@@ -19,9 +20,14 @@ function publicUrl(industryId: string, slug: string, filename: string): string {
   return `/images/${industryId}/${slug}/${filename}`;
 }
 
-function isRaster(filename: string): boolean {
-  const lower = filename.toLowerCase();
-  return RASTER_EXTENSIONS.some((ext) => lower.endsWith(ext));
+function sanitizeImageSet(set: IndustryImageSet): IndustryImageSet {
+  return {
+    hero: isRasterUrl(set.hero) ? set.hero : "",
+    content: [
+      isRasterUrl(set.content[0]) ? set.content[0] : "",
+      isRasterUrl(set.content[1]) ? set.content[1] : "",
+    ],
+  };
 }
 
 function resolveNamedSlot(
@@ -45,16 +51,10 @@ function listFolderFiles(industryId: string, slug: string): string[] {
 
   const files = fs
     .readdirSync(dir)
-    .filter((f) => ALL_EXTENSIONS.some((ext) => f.toLowerCase().endsWith(ext)));
-
-  const raster = files
-    .filter(isRaster)
-    .sort((a, b) => a.localeCompare(b, undefined, { numeric: true }));
-  const placeholders = files
-    .filter((f) => !isRaster(f))
+    .filter((f) => isRasterFilename(f))
     .sort((a, b) => a.localeCompare(b, undefined, { numeric: true }));
 
-  return raster.length ? raster : placeholders;
+  return files;
 }
 
 function pickNext(
@@ -65,7 +65,7 @@ function pickNext(
   for (const url of urls) {
     if (used.includes(url)) continue;
     const name = url.split("/").pop() ?? "";
-    if (preferRaster && !isRaster(name)) continue;
+    if (preferRaster && !isRasterFilename(name)) continue;
     return url;
   }
   for (const url of urls) {
@@ -89,23 +89,21 @@ function resolveFromFolder(industryId: string, slug: string): IndustryImageSet {
     resolveNamedSlot(industryId, slug, "content2");
 
   const hero =
-    (namedHero && isRaster(namedHero.split("/").pop() ?? "")) ? namedHero
-    : urls[0] ?? namedHero ?? "";
+    namedHero && isRasterUrl(namedHero) ? namedHero : urls.find(isRasterUrl) ?? "";
 
   const used: string[] = hero ? [hero] : [];
 
-  let content1 =
-    namedC1 && isRaster(namedC1.split("/").pop() ?? "") ? namedC1 : "";
+  let content1 = namedC1 && isRasterUrl(namedC1) ? namedC1 : "";
   if (!content1) content1 = pickNext(urls, used, true);
   if (content1) used.push(content1);
 
-  let content2 =
-    namedC2 && isRaster(namedC2.split("/").pop() ?? "") ? namedC2 : "";
+  let content2 = namedC2 && isRasterUrl(namedC2) ? namedC2 : "";
   if (!content2) content2 = pickNext(urls, used, true);
-  if (!content2 && namedC1 && !used.includes(namedC1)) content2 = namedC1;
-  if (!content1 && namedC1 && !used.includes(namedC1)) {
+  if (!content2 && namedC1 && isRasterUrl(namedC1) && !used.includes(namedC1)) {
+    content2 = namedC1;
+  }
+  if (!content1 && namedC1 && isRasterUrl(namedC1) && !used.includes(namedC1)) {
     content1 = namedC1;
-    used.push(content1);
   }
 
   return { hero, content: [content1, content2] };
@@ -123,24 +121,24 @@ export function getIndustryImages(
 
   if (industryId === "toy") {
     const toy = TOY_IMAGES[slug] ?? TOY_IMAGES.category;
-    return {
+    return sanitizeImageSet({
       hero: fromFolder.hero || toy?.hero || "",
       content: [
         fromFolder.content[0] || toy?.content[0] || "",
         fromFolder.content[1] || toy?.content[1] || "",
       ],
-    };
+    });
   }
 
   if (fromFolder.hero || fromFolder.content[0] || fromFolder.content[1]) {
-    return fromFolder;
+    return sanitizeImageSet(fromFolder);
   }
 
   if (slug !== "category" && slug !== "hub") {
     const categorySlug = industryId === "expertise" ? "hub" : "category";
     const fallback = resolveFromFolder(industryId, categorySlug);
     if (fallback.hero || fallback.content[0] || fallback.content[1]) {
-      return fallback;
+      return sanitizeImageSet(fallback);
     }
   }
 
@@ -149,7 +147,8 @@ export function getIndustryImages(
 
 /** Prefer content-2 for the design tab panel (matches reference HTML source-image order). */
 export function getDesignPanelImage(images: IndustryImageSet): string {
-  return images.content[1] || images.content[0] || images.hero || "";
+  const candidates = [images.content[1], images.content[0], images.hero];
+  return candidates.find(isRasterUrl) ?? "";
 }
 
 export function designKickerLabel(

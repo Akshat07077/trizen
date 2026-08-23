@@ -296,6 +296,11 @@ body:has(.industry-page) {
   z-index: 2;
 }
 
+/* Overview hero without a product photo — hide empty slanted panel */
+.industry-page .hero:not(.has-product-photo):not(.hero-editorial)::before {
+  display: none !important;
+}
+
 /* Product photo hero (Action Figure style) */
 .industry-page .hero.has-product-photo:before {
   display: none !important;

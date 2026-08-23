@@ -1,5 +1,6 @@
 import type { CSSProperties } from "react";
 import ImagePreview from "@/components/trizen/ImagePreview";
+import { heroStatsFromChips, type HeroStat } from "@/lib/industries/hero-stats";
 
 type HeroProps = {
   ey: string;
@@ -11,15 +12,9 @@ type HeroProps = {
   imageLabel: string;
   backHref?: string;
   backLabel?: string;
-  stats?: { value: string; label: string }[];
+  stats?: HeroStat[];
   variant?: "default" | "editorial";
 };
-
-const DEFAULT_STATS = [
-  { value: "APET", label: "Crystal Clear" },
-  { value: "7–14", label: "Day Prototype" },
-  { value: "ISO", label: "9001:2015" },
-];
 
 export default function Hero({
   ey,
@@ -31,14 +26,17 @@ export default function Hero({
   imageLabel,
   backHref = "/toy",
   backLabel = "← Toy Overview",
-  stats = DEFAULT_STATS,
+  stats,
   variant = "default",
 }: HeroProps) {
   const editorial = variant === "editorial";
+  const heroStats = stats ?? heroStatsFromChips(chips);
+  const hasPhoto = Boolean(imageSrc);
   const heroClass = [
     "hero",
-    imageSrc && !editorial ? "has-product-photo" : "",
+    hasPhoto && !editorial ? "has-product-photo" : "",
     editorial ? "hero-editorial" : "",
+    editorial && !hasPhoto ? "hero-editorial--no-photo" : "",
   ]
     .filter(Boolean)
     .join(" ");
@@ -47,11 +45,11 @@ export default function Hero({
     <div
       className={heroClass}
       style={
-        editorial && imageSrc
+        editorial && hasPhoto
           ? ({
               ["--hero-image" as string]: `url("${imageSrc}")`,
             } as CSSProperties)
-          : imageSrc && !editorial
+          : !editorial && hasPhoto
             ? undefined
             : ({
                 ["--hero-image" as string]: "none",
@@ -85,16 +83,16 @@ export default function Hero({
           ) : null}
         </div>
 
-        {editorial ? (
+        {editorial || !hasPhoto ? (
           <div className="hcards">
-            {stats.map((stat) => (
+            {heroStats.map((stat) => (
               <div key={stat.label} className="hc">
                 <div className="hn">{stat.value}</div>
                 <div className="hl">{stat.label}</div>
               </div>
             ))}
           </div>
-        ) : imageSrc ? (
+        ) : (
           <ImagePreview src={imageSrc} alt={imageLabel}>
             <div className="hero-showcase" aria-label={imageLabel}>
               <div className="showcase-frame has-photo">
@@ -107,18 +105,9 @@ export default function Hero({
               </div>
             </div>
           </ImagePreview>
-        ) : (
-          <div className="hcards">
-            {stats.map((stat) => (
-              <div key={stat.label} className="hc">
-                <div className="hn">{stat.value}</div>
-                <div className="hl">{stat.label}</div>
-              </div>
-            ))}
-          </div>
         )}
       </div>
-      {editorial && imageSrc ? (
+      {editorial && hasPhoto ? (
         <ImagePreview src={imageSrc} alt={imageLabel}>
           <span className="hero-image-hit" aria-hidden="true" />
         </ImagePreview>

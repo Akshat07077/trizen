@@ -18,6 +18,7 @@ import {
   getDesignPanelImage,
   getIndustryImages,
 } from "@/lib/industries/images";
+import { heroStatsFromChips } from "@/lib/industries/hero-stats";
 import { getIndustryGalleryImages } from "@/lib/industries/gallery";
 import type { IndustryMeta, IndustryPageContent } from "@/lib/industries/types";
 
@@ -88,12 +89,15 @@ export default function IndustryPage({
         chips={content.hero.chips}
         imageSrc={images.hero}
         imageLabel={content.hero.titleMain}
+        stats={heroStatsFromChips(content.hero.chips)}
         backHref={overviewHref}
         backLabel={`← ${meta.label} Overview`}
         variant={useEditorial ? "editorial" : "default"}
       />
 
-      {useEditorial ? <IndustryHeroGallery images={heroGallery} /> : null}
+      {useEditorial && heroGallery.length > 0 ? (
+        <IndustryHeroGallery images={heroGallery} />
+      ) : null}
 
       <div className="page-wrap">
         <main>
