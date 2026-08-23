@@ -5,18 +5,6 @@ export const CONTACT_PEOPLE = [
     phone: "+91 98987 01364",
     tel: "+919898701364",
   },
-  {
-    name: "Swanand",
-    role: "Business Development Head",
-    phone: "+91 98987 01334",
-    tel: "+919898701334",
-  },
-  {
-    name: "Shiksha",
-    role: "Business Development Executive",
-    phone: "+91 98987 01340",
-    tel: "+919898701340",
-  },
 ] as const;
 
 export const INDUSTRY_OPTIONS = [
