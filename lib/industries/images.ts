@@ -145,6 +145,20 @@ export function getIndustryImages(
   return EMPTY;
 }
 
+/** Hero photo for a category card, resolved from its sub-page href. */
+export function getCardImageFromHref(
+  industryId: string,
+  href?: string,
+): string {
+  if (!href || href === "#") return "";
+  const parts = href.split("/").filter(Boolean);
+  if (parts[0] !== industryId) return "";
+  const slug = parts[1];
+  if (!slug || slug === "category" || slug === "hub") return "";
+  const images = getIndustryImages(industryId, slug);
+  return images.hero || images.content[0] || "";
+}
+
 /** Prefer content-2 for the design tab panel (matches reference HTML source-image order). */
 export function getDesignPanelImage(images: IndustryImageSet): string {
   const candidates = [images.content[1], images.content[0], images.hero];

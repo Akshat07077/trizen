@@ -188,12 +188,15 @@ body:has(.industry-page) {
 .industry-page .pgrid {
   display: grid;
   grid-template-columns: repeat(2, minmax(0, 1fr));
-  gap: 14px;
-  margin: 22px 0;
+  gap: 22px;
+  margin: 28px 0;
 }
 .industry-page .pc {
-  padding: 22px 24px;
-  background: linear-gradient(135deg, #fff 0 76%, var(--ice) 76%);
+  display: flex;
+  flex-direction: column;
+  padding: 0;
+  overflow: hidden;
+  background: linear-gradient(135deg, #fff 0 82%, var(--ice) 82%);
   clip-path: polygon(16px 0, 100% 0, calc(100% - 16px) 100%, 0 100%);
   border: 1px solid var(--line);
   transition: transform 0.25s ease, box-shadow 0.25s ease;
@@ -202,9 +205,34 @@ body:has(.industry-page) {
   transform: translateY(-4px);
   box-shadow: 0 16px 36px rgba(54, 53, 108, 0.12);
 }
+.industry-page .pc-media {
+  position: relative;
+  height: 210px;
+  background: var(--ice);
+  overflow: hidden;
+}
+.industry-page .pc-media img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+.industry-page .pc-media-ph {
+  display: block;
+  width: 100%;
+  height: 100%;
+  background:
+    linear-gradient(145deg, #f7f7fb 0%, #ececf5 48%, #36356c 100%),
+    radial-gradient(circle at 72% 28%, rgba(104, 102, 160, 0.28), transparent 55%);
+}
+.industry-page .pc-body {
+  padding: 22px 24px 24px;
+  flex: 1;
+}
 .industry-page .pc-name {
   font-family: var(--fh);
-  font-size: 18px;
+  font-size: 21px;
   font-weight: 700;
   color: var(--navy);
   margin-bottom: 8px;
@@ -299,6 +327,16 @@ body:has(.industry-page) {
 /* Overview hero without a product photo — hide empty slanted panel */
 .industry-page .hero:not(.has-product-photo):not(.hero-editorial)::before {
   display: none !important;
+}
+
+@media (max-width: 760px) {
+  .industry-page .pgrid {
+    grid-template-columns: 1fr;
+  }
+
+  .industry-page .pc-media {
+    height: 180px;
+  }
 }
 
 /* Product photo hero (Action Figure style) */

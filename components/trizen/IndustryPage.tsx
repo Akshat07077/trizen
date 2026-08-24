@@ -15,6 +15,7 @@ import {
 } from "@/lib/industries/section-layout";
 import {
   designKickerLabel,
+  getCardImageFromHref,
   getDesignPanelImage,
   getIndustryImages,
 } from "@/lib/industries/images";
@@ -136,19 +137,35 @@ export default function IndustryPage({
                   section.products &&
                   section.products.length > 0 ? (
                     <div className="pgrid">
-                      {section.products.map((product) => (
+                      {section.products.map((product) => {
+                        const cardImage = getCardImageFromHref(
+                          industryId,
+                          product.href,
+                        );
+                        return (
                         <a
                           key={product.name}
                           href={product.href ?? "#"}
-                          className="pc"
+                          className={`pc${cardImage ? " has-photo" : ""}`}
                         >
-                          <div className="pc-name">{product.name}</div>
-                          <div className="pc-desc">{product.desc}</div>
-                          {product.link ? (
-                            <div className="pc-link">{product.link}</div>
-                          ) : null}
+                          <div className="pc-media">
+                            {cardImage ? (
+                              // eslint-disable-next-line @next/next/no-img-element
+                              <img src={cardImage} alt="" />
+                            ) : (
+                              <span className="pc-media-ph" aria-hidden="true" />
+                            )}
+                          </div>
+                          <div className="pc-body">
+                            <div className="pc-name">{product.name}</div>
+                            <div className="pc-desc">{product.desc}</div>
+                            {product.link ? (
+                              <div className="pc-link">{product.link}</div>
+                            ) : null}
+                          </div>
                         </a>
-                      ))}
+                        );
+                      })}
                     </div>
                   ) : null}
 
