@@ -52,32 +52,38 @@
         {
           "name": "Thermoformed Trays",
           "desc": "6mm IOL tray to 500mm automotive gearbox tray — one solution for every product shape.",
-          "link": "This page"
+          "link": "View →",
+          "href": "/manufacturing/thermoforming-packaging"
         },
         {
           "name": "Vacuum Forming",
           "desc": "~1 bar vacuum for standard shapes and high-volume commercial packaging programmes.",
-          "link": "Vacuum Forming →"
+          "link": "View →",
+          "href": "/manufacturing/vacuum-forming"
         },
         {
           "name": "Pressure Forming",
           "desc": "4–11 bar combined — fine detail, sharp corners, consistent deep-draw wall thickness.",
-          "link": "Pressure Forming →"
+          "link": "View →",
+          "href": "/manufacturing/pressure-forming"
         },
         {
           "name": "Blister Packaging",
           "desc": "Thermoformed cavity + foil, Tyvek, or film lidding. Pharmaceutical and medical device formats.",
-          "link": "Blister Packaging →"
+          "link": "View →",
+          "href": "/manufacturing/blister-packaging"
         },
         {
           "name": "Clamshell Packaging",
           "desc": "Two-part hinged packaging with heat-sealed or snap-close closure.",
-          "link": "Clamshell →"
+          "link": "View →",
+          "href": "/manufacturing/clamshell-packaging"
         },
         {
           "name": "Plastic Packaging Solutions",
           "desc": "Thermoformed plastic packaging spanning multiple formats for OEM programmes.",
-          "link": "Plastic Packaging →"
+          "link": "View →",
+          "href": "/manufacturing/plastic-packaging"
         }
       ],
       "strips": [],
@@ -89,22 +95,22 @@
         ],
         "rows": [
           [
-            "1Heat",
+            "Heat",
             "Sheet heated to forming temperature. Infrared/ceramic elements controlled per material specification for uniform heat distribution across the forming area.",
             "Sheet temperature uniformity critical for cavity depth consistency."
           ],
           [
-            "2Form",
+            "Form",
             "Vacuum forming (~1 bar): standard geometries, cost-efficient volume. Pressure forming (4–11 bar combined): precision cavities, fine detail, sharp corners, deep-draw wall thickness consistency.",
             "Process selected from geometry, draw depth, and tolerance requirement."
           ],
           [
-            "3Trim",
+            "Trim",
             "Formed sheet trimmed to individual part outline. Web removed. Trim accuracy determines edge quality and dimensional conformity.",
             "Trim tool accuracy across entire production batch."
           ],
           [
-            "4Inspect",
+            "Inspect",
             "Dimensional inspection against design spec. GMP batch records completed for regulated programmes — batch number, material lot, process parameters, QC results.",
             "Dimensional records. GMP batch records for regulated packaging."
           ]
@@ -274,19 +280,19 @@
       "products": [],
       "strips": [
         {
-          "title": "1Heat",
+          "title": "Heat",
           "desc": "Sheet heated to forming temperature. Infrared/ceramic elements controlled per material specification for uniform heat distribution across the forming area. — Sheet temperature uniformity critical for cavity depth consistency."
         },
         {
-          "title": "2Form",
+          "title": "Form",
           "desc": "Vacuum forming (~1 bar): standard geometries, cost-efficient volume. Pressure forming (4–11 bar combined): precision cavities, fine detail, sharp corners, deep-draw wall thickness consistency. — Process selected from geometry, draw depth, and tolerance requirement."
         },
         {
-          "title": "3Trim",
+          "title": "Trim",
           "desc": "Formed sheet trimmed to individual part outline. Web removed. Trim accuracy determines edge quality and dimensional conformity. — Trim tool accuracy across entire production batch."
         },
         {
-          "title": "4Inspect",
+          "title": "Inspect",
           "desc": "Dimensional inspection against design spec. GMP batch records completed for regulated programmes — batch number, material lot, process parameters, QC results. — Dimensional records. GMP batch records for regulated packaging."
         }
       ]
@@ -331,22 +337,26 @@
         {
           "name": "Sustainability: The rPET Revolution — Recycled Thermoforming Packaging in India",
           "desc": "rPET vs virgin PET, PCR content, EPR regulations, and recycled content in Indian packaging procurement.",
-          "link": "Read Article →"
+          "link": "View →",
+          "href": "/manufacturing/materials"
         },
         {
           "name": "Process Guide: Vacuum vs Pressure Forming — Which Process Does Your Packaging Need?",
           "desc": "Process comparison, forming pressure values, application decision table, and cost implications.",
-          "link": "Read Article →"
+          "link": "View →",
+          "href": "/manufacturing/pressure-forming"
         },
         {
           "name": "Medical & Pharma: Why Medical and Pharmaceutical Packaging Relies on Thermoforming",
           "desc": "Sterile barrier systems, Cleanroom requirements, sterilization compatibility, and GMP documentation.",
-          "link": "Read Article →"
+          "link": "View →",
+          "href": "/medical"
         },
         {
           "name": "Industry 4.0: How Industry 4.0 is Changing Packaging Manufacturing in India",
           "desc": "Automation, IoT monitoring, digital twins, and AI quality inspection for thermoforming buyers.",
-          "link": "Read Article →"
+          "link": "View →",
+          "href": "/expertise/rnd-innovation"
         }
       ],
       "strips": []

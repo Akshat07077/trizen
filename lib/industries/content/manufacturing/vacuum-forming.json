@@ -84,27 +84,27 @@
         ],
         "rows": [
           [
-            "1Sheet Loading",
+            "Sheet Loading",
             "Thermoplastic sheet in the specified material and gauge confirmed against material COA and loaded onto the machine. Gauge range: 0.3mm thin retail blister to 8mm heavy-gauge industrial enclosure.",
             "Material identity confirmed vs COA. Gauge from product weight and structural requirement."
           ],
           [
-            "2IR Heating",
+            "IR Heating",
             "Sheet heated to forming temperature using infrared or ceramic elements — uniformly across the full sheet surface. Uniform temperature is critical: hot spots produce thinner cavities; cool spots produce incomplete forming.",
             "Sheet temperature uniformity. Non-uniform heating causes cavity depth and wall thickness variation."
           ],
           [
-            "3Vacuum Forming",
+            "Vacuum Forming",
             "Heated sheet drawn down over the mould surface by vacuum applied through small holes in the mould (~1 bar). Sheet contacts mould surface on the forming side — the reverse face shows material profile without direct mould contact.",
             "Vacuum level and application speed. Mould contact quality determines cavity surface finish."
           ],
           [
-            "4Cooling",
+            "Cooling",
             "Formed sheet cools against the mould surface, retaining cavity geometry. Premature release before the correct release temperature causes dimensional distortion.",
             "Cooling time critical for dimensional accuracy and product fitment."
           ],
           [
-            "5Trim & Inspect",
+            "Trim & Inspect",
             "Sheet trimmed to individual part outline. Dimensional inspection per spec. ISO 9001:2015 batch records completed per production run.",
             "Trim accuracy and dimensional inspection records per batch."
           ]
@@ -227,19 +227,19 @@
       "products": [],
       "strips": [
         {
-          "title": "1Sheet Loading",
+          "title": "Sheet Loading",
           "desc": "Thermoplastic sheet in the specified material and gauge confirmed against material COA and loaded onto the machine. Gauge range: 0.3mm thin retail blister to 8mm heavy-gauge industrial enclosure. — Material identity confirmed vs COA. Gauge from product weight and structural requirement."
         },
         {
-          "title": "2IR Heating",
+          "title": "IR Heating",
           "desc": "Sheet heated to forming temperature using infrared or ceramic elements — uniformly across the full sheet surface. Uniform temperature is critical: hot spots produce thinner cavities; cool spots produce incomplete forming. — Sheet temperature uniformity. Non-uniform heating causes cavity depth and wall thickness variation."
         },
         {
-          "title": "3Vacuum Forming",
+          "title": "Vacuum Forming",
           "desc": "Heated sheet drawn down over the mould surface by vacuum applied through small holes in the mould (~1 bar). Sheet contacts mould surface on the forming side — the reverse face shows material profile without direct mould contact. — Vacuum level and application speed. Mould contact quality determines cavity surface finish."
         },
         {
-          "title": "4Cooling",
+          "title": "Cooling",
           "desc": "Formed sheet cools against the mould surface, retaining cavity geometry. Premature release before the correct release temperature causes dimensional distortion. — Cooling time critical for dimensional accuracy and product fitment."
         }
       ]
@@ -282,17 +282,20 @@
         {
           "name": "Process Guide: Vacuum vs Pressure Forming — Which Process Does Your Packaging Need?",
           "desc": "Process comparison, forming pressure values, application decision table, and cost implications.",
-          "link": "Read Article →"
+          "link": "View →",
+          "href": "/manufacturing/pressure-forming"
         },
         {
           "name": "Sustainability: The rPET Revolution — Recycled Thermoforming Packaging in India",
           "desc": "rPET vs virgin PET in vacuum formed packaging and EPR regulatory requirements in India.",
-          "link": "Read Article →"
+          "link": "View →",
+          "href": "/manufacturing/materials"
         },
         {
           "name": "Industry 4.0: How Industry 4.0 is Changing Packaging Manufacturing in India",
           "desc": "Automation in vacuum forming production and what it means for bulk OEM buyers.",
-          "link": "Read Article →"
+          "link": "View →",
+          "href": "/expertise/rnd-innovation"
         }
       ],
       "strips": []

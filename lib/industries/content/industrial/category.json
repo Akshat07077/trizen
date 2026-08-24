@@ -22,7 +22,26 @@
         "Trizen Packaging manufactures industrial and tooling thermoforming packaging from our ISO 9001:2015 certified facility in Vapi, Gujarat — heavy-duty HDPE and PP thermoformed packaging for the complete industrial equipment and tooling range. Industrial packaging manufacturer from Vapi Daman for equipment enclosures, machinery casing and covers, power tools packaging, and custom industrial thermoforming. With 20+ years of thermoforming manufacturing experience and heavy-gauge thermoforming capability, we are an industrial thermoforming packaging manufacturer from India serving industrial equipment manufacturers, tooling companies, and power tool brands.",
         "Industrial and tooling thermoforming packaging differs from commercial packaging in three key dimensions: weight (industrial components are substantially heavier than consumer products), durability (industrial packaging must withstand warehouse handling, forklift operations, and rough transit conditions), and dimensional precision (equipment enclosures and machinery covers require dimensional accuracy for correct fit and function). HDPE heavy-gauge thermoforming is the standard for heavy industrial applications — it provides the impact resistance, stack load performance, and dimensional stability that industrial packaging requires."
       ],
-      "products": [],
+      "products": [
+        {
+          "name": "Power Tools Packaging",
+          "desc": "Custom thermoformed inserts and retail blister for power tools — drill, grinder, toolkit geometries tooled from physical samples.",
+          "link": "View sub-page →",
+          "href": "/industrial/power-tools"
+        },
+        {
+          "name": "Equipment Enclosures",
+          "desc": "Heavy-gauge HDPE and ABS thermoformed equipment enclosures and protective covers with dimensional accuracy for fit and function.",
+          "link": "View sub-page →",
+          "href": "/industrial/enclosures"
+        },
+        {
+          "name": "Machinery Casing & Covers",
+          "desc": "Industrial machinery casing panels and covers engineered for warehouse handling, stack loads, and rough transit conditions.",
+          "link": "View sub-page →",
+          "href": "/industrial/machinery"
+        }
+      ],
       "strips": []
     },
     {

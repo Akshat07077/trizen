@@ -33,25 +33,25 @@
           "name": "Connector & Micro-Component Packaging",
           "desc": "Precision ESD-safe trays for connectors, terminals, micro-components, and small electronic parts — individual cavity isolation, terminal protection.",
           "link": "View sub-page →",
-          "href": "/electronics/esd"
+          "href": "/electronics/connector"
         },
         {
           "name": "Consumer Electronics Accessory Packaging",
           "desc": "Crystal-clear APET and ESD-safe retail packaging for consumer electronics accessories — earphones, cables, adapters, and accessories for e-commerce and retail.",
           "link": "View sub-page →",
-          "href": "/electronics/esd"
+          "href": "/electronics/consumer"
         },
         {
           "name": "PCB & Circuit Board Packaging",
           "desc": "ESD-safe antistatic thermoformed trays for PCBs, bare boards, and assembled circuit boards — gold finger protection, component height clearance.",
           "link": "View sub-page →",
-          "href": "/electronics/esd"
+          "href": "/electronics/pcb"
         },
         {
           "name": "Switches, Sensors & Module Packaging",
           "desc": "ESD-safe thermoformed packaging for switches, push buttons, proximity sensors, IoT modules, and control electronics — terminal and actuation surface protection.",
           "link": "View sub-page →",
-          "href": "/electronics/esd"
+          "href": "/electronics/switches"
         }
       ],
       "strips": [],

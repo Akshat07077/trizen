@@ -12,6 +12,19 @@ type DesignControlPanelProps = {
   kickerLabel?: string;
 };
 
+/**
+ * Design panel titles: match HTML process labels (name only).
+ * Tabs already show 01–04, so strip leading "1." / "1Heat" / "Step 1 —".
+ */
+function designPanelTitle(raw: string): string {
+  return raw
+    .replace(/^Step\s*\d+\s*[—–-]\s*/i, "")
+    .replace(/^\d+\.\s*/, "")
+    .replace(/^(\d+)([A-Za-z])/, "$2")
+    .replace(/^\d+\s+/, "")
+    .trim();
+}
+
 export default function DesignControlPanel({
   items,
   imageSrc,
@@ -24,6 +37,8 @@ export default function DesignControlPanel({
   const item = items[active] ?? items[0];
 
   if (!item) return null;
+
+  const displayTitle = designPanelTitle(item.title);
 
   const selectTab = (index: number) => {
     if (index === active) return;
@@ -67,7 +82,7 @@ export default function DesignControlPanel({
         <p className="design-kicker">
           {String(active + 1).padStart(2, "0")} / {kickerLabel}
         </p>
-        <h3 className="design-title">{item.title}</h3>
+        <h3 className="design-title">{displayTitle}</h3>
         <p className="design-description">{item.desc}</p>
       </div>
     </div>

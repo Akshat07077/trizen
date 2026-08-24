@@ -121,27 +121,27 @@
         ],
         "rows": [
           [
-            "1Material Setup",
+            "Material Setup",
             "Thermoplastic sheet confirmed against material COA. Medical-grade PETG or PP confirmed for regulated packaging. Material grade confirmed for Cleanroom production where required.",
             "Same material range as vacuum forming. Medical-grade and ESD-grade confirmed at brief stage."
           ],
           [
-            "2Controlled Heating",
+            "Controlled Heating",
             "Sheet heated uniformly to forming temperature. Temperature uniformity requirements are tighter in pressure forming — non-uniform temperature produces asymmetric forming force response under the combined pressure system.",
             "Tighter temperature uniformity requirement vs vacuum forming. Thermocouple monitoring of sheet temperature profile."
           ],
           [
-            "3Stage 1 — Vacuum Draw",
+            "Stage 1 — Vacuum Draw",
             "Vacuum applied through the mould (~1 bar) draws the heated sheet into approximate contact with the mould — the same initial stage as vacuum forming. But this is only preparation for the compressed air stage.",
             "Vacuum stage performs initial forming. The result is not the finished form — it is the setup for Stage 2."
           ],
           [
-            "4Stage 2 — Compressed Air",
+            "Stage 2 — Compressed Air",
             "Compressed air at 3 to 10 bar applied to the opposite face of the sheet — simultaneously with or immediately after the vacuum draw. Combined forming force: 4 to 11 bar total. Drives the sheet into fine corner geometry, textured surfaces, deep cavity walls, and undercut geometry.",
             "This is the pressure forming difference. 4–11× the forming force of vacuum alone. Achieves geometry that vacuum forming physically cannot."
           ],
           [
-            "5Cool, Trim, Inspect",
+            "Cool, Trim, Inspect",
             "Sheet cools against the mould retaining precision geometry. Trimming and dimensional inspection. GMP batch records for all regulated medical device and pharmaceutical production runs.",
             "GMP batch records, material COAs, and Cleanroom environmental monitoring per run for regulated packaging."
           ]
@@ -271,19 +271,19 @@
       "products": [],
       "strips": [
         {
-          "title": "1Material Setup",
+          "title": "Material Setup",
           "desc": "Thermoplastic sheet confirmed against material COA. Medical-grade PETG or PP confirmed for regulated packaging. Material grade confirmed for Cleanroom production where required. — Same material range as vacuum forming. Medical-grade and ESD-grade confirmed at brief stage."
         },
         {
-          "title": "2Controlled Heating",
+          "title": "Controlled Heating",
           "desc": "Sheet heated uniformly to forming temperature. Temperature uniformity requirements are tighter in pressure forming — non-uniform temperature produces asymmetric forming force response under the combined pressure system. — Tighter temperature uniformity requirement vs vacuum forming. Thermocouple monitoring of sheet temperature profile."
         },
         {
-          "title": "3Stage 1 — Vacuum Draw",
+          "title": "Stage 1 — Vacuum Draw",
           "desc": "Vacuum applied through the mould (~1 bar) draws the heated sheet into approximate contact with the mould — the same initial stage as vacuum forming. But this is only preparation for the compressed air stage. — Vacuum stage performs initial forming. The result is not the finished form — it is the setup for Stage 2."
         },
         {
-          "title": "4Stage 2 — Compressed Air",
+          "title": "Stage 2 — Compressed Air",
           "desc": "Compressed air at 3 to 10 bar applied to the opposite face of the sheet — simultaneously with or immediately after the vacuum draw. Combined forming force: 4 to 11 bar total. Drives the sheet into fine corner geometry, textured surfaces, deep cavity walls, and undercut geometry. — This is the pressure forming difference. 4–11× the forming force of vacuum alone. Achieves geometry that vacuum forming physically cannot."
         }
       ]
@@ -326,17 +326,20 @@
         {
           "name": "Process Guide: Vacuum vs Pressure Forming — Which Process Does Your Packaging Need?",
           "desc": "Complete comparison, forming pressure values, decision table, and cost implications.",
-          "link": "Read Article →"
+          "link": "View →",
+          "href": "/manufacturing/pressure-forming"
         },
         {
           "name": "Medical & Pharma: Why Medical and Pharmaceutical Packaging Relies on Thermoforming",
           "desc": "Why pressure forming dominates sterile medical device and pharmaceutical primary packaging.",
-          "link": "Read Article →"
+          "link": "View →",
+          "href": "/medical"
         },
         {
           "name": "Industry 4.0: How Industry 4.0 is Changing Packaging Manufacturing in India",
           "desc": "Digital twin simulation, IoT process monitoring, and AI quality inspection in pressure forming.",
-          "link": "Read Article →"
+          "link": "View →",
+          "href": "/expertise/rnd-innovation"
         }
       ],
       "strips": []

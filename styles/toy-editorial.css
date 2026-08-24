@@ -570,16 +570,16 @@
   min-height: clamp(420px, 52vw, 620px);
 }
 
-/* Design requirements tab panel */
-.industry-page.industry-editorial .design-layout > .strips {
+/* Design requirements tab panel — all industry pages */
+.industry-page .design-layout > .strips {
   display: none !important;
 }
 
-.industry-page.industry-editorial .design-media::after {
+.industry-page .design-media::after {
   content: none !important;
 }
 
-.industry-page.industry-editorial .design-media {
+.industry-page .design-media {
   position: relative;
   min-height: 520px;
   overflow: hidden;
@@ -587,16 +587,16 @@
   background: var(--ice);
 }
 
-.industry-page.industry-editorial .design-media:hover img {
+.industry-page .design-media:hover img {
   transform: scale(1.035);
   filter: saturate(1.06);
 }
 
-.industry-page.industry-editorial .design-media img {
+.industry-page .design-media img {
   transition: transform 0.8s cubic-bezier(0.22, 0.8, 0.24, 1), filter 0.4s;
 }
 
-.industry-page.industry-editorial .design-media .image-preview-trigger {
+.industry-page .design-media .image-preview-trigger {
   position: absolute;
   inset: 0;
   width: 100%;
@@ -604,7 +604,7 @@
   margin: 0;
 }
 
-.industry-page.industry-editorial .design-media img {
+.industry-page .design-media img {
   position: absolute;
   inset: 0;
   width: 100%;
@@ -613,7 +613,7 @@
   object-position: center;
 }
 
-.industry-page.industry-editorial .design-media-placeholder {
+.industry-page .design-media-placeholder {
   position: absolute;
   inset: 0;
   background:
@@ -621,7 +621,7 @@
     radial-gradient(circle at 72% 28%, rgba(104, 102, 160, 0.35), transparent 52%);
 }
 
-.industry-page.industry-editorial .design-media-caption {
+.industry-page .design-media-caption {
   position: absolute;
   left: calc(8% + 22px);
   bottom: 22px;
@@ -637,7 +637,7 @@
   pointer-events: none;
 }
 
-.industry-page.industry-editorial .design-media .image-preview-badge {
+.industry-page .design-media .image-preview-badge {
   right: 20px;
   bottom: 20px;
   left: auto;

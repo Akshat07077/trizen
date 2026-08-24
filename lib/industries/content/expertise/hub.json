@@ -34,7 +34,32 @@
       "leads": [
         "Our thermoforming packaging OEM expertise India is organised across four distinct capability areas — each building on 20 years of exclusive thermoforming specialisation at Vapi:"
       ],
-      "products": [],
+      "products": [
+        {
+          "name": "A Unique Offer",
+          "desc": "What sets Trizen apart as a specialist thermoforming packaging manufacturer — in-house tooling, regulated capability, and multi-format production.",
+          "link": "View page →",
+          "href": "/expertise/unique-offer"
+        },
+        {
+          "name": "Cleanroom Capability",
+          "desc": "Cleanroom Class 100,000 (ISO Class 8) production for sterile medical device and pharmaceutical packaging programmes.",
+          "link": "View page →",
+          "href": "/expertise/cleanroom"
+        },
+        {
+          "name": "Contract Manufacturing",
+          "desc": "OEM contract manufacturing for thermoformed packaging — flexible MOQs, held tooling, and repeatable production quality.",
+          "link": "View page →",
+          "href": "/expertise/contract-manufacturing"
+        },
+        {
+          "name": "R&D Innovation",
+          "desc": "In-house design, CNC tooling, rapid prototyping, and material trials — packaging development without outsourcing delays.",
+          "link": "View page →",
+          "href": "/expertise/rnd-innovation"
+        }
+      ],
       "strips": []
     },
     {

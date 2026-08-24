@@ -40,31 +40,45 @@
       "products": [
         {
           "name": "Standard PVC Blister",
-          "desc": "Most widely used pharmaceutical blister format globally. Good thermoformability, heat-sealable with aluminium foil. WVTR: 3.0–5.0 g/m²/day. For OSD drugs with low to moderate moisture sensitivity."
+          "desc": "Most widely used pharmaceutical blister format globally. Good thermoformability, heat-sealable with aluminium foil. WVTR: 3.0–5.0 g/m²/day. For OSD drugs with low to moderate moisture sensitivity.",
+          "href": "/pharmaceutical/strip",
+          "link": "View →"
         },
         {
           "name": "PVDC High-Barrier Blister",
-          "desc": "Superior moisture barrier versus standard PVC. WVTR: 0.5–2.0 g/m²/day. For moisture-sensitive and hygroscopic pharmaceutical products."
+          "desc": "Superior moisture barrier versus standard PVC. WVTR: 0.5–2.0 g/m²/day. For moisture-sensitive and hygroscopic pharmaceutical products.",
+          "href": "/pharmaceutical",
+          "link": "View →"
         },
         {
           "name": "Alu-Alu Cold Form Blister",
-          "desc": "Maximum moisture barrier for highly hygroscopic drugs and specialty pharmaceutical products. WVTR: &lt;0.1 g/m²/day. Opaque. Premium protection for sensitive drug products."
+          "desc": "Maximum moisture barrier for highly hygroscopic drugs and specialty pharmaceutical products. WVTR: &lt;0.1 g/m²/day. Opaque. Premium protection for sensitive drug products.",
+          "href": "/pharmaceutical/sterile",
+          "link": "View →"
         },
         {
           "name": "APET/PETG Retail Blister",
-          "desc": "High clarity for maximum product visibility. Consumer product retail blister — electronics accessories, stationery, toys, consumer OTC. Euro-hole for pegboard retail display."
+          "desc": "High clarity for maximum product visibility. Consumer product retail blister — electronics accessories, stationery, toys, consumer OTC. Euro-hole for pegboard retail display.",
+          "href": "/electronics/consumer",
+          "link": "View →"
         },
         {
           "name": "Tyvek-Compatible Blister Components",
-          "desc": "Thermoformed blister tray + Tyvek-sealed blister component manufactured in ETO and Gamma compatible materials. Trizen manufactures the component. Device loading and sterilization by device manufacturer in their own facility."
+          "desc": "Thermoformed blister tray + Tyvek-sealed blister component manufactured in ETO and Gamma compatible materials. Trizen manufactures the component. Device loading and sterilization by device manufacturer in their own facility.",
+          "href": "/medical",
+          "link": "View →"
         },
         {
           "name": "Child-Resistant (CR) Blister",
-          "desc": "Child-resistant pharmaceutical packaging for OTC medications and prescription drugs. Push-and-peel mechanism. For pharmaceutical products requiring CR packaging."
+          "desc": "Child-resistant pharmaceutical packaging for OTC medications and prescription drugs. Push-and-peel mechanism. For pharmaceutical products requiring CR packaging.",
+          "href": "/pharmaceutical/child-resistant",
+          "link": "View →"
         },
         {
           "name": "Tamper-Evident Blister",
-          "desc": "Permanently sealed blister — seal breakage immediately visible and irreversible. For pharmaceutical and consumer healthcare products where tamper evidence is a packaging requirement."
+          "desc": "Permanently sealed blister — seal breakage immediately visible and irreversible. For pharmaceutical and consumer healthcare products where tamper evidence is a packaging requirement.",
+          "href": "/pharmaceutical/tamper-proof",
+          "link": "View →"
         }
       ],
       "strips": []
@@ -278,19 +292,19 @@
       "products": [],
       "strips": [
         {
-          "title": "1. Blister cavity thermoforming",
+          "title": "Blister cavity thermoforming",
           "desc": "Thermoplastic sheet heated and thermoformed against the cavity mould — producing the product cavity. Cavity dimensions, depth, and sealing flange geometry confirmed against specification. — Cavity flange flatness ±0.3mm — critical for foil or Tyvek sealing integrity. Cavity depth consistency across all positions in the formed sheet."
         },
         {
-          "title": "2. Lidding alignment and heat sealing",
+          "title": "Lidding alignment and heat sealing",
           "desc": "Aluminium foil, Tyvek, or PVC lid film aligned over the empty blister cavities. Heat and pressure applied to the sealing flange. The blister packaging component is supplied to the buyer empty — product loading is performed by the pharmaceutical or device manufacturer. — Foil sealing: 140–200°C · 2–6 bar · 0.3–1.5 sec dwell. Tyvek sealing parameters confirmed at specification stage."
         },
         {
-          "title": "3. Seal integrity inspection",
+          "title": "Seal integrity inspection",
           "desc": "Seals inspected for completeness, seal width consistency, and absence of pinholes or unsealed areas. Pharmaceutical GMP batches: seal integrity inspection per GMP procedure. — Seal width minimum ≥3mm for pharmaceutical foil seal. Visual inspection per GMP procedure."
         },
         {
-          "title": "4. Perforation / scoring",
+          "title": "Perforation / scoring",
           "desc": "Blister sheets scored or perforated for individual strip separation where required for pharmacy dispensing. — Clean separation without compromising cavity or seal integrity."
         }
       ]

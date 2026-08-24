@@ -1,3 +1,4 @@
+import Link from "next/link";
 import Hero from "@/components/trizen/Hero";
 import IndustrySidebar from "@/components/trizen/IndustrySidebar";
 import FAQ from "@/components/trizen/FAQ";
@@ -146,28 +147,46 @@ export default function IndustryPage({
                           industryId,
                           product.href,
                         );
-                        return (
-                        <a
-                          key={product.name}
-                          href={product.href ?? "#"}
-                          className={`pc${cardImage ? " has-photo" : ""}`}
-                        >
-                          <div className="pc-media">
-                            {cardImage ? (
-                              // eslint-disable-next-line @next/next/no-img-element
-                              <img src={cardImage} alt="" />
-                            ) : (
-                              <span className="pc-media-ph" aria-hidden="true" />
-                            )}
+                        const href =
+                          product.href && product.href !== "#"
+                            ? product.href
+                            : null;
+                        const className = `pc${cardImage ? " has-photo" : ""}${href ? "" : " is-static"}`;
+                        const body = (
+                          <>
+                            <div className="pc-media">
+                              {cardImage ? (
+                                // eslint-disable-next-line @next/next/no-img-element
+                                <img src={cardImage} alt="" />
+                              ) : (
+                                <span
+                                  className="pc-media-ph"
+                                  aria-hidden="true"
+                                />
+                              )}
+                            </div>
+                            <div className="pc-body">
+                              <div className="pc-name">{product.name}</div>
+                              <div className="pc-desc">{product.desc}</div>
+                              {href && product.link ? (
+                                <div className="pc-link">{product.link}</div>
+                              ) : null}
+                            </div>
+                          </>
+                        );
+
+                        return href ? (
+                          <Link
+                            key={product.name}
+                            href={href}
+                            className={className}
+                          >
+                            {body}
+                          </Link>
+                        ) : (
+                          <div key={product.name} className={className}>
+                            {body}
                           </div>
-                          <div className="pc-body">
-                            <div className="pc-name">{product.name}</div>
-                            <div className="pc-desc">{product.desc}</div>
-                            {product.link ? (
-                              <div className="pc-link">{product.link}</div>
-                            ) : null}
-                          </div>
-                        </a>
                         );
                       })}
                     </div>
@@ -236,7 +255,9 @@ export default function IndustryPage({
                         section.strips[0]?.title ||
                         meta.label
                       }
-                      imageCaption={designImageCaption || undefined}
+                      imageCaption={
+                        designImageCaption || "Production facility Vapi"
+                      }
                       kickerLabel={designKickerLabel(meta, content.slug)}
                     />
                   ) : section.strips && section.strips.length > 0 ? (
