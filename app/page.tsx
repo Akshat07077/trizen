@@ -67,6 +67,18 @@ export default function Home() {
       </section>
 
       <section className="home-grid">
+        <h2>Company</h2>
+        <ul>
+          <li>
+            <Link href="/about">About Us</Link>
+          </li>
+          <li>
+            <Link href="/contact">Contact</Link>
+          </li>
+        </ul>
+      </section>
+
+      <section className="home-grid">
         <h2>Expertise</h2>
         <ul>
           <li>

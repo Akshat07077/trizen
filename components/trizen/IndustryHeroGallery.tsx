@@ -18,11 +18,18 @@ export default function IndustryHeroGallery({
     <section className="hero-gallery" aria-label="Product packaging samples">
       <div className={`hero-gallery-grid hero-gallery-grid--${items.length}`}>
         {items.map((item, index) => (
-          <div key={`${item.src}-${index}`} className="hero-gallery-card">
-            <ImagePreview src={item.src} alt={item.alt}>
-              {/* eslint-disable-next-line @next/next/no-img-element */}
-              <img src={item.src} alt={item.alt} />
-            </ImagePreview>
+          <div key={`${item.src || "ph"}-${index}`} className="hero-gallery-card">
+            {item.src ? (
+              <ImagePreview src={item.src} alt={item.alt}>
+                {/* eslint-disable-next-line @next/next/no-img-element */}
+                <img src={item.src} alt={item.alt} />
+              </ImagePreview>
+            ) : (
+              <div className="hero-gallery-placeholder">
+                <span>Photo {index + 1}</span>
+                <small>{item.alt || "Product packaging sample"}</small>
+              </div>
+            )}
           </div>
         ))}
       </div>

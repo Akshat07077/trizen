@@ -168,6 +168,26 @@
   color: var(--violet, #36356c);
 }
 
+.site-nav-flyout {
+  display: none;
+  position: absolute !important;
+  top: 100%;
+  left: 0;
+  min-width: 280px;
+  width: max-content;
+  max-width: min(360px, 90vw);
+  padding: 16px;
+  background: #fff;
+  border: 1px solid var(--line, #dedee9);
+  box-shadow: 0 18px 40px rgba(54, 53, 108, 0.14);
+  z-index: 80;
+}
+
+.site-nav-drop.is-open .site-nav-flyout,
+.site-nav-drop:hover .site-nav-flyout {
+  display: block;
+}
+
 .site-nav-actions {
   display: flex;
   align-items: center;

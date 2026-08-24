@@ -101,6 +101,7 @@ export default function SiteFooter({ industryLabel }: SiteFooterProps) {
         </p>
         <div className="site-footer-legal">
           <Link href="/">Home</Link>
+          <Link href="/about">About</Link>
           <Link href="/manufacturing">Manufacturing</Link>
           <Link href="/expertise">Expertise</Link>
           <Link href="/contact">Contact</Link>

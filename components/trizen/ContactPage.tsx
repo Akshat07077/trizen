@@ -41,6 +41,7 @@ export default function ContactPage() {
               <span className="cp">ISO 9001:2015</span>
               <span className="cp">7–14 Day Prototype</span>
               <span className="cp">MOQ from 500 Units</span>
+              <span className="cp">24h Response</span>
             </div>
           </div>
 
@@ -50,29 +51,33 @@ export default function ContactPage() {
               <div key={person.name} className="contact-quick-row">
                 <div>
                   <strong>{person.name}</strong>
-                  <span>
-                    {person.role} ·{" "}
-                    <a href={`tel:${person.tel}`}>{person.phone}</a>
-                  </span>
+                  <span>{person.role}</span>
+                  <a href={`tel:${person.tel}`}>{person.phone}</a>
                 </div>
               </div>
             ))}
             <div className="contact-quick-row">
               <div>
                 <strong>Email</strong>
-                <span>
-                  <a href="mailto:contact@trizenpackaging.com">
-                    contact@trizenpackaging.com
-                  </a>
-                </span>
+                <a href="mailto:contact@trizenpackaging.com">
+                  contact@trizenpackaging.com
+                </a>
               </div>
             </div>
             <div className="contact-quick-row">
               <div>
                 <strong>Business Hours</strong>
-                <span>Mon–Sat: 9:00 AM – 6:00 PM</span>
+                <span>Mon–Sat · 9:00 AM – 6:00 PM IST</span>
               </div>
             </div>
+            <a
+              href="https://wa.me/919898701364"
+              className="contact-quick-wa"
+              target="_blank"
+              rel="noreferrer"
+            >
+              WhatsApp Enquiry →
+            </a>
           </aside>
         </div>
       </section>
@@ -87,25 +92,28 @@ export default function ContactPage() {
             <div className="contact-info-side">
               <div className="contact-info-block">
                 <h3>Address Details</h3>
-                <div className="contact-addr-note">
-                  Factory Address — add actual address
-                  <small>
-                    e.g. Plot No. XX, GIDC Industrial Area, Vapi, Gujarat
-                    396195
-                  </small>
+                <div className="contact-addr">
+                  <span className="contact-addr-label">Factory</span>
+                  <p>
+                    GIDC Industrial Area
+                    <br />
+                    Vapi, Gujarat, India
+                  </p>
                 </div>
-                <div className="contact-addr-note">
-                  Office Address — add actual address
-                  <small>
-                    Required for local SEO and Google Business Profile
-                  </small>
+                <div className="contact-addr">
+                  <span className="contact-addr-label">Office</span>
+                  <p>
+                    Vapi / Daman region
+                    <br />
+                    Gujarat, India
+                  </p>
                 </div>
               </div>
 
-              <div className="contact-info-block">
+              <div className="contact-info-block contact-info-map">
                 <h3>Location Map</h3>
                 <p className="contact-map-caption">
-                  Trizen Packaging · Vapi / Daman, Gujarat, India
+                  Trizen Packaging · Vapi / Daman, Gujarat
                 </p>
                 <div className="contact-map">
                   <iframe
@@ -133,7 +141,6 @@ export default function ContactPage() {
                     <div>
                       <strong>{person.name}</strong>
                       <span>{person.role}</span>
-                      <br />
                       <a href={`tel:${person.tel}`}>{person.phone}</a>
                     </div>
                   </div>
@@ -171,12 +178,13 @@ export default function ContactPage() {
             agent.
           </p>
           <div className="contact-why-grid">
-            {WHY_CHOOSE.map((item) => (
+            {WHY_CHOOSE.map((item, index) => (
               <div key={item.title} className="contact-why-card">
-                <div>
-                  <strong>{item.title}</strong>
-                  <p>{item.desc}</p>
-                </div>
+                <span className="contact-why-num">
+                  {String(index + 1).padStart(2, "0")}
+                </span>
+                <strong>{item.title}</strong>
+                <p>{item.desc}</p>
               </div>
             ))}
           </div>

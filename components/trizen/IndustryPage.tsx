@@ -2,13 +2,11 @@ import Hero from "@/components/trizen/Hero";
 import IndustrySidebar from "@/components/trizen/IndustrySidebar";
 import FAQ from "@/components/trizen/FAQ";
 import { MidCTA, BottomCTA } from "@/components/trizen/CTA";
-import FullImageBlock from "@/components/trizen/FullImageBlock";
 import DesignControlPanel from "@/components/trizen/DesignControlPanel";
 import ComponentSlider from "@/components/trizen/ComponentSlider";
 import IndustryHeroGallery from "@/components/trizen/IndustryHeroGallery";
 import { buildToySliderSlides } from "@/lib/industries/build-toy-slider-slides";
 import {
-  findDesignSectionIndex,
   isDesignRequirementsSection,
   isPainPointsSection,
   isOverviewSlug,
@@ -66,14 +64,20 @@ export default function IndustryPage({
   const overviewHref =
     industryId === "expertise" ? "/expertise/hub" : meta.route;
   const useEditorial = !isOverviewSlug(content.slug);
-  const designSectionIdx = findDesignSectionIndex(content.sections);
-  const heroGallery = useEditorial
-    ? getIndustryGalleryImages(
-        industryId,
-        content.slug,
-        content.imageLabels,
-      )
-    : [];
+  const galleryLabels =
+    content.imageLabels?.length
+      ? content.imageLabels
+      : [
+          `${meta.label} packaging`,
+          `${meta.label} production`,
+          `${meta.label} detail`,
+        ];
+  const heroGallery = getIndustryGalleryImages(
+    industryId,
+    content.slug,
+    galleryLabels,
+    useEditorial ? {} : { padTo: 3 },
+  );
   const designImageSrc = getDesignPanelImage(images);
   const designImageCaption =
     content.imageLabels?.[1] ?? content.imageLabels?.[0] ?? "";
@@ -96,7 +100,7 @@ export default function IndustryPage({
         variant={useEditorial ? "editorial" : "default"}
       />
 
-      {useEditorial && heroGallery.length > 0 ? (
+      {heroGallery.length > 0 ? (
         <IndustryHeroGallery images={heroGallery} />
       ) : null}
 
@@ -250,71 +254,11 @@ export default function IndustryPage({
                 </div>
 
                 {sIdx === 0 && content.midCtas[0] ? (
-                  <>
-                    <MidCTA {...content.midCtas[0]} />
-                    {!useEditorial && images.content[0] ? (
-                      <FullImageBlock
-                        src={images.content[0]}
-                        label={content.imageLabels?.[0] ?? meta.label}
-                      />
-                    ) : null}
-                    {!useEditorial &&
-                    !images.content[0] &&
-                    content.imageLabels?.[0] ? (
-                      <figure className="img-ph img-ph-full">
-                        <div className="img-ph-inner">
-                          <div className="img-ph-label">
-                            {content.imageLabels[0]}
-                          </div>
-                        </div>
-                      </figure>
-                    ) : null}
-                  </>
+                  <MidCTA {...content.midCtas[0]} />
                 ) : null}
 
                 {sIdx === 2 && content.midCtas[1] ? (
-                  <>
-                    {!useEditorial &&
-                    images.content[1] &&
-                    sIdx !== designSectionIdx ? (
-                      <FullImageBlock
-                        src={images.content[1]}
-                        label={
-                          content.imageLabels?.[1] ??
-                          `${meta.label} production`
-                        }
-                      />
-                    ) : null}
-                    <MidCTA {...content.midCtas[1]} />
-                  </>
-                ) : null}
-
-                {!useEditorial &&
-                sIdx === 2 &&
-                !content.midCtas[1] &&
-                images.content[1] &&
-                sIdx !== designSectionIdx ? (
-                  <FullImageBlock
-                    src={images.content[1]}
-                    label={
-                      content.imageLabels?.[1] ?? `${meta.label} production`
-                    }
-                  />
-                ) : null}
-
-                {!useEditorial &&
-                sIdx === 2 &&
-                !content.midCtas[1] &&
-                !images.content[1] &&
-                content.imageLabels?.[1] &&
-                sIdx !== designSectionIdx ? (
-                  <figure className="img-ph img-ph-full">
-                    <div className="img-ph-inner">
-                      <div className="img-ph-label">
-                        {content.imageLabels[1]}
-                      </div>
-                    </div>
-                  </figure>
+                  <MidCTA {...content.midCtas[1]} />
                 ) : null}
               </div>
             );

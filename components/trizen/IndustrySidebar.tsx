@@ -72,7 +72,11 @@ export default function IndustrySidebar({
             {item.label}
           </Link>
         ))}
-        {registry.allIndustriesNav.map((item) => (
+        {registry.allIndustriesNav
+          .filter(
+            (item) => item.id !== "manufacturing" && item.id !== "expertise",
+          )
+          .map((item) => (
           <Link
             key={item.id}
             href={item.href}

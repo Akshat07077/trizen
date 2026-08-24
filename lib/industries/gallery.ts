@@ -11,6 +11,7 @@ export function getIndustryGalleryImages(
   industryId: string,
   slug: string,
   labels: string[] = [],
+  options: { padTo?: number } = {},
 ): GalleryImage[] {
   const images = getIndustryImages(industryId, slug);
   const toyFallback =
@@ -26,7 +27,13 @@ export function getIndustryGalleryImages(
     (src, index) => src && candidates.indexOf(src) === index,
   );
 
-  return unique.slice(0, 3).map((src, index) => ({
+  const padTo = options.padTo ?? 0;
+  const slots =
+    padTo > 0
+      ? Array.from({ length: padTo }, (_, index) => unique[index] || "")
+      : unique.slice(0, 3);
+
+  return slots.map((src, index) => ({
     src,
     alt: labels[index] ?? `${industryId} packaging sample ${index + 1}`,
   }));
