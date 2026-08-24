@@ -21,7 +21,4 @@ export const EXPERTISE_NAV =
   registry.industries.expertise?.nav ?? ([] as IndustryMeta["nav"]);
 
 /** Industries shown in sidebar before the live migrated list. */
-export const PLACEHOLDER_INDUSTRIES = [
-  { href: "#", label: "Baby Care" },
-  { href: "#", label: "Cosmetics" },
-] as const;
+export const PLACEHOLDER_INDUSTRIES: Array<{ href: string; label: string }> = [];

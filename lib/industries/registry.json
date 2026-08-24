@@ -468,6 +468,106 @@
           "label": "Sensor & Electrical Packaging"
         }
       ]
+    },
+    "cosmetics": {
+      "id": "cosmetics",
+      "prefix": "Trizen_Cosm_",
+      "route": "/cosmetics",
+      "label": "Cosmetics",
+      "sidebarTitle": "Cosmetics pages",
+      "ctaTitle": "Cosmetics Packaging Quote",
+      "ctaText": "Beauty · Perfume · Makeup kits · Lipstick inserts · Gift sets · Transparent APET/PETG — ISO 9001:2015 · Vapi.",
+      "footerLabel": "Cosmetics Packaging",
+      "faqSub": "Cosmetics thermoforming packaging",
+      "nav": [
+        {
+          "href": "/cosmetics",
+          "label": "Cosmetics Overview"
+        },
+        {
+          "href": "/cosmetics/cosmetic-beauty-packaging",
+          "label": "Cosmetic Packaging for Beauty Products"
+        },
+        {
+          "href": "/cosmetics/perfume-bottle-insert-trays",
+          "label": "Perfume Bottle Insert Trays"
+        },
+        {
+          "href": "/cosmetics/makeup-kit-thermoformed-trays",
+          "label": "Makeup Kit Thermoformed Trays"
+        },
+        {
+          "href": "/cosmetics/lipstick-compact-case-inserts",
+          "label": "Lipstick & Compact Case Inserts"
+        },
+        {
+          "href": "/cosmetics/gift-set-display-trays",
+          "label": "Gift Set Display Trays"
+        },
+        {
+          "href": "/cosmetics/transparent-thermoformed-cosmetic-packaging",
+          "label": "Transparent Cosmetic Packaging"
+        }
+      ],
+      "pages": [
+        "category",
+        "cosmetic-beauty-packaging",
+        "gift-set-display-trays",
+        "lipstick-compact-case-inserts",
+        "makeup-kit-thermoformed-trays",
+        "perfume-bottle-insert-trays",
+        "transparent-thermoformed-cosmetic-packaging"
+      ]
+    },
+    "baby-care": {
+      "id": "baby-care",
+      "prefix": "Trizen_Baby_",
+      "route": "/baby-care",
+      "label": "Baby Care",
+      "sidebarTitle": "Baby Care pages",
+      "ctaTitle": "Baby Care Packaging Quote",
+      "ctaText": "BPA-free · Food-grade · Baby toys · Accessories · Hygiene · Feeding bottles · Lotion trays — ISO 9001:2015 · Vapi.",
+      "footerLabel": "Baby Care Packaging",
+      "faqSub": "Baby care thermoforming packaging",
+      "nav": [
+        {
+          "href": "/baby-care",
+          "label": "Baby Care Overview"
+        },
+        {
+          "href": "/baby-care/baby-toy-packaging",
+          "label": "Baby Toy Packaging"
+        },
+        {
+          "href": "/baby-care/baby-accessories-trays",
+          "label": "Protective Trays for Baby Accessories"
+        },
+        {
+          "href": "/baby-care/hygiene-product-trays",
+          "label": "Hygiene Product Thermoformed Trays"
+        },
+        {
+          "href": "/baby-care/baby-product-packaging",
+          "label": "Baby Product Packaging"
+        },
+        {
+          "href": "/baby-care/feeding-bottle-packaging",
+          "label": "Feeding Bottle Packaging"
+        },
+        {
+          "href": "/baby-care/lotion-cream-tray-inserts",
+          "label": "Lotion & Cream Tray Inserts"
+        }
+      ],
+      "pages": [
+        "baby-accessories-trays",
+        "baby-product-packaging",
+        "baby-toy-packaging",
+        "category",
+        "feeding-bottle-packaging",
+        "hygiene-product-trays",
+        "lotion-cream-tray-inserts"
+      ]
     }
   },
   "allIndustriesNav": [
@@ -480,6 +580,16 @@
       "id": "automobile",
       "href": "/automobile",
       "label": "Automobile"
+    },
+    {
+      "id": "cosmetics",
+      "href": "/cosmetics",
+      "label": "Cosmetics"
+    },
+    {
+      "id": "baby-care",
+      "href": "/baby-care",
+      "label": "Baby Care"
     },
     {
       "id": "electronics",

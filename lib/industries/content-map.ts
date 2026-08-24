@@ -68,6 +68,22 @@ import automobile_interior_fittings_packaging from "@/lib/industries/content/aut
 import automobile_mechanical_parts_packaging from "@/lib/industries/content/automobile/mechanical-parts-packaging.json";
 import automobile_sensor_electrical_packaging from "@/lib/industries/content/automobile/sensor-electrical-packaging.json";
 
+import cosmetics_category from "@/lib/industries/content/cosmetics/category.json";
+import cosmetics_cosmetic_beauty_packaging from "@/lib/industries/content/cosmetics/cosmetic-beauty-packaging.json";
+import cosmetics_gift_set_display_trays from "@/lib/industries/content/cosmetics/gift-set-display-trays.json";
+import cosmetics_lipstick_compact_case_inserts from "@/lib/industries/content/cosmetics/lipstick-compact-case-inserts.json";
+import cosmetics_makeup_kit_thermoformed_trays from "@/lib/industries/content/cosmetics/makeup-kit-thermoformed-trays.json";
+import cosmetics_perfume_bottle_insert_trays from "@/lib/industries/content/cosmetics/perfume-bottle-insert-trays.json";
+import cosmetics_transparent_thermoformed_cosmetic_packaging from "@/lib/industries/content/cosmetics/transparent-thermoformed-cosmetic-packaging.json";
+
+import baby_care_baby_accessories_trays from "@/lib/industries/content/baby-care/baby-accessories-trays.json";
+import baby_care_baby_product_packaging from "@/lib/industries/content/baby-care/baby-product-packaging.json";
+import baby_care_baby_toy_packaging from "@/lib/industries/content/baby-care/baby-toy-packaging.json";
+import baby_care_category from "@/lib/industries/content/baby-care/category.json";
+import baby_care_feeding_bottle_packaging from "@/lib/industries/content/baby-care/feeding-bottle-packaging.json";
+import baby_care_hygiene_product_trays from "@/lib/industries/content/baby-care/hygiene-product-trays.json";
+import baby_care_lotion_cream_tray_inserts from "@/lib/industries/content/baby-care/lotion-cream-tray-inserts.json";
+
 export const industryContentMap: Record<
   string,
   Record<string, IndustryPageContent>
@@ -156,5 +172,23 @@ export const industryContentMap: Record<
     "interior-fittings-packaging": automobile_interior_fittings_packaging as IndustryPageContent,
     "mechanical-parts-packaging": automobile_mechanical_parts_packaging as IndustryPageContent,
     "sensor-electrical-packaging": automobile_sensor_electrical_packaging as IndustryPageContent
+  },
+  "cosmetics": {
+    "category": cosmetics_category as IndustryPageContent,
+    "cosmetic-beauty-packaging": cosmetics_cosmetic_beauty_packaging as IndustryPageContent,
+    "gift-set-display-trays": cosmetics_gift_set_display_trays as IndustryPageContent,
+    "lipstick-compact-case-inserts": cosmetics_lipstick_compact_case_inserts as IndustryPageContent,
+    "makeup-kit-thermoformed-trays": cosmetics_makeup_kit_thermoformed_trays as IndustryPageContent,
+    "perfume-bottle-insert-trays": cosmetics_perfume_bottle_insert_trays as IndustryPageContent,
+    "transparent-thermoformed-cosmetic-packaging": cosmetics_transparent_thermoformed_cosmetic_packaging as IndustryPageContent
+  },
+  "baby-care": {
+    "baby-accessories-trays": baby_care_baby_accessories_trays as IndustryPageContent,
+    "baby-product-packaging": baby_care_baby_product_packaging as IndustryPageContent,
+    "baby-toy-packaging": baby_care_baby_toy_packaging as IndustryPageContent,
+    "category": baby_care_category as IndustryPageContent,
+    "feeding-bottle-packaging": baby_care_feeding_bottle_packaging as IndustryPageContent,
+    "hygiene-product-trays": baby_care_hygiene_product_trays as IndustryPageContent,
+    "lotion-cream-tray-inserts": baby_care_lotion_cream_tray_inserts as IndustryPageContent
   }
 };
