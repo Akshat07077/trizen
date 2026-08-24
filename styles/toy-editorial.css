@@ -1,6 +1,6 @@
 /* Toy editorial hero + component slider (from auto-interior reference) */
 
-.industry-page.industry-editorial .hero.hero-editorial {
+.industry-page .hero.hero-editorial {
   isolation: isolate;
   background: #fff;
   min-height: calc(100vh - 88px);
@@ -8,7 +8,7 @@
   overflow: hidden;
 }
 
-.industry-page.industry-editorial .hero.hero-editorial::before {
+.industry-page .hero.hero-editorial::before {
   content: "";
   position: absolute;
   z-index: 0;
@@ -20,14 +20,14 @@
   box-shadow: 0 24px 60px rgba(54, 53, 108, 0.14);
 }
 
-.industry-page.industry-editorial .hero.hero-editorial--no-photo::before {
+.industry-page .hero.hero-editorial--no-photo::before {
   background:
     linear-gradient(145deg, #f7f7fb 0%, #ececf5 42%, #36356c 100%),
     radial-gradient(circle at 72% 28%, rgba(104, 102, 160, 0.35), transparent 52%),
     radial-gradient(circle at 88% 78%, rgba(54, 53, 108, 0.18), transparent 40%);
 }
 
-.industry-page.industry-editorial .hero.hero-editorial--no-photo::after {
+.industry-page .hero.hero-editorial--no-photo::after {
   content: "";
   position: absolute;
   z-index: 0;
@@ -43,7 +43,7 @@
   pointer-events: none;
 }
 
-.industry-page.industry-editorial .hero.hero-editorial .hi {
+.industry-page .hero.hero-editorial .hi {
   grid-template-columns: minmax(0, 49%) minmax(260px, 1fr) !important;
   position: relative;
   z-index: 1;
@@ -52,12 +52,12 @@
   padding-right: 3vw;
 }
 
-.industry-page.industry-editorial .hero.hero-editorial .hi > div:first-child {
+.industry-page .hero.hero-editorial .hi > div:first-child {
   position: relative;
   z-index: 2;
 }
 
-.industry-page.industry-editorial .hero.hero-editorial .hcards {
+.industry-page .hero.hero-editorial .hcards {
   align-self: end;
   margin-left: 8vw;
   padding: 14px 18px;
@@ -71,21 +71,21 @@
   gap: 8px;
 }
 
-.industry-page.industry-editorial .hero.hero-editorial .hc {
+.industry-page .hero.hero-editorial .hc {
   border-color: rgba(255, 255, 255, 0.24);
   text-align: center;
 }
 
-.industry-page.industry-editorial .hero.hero-editorial .hn {
+.industry-page .hero.hero-editorial .hn {
   color: #fff;
   text-shadow: 0 2px 12px rgba(8, 14, 30, 0.34);
 }
 
-.industry-page.industry-editorial .hero.hero-editorial .hl {
+.industry-page .hero.hero-editorial .hl {
   color: rgba(255, 255, 255, 0.76);
 }
 
-.industry-page.industry-editorial .hero.hero-editorial .image-preview-trigger {
+.industry-page .hero.hero-editorial .image-preview-trigger {
   position: absolute;
   z-index: 3;
   inset: 30px 3.25vw 30px 47%;
@@ -95,14 +95,14 @@
   clip-path: polygon(13% 0, 100% 0, 100% 100%, 0 100%);
 }
 
-.industry-page.industry-editorial .hero.hero-editorial .hero-image-hit {
+.industry-page .hero.hero-editorial .hero-image-hit {
   display: block;
   width: 100%;
   height: 100%;
   min-height: 420px;
 }
 
-.industry-page.industry-editorial .hero.hero-editorial .image-preview-badge {
+.industry-page .hero.hero-editorial .image-preview-badge {
   left: auto;
   right: 24px;
   bottom: 24px;
@@ -256,11 +256,11 @@
 }
 
 @media (max-width: 900px) {
-  .industry-page.industry-editorial .hero.hero-editorial {
+  .industry-page .hero.hero-editorial {
     min-height: auto;
   }
 
-  .industry-page.industry-editorial .hero.hero-editorial::before {
+  .industry-page .hero.hero-editorial::before {
     position: relative;
     display: block;
     inset: auto;
@@ -270,23 +270,23 @@
     margin: 0 0 20px;
   }
 
-  .industry-page.industry-editorial .hero.hero-editorial .hi {
+  .industry-page .hero.hero-editorial .hi {
     grid-template-columns: 1fr !important;
   }
 
-  .industry-page.industry-editorial .hero.hero-editorial .hcards {
+  .industry-page .hero.hero-editorial .hcards {
     margin: 0;
     background: var(--navy);
   }
 
-  .industry-page.industry-editorial .hero.hero-editorial .image-preview-trigger {
+  .industry-page .hero.hero-editorial .image-preview-trigger {
     position: relative;
     inset: auto;
     clip-path: none;
     margin-bottom: 16px;
   }
 
-  .industry-page.industry-editorial .hero.hero-editorial .hero-image-hit {
+  .industry-page .hero.hero-editorial .hero-image-hit {
     min-height: 480px;
   }
 
@@ -308,11 +308,11 @@
 }
 
 @media (max-width: 560px) {
-  .industry-page.industry-editorial .hero.hero-editorial::before {
+  .industry-page .hero.hero-editorial::before {
     height: 330px;
   }
 
-  .industry-page.industry-editorial .hero.hero-editorial .hero-image-hit {
+  .industry-page .hero.hero-editorial .hero-image-hit {
     min-height: 330px;
   }
 

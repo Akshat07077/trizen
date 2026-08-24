@@ -15,11 +15,18 @@
   padding-bottom: 40px !important;
 }
 
-/* Hero image from page CSS variable (replaces hardcoded auto asset) */
+/* Hero rhombus: photo when set, otherwise violet placeholder gradient */
 .industry-page .hero:before {
   background:
     linear-gradient(90deg, rgba(238, 247, 248, 0.2), rgba(54, 53, 108, 0.08)),
-    var(--hero-image) center / cover no-repeat !important;
+    var(--hero-image) center / cover no-repeat;
+}
+
+.industry-page .hero.hero-editorial--no-photo:before {
+  background:
+    linear-gradient(145deg, #f7f7fb 0%, #ececf5 42%, #36356c 100%),
+    radial-gradient(circle at 72% 28%, rgba(104, 102, 160, 0.35), transparent 52%),
+    radial-gradient(circle at 88% 78%, rgba(54, 53, 108, 0.18), transparent 40%) !important;
 }
 
 /* Keep sidebar visible on tablet (base CSS hides it under 880px) */
@@ -339,7 +346,7 @@ body:has(.industry-page) {
   }
 }
 
-/* Product photo hero (Action Figure style) */
+/* Product photo hero (Action Figure style) — retired; all pages use rhombus + stats */
 .industry-page .hero.has-product-photo:before {
   display: none !important;
 }

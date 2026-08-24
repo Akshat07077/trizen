@@ -92,12 +92,12 @@ export default function IndustryPage({
         titleTail={content.hero.titleTail}
         desc={content.hero.desc}
         chips={content.hero.chips}
-        imageSrc={images.hero}
+        imageSrc=""
         imageLabel={content.hero.titleMain}
         stats={heroStatsFromChips(content.hero.chips)}
         backHref={overviewHref}
         backLabel={`← ${meta.label} Overview`}
-        variant={useEditorial ? "editorial" : "default"}
+        variant="editorial"
       />
 
       {heroGallery.length > 0 ? (
