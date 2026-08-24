@@ -49,6 +49,7 @@ import stationery_office from "@/lib/industries/content/stationery/office.json";
 import stationery_pen_marker from "@/lib/industries/content/stationery/pen-marker.json";
 import stationery_school_kit from "@/lib/industries/content/stationery/school-kit.json";
 import manufacturing_blister_packaging from "@/lib/industries/content/manufacturing/blister-packaging.json";
+import manufacturing_category from "@/lib/industries/content/manufacturing/category.json";
 import manufacturing_clamshell_packaging from "@/lib/industries/content/manufacturing/clamshell-packaging.json";
 import manufacturing_materials from "@/lib/industries/content/manufacturing/materials.json";
 import manufacturing_plastic_packaging from "@/lib/industries/content/manufacturing/plastic-packaging.json";
@@ -150,6 +151,7 @@ export const industryContentMap: Record<
     "school-kit": stationery_school_kit as IndustryPageContent
   },
   manufacturing: {
+    "category": manufacturing_category as IndustryPageContent,
     "blister-packaging": manufacturing_blister_packaging as IndustryPageContent,
     "clamshell-packaging": manufacturing_clamshell_packaging as IndustryPageContent,
     "materials": manufacturing_materials as IndustryPageContent,

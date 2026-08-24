@@ -37,38 +37,39 @@
       "products": [],
       "strips": [
         {
-          "title": "PP — Polypropylene",
-          "desc": "0.20–8.00mm · Translucent — Our most versatile material. High heat resistance (130°C), living hinge capability, available in medical and food-contact grades. Heavy gauge up to 8mm for industrial enclosures."
+          "title": "PP — Polypropylene · 0.20–8.00mm · Translucent",
+          "desc": "Our most versatile material. High heat resistance (130°C), living hinge capability, available in medical and food-contact grades. Heavy gauge up to 8mm for industrial enclosures."
         },
         {
-          "title": "PETG — PET Glycol",
-          "desc": "0.20–4.00mm · High clarity — Preferred for medical device blister components and pharmaceutical trays. Outstanding thermoformability, no stress whitening, ETO and Gamma compatible. Density: 1.27 g/cm³."
+          "title": "PETG — PET Glycol · 0.20–4.00mm · High clarity",
+          "desc": "Preferred for medical device blister components and pharmaceutical trays. Outstanding thermoformability, no stress whitening, ETO and Gamma compatible. Density: 1.27 g/cm³."
         },
         {
-          "title": "APET — Amorphous PET",
-          "desc": "0.20–3.00mm · Max clarity — Used when maximum optical clarity is the priority. Lowest haze of any thermoforming material we use. BPA-free and Gamma stable. Food-contact grade available."
+          "title": "APET — Amorphous PET · 0.20–3.00mm · Max clarity",
+          "desc": "Used when maximum optical clarity is the priority. Lowest haze of any thermoforming material we use. BPA-free and Gamma stable. Food-contact grade available."
         },
         {
-          "title": "PVC",
-          "desc": "0.15–1.00mm · High clarity — Global standard for pharmaceutical blister packaging. We use PVC for oral solid dose pharma blister. WVTR: 3.0–5.0 g/m²/day. Heat-sealable with pharma foil."
+          "title": "PVC · 0.15–1.00mm · High clarity",
+          "desc": "Global standard for pharmaceutical blister packaging. We use PVC for oral solid dose pharma blister. WVTR: 3.0–5.0 g/m²/day. Heat-sealable with pharma foil."
         },
         {
-          "title": "PVDC",
-          "desc": "0.20–0.60mm · High clarity — Used when the drug product requires higher moisture barrier than PVC. WVTR: 0.5–2.0 g/m²/day. For moisture-sensitive and hygroscopic pharmaceutical products."
+          "title": "PVDC · 0.20–0.60mm · High clarity",
+          "desc": "Used when the drug product requires higher moisture barrier than PVC. WVTR: 0.5–2.0 g/m²/day. For moisture-sensitive and hygroscopic pharmaceutical products."
         },
         {
-          "title": "HIPS — High Impact PS",
-          "desc": "0.50–5.00mm · Opaque/Matte — Cost-efficient structural material we use for industrial trays and enclosures where clarity is not required. Max use temperature 70–80°C. Density: 1.04 g/cm³."
+          "title": "HIPS — High Impact PS · 0.50–5.00mm · Opaque/Matte",
+          "desc": "Cost-efficient structural material we use for industrial trays and enclosures where clarity is not required. Max use temperature 70–80°C. Density: 1.04 g/cm³."
         },
         {
-          "title": "ABS",
-          "desc": "1.00–6.00mm · Premium finish — Used for premium industrial enclosures and structural panels. Surface finish comparable to injection moulding at thermoforming tooling cost. Max use temp 80–100°C."
+          "title": "ABS · 1.00–6.00mm · Premium finish",
+          "desc": "Used for premium industrial enclosures and structural panels. Surface finish comparable to injection moulding at thermoforming tooling cost. Max use temp 80–100°C."
         },
         {
-          "title": "ESD PP / PETG",
-          "desc": "0.30–3.00mm · ESD controlled — Used for electronics and automotive sensor packaging where static discharge would damage the product. Antistatic (10⁸–10¹² Ω/sq) or conductive (10⁴–10⁶ Ω/sq) grade."
+          "title": "ESD PP / PETG · 0.30–3.00mm · ESD controlled",
+          "desc": "Used for electronics and automotive sensor packaging where static discharge would damage the product. Antistatic (10⁸–10¹² Ω/sq) or conductive (10⁴–10⁶ Ω/sq) grade."
         }
-      ]
+      ],
+      "callout": "rPET — Recycled Content: We also process rPET in 30%, 50%, 75%, and 100% PCR content for commercial and food-adjacent applications where your EPR obligations or sustainability commitments require documented recycled content. PCR chain-of-custody documentation from the material manufacturer is included in production batch documentation."
     },
     {
       "ey": "Material Selection",
@@ -87,28 +88,28 @@
         ],
         "rows": [
           [
-            "Step 1 — RegulatoryApplied first — rules out incompatible materials",
-            "Pharmaceutical primary packaging? → We use pharma-grade PVC or PVDCSterile medical device packaging? → We use ETO/Gamma compatible PETG or PPFood-contact packaging? → We use food-grade PP or APETESD-sensitive components? → We use ESD-modified PP or PETGStandard commercial packaging? → We select the best-fit grade",
-            "Pharma: PVC or PVDCMedical: PETG or PPFood: PP or APET food gradeESD: ESD PP or PETGCommercial: best-fit grade"
+            "Step 1 — Regulatory — Applied first — rules out incompatible materials",
+            "Pharmaceutical primary packaging? → We use pharma-grade PVC or PVDC. Sterile medical device packaging? → We use ETO/Gamma compatible PETG or PP. Food-contact packaging? → We use food-grade PP or APET. ESD-sensitive components? → We use ESD-modified PP or PETG. Standard commercial packaging? → We select the best-fit grade.",
+            "Pharma: PVC or PVDC. Medical: PETG or PP. Food: PP or APET food grade. ESD: ESD PP or PETG. Commercial: best-fit grade."
           ],
           [
-            "Step 2 — Moisture BarrierPharmaceutical only",
-            "Low drug moisture sensitivity → PVC (WVTR 3.0–5.0 g/m²/day)Moderate sensitivity → PVDC (WVTR 0.5–2.0 g/m²/day)High / hygroscopic → Alu-Alu cold form (&lt;0.1 g/m²/day)",
-            "Low: PVCModerate: PVDCHigh: Alu-Alu"
+            "Step 2 — Moisture Barrier — Pharmaceutical only",
+            "Low drug moisture sensitivity → PVC (WVTR 3.0–5.0 g/m²/day). Moderate sensitivity → PVDC (WVTR 0.5–2.0 g/m²/day). High / hygroscopic → Alu-Alu cold form (<0.1 g/m²/day).",
+            "Low: PVC. Moderate: PVDC. High: Alu-Alu."
           ],
           [
             "Step 3 — Clarity",
-            "Maximum clarity → APET  |  High clarity → PETG or PVCTranslucent acceptable → PP  |  Opaque acceptable → HIPS or ABS",
-            "Max: APET · High: PETG/PVCTranslucent: PP · Opaque: HIPS/ABS"
+            "Maximum clarity → APET | High clarity → PETG or PVC. Translucent acceptable → PP | Opaque acceptable → HIPS or ABS.",
+            "Max: APET · High: PETG/PVC. Translucent: PP · Opaque: HIPS/ABS."
           ],
           [
             "Step 4 — Gauge",
-            "Thin blister 0.15–0.40mm → PVC, PETG, or APETStandard tray 0.40–2.00mm → PP, PETG, or HIPSHeavy structural 2.00–8.00mm → PP, HIPS, or ABS",
-            "Thin: PVC/PETG/APETStandard: PP/PETG/HIPSHeavy: PP/HIPS/ABS"
+            "Thin blister 0.15–0.40mm → PVC, PETG, or APET. Standard tray 0.40–2.00mm → PP, PETG, or HIPS. Heavy structural 2.00–8.00mm → PP, HIPS, or ABS.",
+            "Thin: PVC/PETG/APET. Standard: PP/PETG/HIPS. Heavy: PP/HIPS/ABS."
           ],
           [
             "Step 5 — Sustainability",
-            "EPR obligation or recycled content requirement → We use rPET (30–100% PCR)Food-contact rPET needed → Confirm at brief stage",
+            "EPR obligation or recycled content requirement → We use rPET (30–100% PCR). Food-contact rPET needed → Confirm at brief stage.",
             "Recycled: rPET 30–100% PCR"
           ]
         ]

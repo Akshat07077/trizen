@@ -1,0 +1,130 @@
+{
+  "slug": "category",
+  "industryId": "manufacturing",
+  "title": "Manufacturing Capabilities | Thermoforming Packaging Manufacturer Vapi | Trizen",
+  "hero": {
+    "ey": "Manufacturing Capabilities · Est. 2005 · Vapi, Gujarat",
+    "titleMain": "Manufacturing Capabilities",
+    "titleTail": "Thermoforming, Blister, Clamshell & Materials — Vapi",
+    "desc": "Trizen Packaging manufactures custom thermoformed packaging from one ISO 9001:2015 certified, GMP validated, Cleanroom Class 8 facility in Vapi. Explore our full manufacturing capability range — from vacuum and pressure forming to blister, clamshell, materials, and multi-format plastic packaging.",
+    "chips": [
+      "ISO 9001:2015",
+      "GMP Validated",
+      "Cleanroom Class 8",
+      "7 Capability Pages",
+      "In-House CNC Tooling",
+      "Since 2005"
+    ]
+  },
+  "sections": [
+    {
+      "ey": "What We Manufacture",
+      "st": "Manufacturing Capabilities — Full Thermoforming Range from Vapi",
+      "leads": [
+        "Trizen Packaging is a specialist thermoforming packaging manufacturer — not a generalist plastics processor. Every capability below is produced in-house at our Vapi facility with CNC tooling, documented quality systems, and the same regulated-industry discipline that medical and pharmaceutical buyers require.",
+        "Use this overview to choose the right capability page for your brief. Each page covers process detail, materials, industries served, and FAQs for that format."
+      ],
+      "products": [
+        {
+          "name": "Thermoforming Packaging",
+          "desc": "End-to-end custom thermoforming — trays, process stages, materials, and multi-industry applications from concept to production.",
+          "link": "View page →",
+          "href": "/manufacturing/thermoforming-packaging"
+        },
+        {
+          "name": "Vacuum Forming",
+          "desc": "~1 bar vacuum forming for standard geometries and high-volume commercial packaging programmes.",
+          "link": "View page →",
+          "href": "/manufacturing/vacuum-forming"
+        },
+        {
+          "name": "Pressure Forming",
+          "desc": "4–11 bar combined force for precision cavities, sharp corners, and deep-draw wall thickness consistency.",
+          "link": "View page →",
+          "href": "/manufacturing/pressure-forming"
+        },
+        {
+          "name": "Blister Packaging",
+          "desc": "7 blister formats — PVC, PVDC, Alu-Alu, retail APET/PETG, Tyvek-compatible medical, CR, and tamper-evident.",
+          "link": "View page →",
+          "href": "/manufacturing/blister-packaging"
+        },
+        {
+          "name": "Clamshell Packaging",
+          "desc": "Hinged snap-close, heat-sealed, and RF/ultrasonic welded clamshell formats for retail and security packaging.",
+          "link": "View page →",
+          "href": "/manufacturing/clamshell-packaging"
+        },
+        {
+          "name": "Materials",
+          "desc": "PP, PETG, APET, PVC, PVDC, HIPS, ABS, ESD grades, and rPET — material selection for regulated and commercial packaging.",
+          "link": "View page →",
+          "href": "/manufacturing/materials"
+        },
+        {
+          "name": "Plastic Packaging",
+          "desc": "All six plastic packaging formats from one facility — trays, vacuum, pressure, blister, clamshell, and industrial enclosures.",
+          "link": "View page →",
+          "href": "/manufacturing/plastic-packaging"
+        }
+      ],
+      "strips": []
+    },
+    {
+      "ey": "Why One Facility Matters",
+      "st": "One Qualification. All Formats. Vapi.",
+      "eyClass": "gold",
+      "leads": [
+        "Procurement teams often split thermoforming formats across multiple suppliers — adding audits, documentation mismatches, and lead-time risk. Trizen consolidates vacuum forming, pressure forming, blister, clamshell, and heavy-gauge enclosures under one ISO 9001:2015 + GMP + Cleanroom Class 8 system."
+      ],
+      "products": [],
+      "strips": [
+        {
+          "title": "In-House CNC Tooling",
+          "desc": "Moulds designed and fabricated at Vapi. Prototype in 7–14 business days. No outsourced tooling queue."
+        },
+        {
+          "title": "Regulated + Commercial",
+          "desc": "Medical and pharmaceutical packaging on the same quality system as FMCG, automotive, and retail formats."
+        },
+        {
+          "title": "Documented Quality",
+          "desc": "Batch records, material COAs, and Cleanroom monitoring available for supplier qualification before order placement."
+        }
+      ]
+    }
+  ],
+  "midCtas": [
+    {
+      "title": "Not sure which process you need?",
+      "text": "Share your product sample or brief — we confirm vacuum vs pressure, format, and material within 24 business hours.",
+      "button": "Talk to Manufacturing →"
+    }
+  ],
+  "bottomCta": {
+    "title": "Start Your Manufacturing Brief",
+    "text": "Tell us the product, industry, and volume. We map it to the right Trizen manufacturing capability and respond within 24 business hours."
+  },
+  "faqs": [
+    {
+      "q": "What manufacturing capabilities does Trizen offer?",
+      "a": "Thermoforming packaging, vacuum forming, pressure forming, blister packaging (7 formats), clamshell packaging, materials selection, and multi-format plastic packaging — all from our Vapi facility."
+    },
+    {
+      "q": "Is Manufacturing Overview different from Thermoforming Packaging?",
+      "a": "Yes. Manufacturing Overview is the capability hub linking to every manufacturing page. Thermoforming Packaging is the detailed page for custom thermoforming trays, process stages, materials, and industry applications."
+    },
+    {
+      "q": "Where is manufacturing based?",
+      "a": "All manufacturing capabilities are produced at Trizen Packaging in Vapi / Daman, Gujarat — ISO 9001:2015 certified, GMP validated, Cleanroom Class 8."
+    },
+    {
+      "q": "What is the typical prototype timeline?",
+      "a": "In-house CNC tooling supports prototypes in 7–14 business days from product sample or CAD for most thermoforming formats."
+    }
+  ],
+  "imageLabels": [
+    "Manufacturing facility Vapi",
+    "Thermoforming production"
+  ]
+}

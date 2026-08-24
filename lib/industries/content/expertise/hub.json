@@ -37,27 +37,27 @@
       "products": [
         {
           "name": "A Unique Offer",
-          "desc": "What sets Trizen apart as a specialist thermoforming packaging manufacturer — in-house tooling, regulated capability, and multi-format production.",
+          "desc": "Regulated + commercial from one facility. In-house tooling. 6 formats. 20 years exclusive specialisation. 3 certifications: ISO 9001:2015, GMP, Cleanroom Class 8. One supplier qualification covers your entire plastic packaging portfolio — pharmaceutical, medical device, commercial, and industrial — from a single Vapi facility.",
           "link": "View page →",
           "href": "/expertise/unique-offer"
         },
         {
-          "name": "Cleanroom Capability",
-          "desc": "Cleanroom Class 100,000 (ISO Class 8) production for sterile medical device and pharmaceutical packaging programmes.",
-          "link": "View page →",
-          "href": "/expertise/cleanroom"
-        },
-        {
           "name": "Contract Manufacturing",
-          "desc": "OEM contract manufacturing for thermoformed packaging — flexible MOQs, held tooling, and repeatable production quality.",
+          "desc": "Sustained OEM thermoforming manufacturing programmes for pharmaceutical, medical device, automotive, and FMCG customers. Multi-format and multi-industry programmes from Vapi. Your packaging programme runs on a consistent production schedule from one Vapi facility — with GMP documentation, material COAs, and repeat order management built in.",
           "link": "View page →",
           "href": "/expertise/contract-manufacturing"
         },
         {
-          "name": "R&D Innovation",
-          "desc": "In-house design, CNC tooling, rapid prototyping, and material trials — packaging development without outsourcing delays.",
+          "name": "R&D and Innovation",
+          "desc": "In-house product design capability. CNC prototype tooling in-house. First physical prototype in 7 to 14 business days without outsourcing the tooling development. New packaging formats and product redesigns move from brief to prototype in 7 to 14 business days — design, tooling, and thermoforming all under one roof at Vapi.",
           "link": "View page →",
           "href": "/expertise/rnd-innovation"
+        },
+        {
+          "name": "Cleanroom Manufacturing",
+          "desc": "ISO 8 Cleanroom (Class 1,00,000) validated at Vapi. ACPH 20.82–25.56. HEPA integrity 0.0003–0.0005%. Real validation data from March 2026. Pharmaceutical and medical device packaging produced in a validated Cleanroom Class 8 environment with full environmental monitoring records per session.",
+          "link": "View page →",
+          "href": "/expertise/cleanroom"
         }
       ],
       "strips": []

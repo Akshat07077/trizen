@@ -343,6 +343,7 @@
       "footerLabel": "Manufacturing Capabilities",
       "faqSub": "Trizen manufacturing capabilities",
       "pages": [
+        "category",
         "blister-packaging",
         "clamshell-packaging",
         "materials",
