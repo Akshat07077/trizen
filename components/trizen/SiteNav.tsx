@@ -42,6 +42,16 @@ function crumbsFor(pathname: string): Array<{ label: string; href?: string }> {
       { label: "Contact" },
     ];
   }
+  if (pathname === "/blog" || pathname.startsWith("/blog/")) {
+    const items: Array<{ label: string; href?: string }> = [
+      { href: "/", label: "Home" },
+      { href: "/blog", label: "Blog" },
+    ];
+    if (pathname !== "/blog") {
+      items.push({ label: "Article" });
+    }
+    return items;
+  }
 
   const capabilityId = capabilityIdFromPath(pathname);
   if (capabilityId) {
@@ -269,6 +279,13 @@ export default function SiteNav() {
               About
             </Link>
             <Link
+              href="/blog"
+              className={`site-nav-link${pathname?.startsWith("/blog") ? " is-current" : ""}`}
+              onMouseEnter={closeMenus}
+            >
+              Blog
+            </Link>
+            <Link
               href="/contact"
               className={`site-nav-link site-nav-contact${pathname === "/contact" ? " is-current" : ""}`}
               onMouseEnter={closeMenus}
@@ -427,6 +444,12 @@ export default function SiteNav() {
           className={pathname === "/about" ? "is-current" : undefined}
         >
           About
+        </Link>
+        <Link
+          href="/blog"
+          className={pathname?.startsWith("/blog") ? "is-current" : undefined}
+        >
+          Blog
         </Link>
         <Link
           href="/contact"

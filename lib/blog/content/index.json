@@ -1,0 +1,53 @@
+{
+  "title": "Trizen Packaging Blog | Thermoforming Insights from Vapi",
+  "description": "Expert articles on thermoforming packaging — rPET sustainability, vacuum vs pressure forming, medical & pharma packaging, and Industry 4.0 manufacturing from Trizen Packaging, Vapi.",
+  "heroEy": "Insights & Resources",
+  "heroTitle": "Packaging Insights from the Floor",
+  "heroDesc": "Practical articles from Trizen Packaging — materials, processes, regulated industries, and manufacturing innovation from our Vapi facility.",
+  "posts": [
+    {
+      "slug": "rpet-revolution-thermoforming-packaging",
+      "title": "The rPET Revolution — Why Recycled PET is Reshaping Thermoforming Packaging in India",
+      "description": "How EPR regulations and brand sustainability commitments are driving demand for rPET thermoforming packaging in India — PCR grades, documentation requirements, and what to ask your manufacturer.",
+      "category": "Sustainable Packaging · Market Trends",
+      "date": "2025-03-15",
+      "dateLabel": "May 2026",
+      "readMins": 8,
+      "readLabel": "12 min read · ~2,800 words",
+      "excerpt": "EPR obligations have made recycled content a compliance requirement — not a preference. This article breaks down what's driving the rPET revolution, which PCR content grade your ap…"
+    },
+    {
+      "slug": "vacuum-vs-pressure-forming",
+      "title": "Vacuum Forming vs Pressure Forming — Which Process is Right for Your Packaging?",
+      "description": "A practical guide to choosing between vacuum forming and pressure forming for thermoforming packaging — process differences, cost, applications, and when each method delivers the best result.",
+      "category": "Manufacturing Insights · Thermoforming Processes",
+      "date": "2025-02-20",
+      "dateLabel": "May 2026",
+      "readMins": 7,
+      "readLabel": "11 min read · ~2,600 words",
+      "excerpt": "Both vacuum forming and pressure forming produce thermoformed plastic packaging — but the right process depends on your detail requirement, application, and budget. This guide expl…"
+    },
+    {
+      "slug": "medical-pharma-thermoforming-packaging",
+      "title": "Why Medical and Pharmaceutical Industries Rely on Thermoforming Packaging",
+      "description": "Thermoforming is the foundational packaging technology for pharmaceutical blister packaging and medical device packaging — GMP, sterile barrier, Cleanroom Class 8, and why it matters for regulated industries in India.",
+      "category": "Medical & Pharma Packaging · Industry Insight",
+      "date": "2025-01-28",
+      "dateLabel": "May 2026",
+      "readMins": 9,
+      "readLabel": "12 min read · ~2,700 words",
+      "excerpt": "Thermoforming is not one packaging option among many for pharmaceutical and medical device manufacturers — it is the foundational process behind sterile barrier packaging, pharmace…"
+    },
+    {
+      "slug": "industry-4-0-thermoforming",
+      "title": "How Industry 4.0 is Transforming Thermoforming Packaging Manufacturing",
+      "description": "How digital manufacturing, connected process monitoring, CNC precision tooling, and smart quality data are changing what buyers should expect from a thermoforming packaging manufacturer in India.",
+      "category": "Manufacturing Innovation · Industry 4.0",
+      "date": "2024-12-12",
+      "dateLabel": "May 2026",
+      "readMins": 6,
+      "readLabel": "11 min read · ~2,600 words",
+      "excerpt": "Industry 4.0 is changing what buyers should expect from a thermoforming packaging manufacturer — not just \"we have machines\" but connected process monitoring, digital quality data,…"
+    }
+  ]
+}
